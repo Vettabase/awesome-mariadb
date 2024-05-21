@@ -7,6 +7,6 @@ Contributions welcome. Add links through [pull requests](https://github.com/Vett
 
 Topics are organised by audience, to save people from navigating through the noise:
 
-- [Database Administrators](list-dba)
+- Database Administrators
 - Developers
 - Data Engineers
