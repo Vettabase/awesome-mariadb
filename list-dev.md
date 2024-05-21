@@ -8,10 +8,10 @@ This list is intended for Developers. There are lists intended for other audienc
 
 ### Contents
 
-- [Connectors (Drivers)](https://github.com/Vettabase/awesome-mariadb/edit/main/list-dev.md#connectors-drivers)
-- [ORMs](https://github.com/Vettabase/awesome-mariadb/edit/main/list-dev.md#orms)
-- [Schema Versioning Tools](https://github.com/Vettabase/awesome-mariadb/edit/main/list-dev.md#schema)
-- [SQL Tutorials](https://github.com/Vettabase/awesome-mariadb/edit/main/list-dev.md#schema-versioning-tools)
+- [Connectors (Drivers)](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dev.md#connectors-drivers)
+- [ORMs](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dev.md#orms)
+- [Schema Versioning Tools](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dev.md#schema-versioning-tools)
+- [SQL Tutorials](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dev.md#sql-tutorials)
 
 ### Connectors (Drivers)
 
