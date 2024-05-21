@@ -13,13 +13,27 @@ This list is intended for Developers. There are lists intended for other audienc
 - [Schema Versioning Tools](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dev.md#schema-versioning-tools)
 - [SQL Tutorials](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dev.md#sql-tutorials)
 
+### MariaDB Support: an Explanation
+
+- `MySQL`: The resource states that it support MySQL, but not MariaDB.
+- `YES`: The resource states it supports MariaDB specifically, not something like "MySQL/MariaDB".
+- `NOT VERIFIED`: The resource states that it supports MySQL and MariaDB (or the specified version number) but we do not know whether full support for MariaDB is implemented. It's possible that MariaDB support is assumed as a consequence of MySQL support, but this might be inaccurate. Please report any relevant problems you might find to us (and to the resource itself).
+
 ### Connectors (Drivers)
 
 To do.
 
 ### ORMs
 
-To do.
+| Platform    | ORM Name        | MariaDB Support |
+| ----------- | --------------- | --------------- |
+| Java        | [Apache Cayenne](https://cayenne.apache.org/)  | [MySQL](https://cayenne.apache.org/database-support.html)  |
+| Java        | [OpenJPA](https://openjpa.apache.org/)   | [YES](https://openjpa.apache.org/builds/3.2.2/apache-openjpa/docs/#ref_guide_dbsetup_dbsupport) |
+| Java        | [DataNucleus](https://www.datanucleus.org/)   | [NOT VERIFIED](https://www.datanucleus.org/products/accessplatform/datastores/datastores.html#rdbms) |
+| Java, Koitlin  | [Ebean ORM](https://ebean.io/)   | [MySQL](https://ebean.io/docs/database/mysql/) |
+| Java        | [EclipseLink](https://eclipse.dev/eclipselink/)   | [NOT VERIFIED](https://eclipse.dev/eclipselink/documentation/4.0/concepts/concepts.html#APP_TL_EXT001) |
+| Java        | [Hibernate](https://hibernate.org/orm/)   | [YES](https://github.com/hibernate/hibernate-orm/blob/main/dialects.adoc) |
+| Java        | [Oracle TopLink](https://www.oracle.com/middleware/technologies/top-link.html)   | [MySQL](https://docs.oracle.com/cd/E15523_01/apirefs.1111/b32476/oracle/toplink/platform/database/package-summary.html) |
 
 ### Schema Versioning Tools
 
