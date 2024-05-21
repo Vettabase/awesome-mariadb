@@ -31,7 +31,7 @@ To do.
 | Java        | [OpenJPA](https://openjpa.apache.org/)   | [YES](https://openjpa.apache.org/builds/3.2.2/apache-openjpa/docs/#ref_guide_dbsetup_dbsupport) |
 | Java        | [DataNucleus](https://www.datanucleus.org/)   | [NOT VERIFIED](https://www.datanucleus.org/products/accessplatform/datastores/datastores.html#rdbms) |
 | Java, Koitlin  | [Ebean ORM](https://ebean.io/)   | [MySQL](https://ebean.io/docs/database/mysql/) |
-| Java        | [EclipseLink](https://eclipse.dev/eclipselink/)   | [NOT VERIFIED](https://eclipse.dev/eclipselink/documentation/4.0/concepts/concepts.html#APP_TL_EXT001) |
+| Java        | [EclipseLink](https://eclipse.dev/eclipselink/)   | [YES](https://eclipse.dev/eclipselink/documentation/4.0/concepts/concepts.html#APP_TL_EXT001) |
 | Java        | [Hibernate](https://hibernate.org/orm/)   | [YES](https://github.com/hibernate/hibernate-orm/blob/main/dialects.adoc) |
 | Java        | [Oracle TopLink](https://www.oracle.com/middleware/technologies/top-link.html)   | [MySQL](https://docs.oracle.com/cd/E15523_01/apirefs.1111/b32476/oracle/toplink/platform/database/package-summary.html) |
 
