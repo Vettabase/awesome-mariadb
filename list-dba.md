@@ -1,2 +1,0 @@
-# Awsome MariaDB for DBAs
-
