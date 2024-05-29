@@ -62,8 +62,6 @@ The following tutorials are specific for MariaDB.
 - 1: The PHP part might be obsolete, because it still uses the old `mysql` non-OOP extension. However, editing the snippets to use `mysqli` or other libraries should be easy.
 - 2: The Java part only shows how to connect to MariaDB with a JDBC driver.
 
-- [](https://www.tutorialspoint.com/mariadb/)
-
 ### User Interfaces
 
 **GUIs**
