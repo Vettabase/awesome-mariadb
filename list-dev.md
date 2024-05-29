@@ -35,6 +35,8 @@ To do.
 | Java        | [Hibernate](https://hibernate.org/orm/)   | [YES](https://github.com/hibernate/hibernate-orm/blob/main/dialects.adoc) |
 | Java        | [Oracle TopLink](https://www.oracle.com/middleware/technologies/top-link.html)   | [MySQL](https://docs.oracle.com/cd/E15523_01/apirefs.1111/b32476/oracle/toplink/platform/database/package-summary.html) |
 
+**@TODO:** Check the ORMs in [this list].
+
 ### Schema Versioning Tools
 
 To do.
