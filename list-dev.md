@@ -6,7 +6,7 @@ A curated list of awesome MariaDB resources, maintained by [Vettabase](https://v
 
 This list is intended for Developers. There are lists intended for other audiences. See [README.md](README.md).
 
-### Contents
+## Contents
 
 - [Connectors (Drivers)](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dev.md#connectors-drivers)
 - [ORMs](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dev.md#orms)
@@ -14,18 +14,18 @@ This list is intended for Developers. There are lists intended for other audienc
 - [SQL Tutorials](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dev.md#sql-tutorials)
 - [User Interfaces](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dev.md#user-interfaces)
 
-### MariaDB Support: an Explanation
+## MariaDB Support: an Explanation
 
 - `MySQL`: The resource states that it support MySQL, but not MariaDB.
 - `YES`: The resource states it supports MariaDB specifically, not something like "MySQL/MariaDB".
 - `NOT VERIFIED`: The resource states that it supports MySQL and MariaDB (or the specified version number) but we do not know whether full support for MariaDB is implemented. It's possible that MariaDB support is assumed as a consequence of MySQL support, but this might be inaccurate. Please report any relevant problems you might find to us (and to the resource itself).
 - `PARTIAL`: We have a clear list of what is or isn't officially supported.
 
-### Connectors (Drivers)
+## Connectors (Drivers)
 
 To do.
 
-### ORMs
+## ORMs
 
 | Platform    | ORM Name        | MariaDB Support |
 | ----------- | --------------- | --------------- |
@@ -39,7 +39,7 @@ To do.
 
 **@TODO:** Check the ORMs in [this list](https://en.wikipedia.org/wiki/List_of_object%E2%80%93relational_mapping_software).
 
-### Schema Versioning Tools
+## Schema Versioning Tools
 
 | Project Name        | MariaDB Support |
 | ------------------- | --------------- |
@@ -49,7 +49,7 @@ To do.
 | Skeema.io           | [10.1](https://www.skeema.io/docs/requirements/)
 
 
-### SQL Tutorials
+## SQL Tutorials
 
 The following tutorials are specific for MariaDB.
 
@@ -62,7 +62,7 @@ The following tutorials are specific for MariaDB.
 - 1: The PHP part might be obsolete, because it still uses the old `mysql` non-OOP extension. However, editing the snippets to use `mysqli` or other libraries should be easy.
 - 2: The Java part only shows how to connect to MariaDB with a JDBC driver.
 
-### User Interfaces
+## User Interfaces
 
 **GUIs**
 
