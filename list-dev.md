@@ -19,6 +19,7 @@ This list is intended for Developers. There are lists intended for other audienc
 - `MySQL`: The resource states that it support MySQL, but not MariaDB.
 - `YES`: The resource states it supports MariaDB specifically, not something like "MySQL/MariaDB".
 - `NOT VERIFIED`: The resource states that it supports MySQL and MariaDB (or the specified version number) but we do not know whether full support for MariaDB is implemented. It's possible that MariaDB support is assumed as a consequence of MySQL support, but this might be inaccurate. Please report any relevant problems you might find to us (and to the resource itself).
+- `PARTIAL`: We have a clear list of what is or isn't officially supported.
 
 ### Connectors (Drivers)
 
@@ -40,7 +41,17 @@ To do.
 
 ### Schema Versioning Tools
 
-To do.
+- [ByteBase](https://www.bytebase.com/) - Validate and version schema changes (amongst other things)
+- [Flywaydb](http://flywaydb.org/getstarted/) - Database migrations; Evolve your database schema easily and reliably across all your instances
+- [Liquibase](http://www.liquibase.org/) - Source control for your database
+
+| Project Name        | MariaDB Support |
+| ------------------- | --------------- |
+| ByteBase            | [10.7+](https://www.bytebase.com/docs/introduction/supported-databases/)
+| Flyway              | [5.1, 10.11](https://documentation.red-gate.com/flyway/flyway-cli-and-api/supported-databases/mariadb)
+| Liquibase           | [PARTIAL](https://www.liquibase.com/databases/mariadb-server)
+| Skeema.io           | [10.1](https://www.skeema.io/docs/requirements/)
+
 
 ### SQL Tutorials
 
