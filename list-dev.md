@@ -55,7 +55,8 @@ The following tutorials are specific for MariaDB.
 
 | Project                                                               | Language         | Level            |                | Notes          |
 |-----------------------------------------------------------------------|------------------|------------------|----------------|----------------|
-| [MariaDB Tutorial](https://www.tutorialspoint.com/mariadb/)           | PHP              | BEGINNER         | Text           | [1]            |
+| [MariaDB Tutorial](https://www.tutorialspoint.com/mariadb/)           | SQL, PHP         | BEGINNER         | Text           | [1]            |
+| [How To Store and Retrieve Data in MariaDB Using Python](https://www.digitalocean.com/community/tutorials/how-to-store-and-retrieve-data-in-mariadb-using-python-on-ubuntu-18-04) | Python | BEGINNER / INTERMEDIATE | Text |
 | [MariaDB Tutorial](https://www.javatpoint.com/mariadb-tutorial)       | Pure SQL         | BEGINNER         | Text           |                |
 | [MariaDB for Beginners](https://www.youtube.com/watch?v=-ARMty_N0RU&list=PL3bGLnkkGnuUOB9YjjVDty6aCJApvkw8O&index=1) | SQL, Java | BEGINNER | Video | [2] |
 
