@@ -53,12 +53,14 @@ To do.
 
 The following tutorials are specific for MariaDB.
 
-| Project                                                               | Language         | Level            | Notes          |
-|-----------------------------------------------------------------------|------------------|------------------|----------------|
-| [MariaDB Tutorial](https://www.tutorialspoint.com/mariadb/)           | PHP              | BEGINNER         | [1]            |
-| [MariaDB Tutorial](https://www.javatpoint.com/mariadb-tutorial)       | Pure SQL         | BEGINNER         |                |
+| Project                                                               | Language         | Level            |                | Notes          |
+|-----------------------------------------------------------------------|------------------|------------------|---------------------------------|
+| [MariaDB Tutorial](https://www.tutorialspoint.com/mariadb/)           | PHP              | BEGINNER         | Text           | [1]            |
+| [MariaDB Tutorial](https://www.javatpoint.com/mariadb-tutorial)       | Pure SQL         | BEGINNER         | Text           |                |
+| [MariaDB for Beginners](https://www.youtube.com/watch?v=-ARMty_N0RU&list=PL3bGLnkkGnuUOB9YjjVDty6aCJApvkw8O&index=1) | SQL, Java | BEGINNER | Video | [2] |
 
 - 1: The PHP part might be obsolete, because it still uses the old `mysql` non-OOP extension. However, editing the snippets to use `mysqli` or other libraries should be easy.
+- 2: The Java part only shows how to connect to MariaDB with a JDBC driver.
 
 - [](https://www.tutorialspoint.com/mariadb/)
 
