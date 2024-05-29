@@ -41,10 +41,6 @@ To do.
 
 ### Schema Versioning Tools
 
-- [ByteBase](https://www.bytebase.com/) - Validate and version schema changes (amongst other things)
-- [Flywaydb](http://flywaydb.org/getstarted/) - Database migrations; Evolve your database schema easily and reliably across all your instances
-- [Liquibase](http://www.liquibase.org/) - Source control for your database
-
 | Project Name        | MariaDB Support |
 | ------------------- | --------------- |
 | ByteBase            | [10.7+](https://www.bytebase.com/docs/introduction/supported-databases/)
