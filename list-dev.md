@@ -51,7 +51,16 @@ To do.
 
 ### SQL Tutorials
 
-To do.
+The following tutorials are specific for MariaDB.
+
+| Project                                                               | Language         | Level            | Notes          |
+|-----------------------------------------------------------------------|------------------|------------------|----------------|
+| [MariaDB Tutorial](https://www.tutorialspoint.com/mariadb/)           | PHP              | BEGINNER         | [1]            |
+| [MariaDB Tutorial](https://www.javatpoint.com/mariadb-tutorial)       | Pure SQL         | BEGINNER         |                |
+
+- 1: The PHP part might be obsolete, because it still uses the old `mysql` non-OOP extension. However, editing the snippets to use `mysqli` or other libraries should be easy.
+
+- [](https://www.tutorialspoint.com/mariadb/)
 
 ### User Interfaces
 
