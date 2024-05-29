@@ -67,7 +67,19 @@ The following tutorials are specific for MariaDB.
 
 **GUIs**
 
+| Project Name                                                                | MariaDB Support                                 | Platforms             | Free  |
+|-----------------------------------------------------------------------------|-------------------------------------------------|-----------------------|-------|
+| [DBeaver](https://dbeaver.io/)                                              | [NOT VERIFIED](https://dbeaver.com/databases/)  | Linux, MacOS, Windows | YES   |
+| [HeidiSQL](https://www.heidisql.com/)                                       | YES                                             | Windows               | YES   |
+| [dbForge Studio for MySQL](https://www.devart.com/dbforge/mysql/studio/)    | NOT VERIFIED                                    | Windows               | NO    |
+| [dbForge Edge](https://www.devart.com/dbforge/edge/features.html)           | NOT VERIFIED                                    | Windows               | NO    |
+| [SQLyog](https://webyog.com/product/sqlyog/)                                | NOT VERIFIED                                    | Windows               | NO    |
+
+In progress.
+
 **Web Interfaces**
+
+To do.
 
 **TUIs**
 
