@@ -67,13 +67,15 @@ The following tutorials are specific for MariaDB.
 
 **GUIs**
 
-| Project Name                                                                | MariaDB Support                                 | Platforms             | Free  |
-|-----------------------------------------------------------------------------|-------------------------------------------------|-----------------------|-------|
-| [DBeaver](https://dbeaver.io/)                                              | [NOT VERIFIED](https://dbeaver.com/databases/)  | Linux, MacOS, Windows | YES   |
-| [HeidiSQL](https://www.heidisql.com/)                                       | YES                                             | Windows               | YES   |
-| [dbForge Studio for MySQL](https://www.devart.com/dbforge/mysql/studio/)    | NOT VERIFIED                                    | Windows               | NO    |
-| [dbForge Edge](https://www.devart.com/dbforge/edge/features.html)           | NOT VERIFIED                                    | Windows               | NO    |
-| [SQLyog](https://webyog.com/product/sqlyog/)                                | NOT VERIFIED                                    | Windows               | NO    |
+| Project Name                                                                | MariaDB Support                                 | Platforms             | Free / Commercial  |
+|-----------------------------------------------------------------------------|-------------------------------------------------|-----------------------|--------------------|
+| [DBeaver](https://dbeaver.io/)                                              | [NOT VERIFIED](https://dbeaver.com/databases/)  | Linux, MacOS, Windows | BOTH               |
+| [HeidiSQL](https://www.heidisql.com/)                                       | YES                                             | Windows               | FREE               |
+| [dbForge Studio for MySQL](https://www.devart.com/dbforge/mysql/studio/)    | NOT VERIFIED                                    | Windows               | Commercial         |
+| [dbForge Edge](https://www.devart.com/dbforge/edge/features.html)           | NOT VERIFIED                                    | Windows               | Commercial         |
+| [Navicat](https://www.navicat.com/)                                         | [YES]([https://www.navicat.com/en/products/navicat-for-mysql-feature-matrix](https://navicat.com/en/products/navicat-for-mariadb)) | YES | Linux, MacOS, Windows | Commercial |
+| [SQLyog](https://webyog.com/product/sqlyog/)                                | NOT VERIFIED                                    | Windows               | Commercial         |
+| [TablePlus](https://tableplus.com/)        | [NOT VERIFIED]([https://dbeaver.com/databases/](https://docs.tableplus.com/))  | Linux, MacOS, Windows, iOS | Commercial      |
 
 In progress.
 
