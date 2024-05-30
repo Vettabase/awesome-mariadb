@@ -76,8 +76,12 @@ The following tutorials are specific for MariaDB.
 | [dbForge Studio for MySQL](https://www.devart.com/dbforge/mysql/studio/)    | NOT VERIFIED                                    | Windows               | Commercial         |
 | [dbForge Edge](https://www.devart.com/dbforge/edge/features.html)           | NOT VERIFIED                                    | Windows               | Commercial         |
 | [Navicat](https://www.navicat.com/)                                         | [YES]([https://www.navicat.com/en/products/navicat-for-mysql-feature-matrix](https://navicat.com/en/products/navicat-for-mariadb)) | YES | Linux, MacOS, Windows | Commercial |
+| [Sequel Pro](https://www.sequelpro.com/)                                    | PARTIAL                                         | MacOS                 | FREE               |
 | [SQLyog](https://webyog.com/product/sqlyog/)                                | NOT VERIFIED                                    | Windows               | Commercial         |
 | [TablePlus](https://tableplus.com/)        | [NOT VERIFIED]([https://dbeaver.com/databases/](https://docs.tableplus.com/))  | Linux, MacOS, Windows, iOS | Commercial      |
+
+Notes:
+1: At the moment of this writing, MariaDB support is only mentioned in the `README.md` file. A quick [search on GitHub|https://github.com/search?q=repo%3Asequelpro%2Fsequelpro%20mariadb&type=code] shows that this support is currently limited to version identification, some permissions a TODO note.
 
 In progress.
 
