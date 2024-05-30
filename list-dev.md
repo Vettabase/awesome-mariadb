@@ -85,6 +85,7 @@ In progress.
 
 | Project Name                                                                | MariaDB Support                                 | Platforms             | Free / Commercial  |
 |-----------------------------------------------------------------------------|-------------------------------------------------|-----------------------|--------------------|
+| [Adminer](https://www.adminer.org/)                                         | NOT VERIFIED                                    | PHP                   | FREE               |
 | [phpMyAdmin](https://www.phpmyadmin.net/)                                   | YES                                             | PHP                   | FREE               |
 
 **TUIs**
