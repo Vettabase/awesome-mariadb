@@ -86,7 +86,7 @@ Notes
 
 1. At the moment of this writing, MariaDB support is only mentioned in the `README.md` file. A quick [search on GitHub](https://github.com/search?q=repo%3Asequelpro%2Fsequelpro%20mariadb&type=code) shows that this support is currently limited to version identification, some permissions a TODO note.
 
-In progress.
+_In progress_
 
 **Web Interfaces**
 
