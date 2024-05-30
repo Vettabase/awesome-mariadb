@@ -71,6 +71,7 @@ The following tutorials are specific for MariaDB.
 |-----------------------------------------------------------------------------|-------------------------------------------------|-----------------------|--------------------|
 | [DBeaver](https://dbeaver.io/)                                              | [NOT VERIFIED](https://dbeaver.com/databases/)  | Linux, MacOS, Windows | BOTH               |
 | [HeidiSQL](https://www.heidisql.com/)                                       | YES                                             | Windows               | FREE               |
+| [ocelotgui](http://ocelot.ca/)                                              | YES                                             | Linux                 | FREE               |
 | [Database Workbench](https://www.upscene.com/database_workbench/) | [NOT VERIFIED](https://www.upscene.com/database_workbench/database-development-tool-for-mysql-and-mariadb)  | Windows               | Commercial         |
 | [dbForge Studio for MySQL](https://www.devart.com/dbforge/mysql/studio/)    | NOT VERIFIED                                    | Windows               | Commercial         |
 | [dbForge Edge](https://www.devart.com/dbforge/edge/features.html)           | NOT VERIFIED                                    | Windows               | Commercial         |
