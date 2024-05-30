@@ -83,7 +83,9 @@ In progress.
 
 **Web Interfaces**
 
-To do.
+| Project Name                                                                | MariaDB Support                                 | Platforms             | Free / Commercial  |
+|-----------------------------------------------------------------------------|-------------------------------------------------|-----------------------|--------------------|
+| [phpMyAdmin]([https://www.mycli.net/](https://www.phpmyadmin.net/))         | YES                                             | PHP                   | FREE               |
 
 **TUIs**
 
