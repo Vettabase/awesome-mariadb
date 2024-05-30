@@ -85,7 +85,7 @@ In progress.
 
 | Project Name                                                                | MariaDB Support                                 | Platforms             | Free / Commercial  |
 |-----------------------------------------------------------------------------|-------------------------------------------------|-----------------------|--------------------|
-| [phpMyAdmin]([https://www.mycli.net/](https://www.phpmyadmin.net/))         | YES                                             | PHP                   | FREE               |
+| [phpMyAdmin](https://www.phpmyadmin.net/)                                   | YES                                             | PHP                   | FREE               |
 
 **TUIs**
 
