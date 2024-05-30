@@ -80,7 +80,7 @@ The following tutorials are specific for MariaDB.
 | [SQLyog](https://webyog.com/product/sqlyog/)                                | NOT VERIFIED                                    | Windows               | Commercial         |       |
 | [TablePlus](https://tableplus.com/)        | [NOT VERIFIED]([https://dbeaver.com/databases/](https://docs.tableplus.com/))  | Linux, MacOS, Windows, iOS | Commercial      |       |
 
-- 1: At the moment of this writing, MariaDB support is only mentioned in the `README.md` file. A quick [search on GitHub|https://github.com/search?q=repo%3Asequelpro%2Fsequelpro%20mariadb&type=code] shows that this support is currently limited to version identification, some permissions a TODO note.
+- 1: At the moment of this writing, MariaDB support is only mentioned in the `README.md` file. A quick [search on GitHub](https://github.com/search?q=repo%3Asequelpro%2Fsequelpro%20mariadb&type=code) shows that this support is currently limited to version identification, some permissions a TODO note.
 
 In progress.
 
