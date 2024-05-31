@@ -17,6 +17,22 @@ This list is intended for Developers. There are lists intended for other audienc
 
 ## Articles
 
+**Tutorials**
+
+| Project                                                               | Language         | Level            |                | Notes          |
+|-----------------------------------------------------------------------|------------------|------------------|----------------|----------------|
+| [MariaDB Tutorial](https://www.tutorialspoint.com/mariadb/)           | SQL, PHP         | BEGINNER         | Text           | [1]            |
+| [How To Store and Retrieve Data in MariaDB Using Python](https://www.digitalocean.com/community/tutorials/how-to-store-and-retrieve-data-in-mariadb-using-python-on-ubuntu-18-04) | Python | BEGINNER / INTERMEDIATE | Text |
+| [MariaDB Tutorial](https://www.javatpoint.com/mariadb-tutorial)       | Pure SQL         | BEGINNER         | Text           |                |
+| [MariaDB for Beginners](https://www.youtube.com/watch?v=-ARMty_N0RU&list=PL3bGLnkkGnuUOB9YjjVDty6aCJApvkw8O&index=1) | SQL, Java | BEGINNER   | Video | [2]   |
+| [Creating an MVC application using NODEjs and MariaDB](https://medium.com/codex/creating-an-mvc-application-using-nodejs-and-mariadb-9510c7b91716) | NodeJS      | INTERMEDIATE   | Text           |            |
+
+
+Notes
+
+1. The PHP part might be obsolete, because it still uses the old `mysql` non-OOP extension. However, editing the snippets to use `mysqli` or other libraries should be easy.
+2. The Java part only shows how to connect to MariaDB with a JDBC driver.
+
 **Language-specific articles**
 
 Perl
@@ -56,25 +72,6 @@ To do.
 | Flyway              | [5.1, 10.11](https://documentation.red-gate.com/flyway/flyway-cli-and-api/supported-databases/mariadb)
 | Liquibase           | [PARTIAL](https://www.liquibase.com/databases/mariadb-server)
 | Skeema.io           | [10.1](https://www.skeema.io/docs/requirements/)
-
-
-## SQL Tutorials
-
-The following tutorials are specific for MariaDB.
-
-| Project                                                               | Language         | Level            |                | Notes          |
-|-----------------------------------------------------------------------|------------------|------------------|----------------|----------------|
-| [MariaDB Tutorial](https://www.tutorialspoint.com/mariadb/)           | SQL, PHP         | BEGINNER         | Text           | [1]            |
-| [How To Store and Retrieve Data in MariaDB Using Python](https://www.digitalocean.com/community/tutorials/how-to-store-and-retrieve-data-in-mariadb-using-python-on-ubuntu-18-04) | Python | BEGINNER / INTERMEDIATE | Text |
-| [MariaDB Tutorial](https://www.javatpoint.com/mariadb-tutorial)       | Pure SQL         | BEGINNER         | Text           |                |
-| [MariaDB for Beginners](https://www.youtube.com/watch?v=-ARMty_N0RU&list=PL3bGLnkkGnuUOB9YjjVDty6aCJApvkw8O&index=1) | SQL, Java | BEGINNER   | Video | [2]   |
-| [Creating an MVC application using NODEjs and MariaDB](https://medium.com/codex/creating-an-mvc-application-using-nodejs-and-mariadb-9510c7b91716) | NodeJS      | INTERMEDIATE   | Text           |            |
-
-
-Notes
-
-1. The PHP part might be obsolete, because it still uses the old `mysql` non-OOP extension. However, editing the snippets to use `mysqli` or other libraries should be easy.
-2. The Java part only shows how to connect to MariaDB with a JDBC driver.
 
 ## User Interfaces
 
