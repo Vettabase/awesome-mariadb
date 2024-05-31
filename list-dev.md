@@ -8,11 +8,20 @@ This list is intended for Developers. There are lists intended for other audienc
 
 ## Contents
 
+- [Articles](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dev.md#articles)
 - [Connectors (Drivers)](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dev.md#connectors-drivers)
 - [ORMs](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dev.md#orms)
 - [Schema Versioning Tools](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dev.md#schema-versioning-tools)
 - [SQL Tutorials](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dev.md#sql-tutorials)
 - [User Interfaces](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dev.md#user-interfaces)
+
+## Articles
+
+**Language-specific articles**
+
+Perl
+
+* [Migrating from DBD::mysql to DBD::MariaDB](https://blogs.perl.org/users/grinnz/2023/12/migrating-from-dbdmysql-to-dbdmariadb.html)
 
 ## MariaDB Support: an Explanation
 
