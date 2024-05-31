@@ -17,6 +17,8 @@ This list is intended for Developers. There are lists intended for other audienc
 
 ## Articles
 
+The following resources are specific to MariaDB.
+
 **Tutorials**
 
 Loosely ordered by language, SQL first.
