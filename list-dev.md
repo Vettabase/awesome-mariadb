@@ -15,6 +15,17 @@ This list is intended for Developers. There are lists intended for other audienc
 - [Schema Versioning Tools](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dev.md#schema-versioning-tools)
 - [User Interfaces](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dev.md#user-interfaces)
 
+## MariaDB Support Key
+
+Some of the below sections only include resources that were created for MariaDB.
+
+Other sections include resources that were created for MySQL, or for both, and the extent of MariaDB support is not always optimal. For those resources, we indicate the MariaDB support level. Refer to this key.
+
+- `MySQL`: The resource states that it support MySQL, but not MariaDB.
+- `YES`: The resource states it supports MariaDB specifically, not something like "MySQL/MariaDB".
+- `NOT VERIFIED`: The resource states that it supports MySQL and MariaDB (or the specified version number) but we do not know whether full support for MariaDB is implemented. It's possible that MariaDB support is assumed as a consequence of MySQL support, but this might be inaccurate. Please report any relevant problems you might find to us (and to the resource itself).
+- `PARTIAL`: We have a clear list of what is or isn't officially supported.
+
 ## Articles
 
 The following resources are specific to MariaDB.
@@ -56,13 +67,6 @@ Go
 Perl
 
 * [Migrating from DBD::mysql to DBD::MariaDB](https://blogs.perl.org/users/grinnz/2023/12/migrating-from-dbdmysql-to-dbdmariadb.html)
-
-## MariaDB Support: an Explanation
-
-- `MySQL`: The resource states that it support MySQL, but not MariaDB.
-- `YES`: The resource states it supports MariaDB specifically, not something like "MySQL/MariaDB".
-- `NOT VERIFIED`: The resource states that it supports MySQL and MariaDB (or the specified version number) but we do not know whether full support for MariaDB is implemented. It's possible that MariaDB support is assumed as a consequence of MySQL support, but this might be inaccurate. Please report any relevant problems you might find to us (and to the resource itself).
-- `PARTIAL`: We have a clear list of what is or isn't officially supported.
 
 ## Connectors (Drivers)
 
