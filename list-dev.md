@@ -27,7 +27,6 @@ Loosely ordered by language, SQL first.
 | [MariaDB Tutorial](https://www.javatpoint.com/mariadb-tutorial)       | Pure SQL         | BEGINNER         | Text           |                |
 | [Using MariaDB With ASP.NET Core Web API](https://code-maze.com/aspnetcore-using-mariadb-with-web-api/)   | ASP.NET          | INTERMEDIATE   | Text           |                |
 | [Query MariaDB Data in ColdFusion](https://www.cdata.com/kb/tech/mariadb-jdbc-coldfusion-query.rst)       | ColdFusion       | BEGINNER       | Text           |                |
-| [Integrating MariaDB with GoLang Microservice Restful API](https://medium.com/widle-studio/integrating-mariadb-with-golang-microservice-restful-apis-building-efficient-data-storage-4054e1588ce)   | Go          | INTERMEDIATE   | Text           |                |
 | [Creating an MVC application using NODEjs and MariaDB](https://medium.com/codex/creating-an-mvc-application-using-nodejs-and-mariadb-9510c7b91716) | NodeJS      | INTERMEDIATE   | Text           |            |
 | [NodeJS MariaDB Integration: 3 Easy Steps](https://hevodata.com/learn/nodejs-mariadb-integration/) | NodeJS      | INTERMEDIATE   | Text           |            |
 | [Getting Started with MariaDB using Docker and Node.js ](https://dev.to/probablyrealrob/getting-started-with-mariadb-using-docker-and-node-js-3djg) | NodeJS | INTERMEDIATE | Text | |
@@ -44,6 +43,10 @@ Notes
 2. The PHP part might be obsolete, because it still uses the old `mysql` non-OOP extension. However, editing the snippets to use `mysqli` or other libraries should be easy.
 
 **Language-specific articles**
+
+Go
+
+* [Integrating MariaDB with GoLang Microservice Restful API](https://medium.com/widle-studio/integrating-mariadb-with-golang-microservice-restful-apis-building-efficient-data-storage-4054e1588ce)
 
 Perl
 
