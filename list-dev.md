@@ -68,7 +68,7 @@ To do.
 | Project                                                                                                            | IDE               | Format          | Notes          |
 |--------------------------------------------------------------------------------------------------------------------|-------------------|-----------------|----------------|
 | [Accessing Maria DB from within Eclipse](https://www.youtube.com/watch?v=Ar00dtkNb4o)                              |  Eclipse          | Video           |                |
-| [How to: Create A Model Based on MariaDB Database]([https://www.youtube.com/watch?v=Ar00dtkNb4o](https://docs.telerik.com/data-access/developers-guide/database-specifics/mariadb/database-specifics-mariadb-create-domain-model.html))                                                                                   |  Visual Studio    | Text            |                |
+| [How to: Create A Model Based on MariaDB Database](https://docs.telerik.com/data-access/developers-guide/database-specifics/mariadb/database-specifics-mariadb-create-domain-model.html)                                                                                                                                       |  Visual Studio    | Text            |                |
 
 ## ORMs
 
