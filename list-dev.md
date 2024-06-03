@@ -95,12 +95,12 @@ To do.
 
 ## Schema Versioning Tools
 
-| Project Name        | MariaDB Support |
-| ------------------- | --------------- |
-| ByteBase            | [10.7+](https://www.bytebase.com/docs/introduction/supported-databases/)
-| Flyway              | [5.1, 10.11](https://documentation.red-gate.com/flyway/flyway-cli-and-api/supported-databases/mariadb)
-| Liquibase           | [PARTIAL](https://www.liquibase.com/databases/mariadb-server)
-| Skeema.io           | [10.1](https://www.skeema.io/docs/requirements/)
+| Project Name                                            | MariaDB Support |
+| ------------------------------------------------------- | --------------- |
+| [ByteBase](https://www.bytebase.com/)                   | [10.7+](https://www.bytebase.com/docs/introduction/supported-databases/)
+| [Flyway](https://flywaydb.org/)                         | [5.1, 10.11](https://documentation.red-gate.com/flyway/flyway-cli-and-api/supported-databases/mariadb)
+| [Liquibase](https://www.liquibase.com/)                 | [PARTIAL](https://www.liquibase.com/databases/mariadb-server)
+| [Skeema.io](https://www.skeema.io/)                     | [10.1](https://www.skeema.io/docs/requirements/)
 
 ## User Interfaces
 
