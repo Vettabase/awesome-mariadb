@@ -132,8 +132,6 @@ Notes
 2. Apache OpenOffice is the project from which LibreOffice was originally forked. LibreOffice became more popular over time, so consider LibreOffice Base as well. OpenOffice Base does not support MariaDB. However it supports MySQL and ODBC drivers, so in practice it should work with MariaDB for standard use cases.
 3. At the moment of this writing, MariaDB support is only mentioned in the `README.md` file. A quick [search on GitHub](https://github.com/search?q=repo%3Asequelpro%2Fsequelpro%20mariadb&type=code) shows that this support is currently limited to version identification, some permissions a TODO note.
 
-_In progress_
-
 **Web Interfaces**
 
 | Project Name                                                                | MariaDB Support                                 | Platforms             | Free / Commercial  |
