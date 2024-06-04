@@ -9,6 +9,7 @@ This list is intended for Database Administrators. There are lists intended for 
 ## Contents
 
 - [Articles](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dev.md#articles)
+- [Ansible](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dev.md#ansible)
 - [Schema Versioning Tools](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dev.md#schema-versioning-tools)
 - [User Interfaces](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dev.md#user-interfaces)
 
@@ -26,6 +27,24 @@ Other sections include resources that were created for MySQL, or for both, and t
 ## Articles
 
 To do.
+
+## Automation
+
+Platforms and tools to automate MariaDB deployments.
+
+### Ansible
+
+Modules and collections:
+
+- [Community.Mysql](https://docs.ansible.com/ansible/latest/collections/community/mysql/index.html) - This is the community MySQL collection distributed with Ansible. It works with MariaDB, but you need to be careful not to use MySQL specific features. MariaDB specific features are not supported.
+
+Roles:
+
+- [ansible-role-mariadb](https://github.com/fauust/ansible-role-mariadb) - This high quality role is used by the MariaDB Foundation for testing.
+
+Articles:
+
+- [Creating dynamic configuration files with Ansible](https://vettabase.com/creating-dynamic-configuration-files-with-ansible/) - This article shows how to use Ansible and a Jinja template to automate the MariaDB configuration files creation.
 
 ## Schema Versioning Tools
 
