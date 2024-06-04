@@ -10,6 +10,7 @@ This list is intended for Database Administrators. There are lists intended for 
 
 - [Articles](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#articles)
 - [Ansible](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#ansible)
+- [Proxies](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#proxies)
 - [Schema Versioning Tools](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#schema-versioning-tools)
 - [User Interfaces](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#user-interfaces)
 
@@ -45,6 +46,15 @@ Roles:
 Articles:
 
 - [Creating dynamic configuration files with Ansible](https://vettabase.com/creating-dynamic-configuration-files-with-ansible/) - This article shows how to use Ansible and a Jinja template to automate the MariaDB configuration files creation.
+
+## Proxies
+
+In the list below, SQL-aware means that a proxy understands SQL statements, and is able to perform tasks like read-write splitting.
+
+- [ProxySQL](https://proxysql.com/) - Open source, widely used proxy with full support for MariaDB. SQL-aware.
+- [MariaDB MaxScale](https://mariadb.com/kb/en/maxscale/) - Source available proxy maintained by MariaDB plc. SQL-aware.
+- [HAProxy](https://www.haproxy.org/) - Open source, TCP proxy. Not SQL-aware.
+  - [haproxy-galera](https://github.com/matthanley/haproxy-galera) - MariaDB Galera health check script for HAProxy.
 
 ## Schema Versioning Tools
 
