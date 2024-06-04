@@ -8,10 +8,10 @@ This list is intended for Database Administrators. There are lists intended for 
 
 ## Contents
 
-- [Articles](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dev.md#articles)
-- [Ansible](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dev.md#ansible)
-- [Schema Versioning Tools](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dev.md#schema-versioning-tools)
-- [User Interfaces](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dev.md#user-interfaces)
+- [Articles](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#articles)
+- [Ansible](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#ansible)
+- [Schema Versioning Tools](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#schema-versioning-tools)
+- [User Interfaces](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#user-interfaces)
 
 ## MariaDB Support Key
 
