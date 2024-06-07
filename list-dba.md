@@ -12,6 +12,7 @@ This list is intended for Database Administrators. There are lists intended for 
 - [Ansible](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#ansible)
 - [Proxies](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#proxies)
 - [Schema Versioning Tools](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#schema-versioning-tools)
+- [Security](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#security)
 - [User Interfaces](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#user-interfaces)
 
 ## MariaDB Support Key
@@ -64,6 +65,17 @@ In the list below, SQL-aware means that a proxy understands SQL statements, and 
 | [Flyway](https://flywaydb.org/)                         | [5.1, 10.11](https://documentation.red-gate.com/flyway/flyway-cli-and-api/supported-databases/mariadb)
 | [Liquibase](https://www.liquibase.com/)                 | [PARTIAL](https://www.liquibase.com/databases/mariadb-server)
 | [Skeema.io](https://www.skeema.io/)                     | [10.1](https://www.skeema.io/docs/requirements/)
+
+## Security
+
+**Tools**
+
+- [Acra](https://github.com/cossacklabs/acra) - Database protection suite with field level encryption and intrusion detection
+- [SecuRich](http://www.securich.com/) - Stored procedures library with user management and role implementation. Unmantained, but useful with old MariaDB versions.
+
+**Articles**
+
+- [Monitoring MariaDB Security with Wazuh](https://www.linkedin.com/pulse/monitoring-mariadb-security-wazuh-luis-contreras/)
 
 ## User Interfaces
 
