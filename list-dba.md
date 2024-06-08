@@ -45,6 +45,7 @@ Modules and collections:
 Roles:
 
 - [ansible-role-mariadb](https://github.com/fauust/ansible-role-mariadb) - This high quality role is used by the MariaDB Foundation for testing.
+- [bertvv/ansible-role-mariadb](https://github.com/bertvv/ansible-role-mariadb) - Another production-grade role that removes unsafe defaults and handles configuration files in a completely dynamic manner.
 
 Articles:
 
