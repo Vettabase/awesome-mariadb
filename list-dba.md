@@ -10,6 +10,7 @@ This list is intended for Database Administrators. There are lists intended for 
 
 - [Articles](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#articles)
 - [Ansible](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#ansible)
+- [Containers](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#containers)
 - [Proxies](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#proxies)
 - [Schema Versioning Tools](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#schema-versioning-tools)
 - [Security](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#security)
@@ -47,6 +48,16 @@ Roles:
 Articles:
 
 - [Creating dynamic configuration files with Ansible](https://vettabase.com/creating-dynamic-configuration-files-with-ansible/) - This article shows how to use Ansible and a Jinja template to automate the MariaDB configuration files creation.
+
+## Containers
+
+### Docker
+
+- [mariadb image](https://hub.docker.com/_/mariadb) - Official image, maintained by MariaDB Foundation.
+
+### Kubernetes
+
+- [mariadb-operator](https://github.com/mariadb-operator) - Maintained by MariaDB Foundation.
 
 ## Proxies
 
