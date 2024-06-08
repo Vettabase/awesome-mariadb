@@ -11,6 +11,8 @@ Topics are organised by audience, to save people from navigating through the noi
 - [Developers](list-dev.md)
 - Data Engineers
 
+---
+
 Copyright 2024 Vettabase Ltd and contributors.
 
 Awesome MariaDB list is licensed under a [CC BY-SA 4.0 license](https://creativecommons.org/licenses/by-sa/4.0/).
