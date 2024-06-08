@@ -11,6 +11,7 @@ This list is intended for Database Administrators. There are lists intended for 
 - [Articles](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#articles)
 - [Ansible](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#ansible)
 - [Containers](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#containers)
+- [Monitoring](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#monitoring)
 - [Proxies](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#proxies)
 - [Schema Versioning Tools](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#schema-versioning-tools)
 - [Security](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#security)
@@ -58,6 +59,19 @@ Articles:
 ### Kubernetes
 
 - [mariadb-operator](https://github.com/mariadb-operator) - Maintained by MariaDB Foundation.
+
+## Monitoring
+
+| Project                                                             | MariaDB Support                                             | License / Platform                                         | Notes   |
+|---------------------------------------------------------------------|-------------------------------------------------------------|------------------------------------------------------------|---------|
+| [Datadog](https://docs.datadoghq.com)                               | [MYSQL](https://docs.datadoghq.com)                         | Cloud                                                      |         |
+| [PMM](https://docs.percona.com/percona-monitoring-and-management/)  | YES                                                         | [AGPL3](https://github.com/percona/pmm/blob/main/LICENSE) or cloud   | [1]     |
+| [SolarWinds](https://www.solarwinds.com/)                           | YES                                                         | Commercial in-premise or cloud                             |         |
+| [SSM](https://shatteredsilicon.net/mysql-monitoring-ssm/)           | YES                                                         | Open source                                                | [2]     |
+| [Zabbix](https://docs.datadoghq.com)                                | [NOT VERIFIED]([https://docs.datadoghq.com](https://www.zabbix.com/documentation/current/en/manual/installation/best_practices/access_control/mysql))                         | [AGPL3](https://github.com/zabbix/zabbix/blob/master/COPYING)   |         |
+
+1. See the [online demo](https://pmmdemo.percona.com).
+2. PMM v1 fork.
 
 ## Proxies
 
