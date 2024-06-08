@@ -15,6 +15,7 @@ This list is intended for Database Administrators. There are lists intended for 
 - [Proxies](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#proxies)
 - [Schema Versioning Tools](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#schema-versioning-tools)
 - [Security](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#security)
+- [Toolkits](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#toolkits)
 - [User Interfaces](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#user-interfaces)
 
 ## MariaDB Support Key
@@ -102,6 +103,13 @@ In the list below, SQL-aware means that a proxy understands SQL statements, and 
 **Articles**
 
 - [Monitoring MariaDB Security with Wazuh](https://www.linkedin.com/pulse/monitoring-mariadb-security-wazuh-luis-contreras/)
+
+## Toolkits
+
+| Project                                                                              | MariaDB Support                | License           | Language                   | Description   |
+|--------------------------------------------------------------------------------------|--------------------------------|-------------------|----------------------------|---------|
+| [common_schema](https://github.com/shlomi-noach/common_schema)                       | YES                            | [GPL2](https://github.com/shlomi-noach/common_schema/blob/master/LICENSE)                                                                                                                                                     | Stored Procedures          | A library of stored procedures for DBAs. Includes a parser for its own language, QueryScript, and a debugger. |
+| [Percona Toolkit](https://www.percona.com/software/database-tools/percona-toolkit)   | YES                            | [GPL2](https://github.com/percona/percona-toolkit/blob/3.x/COPYING)                                                                                                                                                           | Perl                       | A set of Perl script for MariaDB and MySQL administration.
 
 ## User Interfaces
 
