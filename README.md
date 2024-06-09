@@ -30,7 +30,7 @@ a [pull requests](https://github.com/Vettabase/awesome-mariadb/pulls).
 If you're the maintainer of a resource we linked, we encourage you to show in your resource an
 [Awesome mentioned badge](https://github.com/sindresorhus/awesome/blob/main/awesome.md#awesome-mentioned-badge).
 
-Simply paste this code in your README.md file:
+Simply paste this code in your `README.md` file:
 
 ```
 [![Mentioned in Awesome MariaDB](https://awesome.re/mentioned-badge.svg)](https://github.com/Vettabase/awesome-mariadb)
