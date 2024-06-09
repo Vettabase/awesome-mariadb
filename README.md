@@ -33,7 +33,7 @@ If you're the maintainer of a resource we linked, we encourage you to show in yo
 Simply paste this code in your README.md file:
 
 ```
-[![Mentioned in Awesome MariaDB](https://awesome.re/mentioned-badge.svg)](https://github.com/<https://github.com/Vettabase/awesome-mariadb>)
+[![Mentioned in Awesome MariaDB](https://awesome.re/mentioned-badge.svg)](https://github.com/Vettabase/awesome-mariadb)
 ```
 
 The result will be the following:
