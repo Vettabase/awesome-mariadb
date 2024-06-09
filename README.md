@@ -25,6 +25,8 @@ If you find inaccurate information, obsolete information, or resources that are 
 problem by creating an [issue](https://github.com/Vettabase/awesome-mariadb/issues), or fix it by yourself by opening
 a [pull requests](https://github.com/Vettabase/awesome-mariadb/pulls).
 
+If you contribute to Awesome MariaDB, we encourage you to add your name to the `CONTRIBUTORS.md` file.
+
 ## How to Thank Us
 
 If you're the maintainer of a resource we linked, we encourage you to show in your resource an
