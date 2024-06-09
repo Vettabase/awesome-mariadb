@@ -38,7 +38,7 @@ Simply paste this code in your `README.md` file:
 [![Mentioned in Awesome MariaDB](https://awesome.re/mentioned-badge.svg)](https://github.com/Vettabase/awesome-mariadb)
 ```
 
-The result will be the following:
+The result will look like the following:
 
 [![Mentioned in Awesome MariaDB](https://awesome.re/mentioned-badge.svg)](https://github.com/Vettabase/awesome-mariadb)
 
