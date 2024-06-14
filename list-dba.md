@@ -13,6 +13,7 @@ This list is intended for Database Administrators. There are lists intended for 
 - [Containers](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#containers)
 - [Monitoring](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#monitoring)
 - [Proxies](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#proxies)
+- [Replication Managers](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#replication-managers)
 - [Schema Versioning Tools](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#schema-versioning-tools)
 - [Security](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#security)
 - [Toolkits](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#toolkits)
@@ -83,6 +84,13 @@ In the list below, SQL-aware means that a proxy understands SQL statements, and 
 - [MariaDB MaxScale](https://mariadb.com/kb/en/maxscale/) - Source available proxy maintained by MariaDB plc. SQL-aware.
 - [HAProxy](https://www.haproxy.org/) - Open source, TCP proxy. Not SQL-aware.
   - [haproxy-galera](https://github.com/matthanley/haproxy-galera) - MariaDB Galera health check script for HAProxy.
+
+## Replication Managers
+
+| Project                                                                | MariaDB Support   | License / Platform |
+|------------------------------------------------------------------------|-------------------|--------------------|
+| [Replication Manager](https://signal18.io/products/srm)                | 10.0+             | GPl / Commercial   |
+| [ClusterControl](https://docs.severalnines.com/docs/clustercontrol/)   | Yes               | Open Core          |
 
 ## Schema Versioning Tools
 
