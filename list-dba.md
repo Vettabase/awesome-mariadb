@@ -9,6 +9,7 @@ This list is intended for Database Administrators. There are lists intended for 
 ## Contents
 
 - [Articles](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#articles)
+- [Backups](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#backups)
 - [Ansible](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#ansible)
 - [Containers](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#containers)
 - [Monitoring](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#monitoring)
@@ -52,6 +53,20 @@ Roles:
 Articles:
 
 - [Creating dynamic configuration files with Ansible](https://vettabase.com/creating-dynamic-configuration-files-with-ansible/) - This article shows how to use Ansible and a Jinja template to automate the MariaDB configuration files creation.
+
+## Backups
+
+**Tools**
+
+| Project                                                               | MariaDB Support                      | License / Platform                        | Description            |
+|-----------------------------------------------------------------------|--------------------------------------|-------------------------------------------|-----------------------|
+| [Backaup Manager](https://fromdual.com/fromdual-backup-manager-bman)  | YES                                  |                                           | Supports many types of backups. By FromDual. |
+| [mariadb-dump](https://mariadb.com/kb/en/mariadb-dump/)               | YES                                  | Distributed with MariaDB                  | Logical backups of data and/or schema. |
+| [Mariabackup](https://mariadb.com/kb/en/mariabackup-overview/)        | YES                                  | Distributed with MariaDB                  | Online physical backups. |
+
+**Articles**
+
+- [Using MariaDB's binary log to restore a database after overwriting with old backup](https://orville.thebennettproject.com/articles/how-to-use-mariadb-10-binlog-to-restore-database/)
 
 ## Containers
 
