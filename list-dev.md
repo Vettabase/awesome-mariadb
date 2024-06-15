@@ -56,7 +56,7 @@ Notes
 
 **Language-specific articles**
 
-Akka
+Scala
 
 * [Stateful actors with Akka Event Sourcing and MariaDB](https://medium.com/@matteodipirro/stateful-actors-with-akka-event-sourcing-and-maria-db-d4202c6c599a)
 
