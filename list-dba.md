@@ -76,7 +76,7 @@ Articles:
 
 ### Kubernetes
 
-- [mariadb-operator](https://github.com/mariadb-operator) - Maintained by MariaDB Foundation.
+- [mariadb-operator](https://github.com/mariadb-operator) - Maintained by MariaDB plc.
 
 ## Monitoring
 
