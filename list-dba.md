@@ -26,7 +26,7 @@ Some of the below sections only include resources that were created for MariaDB.
 
 Other sections include resources that were created for MySQL, or for both, and the extent of MariaDB support is not always optimal. For those resources, we indicate the MariaDB support level. Refer to this key.
 
-- `MySQL`: The resource states that it support MySQL, but not MariaDB.
+- `MySQL`: The resource states that it supports MySQL, but not MariaDB.
 - `YES`: The resource states it supports MariaDB specifically, not something like "MySQL/MariaDB".
 - `NOT VERIFIED`: The resource states that it supports MySQL and MariaDB (or the specified version number) but we do not know whether full support for MariaDB is implemented. It's possible that MariaDB support is assumed as a consequence of MySQL support, but this might be inaccurate. Please report any relevant problems you might find to us (and to the resource itself).
 - `PARTIAL`: We have a clear list of what is or isn't officially supported.
@@ -43,7 +43,7 @@ Platforms and tools to automate MariaDB deployments.
 
 Modules and collections:
 
-- [Community.Mysql](https://docs.ansible.com/ansible/latest/collections/community/mysql/index.html) - This is the community MySQL collection distributed with Ansible. It works with MariaDB, but you need to be careful not to use MySQL specific features. MariaDB specific features are not supported.
+- [Community.Mysql](https://docs.ansible.com/ansible/latest/collections/community/mysql/index.html) - This is the community MySQL collection distributed with Ansible. It works with MariaDB, but you need to be careful not to use MySQL-specific features. MariaDB-specific features are not supported.
 
 Roles:
 
@@ -60,7 +60,7 @@ Articles:
 
 | Project                                                               | MariaDB Support                      | License / Platform                        | Description            |
 |-----------------------------------------------------------------------|--------------------------------------|-------------------------------------------|-----------------------|
-| [Backaup Manager](https://fromdual.com/fromdual-backup-manager-bman)  | YES                                  |                                           | Supports many types of backups. By FromDual. |
+| [Backup Manager](https://fromdual.com/fromdual-backup-manager-bman)  | YES                                  |                                           | Supports many types of backups. By FromDual. |
 | [mariadb-dump](https://mariadb.com/kb/en/mariadb-dump/)               | YES                                  | Distributed with MariaDB                  | Logical backups of data and/or schema. |
 | [Mariabackup](https://mariadb.com/kb/en/mariabackup-overview/)        | YES                                  | Distributed with MariaDB                  | Online physical backups. |
 
@@ -121,7 +121,7 @@ In the list below, SQL-aware means that a proxy understands SQL statements, and 
 **Tools**
 
 - [Acra](https://github.com/cossacklabs/acra) - Database protection suite with field level encryption and intrusion detection
-- [SecuRich](http://www.securich.com/) - Stored procedures library with user management and role implementation. Unmantained, but useful with old MariaDB versions.
+- [SecuRich](http://www.securich.com/) - Stored procedures library with user management and role implementation. Unmaintained, but useful with old MariaDB versions.
 
 **Articles**
 
@@ -132,7 +132,7 @@ In the list below, SQL-aware means that a proxy understands SQL statements, and 
 | Project                                                                              | MariaDB Support                | License           | Language                   | Description   |
 |--------------------------------------------------------------------------------------|--------------------------------|-------------------|----------------------------|---------|
 | [common_schema](https://github.com/shlomi-noach/common_schema)                       | YES                            | [GPL2](https://github.com/shlomi-noach/common_schema/blob/master/LICENSE)                                                                                                                                                     | Stored Procedures          | A library of stored procedures for DBAs. Includes a parser for its own language, QueryScript, and a debugger. |
-| [Percona Toolkit](https://www.percona.com/software/database-tools/percona-toolkit)   | YES                            | [GPL2](https://github.com/percona/percona-toolkit/blob/3.x/COPYING)                                                                                                                                                           | Perl                       | A set of Perl script for MariaDB and MySQL administration.
+| [Percona Toolkit](https://www.percona.com/software/database-tools/percona-toolkit)   | YES                            | [GPL2](https://github.com/percona/percona-toolkit/blob/3.x/COPYING)                                                                                                                                                           | Perl                       | A set of Perl scripts for MariaDB and MySQL administration.
 
 ## User Interfaces
 
@@ -162,7 +162,7 @@ Notes
 
 1. LibreOffice Base is a generic data visualization frontend. To learn how to use it with MariaDB, see the [MariaDB KB](https://mariadb.com/kb/en/libreoffice-base/).
 2. Apache OpenOffice is the project from which LibreOffice was originally forked. LibreOffice became more popular over time, so consider LibreOffice Base as well. OpenOffice Base does not support MariaDB. However it supports MySQL and ODBC drivers, so in practice it should work with MariaDB for standard use cases.
-3. At the moment of this writing, MariaDB support is only mentioned in the `README.md` file. A quick [search on GitHub](https://github.com/search?q=repo%3Asequelpro%2Fsequelpro%20mariadb&type=code) shows that this support is currently limited to version identification, some permissions a TODO note.
+3. At the time of writing, MariaDB support is only mentioned in the `README.md` file. A quick [search on GitHub](https://github.com/search?q=repo%3Asequelpro%2Fsequelpro%20mariadb&type=code) shows that this support is currently limited to version identification, some permissions and a TODO note.
 
 **Web Interfaces**
 

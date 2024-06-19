@@ -13,7 +13,7 @@ Topics are organised by audience, to save people from navigating through the noi
 
 Contributions welcome!
 
-If you want to suggest a new resource, remember that this is **Awesome MariaDB**, and ask yourself two simple quetion:
+If you want to suggest a new resource, remember that this is **Awesome MariaDB**, and ask yourself two simple questions:
 
 - Does it work well with MariaDB?
 - Is it actually awesome?
@@ -23,7 +23,7 @@ Once a PR is approved, we would appreciate if you take the time to notify the ma
 
 If you find inaccurate information, obsolete information, or resources that are not maintained anymore, please report the
 problem by creating an [issue](https://github.com/Vettabase/awesome-mariadb/issues), or fix it by yourself by opening
-a [pull requests](https://github.com/Vettabase/awesome-mariadb/pulls).
+a [pull request](https://github.com/Vettabase/awesome-mariadb/pulls).
 
 If you contribute to Awesome MariaDB, we encourage you to add your name to the `CONTRIBUTORS.md` file.
 
