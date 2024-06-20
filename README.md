@@ -5,9 +5,9 @@ A curated list of awesome MariaDB resources, maintained by [Vettabase](https://v
 
 Topics are organised by audience, to save people from navigating through the noise:
 
-- [Database Administrators](list-dba.md)
-- [Developers](list-dev.md)
-- Data Engineers
+- [Awesome MariaDB for Database Administrators](list-dba.md)
+- [Awesome MariaDB for Developers](list-dev.md)
+- Awesome MariaDB for Data Engineers
 
 ## Contributing
 

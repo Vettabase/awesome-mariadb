@@ -1,4 +1,4 @@
-# Awsome MariaDB for Developers
+# Awesome MariaDB for Developers
 
 A curated list of awesome MariaDB resources, maintained by [Vettabase](https://vettabase.com) and sponsored by the [MariaDB Foundation](https://mariadb.org/).
 
