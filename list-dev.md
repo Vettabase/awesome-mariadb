@@ -83,6 +83,8 @@ To do.
 
 ## ORMs
 
+Guides on how to work with MariaDB using various IDEs.
+
 | Platform    | ORM Name                                             | MariaDB Support |
 | ----------- | ---------------------------------------------------- | --------------- |
 | Java        | [Hibernate](https://hibernate.org/orm/)              | [YES](https://github.com/hibernate/hibernate-orm/blob/main/dialects.adoc) |
