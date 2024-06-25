@@ -90,6 +90,7 @@ Perl
 | Raku (Perl 6)        | [DBIish](https://github.com/raku-community-modules/DBIish)                                | [YES](https://github.com/raku-community-modules/DBIish?tab=readme-ov-file#mysql) | |
 | Ruby                 | [mysql Ruby gem](https://rubygems.org/gems/mysql/)                                        | MySQL           | [1]                 |
 | Ruby                 | [tencentcloud-sdk-mariadb](https://rubygems.org/gems/tencentcloud-sdk-mariadb)            | YES             | [1]                 |
+| Swift                | [Perfect MariaDB Connector](https://github.com/PerfectlySoft/Perfect-MariaDB)             | YES             |                     |
 
 Notes:
 
