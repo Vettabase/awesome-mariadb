@@ -81,6 +81,8 @@ Perl
 | Node.js              | [Connector/Node.js](https://mariadb.com/kb/en/about-mariadb-connector-nodejs/)            | YES             |                     |
 | ODBC                 | [Connector/ODBC](https://mariadb.com/kb/en/about-mariadb-connector-odbc/)                 | YES             |                     |
 | Perl                 | [DBD::MariaDB](https://metacpan.org/dist/DBD-MariaDB)                                     | YES             |                     |
+| PHP                  | [MySQLi](https://www.php.net/manual/en/book.mysqli.php)                                   | MySQL           | Both procedural and OO API. |
+| PHP                  | [PDO MySQL](https://www.php.net/manual/en/ref.pdo-mysql.php)                              | MySQL           | Multi-database abstraction layer. |
 | Raku (Perl 6)        | [DBIish](https://github.com/raku-community-modules/DBIish)                                | [YES](https://github.com/raku-community-modules/DBIish?tab=readme-ov-file#mysql) | |
 
 ## IDEs
