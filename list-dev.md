@@ -79,6 +79,7 @@ Perl
 | .NET                 | [Connector/NET](https://dev.mysql.com/downloads/connector/net/)                           | MySQL           |                     |
 | .NET                 | [dotConnect for MySQL](https://www.devart.com/dotconnect/mysql/)                          | MySQL           |                     |
 | Node.js              | [Connector/Node.js](https://mariadb.com/kb/en/about-mariadb-connector-nodejs/)            | YES             |                     |
+| ODBC                 | [Connector/ODBC](https://mariadb.com/kb/en/about-mariadb-connector-odbc/)                 | YES             |                     |
 
 ## IDEs
 
