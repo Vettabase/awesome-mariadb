@@ -76,6 +76,7 @@ Perl
 | C                    | [mariadb++](https://github.com/viaduck/mariadbpp)                                         | YES             |                     |
 | Java                 | [Connector/J](https://mariadb.com/kb/en/about-mariadb-connector-j/)                       | YES             | Type 4 JDBC driver  |
 | Java                 | [Connector/R2DBC](https://mariadb.com/docs/server/connect/programming-languages/java-r2dbc/) | YES          | Non-blocking API    |
+| JRuby                | [jdbc-mariadb](https://rubygems.org/gems/jdbc-mariadb)                                    | YES             | JDBC driver for JRuby. |
 | .NET                 | [Connector/NET](https://dev.mysql.com/downloads/connector/net/)                           | MySQL           |                     |
 | .NET                 | [dotConnect for MySQL](https://www.devart.com/dotconnect/mysql/)                          | MySQL           |                     |
 | Node.js              | [Connector/Node.js](https://mariadb.com/kb/en/about-mariadb-connector-nodejs/)            | YES             |                     |
@@ -85,6 +86,12 @@ Perl
 | PHP                  | [PDO MySQL](https://www.php.net/manual/en/ref.pdo-mysql.php)                              | MySQL           | Multi-database abstraction layer. |
 | Python               | [Connector/Python](https://mariadb.com/kb/en/list-of-mariadb-connector-python-releases/)  | YES             |                     |
 | Raku (Perl 6)        | [DBIish](https://github.com/raku-community-modules/DBIish)                                | [YES](https://github.com/raku-community-modules/DBIish?tab=readme-ov-file#mysql) | |
+| Ruby                 | [mysql Ruby gem](https://rubygems.org/gems/mysql/)                                        | MySQL           | [1]                 |
+| Ruby                 | [db-mariadb](https://rubygems.org/gems/db-mariadb)                                        | YES             | [1]                 |
+
+Notes:
+
+1. The `mysql` gem should be the most used, but it's unmaintained since 2021. The `db-mariadb` gem is unmaintained since 2021. `jdbc-mariadb` is also unmaintained since 2019.
 
 ## IDEs
 
