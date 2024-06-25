@@ -77,6 +77,7 @@ To do.
 | Project                                                                                                            | IDE               | Format          | Notes          |
 |--------------------------------------------------------------------------------------------------------------------|-------------------|-----------------|----------------|
 | [Accessing Maria DB from within Eclipse](https://www.youtube.com/watch?v=Ar00dtkNb4o)                              |  Eclipse          | Video           |                |
+| [New in 10.2: MariaDB Support](https://blogs.embarcadero.com/new-in-10-2-mariadb-support/)                         |  Embarcadero      | Text            |                |
 | [IntelliJ IDEA - MariaDB](https://docs.telerik.com/data-access/developers-guide/database-specifics/mariadb/database-specifics-mariadb-create-domain-model.html)                                                                                                                     |  IntelliJ IDEA    | Text            |                |
 | [How to: Create A Model Based on MariaDB Database](https://docs.telerik.com/data-access/developers-guide/database-specifics/mariadb/database-specifics-mariadb-create-domain-model.html)                                                                                                                                       |  Visual Studio    | Text            |                |
 
