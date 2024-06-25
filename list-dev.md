@@ -102,7 +102,7 @@ Notes:
 | IntelliJ IDEA     | [IntelliJ IDEA - MariaDB](https://docs.telerik.com/data-access/developers-guide/database-specifics/mariadb/database-specifics-mariadb-create-domain-model.html)                                                                 | Text            |                |
 |  Visual Studio    | [How to: Create A Model Based on MariaDB Database](https://docs.telerik.com/data-access/developers-guide/database-specifics/mariadb/database-specifics-mariadb-create-domain-model.html)                                                                 | Text            |                |
 
-## ORMs
+## ORMs and other abstraction layers
 
 Guides on how to work with MariaDB using various IDEs.
 
