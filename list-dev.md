@@ -64,6 +64,10 @@ Go
 
 * [Integrating MariaDB with GoLang Microservice Restful API](https://medium.com/widle-studio/integrating-mariadb-with-golang-microservice-restful-apis-building-efficient-data-storage-4054e1588ce)
 
+Java
+
+* [Getting Started With JPA/Hibernate](https://dzone.com/articles/getting-started-with-jpahibernate)
+
 Perl
 
 * [Migrating from DBD::mysql to DBD::MariaDB](https://blogs.perl.org/users/grinnz/2023/12/migrating-from-dbdmysql-to-dbdmariadb.html)
