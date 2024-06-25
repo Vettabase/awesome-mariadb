@@ -87,11 +87,11 @@ Perl
 | Python               | [Connector/Python](https://mariadb.com/kb/en/list-of-mariadb-connector-python-releases/)  | YES             |                     |
 | Raku (Perl 6)        | [DBIish](https://github.com/raku-community-modules/DBIish)                                | [YES](https://github.com/raku-community-modules/DBIish?tab=readme-ov-file#mysql) | |
 | Ruby                 | [mysql Ruby gem](https://rubygems.org/gems/mysql/)                                        | MySQL           | [1]                 |
-| Ruby                 | [db-mariadb](https://rubygems.org/gems/db-mariadb)                                        | YES             | [1]                 |
+| Ruby                 | [tencentcloud-sdk-mariadb](https://rubygems.org/gems/tencentcloud-sdk-mariadb)            | YES             | [1]                 |
 
 Notes:
 
-1. The `mysql` gem should be the most used, but it's unmaintained since 2021. The `db-mariadb` gem is unmaintained since 2021. `jdbc-mariadb` is also unmaintained since 2019.
+1. `tencentcloud-sdk-mariadb` is actively maintained by Tencent. The `mysql` gem is by far the most used, but it's unmaintained since 2021. `jdbc-mariadb` is also unmaintained since 2019.
 
 ## IDEs
 
