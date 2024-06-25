@@ -70,10 +70,10 @@ Perl
 
 ## Connectors (Drivers)
 
-| Platform / Language  | ORM Name                                                                                  | MariaDB Support |
-| -------------------- | ----------------------------------------------------------------------------------------- | --------------- |
-| C                    | [Connector/C ](https://mariadb.com/kb/en/about-mariadb-connector-c/)                      | YES             |
-| C                    | [mariadb++](https://github.com/viaduck/mariadbpp)                                         | YES             |
+| Platform / Language  | ORM Name                                                                                  | MariaDB Support | Notes             |
+| -------------------- | ----------------------------------------------------------------------------------------- | --------------- | ----------------- |
+| C                    | [Connector/C ](https://mariadb.com/kb/en/about-mariadb-connector-c/)                      | YES             |                   |
+| C                    | [mariadb++](https://github.com/viaduck/mariadbpp)                                         | YES             |                   |
 
 ## IDEs
 
