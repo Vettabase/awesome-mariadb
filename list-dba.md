@@ -58,9 +58,9 @@ Articles:
 
 **Tools**
 
-| Project                                                               | MariaDB Support                      | License / Platform                        | Description            |
+| Project                                                               | MariaDB Support                      | License / Platform                        | Description           |
 |-----------------------------------------------------------------------|--------------------------------------|-------------------------------------------|-----------------------|
-| [Backup Manager](https://fromdual.com/fromdual-backup-manager-bman)  | YES                                  |                                           | Supports many types of backups. By FromDual. |
+| [Backup Manager](https://fromdual.com/fromdual-backup-manager-bman)   | YES                                  |                                           | Supports many types of backups. By FromDual. |
 | [mariadb-dump](https://mariadb.com/kb/en/mariadb-dump/)               | YES                                  | Distributed with MariaDB                  | Logical backups of data and/or schema. |
 | [Mariabackup](https://mariadb.com/kb/en/mariabackup-overview/)        | YES                                  | Distributed with MariaDB                  | Online physical backups. |
 
@@ -100,8 +100,25 @@ In the list below, SQL-aware means that a proxy understands SQL statements, and 
 - [HAProxy](https://www.haproxy.org/) - Open source, TCP proxy. Not SQL-aware.
   - [haproxy-galera](https://github.com/matthanley/haproxy-galera) - MariaDB Galera health check script for HAProxy.
 
-## Replication and Clustering
+## Clustering
 
+Clustering solutions can be managed internally by MariaDB server and/or a storage engine, or externally.
+
+| Project                                                             | MariaDB Support                    | Internal / External    | License / Platform                                         | Notes   |
+|---------------------------------------------------------------------|-------------------------------------------------------------|------------------------------------------------------------|---------|
+| [Galera Cluster](https://mariadb.com/kb/en/galera-cluster/)         | YES                                | Internal               | GPLv2                                                      | Embedded in MariaDB from 10.2 |
+| [Vitess](https://vitess.io/)                                        | YES                                | External               | Apache 2.0                                                 |         |
+
+
+## Sharding
+
+Sharding solutions can be managed internally by a storage engine, or externally.
+
+| Project                                                             | MariaDB Support                    | Internal / External    | License / Platform                                         | Notes   |
+|---------------------------------------------------------------------|-------------------------------------------------------------|------------------------------------------------------------|---------|
+| [Sharding in ProxySQL](https://proxysql.com/documentation/how-to-setup-proxysql-sharding/) | YES         | External               | GPLv3, Part of ProxySQL                                    |         |
+| [MaxScale SchemaRouter](https://mariadb.com/kb/en/mariadb-maxscale-24-schemarouter/) | YES               | External               | Commercial, part of Maxscale                               |         |
+| [Spider](https://mariadb.com/kb/en/spider/)                         | YES                                | Internal               | GPL, a MariaDB Storage Engine                              |         |
 
 
 ## Replication Managers
