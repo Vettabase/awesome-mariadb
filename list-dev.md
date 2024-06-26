@@ -68,13 +68,26 @@ Java
 
 * [Getting Started With JPA/Hibernate](https://dzone.com/articles/getting-started-with-jpahibernate)
 
+Node.js
+
+* [MariaDB, MySQL, and Node.js: Why Using the Right Connector Matters](https://dev.to/alejandro_du/mariadb-mysql-and-nodejs-why-using-the-right-connector-matters-38oe)
+
 Perl
 
 * [Migrating from DBD::mysql to DBD::MariaDB](https://blogs.perl.org/users/grinnz/2023/12/migrating-from-dbdmysql-to-dbdmariadb.html)
 
 **Plain SQL articles**
 
+
+* [MariaDB/MySQL: use SQL properly to run less queries](https://vettabase.com/mysql-mariadb-use-sql-properly-to-run-less-queries/)
+* [How to compose strings in MariaDB](https://vettabase.com/how-to-compose-strings-in-mariadb/)
 * [Leveraging "INSERT INTO ... RETURNING": Practical Scenarios](https://dzone.com/articles/leveraging-insert-into-returning-practical-scenari)
+* [MariaDB 10.2 Window Functions](http://ocelot.ca/blog/blog/2016/04/18/mariadb-10-2-window-functions/)
+* [Using Temporary Tables in MariaDB](https://dev.to/alejandro_du/using-temporary-tables-in-mariadb-1nb)
+* [MariaDB: WITH TIES syntax](https://vettabase.com/mariadb-with-ties-syntax/)
+* [The UUID data type in MariaDB](https://vettabase.com/the-uuid-data-type-in-mariadb/)
+* [The simultaneous_assignment mode in MariaDB 10.3.5](http://ocelot.ca/blog/blog/2018/03/21/the-simultaneous_assignment-mode-in-mariadb-10-3-5/)
+* [READ ONLY transactions in MariaDB and MySQL](https://vettabase.com/read-only-transactions-in-mariadb-and-mysql/)
 
 ## Connectors (Drivers)
 
