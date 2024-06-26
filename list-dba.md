@@ -33,7 +33,7 @@ Other sections include resources that were created for MySQL, or for both, and t
 
 ## Articles
 
-To do.
+* [Introduction to Data Replication With MariaDB Using Docker Containers](https://dzone.com/articles/introduction-to-data-replication-with-mariadb-usin)
 
 ## Automation
 
