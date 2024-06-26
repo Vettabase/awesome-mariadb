@@ -123,6 +123,8 @@ Notes:
 
 ## IDEs
 
+Guides on how to work with MariaDB using various IDEs.
+
 | IDE               | Project                                                                                        | Format          | Notes          |
 |-------------------|------------------------------------------------------------------------------------------------|-----------------|----------------|
 | Eclipse           | [Accessing Maria DB from within Eclipse](https://www.youtube.com/watch?v=Ar00dtkNb4o)          | Video           |                |
@@ -132,8 +134,6 @@ Notes:
 | Visual Studio     | [How to: Create A Model Based on MariaDB Database](https://docs.telerik.com/data-access/developers-guide/database-specifics/mariadb/database-specifics-mariadb-create-domain-model.html)                                                                 | Text            |                |
 
 ## ORMs and other abstraction layers
-
-Guides on how to work with MariaDB using various IDEs.
 
 | Platform    | ORM Name                                             | MariaDB Support |
 | ----------- | ---------------------------------------------------- | --------------- |
@@ -146,6 +146,16 @@ Guides on how to work with MariaDB using various IDEs.
 | Ruby        | [mariadb_temporal_tables](https://rubygems.org/gems/mariadb_temporal_tables) | YES |
 | Ruby on Rails | [Active Record](https://guides.rubyonrails.org/)   | [YES](https://guides.rubyonrails.org/active_record_querying.html) |
 | Rust        | [Diesel](https://github.com/diesel-rs/diesel/)       | [YES](https://mariadb.org/improving-mariadb-support-in-open-source-projects/) |
+
+## NoSQL and Key Value Storage
+
+Utilities and methods for using unstructured data in MariaDB.
+
+- [JSON](https://mariadb.com/kb/en/json-functions/) - Functions in MariaDB for working with JSON.
+- [Dynamic Columns](https://mariadb.com/kb/en/dynamic-columns/)
+- [Maxscale NoSQL Protocol](https://mariadb.com/kb/en/mariadb-maxscale-2402-maxscale-2402-nosql-protocol-module/) - Compabitble with the MongoDB client Library.
+- [Handler Socket](https://mariadb.com/kb/en/handlersocket/) - A NoSQL plugin to directly access data in InnoDB and Spider engines.
+
 
 **@TODO:** Check the ORMs in [this list](https://en.wikipedia.org/wiki/List_of_object%E2%80%93relational_mapping_software).
 

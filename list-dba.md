@@ -100,6 +100,10 @@ In the list below, SQL-aware means that a proxy understands SQL statements, and 
 - [HAProxy](https://www.haproxy.org/) - Open source, TCP proxy. Not SQL-aware.
   - [haproxy-galera](https://github.com/matthanley/haproxy-galera) - MariaDB Galera health check script for HAProxy.
 
+## Replication and Clustering
+
+
+
 ## Replication Managers
 
 | Project                                                                | MariaDB Support   | License / Platform |
