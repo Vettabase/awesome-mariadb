@@ -72,6 +72,10 @@ Perl
 
 * [Migrating from DBD::mysql to DBD::MariaDB](https://blogs.perl.org/users/grinnz/2023/12/migrating-from-dbdmysql-to-dbdmariadb.html)
 
+SQL
+
+* [Leveraging "INSERT INTO ... RETURNING": Practical Scenarios](https://dzone.com/articles/leveraging-insert-into-returning-practical-scenari)
+
 ## Connectors (Drivers)
 
 | Platform / Language  | ORM Name                                                                                  | MariaDB Support | Notes               |
