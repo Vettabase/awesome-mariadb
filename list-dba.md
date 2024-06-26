@@ -14,6 +14,8 @@ This list is intended for Database Administrators. There are lists intended for 
 - [Containers](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#containers)
 - [Monitoring](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#monitoring)
 - [Proxies](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#proxies)
+- [Clustering](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#clustering)
+- [Sharding](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#sharding)
 - [Replication Managers](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#replication-managers)
 - [Schema Versioning Tools](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#schema-versioning-tools)
 - [Security](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#security)
