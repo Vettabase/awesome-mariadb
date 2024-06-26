@@ -144,6 +144,7 @@ In the list below, SQL-aware means that a proxy understands SQL statements, and 
 | [DataGrip](https://www.jetbrains.com/datagrip/)                             | [YES](https://www.jetbrains.com/datagrip/features/) | Linux, MacOS, Windows | Commercial     |       |
 | [DBeaver](https://dbeaver.io/)                                              | [NOT VERIFIED](https://dbeaver.com/databases/)  | Linux, MacOS, Windows | BOTH               |       |
 | [DbVisualizer](https://www.dbvis.com/)                                      | NOT VERIFIED                                    | Native: Linux, Windows; Java: Linux, MacOS, Windows | BOTH               |       |
+| [Harlequin](https://harlequin.sh/)                                          | YES                                             | Python                | FREE               |       |
 | [HeidiSQL](https://www.heidisql.com/)                                       | YES                                              | Windows               | FREE               |       |
 | [LibreOffice Base](https://www.libreoffice.org/discover/base/)              | [NOT VERIFIED](https://www.libreoffice.org/discover/base/) | Linux, MacOS, Windows | FREE            | [1]   |
 | [ocelotgui](http://ocelot.ca/)                                              | YES                                             | Linux                 | FREE               |       |
