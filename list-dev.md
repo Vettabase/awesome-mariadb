@@ -64,31 +64,86 @@ Go
 
 * [Integrating MariaDB with GoLang Microservice Restful API](https://medium.com/widle-studio/integrating-mariadb-with-golang-microservice-restful-apis-building-efficient-data-storage-4054e1588ce)
 
+Java
+
+* [Getting Started With JPA/Hibernate](https://dzone.com/articles/getting-started-with-jpahibernate)
+
+Node.js
+
+* [MariaDB, MySQL, and Node.js: Why Using the Right Connector Matters](https://dev.to/alejandro_du/mariadb-mysql-and-nodejs-why-using-the-right-connector-matters-38oe)
+
 Perl
 
 * [Migrating from DBD::mysql to DBD::MariaDB](https://blogs.perl.org/users/grinnz/2023/12/migrating-from-dbdmysql-to-dbdmariadb.html)
 
+**Plain SQL articles**
+
+
+* [MariaDB/MySQL: use SQL properly to run less queries](https://vettabase.com/mysql-mariadb-use-sql-properly-to-run-less-queries/)
+* [How to compose strings in MariaDB](https://vettabase.com/how-to-compose-strings-in-mariadb/)
+* [Leveraging "INSERT INTO ... RETURNING": Practical Scenarios](https://dzone.com/articles/leveraging-insert-into-returning-practical-scenari)
+* [MariaDB 10.2 Window Functions](http://ocelot.ca/blog/blog/2016/04/18/mariadb-10-2-window-functions/)
+* [Using Temporary Tables in MariaDB](https://dev.to/alejandro_du/using-temporary-tables-in-mariadb-1nb)
+* [MariaDB: WITH TIES syntax](https://vettabase.com/mariadb-with-ties-syntax/)
+* [The UUID data type in MariaDB](https://vettabase.com/the-uuid-data-type-in-mariadb/)
+* [The simultaneous_assignment mode in MariaDB 10.3.5](http://ocelot.ca/blog/blog/2018/03/21/the-simultaneous_assignment-mode-in-mariadb-10-3-5/)
+* [READ ONLY transactions in MariaDB and MySQL](https://vettabase.com/read-only-transactions-in-mariadb-and-mysql/)
+
 ## Connectors (Drivers)
 
-To do.
+| Platform / Language  | ORM Name                                                                                  | MariaDB Support | Notes               |
+| -------------------- | ----------------------------------------------------------------------------------------- | --------------- | ------------------- |
+| C                    | [Connector/C ](https://mariadb.com/kb/en/about-mariadb-connector-c/)                      | YES             |                     |
+| C                    | [mariadb++](https://github.com/viaduck/mariadbpp)                                         | YES             |                     |
+| C++                  | [MariaDB Connector/C++](https://github.com/mariadb-corporation/mariadb-connector-cpp/) | YES     |                     |
+| Erlang               | [MySQL/OTP](https://github.com/mysql-otp/mysql-otp)                                       | MySQL           |                     |
+| Fortran              | [MariaDB Connector Fortran](https://github.com/v-h-giang/Mariadb_connector_fortran)       | YES             |                     |
+| Java                 | [Connector/J](https://mariadb.com/kb/en/about-mariadb-connector-j/)                       | YES             | Type 4 JDBC driver  |
+| Java                 | [Connector/R2DBC](https://mariadb.com/docs/server/connect/programming-languages/java-r2dbc/) | YES          | Non-blocking API    |
+| JRuby                | [jdbc-mariadb](https://rubygems.org/gems/jdbc-mariadb)                                    | YES             | JDBC driver for JRuby. |
+| Lisp                 | [Allegro MySQL Direct Connect Library](https://franz.com/support/documentation/10.1/doc/mysql.htm) | [NOT VERIFIED](https://franz.com/support/documentation/10.1/doc/mysql.htm#mariadb-1) | |
+| .NET                 | [Connector/NET](https://dev.mysql.com/downloads/connector/net/)                           | MySQL           |                     |
+| .NET                 | [dotConnect for MySQL](https://www.devart.com/dotconnect/mysql/)                          | MySQL           |                     |
+| Node.js              | [Connector/Node.js](https://mariadb.com/kb/en/about-mariadb-connector-nodejs/)            | YES             |                     |
+| ODBC                 | [Connector/ODBC](https://mariadb.com/kb/en/about-mariadb-connector-odbc/)                 | YES             |                     |
+| Perl                 | [DBD::MariaDB](https://metacpan.org/dist/DBD-MariaDB)                                     | YES             |                     |
+| PHP                  | [MySQLi](https://www.php.net/manual/en/book.mysqli.php)                                   | MySQL           | Both procedural and OO API. |
+| PHP                  | [PDO MySQL](https://www.php.net/manual/en/ref.pdo-mysql.php)                              | MySQL           | Multi-database abstraction layer. |
+| Python               | [Connector/Python](https://mariadb.com/kb/en/list-of-mariadb-connector-python-releases/)  | YES             |                     |
+| R                    | [RMariaDB](https://cran.r-project.org/web/packages/RMariaDB/index.html)                   | YES             |                     |
+| Raku (Perl 6)        | [DBIish](https://github.com/raku-community-modules/DBIish)                                | [YES](https://github.com/raku-community-modules/DBIish?tab=readme-ov-file#mysql) | |
+| Ruby                 | [mysql Ruby gem](https://rubygems.org/gems/mysql/)                                        | MySQL           | [1]                 |
+| Ruby                 | [tencentcloud-sdk-mariadb](https://rubygems.org/gems/tencentcloud-sdk-mariadb)            | YES             | [1]                 |
+| Swift                | [Perfect MariaDB Connector](https://github.com/PerfectlySoft/Perfect-MariaDB)             | YES             |                     |
+
+Notes:
+
+1. `tencentcloud-sdk-mariadb` is actively maintained by Tencent. The `mysql` gem is by far the most used, but it's unmaintained since 2021. `jdbc-mariadb` is also unmaintained since 2019.
 
 ## IDEs
 
-| Project                                                                                                            | IDE               | Format          | Notes          |
-|--------------------------------------------------------------------------------------------------------------------|-------------------|-----------------|----------------|
-| [Accessing Maria DB from within Eclipse](https://www.youtube.com/watch?v=Ar00dtkNb4o)                              |  Eclipse          | Video           |                |
-| [IntelliJ IDEA - MariaDB](https://docs.telerik.com/data-access/developers-guide/database-specifics/mariadb/database-specifics-mariadb-create-domain-model.html)                                                                                                                     |  IntelliJ IDEA    | Text            |                |
-| [How to: Create A Model Based on MariaDB Database](https://docs.telerik.com/data-access/developers-guide/database-specifics/mariadb/database-specifics-mariadb-create-domain-model.html)                                                                                                                                       |  Visual Studio    | Text            |                |
+| IDE               | Project                                                                                        | Format          | Notes          |
+|-------------------|------------------------------------------------------------------------------------------------|-----------------|----------------|
+| Eclipse           | [Accessing Maria DB from within Eclipse](https://www.youtube.com/watch?v=Ar00dtkNb4o)          | Video           |                |
+| Embarcadero       | [New in 10.2: MariaDB Support](https://blogs.embarcadero.com/new-in-10-2-mariadb-support/)     | Text            |                |
+| IntelliJ IDEA     | [IntelliJ IDEA - MariaDB](https://docs.telerik.com/data-access/developers-guide/database-specifics/mariadb/database-specifics-mariadb-create-domain-model.html)                                                                 | Text            |                |
+| RubyMine          | [RubyMine MariaDB plugin documentation](https://www.jetbrains.com/help/ruby/mariadb.html)      | Text            |                |
+| Visual Studio     | [How to: Create A Model Based on MariaDB Database](https://docs.telerik.com/data-access/developers-guide/database-specifics/mariadb/database-specifics-mariadb-create-domain-model.html)                                                                 | Text            |                |
 
-## ORMs
+## ORMs and other abstraction layers
 
-| Platform    | ORM Name        | MariaDB Support |
-| ----------- | --------------- | --------------- |
-| Java        | [Hibernate](https://hibernate.org/orm/)   | [YES](https://github.com/hibernate/hibernate-orm/blob/main/dialects.adoc) |
-| Java        | [EclipseLink](https://eclipse.dev/eclipselink/)   | [YES](https://eclipse.dev/eclipselink/documentation/4.0/concepts/concepts.html#APP_TL_EXT001) |
-| Java        | [OpenJPA](https://openjpa.apache.org/)   | [YES](https://openjpa.apache.org/builds/3.2.2/apache-openjpa/docs/#ref_guide_dbsetup_dbsupport) |
-| Java        | [jOOQ](https://www.jooq.org/)   | [YES](https://www.jooq.org/javadoc/latest/org.jooq/org/jooq/SQLDialect.html#MARIADB) |
-| Java        | [MyBatis](https://mybatis.org/mybatis-3/)   | [YES](https://github.com/mybatis/generator/issues/450#issuecomment-471790027) |
+Guides on how to work with MariaDB using various IDEs.
+
+| Platform    | ORM Name                                             | MariaDB Support |
+| ----------- | ---------------------------------------------------- | --------------- |
+| Java        | [Hibernate](https://hibernate.org/orm/)              | [YES](https://github.com/hibernate/hibernate-orm/blob/main/dialects.adoc) |
+| Java        | [EclipseLink](https://eclipse.dev/eclipselink/)      | [YES](https://eclipse.dev/eclipselink/documentation/4.0/concepts/concepts.html#APP_TL_EXT001) |
+| Java        | [OpenJPA](https://openjpa.apache.org/)               | [YES](https://openjpa.apache.org/builds/3.2.2/apache-openjpa/docs/#ref_guide_dbsetup_dbsupport) |
+| Java        | [jOOQ](https://www.jooq.org/)                        | [YES](https://www.jooq.org/javadoc/latest/org.jooq/org/jooq/SQLDialect.html#MARIADB) |
+| Java        | [MyBatis](https://mybatis.org/mybatis-3/)            | [YES](https://github.com/mybatis/generator/issues/450#issuecomment-471790027) |
+| Ruby        | [mariadb_temporal_tables](https://rubygems.org/gems/mariadb_temporal_tables) | YES |
+| Ruby on Rails | [Active Record](https://guides.rubyonrails.org/)   | [YES](https://guides.rubyonrails.org/active_record_querying.html) |
+| Rust        | [Diesel](https://github.com/diesel-rs/diesel/)       | [YES](https://mariadb.org/improving-mariadb-support-in-open-source-projects/) |
 
 **@TODO:** Check the ORMs in [this list](https://en.wikipedia.org/wiki/List_of_object%E2%80%93relational_mapping_software).
 
