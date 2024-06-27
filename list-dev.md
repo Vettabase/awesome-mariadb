@@ -165,6 +165,7 @@ Guides on how to work with MariaDB using various IDEs.
 | Project Name                                                                | MariaDB Support                                 | Platforms             | Free / Commercial  | Notes |
 |-----------------------------------------------------------------------------|-------------------------------------------------|-----------------------|--------------------|-------|
 | [Beekeeper Studio](https://www.beekeeperstudio.io/)                         | [NOT VERIFIED](https://docs.beekeeperstudio.io/user_guide/connecting/first-page/)  | Linux, MacOS, Windows | BOTH               |       |
+| [DataGrip](https://www.jetbrains.com/datagrip/)                             | [YES](https://www.jetbrains.com/datagrip/features/) | Linux, MacOS, Windows | Commercial     |       |
 | [DBeaver](https://dbeaver.io/)                                              | [NOT VERIFIED](https://dbeaver.com/databases/)  | Linux, MacOS, Windows | BOTH               |       |
 | [DbVisualizer](https://www.dbvis.com/)                                      | NOT VERIFIED                                    | Native: Linux, Windows; Java: Linux, MacOS, Windows | BOTH               |       |
 | [HeidiSQL](https://www.heidisql.com/)                                       | YES                                             | Windows               | FREE               |       |
