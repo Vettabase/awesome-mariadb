@@ -58,9 +58,9 @@ Articles:
 
 **Tools**
 
-| Project                                                               | MariaDB Support                      | License / Platform                        | Description            |
+| Project                                                               | MariaDB Support                      | License / Platform                        | Description           |
 |-----------------------------------------------------------------------|--------------------------------------|-------------------------------------------|-----------------------|
-| [Backup Manager](https://fromdual.com/fromdual-backup-manager-bman)  | YES                                  |                                           | Supports many types of backups. By FromDual. |
+| [Backup Manager](https://fromdual.com/fromdual-backup-manager-bman)   | YES                                  |                                           | Supports many types of backups. By FromDual. |
 | [mariadb-dump](https://mariadb.com/kb/en/mariadb-dump/)               | YES                                  | Distributed with MariaDB                  | Logical backups of data and/or schema. |
 | [Mariabackup](https://mariadb.com/kb/en/mariabackup-overview/)        | YES                                  | Distributed with MariaDB                  | Online physical backups. |
 
@@ -141,9 +141,11 @@ In the list below, SQL-aware means that a proxy understands SQL statements, and 
 | Project Name                                                                | MariaDB Support                                 | Platforms             | Free / Commercial  | Notes |
 |-----------------------------------------------------------------------------|-------------------------------------------------|-----------------------|--------------------|-------|
 | [Beekeeper Studio](https://www.beekeeperstudio.io/)                         | [NOT VERIFIED](https://docs.beekeeperstudio.io/user_guide/connecting/first-page/)  | Linux, MacOS, Windows | BOTH               |       |
+| [DataGrip](https://www.jetbrains.com/datagrip/)                             | [YES](https://www.jetbrains.com/datagrip/features/) | Linux, MacOS, Windows | Commercial     |       |
 | [DBeaver](https://dbeaver.io/)                                              | [NOT VERIFIED](https://dbeaver.com/databases/)  | Linux, MacOS, Windows | BOTH               |       |
 | [DbVisualizer](https://www.dbvis.com/)                                      | NOT VERIFIED                                    | Native: Linux, Windows; Java: Linux, MacOS, Windows | BOTH               |       |
-| [HeidiSQL](https://www.heidisql.com/)                                       | YES                                             | Windows               | FREE               |       |
+| [Harlequin](https://harlequin.sh/)                                          | MySQL                                           | Python                | FREE               |       |
+| [HeidiSQL](https://www.heidisql.com/)                                       | YES                                              | Windows               | FREE               |       |
 | [LibreOffice Base](https://www.libreoffice.org/discover/base/)              | [NOT VERIFIED](https://www.libreoffice.org/discover/base/) | Linux, MacOS, Windows | FREE            | [1]   |
 | [ocelotgui](http://ocelot.ca/)                                              | YES                                             | Linux                 | FREE               |       |
 | [OpenOffice Base](https://www.openoffice.org/product/base.html)             | [MySQL](https://www.openoffice.org/product/base.html) | Linux, MacOS, Windows | FREE                 | [2]   |

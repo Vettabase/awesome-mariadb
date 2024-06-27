@@ -110,6 +110,7 @@ Perl
 | PHP                  | [MySQLi](https://www.php.net/manual/en/book.mysqli.php)                                   | MySQL           | Both procedural and OO API. |
 | PHP                  | [PDO MySQL](https://www.php.net/manual/en/ref.pdo-mysql.php)                              | MySQL           | Multi-database abstraction layer. |
 | Python               | [Connector/Python](https://mariadb.com/kb/en/list-of-mariadb-connector-python-releases/)  | YES             |                     |
+| Python               | [PyMySQL](https://github.com/PyMySQL/PyMySQL)                                             | PARTIAL             | Pure Python driver, MariaDB >= 10.4 |
 | R                    | [RMariaDB](https://cran.r-project.org/web/packages/RMariaDB/index.html)                   | YES             |                     |
 | Raku (Perl 6)        | [DBIish](https://github.com/raku-community-modules/DBIish)                                | [YES](https://github.com/raku-community-modules/DBIish?tab=readme-ov-file#mysql) | |
 | Ruby                 | [mysql Ruby gem](https://rubygems.org/gems/mysql/)                                        | MySQL           | [1]                 |
@@ -122,6 +123,8 @@ Notes:
 
 ## IDEs
 
+Guides on how to work with MariaDB using various IDEs.
+
 | IDE               | Project                                                                                        | Format          | Notes          |
 |-------------------|------------------------------------------------------------------------------------------------|-----------------|----------------|
 | Eclipse           | [Accessing Maria DB from within Eclipse](https://www.youtube.com/watch?v=Ar00dtkNb4o)          | Video           |                |
@@ -132,8 +135,6 @@ Notes:
 
 ## ORMs and other abstraction layers
 
-Guides on how to work with MariaDB using various IDEs.
-
 | Platform    | ORM Name                                             | MariaDB Support |
 | ----------- | ---------------------------------------------------- | --------------- |
 | Java        | [Hibernate](https://hibernate.org/orm/)              | [YES](https://github.com/hibernate/hibernate-orm/blob/main/dialects.adoc) |
@@ -141,6 +142,7 @@ Guides on how to work with MariaDB using various IDEs.
 | Java        | [OpenJPA](https://openjpa.apache.org/)               | [YES](https://openjpa.apache.org/builds/3.2.2/apache-openjpa/docs/#ref_guide_dbsetup_dbsupport) |
 | Java        | [jOOQ](https://www.jooq.org/)                        | [YES](https://www.jooq.org/javadoc/latest/org.jooq/org/jooq/SQLDialect.html#MARIADB) |
 | Java        | [MyBatis](https://mybatis.org/mybatis-3/)            | [YES](https://github.com/mybatis/generator/issues/450#issuecomment-471790027) |
+| Python      | [SQLAlchemy](https://www.sqlalchemy.org/)            | [YES](https://docs.sqlalchemy.org/en/20/dialects/mysql.html#mariadb-support) |
 | Ruby        | [mariadb_temporal_tables](https://rubygems.org/gems/mariadb_temporal_tables) | YES |
 | Ruby on Rails | [Active Record](https://guides.rubyonrails.org/)   | [YES](https://guides.rubyonrails.org/active_record_querying.html) |
 | Rust        | [Diesel](https://github.com/diesel-rs/diesel/)       | [YES](https://mariadb.org/improving-mariadb-support-in-open-source-projects/) |
@@ -163,8 +165,10 @@ Guides on how to work with MariaDB using various IDEs.
 | Project Name                                                                | MariaDB Support                                 | Platforms             | Free / Commercial  | Notes |
 |-----------------------------------------------------------------------------|-------------------------------------------------|-----------------------|--------------------|-------|
 | [Beekeeper Studio](https://www.beekeeperstudio.io/)                         | [NOT VERIFIED](https://docs.beekeeperstudio.io/user_guide/connecting/first-page/)  | Linux, MacOS, Windows | BOTH               |       |
+| [DataGrip](https://www.jetbrains.com/datagrip/)                             | [YES](https://www.jetbrains.com/datagrip/features/) | Linux, MacOS, Windows | Commercial     |       |
 | [DBeaver](https://dbeaver.io/)                                              | [NOT VERIFIED](https://dbeaver.com/databases/)  | Linux, MacOS, Windows | BOTH               |       |
 | [DbVisualizer](https://www.dbvis.com/)                                      | NOT VERIFIED                                    | Native: Linux, Windows; Java: Linux, MacOS, Windows | BOTH               |       |
+| [Harlequin](https://harlequin.sh/)                                          | MySQL                                           | Python                | FREE               |       |
 | [HeidiSQL](https://www.heidisql.com/)                                       | YES                                             | Windows               | FREE               |       |
 | [LibreOffice Base](https://www.libreoffice.org/discover/base/)              | [NOT VERIFIED](https://www.libreoffice.org/discover/base/) | Linux, MacOS, Windows | FREE            | [1]   |
 | [ocelotgui](http://ocelot.ca/)                                              | YES                                             | Linux                 | FREE               |       |
