@@ -12,7 +12,6 @@ This list is intended for Developers. There are lists intended for other audienc
 - [Connectors (Drivers)](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dev.md#connectors-drivers)
 - [IDEs](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dev.md#ides)
 - [ORMs](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dev.md#orms)
-- [NoSQL and Key Value Storage](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dev.md#nosql-and-key-value-storage)
 - [Schema Versioning Tools](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dev.md#schema-versioning-tools)
 - [User Interfaces](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dev.md#user-interfaces)
 
@@ -147,16 +146,6 @@ Guides on how to work with MariaDB using various IDEs.
 | Ruby        | [mariadb_temporal_tables](https://rubygems.org/gems/mariadb_temporal_tables) | YES |
 | Ruby on Rails | [Active Record](https://guides.rubyonrails.org/)   | [YES](https://guides.rubyonrails.org/active_record_querying.html) |
 | Rust        | [Diesel](https://github.com/diesel-rs/diesel/)       | [YES](https://mariadb.org/improving-mariadb-support-in-open-source-projects/) |
-
-## NoSQL and Key Value Storage
-
-Utilities and methods for using unstructured data in MariaDB.
-
-- [JSON](https://mariadb.com/kb/en/json-functions/) - Functions in MariaDB for working with JSON.
-- [Dynamic Columns](https://mariadb.com/kb/en/dynamic-columns/)
-- [Maxscale NoSQL Protocol](https://mariadb.com/kb/en/mariadb-maxscale-2402-maxscale-2402-nosql-protocol-module/) - Compabitble with the MongoDB client Library.
-- [Handler Socket](https://mariadb.com/kb/en/handlersocket/) - A NoSQL plugin to directly access data in InnoDB and Spider engines.
-
 
 **@TODO:** Check the ORMs in [this list](https://en.wikipedia.org/wiki/List_of_object%E2%80%93relational_mapping_software).
 
