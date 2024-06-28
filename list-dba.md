@@ -14,6 +14,7 @@ This list is intended for Database Administrators. There are lists intended for 
 - [Containers](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#containers)
 - [Monitoring](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#monitoring)
 - [Proxies](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#proxies)
+- [Sharding](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#sharding)
 - [Replication Managers](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#replication-managers)
 - [Schema Versioning Tools](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#schema-versioning-tools)
 - [Security](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#security)
@@ -99,6 +100,18 @@ In the list below, SQL-aware means that a proxy understands SQL statements, and 
 - [MariaDB MaxScale](https://mariadb.com/kb/en/maxscale/) - Source available proxy maintained by MariaDB plc. SQL-aware.
 - [HAProxy](https://www.haproxy.org/) - Open source, TCP proxy. Not SQL-aware.
   - [haproxy-galera](https://github.com/matthanley/haproxy-galera) - MariaDB Galera health check script for HAProxy.
+
+## Sharding
+
+Sharding solutions require evalation depending on your applications requirements. Some solutions are internal and shard with the application being unaware, or externally using rules and defititions which your application may need to understand or even create and manage.
+
+| Project                                                             | MariaDB Support | License / Platform | Notes   |
+|---------------------------------------------------------------------|-----------------|--------------------|---------|
+| [CONNECT](https://mariadb.com/kb/en/using-connect-partitioning-and-sharding/) | YES   | GPLv2              | A storage engine. An outward table can be partitioned over serveral remote tables represented as partitions. |
+| [MaxScale](https://mariadb.com/kb/en/mariadb-maxscale-24-schemarouter/) | YES         | Commercial         | A query and connection router that is part of Maxscale. |
+| [ProxySQL](https://proxysql.com/documentation/how-to-setup-proxysql-sharding/) | YES  | GPLv3              | Sharding in ProxySQL by User, Schema or Data. Sharding is based on rules which pattern match on incoming queries. |
+| [Spider](https://mariadb.com/kb/en/spider/)                         | YES             | GPLv2              | A storage engine for table definition shards and connections to split tables among several servers. |
+
 
 ## Replication Managers
 
