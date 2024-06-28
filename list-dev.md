@@ -13,6 +13,7 @@ This list is intended for Developers. There are lists intended for other audienc
 - [IDEs](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dev.md#ides)
 - [ORMs](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dev.md#orms)
 - [Schema Versioning Tools](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dev.md#schema-versioning-tools)
+- [NoSQL and Key Value Storage](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dev.md#nosql-and-key-value-storage)
 - [User Interfaces](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dev.md#user-interfaces)
 
 ## MariaDB Support Key
@@ -157,6 +158,15 @@ Guides on how to work with MariaDB using various IDEs.
 | [Flyway](https://flywaydb.org/)                         | [5.1, 10.11](https://documentation.red-gate.com/flyway/flyway-cli-and-api/supported-databases/mariadb)
 | [Liquibase](https://www.liquibase.com/)                 | [PARTIAL](https://www.liquibase.com/databases/mariadb-server)
 | [Skeema.io](https://www.skeema.io/)                     | [10.1](https://www.skeema.io/docs/requirements/)
+
+## NoSQL and Key Value Storage
+
+Utilities and methods for using unstructured data in MariaDB.
+
+- [JSON](https://mariadb.com/kb/en/json-functions/) - Functions in MariaDB for working with JSON.
+- [Dynamic Columns](https://mariadb.com/kb/en/dynamic-columns/)
+- [Maxscale NoSQL Protocol](https://mariadb.com/kb/en/mariadb-maxscale-2402-maxscale-2402-nosql-protocol-module/) - Compabitble with the MongoDB client Library.
+- [Handler Socket](https://mariadb.com/kb/en/handlersocket/) - A NoSQL plugin to directly access data in InnoDB and Spider engines.
 
 ## User Interfaces
 
