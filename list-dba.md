@@ -103,7 +103,7 @@ In the list below, SQL-aware means that a proxy understands SQL statements, and 
 
 ## Sharding
 
-Sharding solutions require evalation depending in your applications requirements. Some solutions are internal and shard with the application being unaware, or externally use rules and defititions which your application may need to understand.
+Sharding solutions require evalation depending on your applications requirements. Some solutions are internal and shard with the application being unaware, or externally using rules and defititions which your application may need to understand or even create and manage.
 
 | Project                                                             | MariaDB Support | License / Platform | Notes   |
 |---------------------------------------------------------------------|-----------------|--------------------|---------|
