@@ -103,13 +103,14 @@ In the list below, SQL-aware means that a proxy understands SQL statements, and 
 
 ## Sharding
 
-Sharding solutions can be managed internally by a storage engine, or externally.
+Sharding solutions require evalation depending in your applications requirements. Some solutions are internal and shard with the application being unaware, or externally use rules and defititions which your application may need to understand.
 
-| Project                                                             | MariaDB Support                    | Internal / External    | License / Platform                                         | Notes   |
-|---------------------------------------------------------------------|------------------------------------|------------------------|------------------------------------------------------------|---------|
-| [Sharding in ProxySQL](https://proxysql.com/documentation/how-to-setup-proxysql-sharding/) | YES         | External               | GPLv3, Part of ProxySQL                                    |         |
-| [MaxScale SchemaRouter](https://mariadb.com/kb/en/mariadb-maxscale-24-schemarouter/) | YES               | External               | Commercial, part of Maxscale                               |         |
-| [Spider](https://mariadb.com/kb/en/spider/)                         | YES                                | Internal               | GPL, a MariaDB Storage Engine                              |         |
+| Project                                                             | MariaDB Support | License / Platform | Notes   |
+|---------------------------------------------------------------------|-----------------|--------------------|---------|
+| [CONNECT](https://mariadb.com/kb/en/using-connect-partitioning-and-sharding/) | YES   | GPLv2              | A storage engine. An outward table can be partitioned over serveral remote tables represented as partitions. |
+| [MaxScale](https://mariadb.com/kb/en/mariadb-maxscale-24-schemarouter/) | YES         | Commercial         | A query and connection router that is part of Maxscale. |
+| [ProxySQL](https://proxysql.com/documentation/how-to-setup-proxysql-sharding/) | YES  | GPLv3              | Sharding in ProxySQL by User, Schema or Data. Sharding is based on rules which pattern match on incoming queries. |
+| [Spider](https://mariadb.com/kb/en/spider/)                         | YES             | GPLv2              | A storage engine for table definition shards and connections to split tables among several servers. |
 
 
 ## Replication Managers
