@@ -163,10 +163,10 @@ Guides on how to work with MariaDB using various IDEs.
 
 Utilities and methods for using unstructured data in MariaDB.
 
-- [JSON](https://mariadb.com/kb/en/json-functions/) - Functions in MariaDB for working with JSON.
-- [Dynamic Columns](https://mariadb.com/kb/en/dynamic-columns/)
-- [Maxscale NoSQL Protocol](https://mariadb.com/kb/en/mariadb-maxscale-2402-maxscale-2402-nosql-protocol-module/) - Compabitble with the MongoDB client Library.
+- [Dynamic Columns](https://mariadb.com/kb/en/dynamic-columns/) - Sore and retrieve sets stored in blobs using this set of functions.
 - [Handler Socket](https://mariadb.com/kb/en/handlersocket/) - A NoSQL plugin to directly access data in InnoDB and Spider engines.
+- [JSON](https://mariadb.com/kb/en/json-functions/) - Functions in MariaDB for working with JSON data.
+- [Maxscale NoSQL Protocol](https://mariadb.com/kb/en/mariadb-maxscale-2402-maxscale-2402-nosql-protocol-module/) - Compabitble with the MongoDB client Library.
 
 ## User Interfaces
 
