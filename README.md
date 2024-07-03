@@ -7,7 +7,7 @@ Topics are organised by audience, to save people from navigating through the noi
 
 - [Awesome MariaDB for Database Administrators](list-dba.md)
 - [Awesome MariaDB for Developers](list-dev.md)
-- Awesome MariaDB for Data Engineers
+-  [Awesome MariaDB for Data Engineers](list-den.md)
 
 ## Contributing
 
