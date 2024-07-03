@@ -16,9 +16,6 @@ Change Data Capture consists in reading the binary log.
 
 **CDC Tools**
 
-- [mariadb-cdc](https://github.com/madvirus/mariadb-cdc)
-
-
 | Project                                                          | MariaDB Support   | Language / Platform   | License / Platform                   |
 |------------------------------------------------------------------|-------------------|-----------------------|--------------------------------------|
 | [mariadb-cdc](https://github.com/madvirus/mariadb-cdc)           | YES               | Java                  | [Proprietary](https://github.com/madvirus/mariadb-cdc/issues/1) |
