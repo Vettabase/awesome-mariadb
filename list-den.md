@@ -30,6 +30,8 @@ Change Data Capture consists in reading the binary log.
 
 ## Data Integration
 
+The following resources show how to integrate MariaDB with various other data technologies. Resources are grouped by technology type (eg: social networks) and ordered by technology (eg: Facebook, Twitter...). Resources might refer to a particular third party tool, in which case the tool name is indicated before the resource title.
+
 **From Social Networks**
 
 - Twitter
