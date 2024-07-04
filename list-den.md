@@ -9,6 +9,7 @@ This list is intended for Data Engineers. There are lists intended for other aud
 ## Contents
 
 - [Change Data Capture](https://github.com/Vettabase/awesome-mariadb/blob/main/list-den.md#change-data-capture)
+- [Data Integration](https://github.com/Vettabase/awesome-mariadb/blob/main/list-den.md#data-integration)
 
 ## Change Data Capture
 
@@ -26,6 +27,14 @@ Change Data Capture consists in reading the binary log.
 
 - [Deploying Flink CDC Jobs with Docker compose](https://gordonmurray.com/data/2023/11/02/deploying-flink-cdc-jobs-with-docker-compose.html)
 - [MariaDB pipeline in Logstash](https://www.suncrescent.net/2020/06/mariadb-pipeline-in-logstash/)
+
+## Data Integration
+
+**From Social Networks**
+
+- Twitter
+  - Airbyte: [How to load data from Twitter to MariaDB ColumnStore](https://airbyte.com/how-to-sync/twitter-to-mariadb-columnstore)
+  - Improvado: [Connect Twitter To MariaDB Without Coding](https://improvado.io/connections/twitter-to-mariadb)
 
 ---
 
