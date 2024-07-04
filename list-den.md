@@ -36,7 +36,6 @@ The following resources show how to integrate MariaDB with various other data te
 
 - Twitter
   - Airbyte: [How to load data from Twitter to MariaDB ColumnStore](https://airbyte.com/how-to-sync/twitter-to-mariadb-columnstore)
-  - Improvado: [Connect Twitter To MariaDB Without Coding](https://improvado.io/connections/twitter-to-mariadb)
 
 ---
 
