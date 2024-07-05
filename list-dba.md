@@ -75,6 +75,7 @@ Articles:
 ### Docker
 
 - [mariadb image](https://hub.docker.com/_/mariadb) - Official image, maintained by MariaDB Foundation.
+- [linuxserver/mariadb](https://hub.docker.com/r/linuxserver/mariadb) - Maintained by LinuxServer. Different configuration choices, for example the query cache is enabled on demand, rather than disabled. Supports customization via LinuxServer Docker mods.
 
 ### Kubernetes
 
