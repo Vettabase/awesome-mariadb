@@ -103,7 +103,7 @@ In the list below, SQL-aware means that a proxy understands SQL statements, and 
 
 ## Sharding
 
-Sharding solutions require evalation depending on your applications requirements. Some solutions are internal and shard with the application being unaware, or externally using rules and defititions which your application may need to understand or even create and manage.
+The following projects are either sharding components or sub-components that be used to create a sharding solution. There is no "out of the box" solution. Internal or database native options require your application to be aware and even manage the shards. External solutions will require bespoke backup and monitoring tooling for where the database shards are hosted across several servers.
 
 | Project                                                             | MariaDB Support | License / Platform | Notes   |
 |---------------------------------------------------------------------|-----------------|--------------------|---------|
@@ -111,6 +111,7 @@ Sharding solutions require evalation depending on your applications requirements
 | [MaxScale](https://mariadb.com/kb/en/mariadb-maxscale-24-schemarouter/) | YES         | Commercial         | A query and connection router that is part of Maxscale. |
 | [ProxySQL](https://proxysql.com/documentation/how-to-setup-proxysql-sharding/) | YES  | GPLv3              | Sharding in ProxySQL by User, Schema or Data. Sharding is based on rules which pattern match on incoming queries. |
 | [Spider](https://mariadb.com/kb/en/spider/)                         | YES             | GPLv2              | A storage engine for table definition shards and connections to split tables among several servers. |
+| [Vitess](https://vitess.io/docs/19.0/reference/features/sharding/)  | Yes             | Apache 2.0         | Vitess is external to the database engine and also has migration strategies built in. |
 
 
 ## Replication Managers
