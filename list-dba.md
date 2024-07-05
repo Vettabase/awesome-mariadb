@@ -38,6 +38,7 @@ Other sections include resources that were created for MySQL, or for both, and t
 * [Is Galera trx_commit=2 and sync_binlog=0 evil?](https://mysqlquicksand.wordpress.com/2019/09/11/is-galera-trx_commit2-and-sync_binlog0-evil/)
 * [InnoDB Durability](https://lists.mariadb.org/hyperkitty/list/discuss@lists.mariadb.org/thread/SY6YIADSASGFSGHFD2Z35WMU4KOLRAWE/#DVEELBZWT4FCMJBV6SRPVD3EHIE5PCG5) - mailing list discussion
 * [MariaDB connection ID](https://www.fromdual.com/mariadb_connection_id)
+* [Database load balancing for MySQL and MariaDB with ProxySQL](https://severalnines.com/resources/whitepapers/database-load-balancing-for-mysql-and-mariadb-with-proxysql/)
 
 ## Automation
 
