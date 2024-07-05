@@ -61,8 +61,10 @@ Articles:
 | Project                                                               | MariaDB Support                      | License / Platform                        | Description           |
 |-----------------------------------------------------------------------|--------------------------------------|-------------------------------------------|-----------------------|
 | [Backup Manager](https://fromdual.com/fromdual-backup-manager-bman)   | YES                                  |                                           | Supports many types of backups. By FromDual. |
-| [mariadb-dump](https://mariadb.com/kb/en/mariadb-dump/)               | YES                                  | Distributed with MariaDB                  | Logical backups of data and/or schema. |
+| [maria-back-me-up](https://github.com/sapcc/maria-back-me-up)         | YES                                  | Apache License 2                          | Incremental dumps on Kubernetes. Supports archival. |
 | [Mariabackup](https://mariadb.com/kb/en/mariabackup-overview/)        | YES                                  | Distributed with MariaDB                  | Online physical backups. |
+| [mariabackup-script](https://github.com/paskinator/mariabackup-script)  | YES                                | [Proprietary](https://github.com/paskinator/mariabackup-script/issues/1)  | Wrapper script for Mariabackup. Handles failed backups. |
+| [mariadb-dump](https://mariadb.com/kb/en/mariadb-dump/)               | YES                                  | Distributed with MariaDB                  | Logical backups of data and/or schema. |
 
 **Articles**
 
