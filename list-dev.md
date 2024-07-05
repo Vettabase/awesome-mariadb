@@ -96,6 +96,7 @@ Perl
 | C                    | [Connector/C ](https://mariadb.com/kb/en/about-mariadb-connector-c/)                      | YES             |                     |
 | C                    | [mariadb++](https://github.com/viaduck/mariadbpp)                                         | YES             |                     |
 | C++                  | [MariaDB Connector/C++](https://github.com/mariadb-corporation/mariadb-connector-cpp/) | YES     |                     |
+  | C++, Delphi        | [Universal Data Access](https://www.devart.com/unidac/)                                   | [YES](https://www.devart.com/unidac/compatibility.html)  |  |
 | Erlang               | [MySQL/OTP](https://github.com/mysql-otp/mysql-otp)                                       | MySQL           |                     |
 | Fortran              | [MariaDB Connector Fortran](https://github.com/v-h-giang/Mariadb_connector_fortran)       | YES             |                     |
 | Java                 | [Connector/J](https://mariadb.com/kb/en/about-mariadb-connector-j/)                       | YES             | Type 4 JDBC driver  |
