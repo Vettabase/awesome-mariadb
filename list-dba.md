@@ -107,7 +107,6 @@ The following projects are either sharding components or sub-components that be 
 
 | Project                                                             | MariaDB Support | License / Platform | Notes   |
 |---------------------------------------------------------------------|-----------------|--------------------|---------|
-| [CONNECT](https://mariadb.com/kb/en/using-connect-partitioning-and-sharding/) | YES   | GPLv2              | A storage engine. An outward table can be partitioned over serveral remote tables represented as partitions. |
 | [MaxScale](https://mariadb.com/kb/en/mariadb-maxscale-24-schemarouter/) | YES         | Commercial         | A query and connection router that is part of Maxscale. |
 | [ProxySQL](https://proxysql.com/documentation/how-to-setup-proxysql-sharding/) | YES  | GPLv3              | Sharding in ProxySQL by User, Schema or Data. Sharding is based on rules which pattern match on incoming queries. |
 | [Spider](https://mariadb.com/kb/en/spider/)                         | YES             | GPLv2              | A storage engine for table definition shards and connections to split tables among several servers. |
