@@ -161,7 +161,7 @@ Guides on how to work with MariaDB using various IDEs.
 
 ## NoSQL and Key Value Storage
 
-Utilities and methods for using unstructured data in MariaDB.
+Utilities and methods for storing and retrieving unstructured data in MariaDB.
 
 - [Dynamic Columns](https://mariadb.com/kb/en/dynamic-columns/) - Sore and retrieve sets stored in blobs using this set of functions.
 - [Handler Socket](https://mariadb.com/kb/en/handlersocket/) - A NoSQL plugin to directly access data in InnoDB and Spider engines.
