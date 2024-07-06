@@ -11,7 +11,7 @@ This list is intended for Developers. There are lists intended for other audienc
 - [Articles](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dev.md#articles)
 - [Connectors (Drivers)](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dev.md#connectors-drivers)
 - [IDEs](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dev.md#ides)
-- [ORMs](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dev.md#orms)
+- [ORMs](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dev.md#orms-and-other-abstraction-layers)
 - [Schema Versioning Tools](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dev.md#schema-versioning-tools)
 - [User Interfaces](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dev.md#user-interfaces)
 
