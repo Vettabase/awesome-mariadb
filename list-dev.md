@@ -11,6 +11,7 @@ This list is intended for Developers. There are lists intended for other audienc
 - [Articles](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dev.md#articles)
 - [Connectors (Drivers)](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dev.md#connectors-drivers)
 - [IDEs](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dev.md#ides)
+- [Misc Libraries](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dev.md#misc-libraries)
 - [ORMs](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dev.md#orms-and-other-abstraction-layers)
 - [Schema Versioning Tools](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dev.md#schema-versioning-tools)
 - [User Interfaces](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dev.md#user-interfaces)
@@ -136,6 +137,12 @@ Guides on how to work with MariaDB using various IDEs.
 | IntelliJ IDEA     | [IntelliJ IDEA - MariaDB](https://docs.telerik.com/data-access/developers-guide/database-specifics/mariadb/database-specifics-mariadb-create-domain-model.html)                                                                 | Text            |                |
 | RubyMine          | [RubyMine MariaDB plugin documentation](https://www.jetbrains.com/help/ruby/mariadb.html)      | Text            |                |
 | Visual Studio     | [How to: Create A Model Based on MariaDB Database](https://docs.telerik.com/data-access/developers-guide/database-specifics/mariadb/database-specifics-mariadb-create-domain-model.html)                                                                 | Text            |                |
+
+## Misc Libraries
+
+Libraries that can't be classified as connectors or ORMs.
+
+- [SQLGlot](https://github.com/tobymao/sqlglot/) - Libraries to parse SQL in various dialects. Supports MySQL with very minor divergencies from MariaDB.
 
 ## ORMs and other abstraction layers
 
