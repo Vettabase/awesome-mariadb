@@ -118,10 +118,12 @@ Perl
 | Ruby                 | [mysql Ruby gem](https://rubygems.org/gems/mysql/)                                        | MySQL           | [1]                 |
 | Ruby                 | [tencentcloud-sdk-mariadb](https://rubygems.org/gems/tencentcloud-sdk-mariadb)            | YES             | [1]                 |
 | Swift                | [Perfect MariaDB Connector](https://github.com/PerfectlySoft/Perfect-MariaDB)             | YES             |                     |
+| Zig                  | [myzql](https://github.com/speed2exe/myzql)                                               | NOT VERIFIED    | [2]                 |
 
 Notes:
 
 1. `tencentcloud-sdk-mariadb` is actively maintained by Tencent. The `mysql` gem is by far the most used, but it's unmaintained since 2021. `jdbc-mariadb` is also unmaintained since 2019.
+2. Pre-production maturity level.
 
 ## IDEs
 
