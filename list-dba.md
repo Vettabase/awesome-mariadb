@@ -142,6 +142,7 @@ In the list below, SQL-aware means that a proxy understands SQL statements, and 
 |--------------------------------------------------------------------------------------|--------------------------------|-------------------|----------------------------|---------|
 | [common_schema](https://github.com/shlomi-noach/common_schema)                       | YES                            | [GPL2](https://github.com/shlomi-noach/common_schema/blob/master/LICENSE)                                                                                                                                                     | Stored Procedures          | A library of stored procedures for DBAs. Includes a parser for its own language, QueryScript, and a debugger. |
 | [Percona Toolkit](https://www.percona.com/software/database-tools/percona-toolkit)   | YES                            | [GPL2](https://github.com/percona/percona-toolkit/blob/3.x/COPYING)                                                                                                                                                           | Perl                       | A set of Perl scripts for MariaDB and MySQL administration.
+| [SQLAxe](https://github.com/djberube/sqlaxe/) | MySQL | [MIT](https://github.com/djberube/sqlaxe/blob/main/LICENSE) | Python | Tool to manipulate SQL files. Based on SQLGlot, that currently doesn't support any MariaDB specific syntax. |
 
 ## User Interfaces
 
