@@ -110,7 +110,6 @@ The following projects are either sharding components or sub-components that be 
 | [MaxScale](https://mariadb.com/kb/en/mariadb-maxscale-24-schemarouter/) | YES         | Commercial         | A query and connection router that is part of Maxscale. |
 | [ProxySQL](https://proxysql.com/documentation/how-to-setup-proxysql-sharding/) | YES  | GPLv3              | Sharding in ProxySQL by User, Schema or Data. Sharding is based on rules which pattern match on incoming queries. |
 | [Spider](https://mariadb.com/kb/en/spider/)                         | YES             | GPLv2              | A storage engine for table definition shards and connections to split tables among several servers. |
-| [Vitess](https://vitess.io/docs/19.0/reference/features/sharding/)  | Yes             | Apache 2.0         | Vitess is external to the database engine and also has migration strategies built in. |
 
 
 ## Replication Managers
