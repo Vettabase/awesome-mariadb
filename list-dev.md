@@ -143,6 +143,7 @@ Guides on how to work with MariaDB using various IDEs.
 
 Libraries that can't be classified as connectors or ORMs.
 
+- [MariaDB4j](https://github.com/MariaDB4j/MariaDB4j) - a Java launcher to run MariaDB without installation or external dependencies.
 - [SQLGlot](https://github.com/tobymao/sqlglot/) - Libraries to parse SQL in various dialects. Supports MySQL with very minor divergencies from MariaDB.
 
 ## ORMs and other abstraction layers
