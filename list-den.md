@@ -19,6 +19,7 @@ Change Data Capture consists in reading the binary log.
 
 | Project                                                          | MariaDB Support   | Language / Platform   | License / Platform                   |
 |------------------------------------------------------------------|-------------------|-----------------------|--------------------------------------|
+| [Apache NiFi](https://nifi.apache.org/)                          | [MySQL](https://nifi.apache.org/docs/nifi-docs/components/org.apache.nifi/nifi-cdc-mysql-nar/1.24.0/org.apache.nifi.cdc.mysql.processors.CaptureChangeMySQL/index.html)                                                                                                       | Java                  | [Apache2](https://github.com/apache/nifi/blob/main/LICENSE) |
 | [Debezium](https://github.com/madvirus/mariadb-cdc)              | [YES](https://debezium.io/documentation/reference/stable/connectors/mysql.html#mysql-mariadb-support)  | Java       | [Apache2](https://debezium.io/license/) |
 | [mariadb-cdc](https://github.com/madvirus/mariadb-cdc)           | YES               | Java                  | [Proprietary](https://github.com/madvirus/mariadb-cdc/issues/1) |
 | [pg_chameleon](https://pgchameleon.org/)                         | MySQL             | Python3               | [BSD](https://github.com/the4thdoctor/pg_chameleon/blob/main/LICENSE.txt) |
