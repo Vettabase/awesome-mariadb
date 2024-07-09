@@ -164,8 +164,11 @@ Guides on how to work with MariaDB using various IDEs.
 Links to articles and information on the various methods and utilities to read and write unstructure or NoSQL data to MariaDB.
 
 - [Dynamic Columns Tutorial](https://mariadb.com/resources/blog/dynamic-columns-tutorial-part-1-introduction/)
+- [How to Manage NoSQL Data with MariaDB](https://mariadb.com/resources/blog/how-to-manage-nosql-data-with-mariadb/)
+- [MariaDB for NoSQL users](https://archive.fosdem.org/2021/stands.fosdem.org/stands/mariadb_foundation/mariadb-for-nosql/index.html)
 - [NoSQL Protocol and Caching in MariaDB MaxScale](https://mariadb.com/resources/blog/nosql-protocol-and-caching-in-mariadb-maxscale/)
 - [Using JSON in MariaDB](https://mariadb.com/resources/blog/using-json-in-mariadb/)
+- [Using MariaDB as a MongoDB NoSQL Database](https://hackernoon.com/using-mariadb-as-a-mongodb-nosql-database)
 
 ## User Interfaces
 
