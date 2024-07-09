@@ -15,6 +15,8 @@ This list is intended for Data Engineers. There are lists intended for other aud
 
 Change Data Capture consists in reading the binary log.
 
+Some of these projects are complete data flow platforms that are able to consume the MariaDB binary log. Others are just log consumers that support the MariaDB binary log.
+
 **CDC Tools**
 
 | Project                                                          | MariaDB Support   | Language / Platform   | License / Platform                   |
