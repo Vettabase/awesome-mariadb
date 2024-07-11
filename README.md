@@ -3,11 +3,13 @@ A curated list of awesome MariaDB resources, maintained by [Vettabase](https://v
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) Inspired by the `awesome-*` trend on GitHub.
 
-Topics are organised by audience, to save people from navigating through the noise:
+Topics are organised by audience, to save people from navigating through the noise.
 
-- [Awesome MariaDB for Database Administrators](list-dba.md)
-- [Awesome MariaDB for Developers](list-dev.md)
-- [Awesome MariaDB for Data Engineers](list-den.md)
+Awesome MariaDB sublists:
+
+- **[Awesome MariaDB for Database Administrators](list-dba.md)**
+- **[Awesome MariaDB for Developers](list-dev.md)**
+- **[Awesome MariaDB for Data Engineers](list-den.md)**
 
 ## The Problem we Try to Solve
 
