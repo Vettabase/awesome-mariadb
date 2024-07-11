@@ -130,6 +130,12 @@ The result will look like the following:
 
 [![Mentioned in Awesome MariaDB](https://awesome.re/mentioned-badge.svg)](https://github.com/Vettabase/awesome-mariadb)
 
+## Related Awesome Lists
+
+- [Awesome MySQL](https://github.com/shlomi-noach/awesome-mysql) - Resources or MySQL and its variants. Only includes resources that are open source and available without registration. Their quality requirements are stricter than ours.
+- [Awesome MySQL Performance](https://github.com/Releem/awesome-mysql-performance) - A curated list of awesome links related to MySQL / MariaDB / Percona Server configuration tuning for improved performance.
+- [Awesome Database](https://github.com/agarcialeon/awesome-database) - A categorized community-driven collection of amazingly awesome database resources.
+
 ---
 
 Copyright 2024 Vettabase Ltd and contributors.
