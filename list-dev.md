@@ -48,12 +48,13 @@ Loosely ordered by language, SQL first.
 | [MariaDB Tutorial](https://www.tutorialspoint.com/mariadb/)           | SQL, PHP         | BEGINNER         | Text           | [2]            |
 | [How To Store and Retrieve Data in MariaDB Using Python](https://www.digitalocean.com/community/tutorials/how-to-store-and-retrieve-data-in-mariadb-using-python-on-ubuntu-18-04) | Python | BEGINNER / INTERMEDIATE | Text |
 | [Connect to MariaDB Data in Ruby](https://www.cdata.com/kb/tech/mariadb-odbc-ruby.rst)   | Ruby             | BEGINNER         | Text           |                |
-
+| [Three simple rules to not fail (too much) your data design](https://github.com/SylvainA77/articles/blob/main/Three-rules-not-fail-data-design.md) | N/A | BEGINNER / INTERMEDIATE | Text | [3]
 
 Notes
 
 1. The Java part only shows how to connect to MariaDB with a JDBC driver.
 2. The PHP part might be obsolete, because it still uses the old `mysql` non-OOP extension. However, editing the snippets to use `mysqli` or other libraries should be easy.
+3. Fully data design oriented
 
 **Language-specific articles**
 
