@@ -14,6 +14,7 @@ This list is intended for Developers. There are lists intended for other audienc
 - [Misc Libraries](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dev.md#misc-libraries)
 - [ORMs](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dev.md#orms-and-other-abstraction-layers)
 - [Schema Versioning Tools](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dev.md#schema-versioning-tools)
+- [NoSQL and Key Value Storage](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dev.md#nosql-and-key-value-storage)
 - [User Interfaces](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dev.md#user-interfaces)
 
 ## MariaDB Support Key
@@ -175,6 +176,18 @@ Libraries that can't be classified as connectors or ORMs.
 | [Flyway](https://flywaydb.org/)                         | [5.1, 10.11](https://documentation.red-gate.com/flyway/flyway-cli-and-api/supported-databases/mariadb)
 | [Liquibase](https://www.liquibase.com/)                 | [PARTIAL](https://www.liquibase.com/databases/mariadb-server)
 | [Skeema.io](https://www.skeema.io/)                     | [10.1](https://www.skeema.io/docs/requirements/)
+
+## NoSQL and Key Value Storage
+
+Links to articles and information on the various methods and utilities to read and write unstructure or NoSQL data to MariaDB.
+
+- [Dynamic Columns Tutorial](https://mariadb.com/resources/blog/dynamic-columns-tutorial-part-1-introduction/)
+- [Dynamic columns in MariaDB](http://radar.oreilly.com/2015/04/dynamic-columns-in-mariadb.html)
+- [How to Manage NoSQL Data with MariaDB](https://mariadb.com/resources/blog/how-to-manage-nosql-data-with-mariadb/)
+- [MariaDB for NoSQL users](https://archive.fosdem.org/2021/stands.fosdem.org/stands/mariadb_foundation/mariadb-for-nosql/index.html)
+- [NoSQL Protocol and Caching in MariaDB MaxScale](https://mariadb.com/resources/blog/nosql-protocol-and-caching-in-mariadb-maxscale/)
+- [Using JSON in MariaDB](https://mariadb.com/resources/blog/using-json-in-mariadb/)
+- [Using MariaDB as a MongoDB NoSQL Database](https://hackernoon.com/using-mariadb-as-a-mongodb-nosql-database)
 
 ## User Interfaces
 
