@@ -79,6 +79,10 @@ Perl
 
 * [Migrating from DBD::mysql to DBD::MariaDB](https://blogs.perl.org/users/grinnz/2023/12/migrating-from-dbdmysql-to-dbdmariadb.html)
 
+Python
+
+* [Quick Tip: SQLAlchemy for MySQL and Pandas](https://pythondata.com/quick-tip-sqlalchemy-for-mysql-and-pandas/)
+
 **Plain SQL articles**
 
 
