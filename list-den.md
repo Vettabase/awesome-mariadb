@@ -40,6 +40,7 @@ The following resources show how to integrate MariaDB with various other data te
 
 - Twitter
   - Airbyte: [How to load data from Twitter to MariaDB ColumnStore](https://airbyte.com/how-to-sync/twitter-to-mariadb-columnstore)
+  - Python: [Collecting / Storing Tweets with Python and MySQL](https://pythondata.com/collecting-storing-tweets-python-mysql/). Applies to MariaDB with no differences.
 
 ---
 
