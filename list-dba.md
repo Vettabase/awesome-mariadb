@@ -93,8 +93,8 @@ Articles:
 |---------------------------------------------------------------------|-------------------------------------------------------------|------------------------------------------------------------|---------|
 | [Datadog](https://docs.datadoghq.com)                               | [MYSQL](https://docs.datadoghq.com)                         | Cloud                                                      |         |
 | [PMM](https://docs.percona.com/percona-monitoring-and-management/)  | YES                                                         | [AGPL3](https://github.com/percona/pmm/blob/main/LICENSE) or cloud   | [1]     |
-| [SolarWinds](https://www.solarwinds.com/)                           | YES                                                         | Commercial in-premise or cloud                             |         |
-| [SSM](https://shatteredsilicon.net/mysql-monitoring-ssm/)           | YES                                                         | Open source                                                | [2]     |
+| [SolarWinds](https://www.solarwinds.com/)                           | YES                                                         | Proprietary in-premise or cloud                             |         |
+| [SSM](https://shatteredsilicon.net/mysql-monitoring-ssm/)           | YES                                                         | ?                                                | [2]     |
 | [Zabbix](https://www.zabbix.com/)                                | YES                         | [AGPL3](https://github.com/zabbix/zabbix/blob/master/COPYING)   | [3]
 
 1. See the [online demo](https://pmmdemo.percona.com).
