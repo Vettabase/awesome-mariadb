@@ -195,6 +195,18 @@ Links to articles and information on the various methods and utilities to read a
 - [Using JSON in MariaDB](https://mariadb.com/resources/blog/using-json-in-mariadb/)
 - [Using MariaDB as a MongoDB NoSQL Database](https://hackernoon.com/using-mariadb-as-a-mongodb-nosql-database)
 
+
+## User-Defined Functions
+
+**Articles**
+
+TBD
+
+**Libraries**
+
+TBD
+
+
 ## User Interfaces
 
 **GUIs**
@@ -239,17 +251,6 @@ Notes
 | Project Name                                                                | MariaDB Support                                 | Platforms             | Free / Commercial  |
 |-----------------------------------------------------------------------------|-------------------------------------------------|-----------------------|--------------------|
 | [mycli](https://www.mycli.net/)                                             | YES                                             | Python                | FREE               |
-
-
-## User-Defined Functions
-
-**Articles**
-
-TBD
-
-**Libraries**
-
-TBD
 
 
 ---
