@@ -132,7 +132,7 @@ Python
 | Swift                | [Perfect MariaDB Connector](https://github.com/PerfectlySoft/Perfect-MariaDB)             | YES             |                     |
 | Zig                  | [myzql](https://github.com/speed2exe/myzql)                                               | NOT VERIFIED    | [3]                 |
 
-Notes:
+Notes
 
 1. Uses Connector/C via [CTypes](https://github.com/yallop/ocaml-ctypes). From the `README` file: "Only the prepared-statement APIs are exposed by OCaml-MariaDB, as these functions provide typed query parameters and database field access".
 2. `tencentcloud-sdk-mariadb` is actively maintained by Tencent. The `mysql` gem is by far the most used, but it's unmaintained since 2021. `jdbc-mariadb` is also unmaintained since 2019.
@@ -186,7 +186,7 @@ Links to articles and information on the various methods and utilities to read a
 | Ruby on Rails | [Active Record](https://guides.rubyonrails.org/)   | [YES](https://guides.rubyonrails.org/active_record_querying.html) |
 | Rust        | [Diesel](https://github.com/diesel-rs/diesel/)       | [YES](https://mariadb.org/improving-mariadb-support-in-open-source-projects/) |
 
-**@TODO:** Check the ORMs in [this list](https://en.wikipedia.org/wiki/List_of_object%E2%80%93relational_mapping_software).
+**@TODO** Check the ORMs in [this list](https://en.wikipedia.org/wiki/List_of_object%E2%80%93relational_mapping_software).
 
 ## Schema Versioning Tools
 
