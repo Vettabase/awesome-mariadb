@@ -15,6 +15,7 @@ This list is intended for Developers. There are lists intended for other audienc
 - [ORMs](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dev.md#orms-and-other-abstraction-layers)
 - [Schema Versioning Tools](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dev.md#schema-versioning-tools)
 - [NoSQL and Key Value Storage](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dev.md#nosql-and-key-value-storage)
+- [User-Defined Functions](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dev.md#user-defined-functions)
 - [User Interfaces](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dev.md#user-interfaces)
 
 ## MariaDB Support Key
@@ -238,6 +239,18 @@ Notes
 | Project Name                                                                | MariaDB Support                                 | Platforms             | Free / Commercial  |
 |-----------------------------------------------------------------------------|-------------------------------------------------|-----------------------|--------------------|
 | [mycli](https://www.mycli.net/)                                             | YES                                             | Python                | FREE               |
+
+
+## User-Defined Functions
+
+**Articles**
+
+TBD
+
+**Libraries**
+
+TBD
+
 
 ---
 
