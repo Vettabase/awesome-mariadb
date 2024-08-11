@@ -200,6 +200,8 @@ Links to articles and information on the various methods and utilities to read a
 
 ## User-Defined Functions
 
+To our knowledge, all MySQL UDFs should work with MariaDB. For this reason we don't provide information about MariaDB compatibility.
+
 **Articles**
 
 - [Extending MariaDB with user-defined functions](https://www.slideshare.net/slideshow/extending-mariadb-with-userdefined-functions/135046794) (slides)
