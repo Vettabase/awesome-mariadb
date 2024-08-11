@@ -204,6 +204,7 @@ Links to articles and information on the various methods and utilities to read a
 
 - [Extending MariaDB with user-defined functions](https://www.slideshare.net/slideshow/extending-mariadb-with-userdefined-functions/135046794) (slides)
 - [MySQL: Implementation of User Defined (Loadable) Function and using BLOB to store BigInteger](https://al-amintech.medium.com/mysql-implementation-of-user-defined-loadable-function-and-using-blob-to-store-biginteger-774a1b478a40)
+- [Writing User-Defined Functions in Rust](https://mariadb.org/writing-user-defined-functions-in-rust/)
 
 **Libraries**
 
