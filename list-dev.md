@@ -223,6 +223,7 @@ Frameworks and libraries to ease UDFs developing.
 
 | Project                                                        | License | Language | Notes |
 | -------------------------------------------------------------- | ------- | -------- | ----- |
+| [lib_mysqludf_stomp](https://github.com/mysqludf/lib_mysqludf_stomp) | Apache 2 | UDF to send STOMP messages. |
 | [lib_mysqludf_ta](https://github.com/mysqludf/lib_mysqludf_ta) | Open Source | C    | Library for technical analysis. |
 | [mysql_udf_http_golang](https://github.com/2rebi/mysql_udf_http_golang) | [Open Source](https://github.com/2rebi/mysql_udf_http_golang?tab=readme-ov-file#license) | Go | HTTP requests. |
 
