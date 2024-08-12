@@ -100,6 +100,8 @@ Python
 
 ## Connectors (Drivers)
 
+The connectors are grouped by language.
+
 | Platform / Language  | ORM Name                                                                                  | MariaDB Support | Notes               |
 | -------------------- | ----------------------------------------------------------------------------------------- | --------------- | ------------------- |
 | C                    | [Connector/C ](https://mariadb.com/kb/en/about-mariadb-connector-c/)                      | YES             |                     |
