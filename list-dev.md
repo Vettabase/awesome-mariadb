@@ -37,7 +37,7 @@ The following resources are specific to MariaDB.
 
 Loosely ordered by language, SQL first.
 
-| Project                                                               | Language         | Level            | Formet         | Notes          |
+| Project                                                               | Language         | Level            | Format         | Notes          |
 |-----------------------------------------------------------------------|------------------|------------------|----------------|----------------|
 | [MariaDB Tutorial](https://www.javatpoint.com/mariadb-tutorial)       | Pure SQL         | BEGINNER         | Text           |                |
 | [Using MariaDB With ASP.NET Core Web API](https://code-maze.com/aspnetcore-using-mariadb-with-web-api/)   | ASP.NET          | INTERMEDIATE   | Text           |                |
