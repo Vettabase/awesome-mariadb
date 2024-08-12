@@ -216,7 +216,7 @@ Frameworks and libraries to ease UDFs developing.
 
 | Project                                                        | License | Language | Notes |
 | -------------------------------------------------------------- | ------- | -------- | ----- |
-| [lib_mysqludf_skeleton](https://github.com/mysqludf/lib_mysqludf_skeleton) | [LGPL](https://github.com/mysqludf/lib_mysqludf_skeleton/blob/master/COPYING) | UDF skeleton project |
+| [lib_mysqludf_skeleton](https://github.com/mysqludf/lib_mysqludf_skeleton) | C      | [LGPL](https://github.com/mysqludf/lib_mysqludf_skeleton/blob/master/COPYING) | UDF skeleton project |
 | [sql-udf](https://github.com/pluots/sql-udf)                   | [Open Source](https://github.com/pluots/udf-suite?tab=readme-ov-file#license) | Rust | Wrapper for developing UDFs in Rust |
 
 **Libraries**
