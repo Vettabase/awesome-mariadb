@@ -223,6 +223,7 @@ Frameworks and libraries to ease UDFs developing.
 
 | Project                                                        | License | Language | Notes |
 | -------------------------------------------------------------- | ------- | -------- | ----- |
+| [libmyemail](https://github.com/codayblue/libmyemail)          | [MIT](https://github.com/codayblue/libmyemail/blob/master/LICENSE.md) | C++ | Function to send emails. |
 | [lib_mysqludf_stomp](https://github.com/mysqludf/lib_mysqludf_stomp) | Apache 2 | C | UDF to send STOMP messages. |
 | [lib_mysqludf_ta](https://github.com/mysqludf/lib_mysqludf_ta) | Open Source | C    | Library for technical analysis. |
 | [lib_mysqludf_xml](https://github.com/mysqludf/lib_mysqludf_xml) | [LGPL 2.1](https://github.com/mysqludf/lib_mysqludf_xml/blob/master/COPYING) | C | [XQL](https://www.ibiblio.org/xql/xql-proposal.html) functions |
