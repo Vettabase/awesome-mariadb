@@ -125,7 +125,7 @@ The following projects are either sharding components or sub-components that be 
 
 | Project                                                                | MariaDB Support   | License / Platform |
 |------------------------------------------------------------------------|-------------------|--------------------|
-| [Replication Manager](https://signal18.io/products/srm)                | 10.0+             | GPl / Commercial   |
+| [Replication Manager](https://signal18.io/products/srm)                | 10.0+             | GPL / Commercial   |
 | [ClusterControl](https://docs.severalnines.com/docs/clustercontrol/)   | Yes               | Open Core          |
 
 ## Schema Versioning Tools
