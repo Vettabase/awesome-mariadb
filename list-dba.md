@@ -116,7 +116,7 @@ The following projects are either sharding components or sub-components that be 
 
 | Project                                                             | MariaDB Support | License / Platform | Notes   |
 |---------------------------------------------------------------------|-----------------|--------------------|---------|
-| [MaxScale](https://mariadb.com/kb/en/mariadb-maxscale-24-schemarouter/) | YES         | Commercial         | A query and connection router that is part of Maxscale. |
+| [MaxScale](https://mariadb.com/kb/en/mariadb-maxscale-24-schemarouter/) | YES         | Proprietary        | A query and connection router that is part of Maxscale. |
 | [ProxySQL](https://proxysql.com/documentation/how-to-setup-proxysql-sharding/) | YES  | GPLv3              | Sharding in ProxySQL by User, Schema or Data. Sharding is based on rules which pattern match on incoming queries. |
 | [Spider](https://mariadb.com/kb/en/spider/)                         | YES             | GPLv2              | A storage engine for table definition shards and connections to split tables among several servers. |
 
@@ -125,7 +125,7 @@ The following projects are either sharding components or sub-components that be 
 
 | Project                                                                | MariaDB Support   | License / Platform |
 |------------------------------------------------------------------------|-------------------|--------------------|
-| [Replication Manager](https://signal18.io/products/srm)                | 10.0+             | GPL / Commercial   |
+| [Replication Manager](https://signal18.io/products/srm)                | 10.0+             | GPL / Proprietary  |
 | [ClusterControl](https://docs.severalnines.com/docs/clustercontrol/)   | Yes               | Open Core          |
 
 ## Schema Versioning Tools
@@ -160,10 +160,10 @@ The following projects are either sharding components or sub-components that be 
 
 **GUIs**
 
-| Project Name                                                                | MariaDB Support                                 | Platforms             | Free / Commercial  | Notes |
+| Project Name                                                                | MariaDB Support                                 | Platforms             | Licence    | Notes |
 |-----------------------------------------------------------------------------|-------------------------------------------------|-----------------------|--------------------|-------|
 | [Beekeeper Studio](https://www.beekeeperstudio.io/)                         | [NOT VERIFIED](https://docs.beekeeperstudio.io/user_guide/connecting/first-page/)  | Linux, MacOS, Windows | BOTH               |       |
-| [DataGrip](https://www.jetbrains.com/datagrip/)                             | [YES](https://www.jetbrains.com/datagrip/features/) | Linux, MacOS, Windows | Commercial     |       |
+| [DataGrip](https://www.jetbrains.com/datagrip/)                             | [YES](https://www.jetbrains.com/datagrip/features/) | Linux, MacOS, Windows | Proprietary     |       |
 | [DBeaver](https://dbeaver.io/)                                              | [NOT VERIFIED](https://dbeaver.com/databases/)  | Linux, MacOS, Windows | BOTH               |       |
 | [DbVisualizer](https://www.dbvis.com/)                                      | NOT VERIFIED                                    | Native: Linux, Windows; Java: Linux, MacOS, Windows | BOTH               |       |
 | [Harlequin](https://harlequin.sh/)                                          | MySQL                                           | Python                | FREE               |       |
@@ -172,15 +172,15 @@ The following projects are either sharding components or sub-components that be 
 | [ocelotgui](http://ocelot.ca/)                                              | YES                                             | Linux                 | FREE               |       |
 | [OpenOffice Base](https://www.openoffice.org/product/base.html)             | [MySQL](https://www.openoffice.org/product/base.html) | Linux, MacOS, Windows | FREE                 | [2]   |
 | [Sequel Pro](https://www.sequelpro.com/)                                    | PARTIAL                                         | MacOS                 | FREE                       | [3]   |
-| [Database Workbench](https://www.upscene.com/database_workbench/) | [NOT VERIFIED](https://www.upscene.com/database_workbench/database-development-tool-for-mysql-and-mariadb)  | Windows               | Commercial         |       |
-| [dbForge Studio for MySQL](https://www.devart.com/dbforge/mysql/studio/)    | NOT VERIFIED                                    | Windows               | Commercial         |       |
-| [dbForge Edge](https://www.devart.com/dbforge/edge/features.html)           | NOT VERIFIED                                    | Windows               | Commercial         |       |
-| [Navicat](https://www.navicat.com/)                                         | [YES]([https://www.navicat.com/en/products/navicat-for-mysql-feature-matrix](https://navicat.com/en/products/navicat-for-mariadb)) | YES | Linux, MacOS, Windows | Commercial |       |
-| [SQLPro Studio](https://www.sqlprostudio.com/)                              | NOT VERIFIED                                    | MacOS, Windows, iOS   | Commercial |       |
-| [SQLyog](https://webyog.com/product/sqlyog/)                                | NOT VERIFIED                                    | Windows               | Commercial         |       |
-| [TablePlus](https://tableplus.com/)                                         | [NOT VERIFIED]([https://dbeaver.com/databases/](https://docs.tableplus.com/))  | Linux, MacOS, Windows, iOS | Commercial      |       |
-| [Toad Edge](https://toadworld.com/)                                         | NOT VERIFIED                                    | MacOS, Windows, Jenkins plugin | Commercial |       |
-| [Valentina Studio](https://valentina-db.com/)                               | [NOT VERIFIED](https://valentina-db.com/en/database-management) | Linux, MacOS, Windows      | Commercial  |       |
+| [Database Workbench](https://www.upscene.com/database_workbench/) | [NOT VERIFIED](https://www.upscene.com/database_workbench/database-development-tool-for-mysql-and-mariadb)  | Windows               | Proprietary         |       |
+| [dbForge Studio for MySQL](https://www.devart.com/dbforge/mysql/studio/)    | NOT VERIFIED                                    | Windows               | Proprietary         |       |
+| [dbForge Edge](https://www.devart.com/dbforge/edge/features.html)           | NOT VERIFIED                                    | Windows               | Proprietary         |       |
+| [Navicat](https://www.navicat.com/)                                         | [YES]([https://www.navicat.com/en/products/navicat-for-mysql-feature-matrix](https://navicat.com/en/products/navicat-for-mariadb)) | YES | Linux, MacOS, Windows | Proprietary |       |
+| [SQLPro Studio](https://www.sqlprostudio.com/)                              | NOT VERIFIED                                    | MacOS, Windows, iOS   | Proprietary |       |
+| [SQLyog](https://webyog.com/product/sqlyog/)                                | NOT VERIFIED                                    | Windows               | Proprietary         |       |
+| [TablePlus](https://tableplus.com/)                                         | [NOT VERIFIED]([https://dbeaver.com/databases/](https://docs.tableplus.com/))  | Linux, MacOS, Windows, iOS | Proprietary      |       |
+| [Toad Edge](https://toadworld.com/)                                         | NOT VERIFIED                                    | MacOS, Windows, Jenkins plugin | Proprietary |       |
+| [Valentina Studio](https://valentina-db.com/)                               | [NOT VERIFIED](https://valentina-db.com/en/database-management) | Linux, MacOS, Windows      | Proprietary  |       |
 
 Notes
 
@@ -190,14 +190,14 @@ Notes
 
 **Web Interfaces**
 
-| Project Name                                                                | MariaDB Support                                 | Platforms             | Free / Commercial  |
+| Project Name                                                                | MariaDB Support                                 | Platforms             | License  |
 |-----------------------------------------------------------------------------|-------------------------------------------------|-----------------------|--------------------|
 | [Adminer](https://www.adminer.org/)                                         | NOT VERIFIED                                    | PHP                   | FREE               |
 | [phpMyAdmin](https://www.phpmyadmin.net/)                                   | YES                                             | PHP                   | FREE               |
 
 **TUIs**
 
-| Project Name                                                                | MariaDB Support                                 | Platforms             | Free / Commercial  |
+| Project Name                                                                | MariaDB Support                                 | Platforms             | License  |
 |-----------------------------------------------------------------------------|-------------------------------------------------|-----------------------|--------------------|
 | [mycli](https://www.mycli.net/)                                             | YES                                             | Python                | FREE               |
 
