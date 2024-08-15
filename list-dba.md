@@ -21,16 +21,7 @@ This list is intended for Database Administrators. There are lists intended for 
 - [Toolkits](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#toolkits)
 - [User Interfaces](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#user-interfaces)
 
-## MariaDB Support Key
-
-Some of the below sections only include resources that were created for MariaDB.
-
-Other sections include resources that were created for MySQL, or for both, and the extent of MariaDB support is not always optimal. For those resources, we indicate the MariaDB support level. Refer to this key.
-
-- `MySQL`: The resource states that it supports MySQL, but not MariaDB.
-- `YES`: The resource states it supports MariaDB specifically, not something like "MySQL/MariaDB".
-- `NOT VERIFIED`: The resource states that it supports MySQL and MariaDB (or the specified version number) but we do not know whether full support for MariaDB is implemented. It's possible that MariaDB support is assumed as a consequence of MySQL support, but this might be inaccurate. Please report any relevant problems you might find to us (and to the resource itself).
-- `PARTIAL`: We have a clear list of what is or isn't officially supported.
+See the [key](#key) for explanations of the terms used in this list.
 
 ## Articles
 
@@ -200,6 +191,33 @@ Notes
 | Project Name                                                                | MariaDB Support                                 | Platforms             | License  |
 |-----------------------------------------------------------------------------|-------------------------------------------------|-----------------------|--------------------|
 | [mycli](https://www.mycli.net/)                                             | YES                                             | Python                | Open Source        |
+
+## Key
+
+Meaning of the terms used in this list.
+
+### MariaDB Support
+
+Some of the sections include resources that were created for MySQL, or for both MariaDB and MySQL. The extent of MariaDB support is not always optimal. For those resources, we indicate the MariaDB support level as follows:
+
+- `YES`: Specific support for MariaDB is indicated, or can be inferred from the documentation or the source code. "Supports MySQL/MariaDB" is not considered specific MariaDB support, because the author might assume that what works on MySQL will work on MariaDB equally well.
+- `MySQL`: Officially supports MySQL, but not MariaDB.
+- `NOT VERIFIED`: Officially supports MySQL and MariaDB but we do not know whether full support for MariaDB is implemented.
+- `PARTIAL`: We are aware of relevant bugs or missing features.
+
+If you disagree about a project's MariaDB Support indication, please report a bug.
+
+### License
+
+The license column might need a better name.
+
+- `Cloud` - Available as a cloud service.
+- `Proprietary` - Source is available, but software is not Open Source.
+- `Open Source` - The license is [approved by OSI](https://opensource.org/licenses).
+- For software that uses a single, open source, well-known license we sometimes indicate the license name.
+
+For non-cloud software, we ancourage you to verify the license where relevant. Indicating a specific license is usually a simplification, because an application could be distributed with multiple licenses, or it might include libraries that use different licenses.
+
 
 ---
 
