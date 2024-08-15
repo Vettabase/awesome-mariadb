@@ -199,7 +199,7 @@ Notes
 
 | Project Name                                                                | MariaDB Support                                 | Platforms             | License  |
 |-----------------------------------------------------------------------------|-------------------------------------------------|-----------------------|--------------------|
-| [mycli](https://www.mycli.net/)                                             | YES                                             | Python                | FREE               |
+| [mycli](https://www.mycli.net/)                                             | YES                                             | Python                | Open Source        |
 
 ---
 
