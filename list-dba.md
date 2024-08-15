@@ -192,8 +192,8 @@ Notes
 
 | Project Name                                                                | MariaDB Support                                 | Platforms             | License  |
 |-----------------------------------------------------------------------------|-------------------------------------------------|-----------------------|--------------------|
-| [Adminer](https://www.adminer.org/)                                         | NOT VERIFIED                                    | PHP                   | FREE               |
-| [phpMyAdmin](https://www.phpmyadmin.net/)                                   | YES                                             | PHP                   | FREE               |
+| [Adminer](https://www.adminer.org/)                                         | NOT VERIFIED                                    | PHP                   | Apache2 or GPL2    |
+| [phpMyAdmin](https://www.phpmyadmin.net/)                                   | YES                                             | PHP                   | [FREE](https://github.com/phpmyadmin/phpmyadmin/blob/master/LICENSE)               |
 
 **TUIs**
 
