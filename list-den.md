@@ -11,6 +11,8 @@ This list is intended for Data Engineers. There are lists intended for other aud
 - [Change Data Capture](https://github.com/Vettabase/awesome-mariadb/blob/main/list-den.md#change-data-capture)
 - [Data Integration](https://github.com/Vettabase/awesome-mariadb/blob/main/list-den.md#data-integration)
 
+See the [key](#key) for explanations of the terms used in this list.
+
 ## Change Data Capture
 
 Change Data Capture consists in reading the binary log.
@@ -43,6 +45,34 @@ The following resources show how to integrate MariaDB with various other data te
 - Twitter
   - Airbyte: [How to load data from Twitter to MariaDB ColumnStore](https://airbyte.com/how-to-sync/twitter-to-mariadb-columnstore)
   - Python: [Collecting / Storing Tweets with Python and MySQL](https://pythondata.com/collecting-storing-tweets-python-mysql/). Applies to MariaDB with no differences.
+
+
+## Key
+
+Meaning of the terms used in this list.
+
+### MariaDB Support
+
+Some of the sections include resources that were created for MySQL, or for both MariaDB and MySQL. The extent of MariaDB support is not always optimal. For those resources, we indicate the MariaDB support level as follows:
+
+- `YES`: Specific support for MariaDB is indicated, or can be inferred from the documentation or the source code. "Supports MySQL/MariaDB" is not considered specific MariaDB support, because the author might assume that what works on MySQL will work on MariaDB equally well.
+- `MySQL`: Officially supports MySQL, but not MariaDB.
+- `NOT VERIFIED`: Officially supports MySQL and MariaDB but we do not know whether full support for MariaDB is implemented.
+- `PARTIAL`: We are aware of relevant bugs or missing features.
+
+If you disagree about a project's MariaDB Support indication, please report a bug.
+
+### License
+
+The license column might need a better name.
+
+- `Cloud` - Available as a cloud service.
+- `Proprietary` - Source is available, but software is not Open Source.
+- `Open Source` - The license is [approved by OSI](https://opensource.org/licenses).
+- For software that uses a single, open source, well-known license we sometimes indicate the license name.
+
+For non-cloud software, we ancourage you to verify the license where relevant. Indicating a specific license is usually a simplification, because an application could be distributed with multiple licenses, or it might include libraries that use different licenses.
+
 
 ---
 
