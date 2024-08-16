@@ -8,8 +8,8 @@ This list is intended for Data Engineers. There are lists intended for other aud
 
 ## Contents
 
-- [Change Data Capture](https://github.com/Vettabase/awesome-mariadb/blob/main/list-den.md#change-data-capture)
-- [Data Integration](https://github.com/Vettabase/awesome-mariadb/blob/main/list-den.md#data-integration)
+- [Change Data Capture](#change-data-capture)
+- [Data Integration](#data-integration)
 
 See the [key](#key) for explanations of the terms used in this list.
 
