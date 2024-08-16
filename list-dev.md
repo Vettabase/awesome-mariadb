@@ -8,15 +8,15 @@ This list is intended for Developers. There are lists intended for other audienc
 
 ## Contents
 
-- [Articles](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dev.md#articles)
-- [Connectors (Drivers)](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dev.md#connectors-drivers)
-- [IDEs](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dev.md#ides)
-- [Misc Libraries](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dev.md#misc-libraries)
-- [NoSQL and Key Value Storage](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dev.md#nosql-and-key-value-storage)
-- [ORMs](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dev.md#orms-and-other-abstraction-layers)
-- [Schema Versioning Tools](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dev.md#schema-versioning-tools)
-- [User-Defined Functions](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dev.md#user-defined-functions)
-- [User Interfaces](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dev.md#user-interfaces)
+- [Articles](#articles)
+- [Connectors (Drivers)](#connectors-drivers)
+- [IDEs](#ides)
+- [Misc Libraries](#misc-libraries)
+- [NoSQL and Key Value Storage](#nosql-and-key-value-storage)
+- [ORMs](#orms-and-other-abstraction-layers)
+- [Schema Versioning Tools](#schema-versioning-tools)
+- [User-Defined Functions](#user-defined-functions)
+- [User Interfaces](#user-interfaces)
 
 See the [key](#key) for explanations of the terms used in this list.
 
