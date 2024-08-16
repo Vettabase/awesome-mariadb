@@ -8,18 +8,18 @@ This list is intended for Database Administrators. There are lists intended for 
 
 ## Contents
 
-- [Articles](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#articles)
-- [Backups](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#backups)
-- [Ansible](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#ansible)
-- [Containers](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#containers)
-- [Monitoring](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#monitoring)
-- [Proxies](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#proxies)
-- [Sharding](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#sharding)
-- [Replication Managers](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#replication-managers)
-- [Schema Versioning Tools](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#schema-versioning-tools)
-- [Security](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#security)
-- [Toolkits](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#toolkits)
-- [User Interfaces](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#user-interfaces)
+- [Articles](#articles)
+- [Backups](#backups)
+- [Ansible](#ansible)
+- [Containers](#containers)
+- [Monitoring](#monitoring)
+- [Proxies](#proxies)
+- [Sharding](#sharding)
+- [Replication Managers](#replication-managers)
+- [Schema Versioning Tools](#schema-versioning-tools)
+- [Security](#security)
+- [Toolkits](#toolkits)
+- [User Interfaces](#user-interfaces)
 
 See the [key](#key) for explanations of the terms used in this list.
 
