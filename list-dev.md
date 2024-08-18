@@ -93,6 +93,7 @@ These articles are about MariaDB SQL dialect, regardless which language you use 
 * [MariaDB 10.2 Window Functions](http://ocelot.ca/blog/blog/2016/04/18/mariadb-10-2-window-functions/)
 * [Using Temporary Tables in MariaDB](https://dev.to/alejandro_du/using-temporary-tables-in-mariadb-1nb)
 * [MariaDB: WITH TIES syntax](https://vettabase.com/mariadb-with-ties-syntax/)
+* [Using JSON in MariaDB](https://dzone.com/articles/using-json-in-mariadb)
 * [The UUID data type in MariaDB](https://vettabase.com/the-uuid-data-type-in-mariadb/)
 * [The simultaneous_assignment mode in MariaDB 10.3.5](http://ocelot.ca/blog/blog/2018/03/21/the-simultaneous_assignment-mode-in-mariadb-10-3-5/)
 * [READ ONLY transactions in MariaDB and MySQL](https://vettabase.com/read-only-transactions-in-mariadb-and-mysql/)
