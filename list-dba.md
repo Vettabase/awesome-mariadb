@@ -9,8 +9,9 @@ This list is intended for Database Administrators. There are lists intended for 
 ## Contents
 
 - [Articles](#articles)
-- [Backups](#backups)
 - [Ansible](#ansible)
+- [Backups](#backups)
+- [Chef](MariaDB Cookbook)
 - [Containers](#containers)
 - [Monitoring](#monitoring)
 - [Proxies](#proxies)
@@ -50,6 +51,10 @@ Roles:
 Articles:
 
 - [Creating dynamic configuration files with Ansible](https://vettabase.com/creating-dynamic-configuration-files-with-ansible/) - This article shows how to use Ansible and a Jinja template to automate the MariaDB configuration files creation.
+
+### Chef
+
+- [MariaDB Cookbook](https://supermarket.chef.io/cookbooks/mariadb) - Maintained by [Sous Chefs](https://www.sous-chefs.org/)
 
 ## Backups
 
