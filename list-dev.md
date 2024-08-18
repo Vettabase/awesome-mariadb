@@ -71,6 +71,10 @@ Perl
 
 * [Migrating from DBD::mysql to DBD::MariaDB](https://blogs.perl.org/users/grinnz/2023/12/migrating-from-dbdmysql-to-dbdmariadb.html)
 
+PHP
+
+* [Why You Should Be Using PHP's PDO for Database Access](https://code.tutsplus.com/why-you-should-be-using-phps-pdo-for-database-access--net-12059t)
+
 Python
 
 * [Quick Tip: SQLAlchemy for MySQL and Pandas](https://pythondata.com/quick-tip-sqlalchemy-for-mysql-and-pandas/)
