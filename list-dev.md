@@ -26,6 +26,8 @@ The following resources are specific to MariaDB.
 
 **Tutorials**
 
+These tutorials show how to connect to MariaDB and perform some basic operations.
+
 Loosely ordered by language, SQL first.
 
 | Project                                                               | Language         | Level            | Format         | Notes          |
@@ -50,6 +52,8 @@ Notes
 3. Fully data design oriented
 
 **Language-specific articles**
+
+These articles are about language best practices, specific libraries, or non-trivial operations.
 
 Go
 
@@ -81,6 +85,7 @@ Scala
 
 **Plain SQL articles**
 
+These articles are about MariaDB SQL dialect, regardless which language you use to develop applications.
 
 * [MariaDB/MySQL: use SQL properly to run less queries](https://vettabase.com/mysql-mariadb-use-sql-properly-to-run-less-queries/)
 * [How to compose strings in MariaDB](https://vettabase.com/how-to-compose-strings-in-mariadb/)
