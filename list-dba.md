@@ -10,8 +10,8 @@ This list is intended for Database Administrators. There are lists intended for 
 
 - [Articles](#articles)
 - [Ansible](#ansible)
+- [Chef](#chef)
 - [Backups](#backups)
-- [Chef](MariaDB Cookbook)
 - [Containers](#containers)
 - [Monitoring](#monitoring)
 - [Proxies](#proxies)
