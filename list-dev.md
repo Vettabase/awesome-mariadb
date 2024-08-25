@@ -63,6 +63,7 @@ Go
 Java
 
 * [Getting Started With JPA/Hibernate](https://dzone.com/articles/getting-started-with-jpahibernate)
+* [How To Connect MariaDB Docker Containers with Java Spring And JDBC](https://hackernoon.com/how-to-connect-mariadb-docker-containers-with-java-spring-and-jdbc-ex243urb)
 
 Node.js
 
