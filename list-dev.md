@@ -58,6 +58,7 @@ These articles are about language best practices, specific libraries, or non-tri
 Go
 
 * [Integrating MariaDB with GoLang Microservice Restful API](https://medium.com/widle-studio/integrating-mariadb-with-golang-microservice-restful-apis-building-efficient-data-storage-4054e1588ce)
+* [Golang: a RESTful API Using Temporal Table With MariaDB](https://hackernoon.com/golang-a-restful-api-using-temporal-table-with-mariadb)
 
 Java
 
