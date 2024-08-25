@@ -64,6 +64,7 @@ Java
 
 * [Getting Started With JPA/Hibernate](https://dzone.com/articles/getting-started-with-jpahibernate)
 * [How To Connect MariaDB Docker Containers with Java Spring And JDBC](https://hackernoon.com/how-to-connect-mariadb-docker-containers-with-java-spring-and-jdbc-ex243urb)
+* [Reactive Programming with Java Spring, R2DBC and MariaDB](https://hackernoon.com/reactive-programming-with-java-spring-r2dbc-and-mariadb-4vc3uo1)
 
 Node.js
 
