@@ -80,6 +80,7 @@ PHP
 
 Python
 
+* [Getting Started with MariaDB using Docker, Python and Flask](https://hackernoon.com/getting-started-with-mariadb-using-docker-python-and-flask-pa1i3ya3)
 * [Quick Tip: SQLAlchemy for MySQL and Pandas](https://pythondata.com/quick-tip-sqlalchemy-for-mysql-and-pandas/)
 
 Scala
