@@ -26,6 +26,7 @@ See the [key](#key) for explanations of the terms used in this list.
 
 ## Articles
 
+* [Arch Linux MariaDB documentation](https://wiki.archlinux.org/title/MariaDB) - Includes post-install tasks and common problems resolution.
 * [Introduction to Data Replication With MariaDB Using Docker Containers](https://dzone.com/articles/introduction-to-data-replication-with-mariadb-usin)
 * [Customizing MariaDB Docker Images](https://hackernoon.com/customizing-mariadb-docker-images)
 * [MariaDB semi-sync replication using containers](https://mariadb.org/mariadb-semi-sync-replication-using-containers/)
