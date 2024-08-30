@@ -17,7 +17,6 @@ See the [key](#key) for explanations of the terms used in this list.
 | Project Name                                                                                              | MariaDB Support | Notes                                                                                                                                                         |
 |-----------------------------------------------------------------------------------------------------------|-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Laurynas' MySQL Development Tools](https://github.com/laurynas-biveinis/dotfiles/tree/master/mysql-work) | MySQL(1)        | A collection of scripts and configuration files to automate some of MySQL development tasks. |
-|                                                                                                           |                 |                                                                                                                                                               |
 
 Notes:
 
