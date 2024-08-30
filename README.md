@@ -10,6 +10,7 @@ Awesome MariaDB sublists:
 - **[Awesome MariaDB for Database Administrators](list-dba.md)**
 - **[Awesome MariaDB for Developers](list-dev.md)**
 - **[Awesome MariaDB for Data Engineers](list-den.md)**
+- **[Awesome MariaDB for MariaDB Internals Developers](list-internals.md)**
 
 ## The Problem we Try to Solve
 
