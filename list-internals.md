@@ -14,9 +14,10 @@ See the [key](#key) for explanations of the terms used in this list.
 
 ## Tools
 
-|                                                                                              Project Name | MariaDB Support | Notes                                                                                       |
-|-----------------------------------------------------------------------------------------------------------|-----------------|---------------------------------------------------------------------------------------------|
-| [Laurynas' MySQL Development Tools](https://github.com/laurynas-biveinis/dotfiles/tree/master/mysql-work) | MySQL           | A collection of scripts and configuration files to automate some of MySQL development tasks |
+| Project Name                                                                                              | MariaDB Support | Notes                                                                                                                                                         |
+|-----------------------------------------------------------------------------------------------------------|-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Laurynas' MySQL Development Tools](https://github.com/laurynas-biveinis/dotfiles/tree/master/mysql-work) | MySQL           | A collection of scripts and configuration files to automate some of MySQL development tasks. ot tested with MariaDB, but it's expected to work equally well". |
+|                                                                                                           |                 |                                                                                                                                                               |
 
 ## Key
 
