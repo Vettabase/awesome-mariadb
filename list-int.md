@@ -15,6 +15,7 @@ See the [key](#key) for explanations of the terms used in this list.
 
 ## Articles
 
+* **[Quick builds and rebuilds of MariaDB using Docker](https://optimizedbyotto.com/post/quick-builds-and-rebuilds-of-mariadb-with-docker/)** - Constains practical hints, useful even if you don't plan to use Docker.
 * [Building MariaDB Server from the sources](https://fromdual.com/building-mariadb-server-from-the-sources)
 
 ## Tools
