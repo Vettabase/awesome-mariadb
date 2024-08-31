@@ -8,9 +8,14 @@ This list is intended for internals developers. There are lists intended for oth
 
 ## Contents
 
+- [Articles](#articles)
 - [Tools](#tools)
 
 See the [key](#key) for explanations of the terms used in this list.
+
+## Articles
+
+* [Building MariaDB Server from the sources](https://fromdual.com/building-mariadb-server-from-the-sources)
 
 ## Tools
 
