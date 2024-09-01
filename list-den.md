@@ -8,10 +8,18 @@ This list is intended for Data Engineers. There are lists intended for other aud
 
 ## Contents
 
+- [AI Integrations](#ai-integrations)
 - [Change Data Capture](#change-data-capture)
 - [Data Integration](#data-integration)
 
 See the [key](#key) for explanations of the terms used in this list.
+
+## AI Integrations
+
+| Project                                                          | MariaDB Support   | License / Platform                   |
+|------------------------------------------------------------------|-------------------|--------------------------------------|
+| [MindsDB](https://mindsdb.com/)                                  | [YES](https://docs.mindsdb.com/integrations/data-integrations/mariadb) | [MIT](https://github.com/mindsdb/mindsdb/blob/main/LICENSE), [Cloud](https://cloud.mindsdb.com/) |
+| [TileDB](https://tiledb.com/)                                    | [YES](https://docs.tiledb.com/mariadb) | [MIT](https://github.com/TileDB-Inc/TileDB/blob/dev/LICENSE), [Cloud](https://tiledb.com/pricing/)
 
 ## Change Data Capture
 
