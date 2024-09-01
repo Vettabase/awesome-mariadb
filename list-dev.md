@@ -182,7 +182,7 @@ Links to articles and information on the various methods and utilities to read a
 
 ## ORMs and other abstraction layers
 
-| Platform    | ORM Name                                             | MariaDB Support |
+| Language    | ORM Name                                             | MariaDB Support |
 | ----------- | ---------------------------------------------------- | --------------- |
 | Python      | [Django-MySQL](https://github.com/adamchainz/django-mysql)  | YES      |
 | Java        | [Hibernate](https://hibernate.org/orm/)              | [YES](https://github.com/hibernate/hibernate-orm/blob/main/dialects.adoc) |
