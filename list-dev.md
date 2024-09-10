@@ -32,6 +32,7 @@ Loosely ordered by language, SQL first.
 
 | Project                                                               | Language         | Level            | Format         | Notes          |
 |-----------------------------------------------------------------------|------------------|------------------|----------------|----------------|
+| **[MariaDB on Rosetta Code](https://rosettacode.org/wiki/Category:MariaDB)**     | Pure SQL         | ALL LEVELS         | Text           |                |
 | [MariaDB Tutorial](https://www.javatpoint.com/mariadb-tutorial)       | Pure SQL         | BEGINNER         | Text           |                |
 | [Using MariaDB With ASP.NET Core Web API](https://code-maze.com/aspnetcore-using-mariadb-with-web-api/)   | ASP.NET          | INTERMEDIATE   | Text           |                |
 | [Query MariaDB Data in ColdFusion](https://www.cdata.com/kb/tech/mariadb-jdbc-coldfusion-query.rst)       | ColdFusion       | BEGINNER       | Text           |                |
