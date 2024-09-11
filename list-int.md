@@ -17,6 +17,28 @@ See the [key](#key) for explanations of the terms used in this list.
 
 * **[Quick builds and rebuilds of MariaDB using Docker](https://optimizedbyotto.com/post/quick-builds-and-rebuilds-of-mariadb-with-docker/)** - Constains practical hints, useful even if you don't plan to use Docker.
 * [Building MariaDB Server from the sources](https://fromdual.com/building-mariadb-server-from-the-sources)
+* [The Zoo of MySQL Storage Engine
+  Flags](https://of-code.blogspot.com/2022/12/the-zoo-of-mysql-storage-engine-flags.html)
+* [On Writing to the MySQL Error
+  Log](https://of-code.blogspot.com/2023/01/on-writing-to-mysql-error-log.html)
+* [MySQL, clang -ftime-trace, &
+  ClangBuildAnalyzer](https://of-code.blogspot.com/2023/04/mysql-clang-ftime-trace.html)
+* [Tips for making MySQL builds & tests
+  faster](https://of-code.blogspot.com/2023/05/mysql-compilation-and-testsuite-run-tips.html)
+* [MySQL Build Times: Use
+  Ninja](https://of-code.blogspot.com/2023/08/mysql-build-times-use-ninja.html)
+* [Implementing durability in a MySQL storage
+  engine](https://of-code.blogspot.com/2023/09/implementing-durability-in-mysql.html)
+* [MySQL clone plugin internals and MyRocks clone
+  design](https://of-code.blogspot.com/2024/01/mysql-clone-plugin-internals-and.html)
+* [Introducing patch2testlist for MySQL
+  development](https://of-code.blogspot.com/2024/01/introducing-patch2testlist-for-mysql.html)
+* [Implementing a Table-Returning MySQL
+  Function](https://of-code.blogspot.com/2024/06/implementing-table-returning-mysql.html)
+* [A README for my MySQL development
+  tooling](https://of-code.blogspot.com/2024/08/a-readme-for-my-mysql-development.html)
+* [Running Perl-using MTR tests for fb-mysql under
+  macOS](https://of-code.blogspot.com/2024/09/running-perl-using-mtr-tests-for-fb.html)
 
 ## Tools
 
