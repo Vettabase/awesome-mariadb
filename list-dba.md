@@ -109,6 +109,10 @@ In the list below, SQL-aware means that a proxy understands SQL statements, and 
 - [HAProxy](https://www.haproxy.org/) - Open source, TCP proxy. Not SQL-aware.
   - [haproxy-galera](https://github.com/matthanley/haproxy-galera) - MariaDB Galera health check script for HAProxy.
 
+**Articles**
+
+- [MariaDB MaxScale 21.06 now released as GPL](https://mariadb.com/resources/blog/mariadb-maxscale-21-06-now-released-as-gpl/)
+
 ## Sharding
 
 The following projects are either sharding components or sub-components that be used to create a sharding solution. There is no "out of the box" solution. Internal or database native options require your application to be aware and even manage the shards. External solutions will require bespoke backup and monitoring tooling for where the database shards are hosted across several servers.
