@@ -183,18 +183,18 @@ Links to articles and information on the various methods and utilities to read a
 
 ## ORMs and other abstraction layers
 
-| Language    | ORM Name                                             | MariaDB Support |
-| ----------- | ---------------------------------------------------- | --------------- |
-| Python      | [Django-MySQL](https://github.com/adamchainz/django-mysql)  | YES      |
-| Java        | [Hibernate](https://hibernate.org/orm/)              | [YES](https://github.com/hibernate/hibernate-orm/blob/main/dialects.adoc) |
-| Java        | [EclipseLink](https://eclipse.dev/eclipselink/)      | [YES](https://eclipse.dev/eclipselink/documentation/4.0/concepts/concepts.html#APP_TL_EXT001) |
-| Java        | [OpenJPA](https://openjpa.apache.org/)               | [YES](https://openjpa.apache.org/builds/3.2.2/apache-openjpa/docs/#ref_guide_dbsetup_dbsupport) |
-| Java        | [jOOQ](https://www.jooq.org/)                        | [YES](https://www.jooq.org/javadoc/latest/org.jooq/org/jooq/SQLDialect.html#MARIADB) |
-| Java        | [MyBatis](https://mybatis.org/mybatis-3/)            | [YES](https://github.com/mybatis/generator/issues/450#issuecomment-471790027) |
-| Python      | [SQLAlchemy](https://www.sqlalchemy.org/)            | [YES](https://docs.sqlalchemy.org/en/20/dialects/mysql.html#mariadb-support) |
-| Ruby        | [mariadb_temporal_tables](https://rubygems.org/gems/mariadb_temporal_tables) | YES |
-| Ruby on Rails | [Active Record](https://guides.rubyonrails.org/)   | [YES](https://guides.rubyonrails.org/active_record_querying.html) |
-| Rust        | [Diesel](https://github.com/diesel-rs/diesel/)       | [YES](https://mariadb.org/improving-mariadb-support-in-open-source-projects/) |
+| Language    | ORM Name                                             | License | MariaDB Support | Notes |
+| ----------- | ---------------------------------------------------- | ------- | --------------- | -----
+| Python      | [Django-MySQL](https://github.com/adamchainz/django-mysql)  | ? | YES            |       |
+| Java        | [Hibernate](https://hibernate.org/orm/)              | ?       | [YES](https://github.com/hibernate/hibernate-orm/blob/main/dialects.adoc) |       |
+| Java        | [EclipseLink](https://eclipse.dev/eclipselink/)      | ?       | [YES](https://eclipse.dev/eclipselink/documentation/4.0/concepts/concepts.html#APP_TL_EXT001) |       |
+| Java        | [OpenJPA](https://openjpa.apache.org/)               | ?       | [YES](https://openjpa.apache.org/builds/3.2.2/apache-openjpa/docs/#ref_guide_dbsetup_dbsupport) |       |
+| Java        | [jOOQ](https://www.jooq.org/)                        | ?       | [YES](https://www.jooq.org/javadoc/latest/org.jooq/org/jooq/SQLDialect.html#MARIADB) |       |
+| Java        | [MyBatis](https://mybatis.org/mybatis-3/)            | ?       | [YES](https://github.com/mybatis/generator/issues/450#issuecomment-471790027) |       |
+| Python      | [SQLAlchemy](https://www.sqlalchemy.org/)            | ?       | [YES](https://docs.sqlalchemy.org/en/20/dialects/mysql.html#mariadb-support) |       |
+| Ruby        | [mariadb_temporal_tables](https://rubygems.org/gems/mariadb_temporal_tables) | ?       | YES |       |
+| Ruby on Rails | [Active Record](https://guides.rubyonrails.org/)   | ?       | [YES](https://guides.rubyonrails.org/active_record_querying.html) |       |
+| Rust        | [Diesel](https://github.com/diesel-rs/diesel/)       | ?       | [YES](https://mariadb.org/improving-mariadb-support-in-open-source-projects/) |       |
 
 **@TODO** Check the ORMs in [this list](https://en.wikipedia.org/wiki/List_of_object%E2%80%93relational_mapping_software).
 
