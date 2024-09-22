@@ -60,7 +60,7 @@ Articles:
 
 ### Puppet
 
-- [https://github.com/NeCTAR-RC/puppet-mariadb](puppet-mariadb) - Fork of PuppetLabs MySQL module, which supports MariaDB and Galera on RedHat and Debian.
+- [puppet-mariadb](https://github.com/NeCTAR-RC/puppet-mariadb) - Fork of PuppetLabs MySQL module, which supports MariaDB and Galera on RedHat and Debian.
 
 ## Backups
 
