@@ -185,7 +185,7 @@ Links to articles and information on the various methods and utilities to read a
 
 | Language    | ORM Name                                             | License | MariaDB Support | Notes |
 | ----------- | ---------------------------------------------------- | ------- | --------------- | -----
-| Python      | [Django-MySQL](https://github.com/adamchainz/django-mysql)  | ? | YES            |       |
+| Python      | [Django-MySQL](https://github.com/adamchainz/django-mysql)  | ? | [YES](https://github.com/adamchainz/django-mysql?tab=readme-ov-file#what-kind-of-features)            |       |
 | Java        | [Hibernate](https://hibernate.org/orm/)              | ?       | [YES](https://github.com/hibernate/hibernate-orm/blob/main/dialects.adoc) |       |
 | Java        | [EclipseLink](https://eclipse.dev/eclipselink/)      | ?       | [YES](https://eclipse.dev/eclipselink/documentation/4.0/concepts/concepts.html#APP_TL_EXT001) |       |
 | Java        | [OpenJPA](https://openjpa.apache.org/)               | ?       | [YES](https://openjpa.apache.org/builds/3.2.2/apache-openjpa/docs/#ref_guide_dbsetup_dbsupport) |       |
