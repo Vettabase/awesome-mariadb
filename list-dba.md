@@ -58,6 +58,10 @@ Articles:
 
 - [MariaDB Cookbook](https://supermarket.chef.io/cookbooks/mariadb) - Maintained by [Sous Chefs](https://www.sous-chefs.org/)
 
+### Puppet
+
+- [https://github.com/NeCTAR-RC/puppet-mariadb](puppet-mariadb) - Fork of PuppetLabs MySQL module, which supports MariaDB and Galera on RedHat and Debian.
+
 ## Backups
 
 **Tools**
