@@ -73,6 +73,7 @@ Articles:
 **Articles**
 
 - [Using MariaDB's binary log to restore a database after overwriting with old backup](https://orville.thebennettproject.com/articles/how-to-use-mariadb-10-binlog-to-restore-database/)
+- [Backing up MariaDB Temporal Database](https://stackoverflow.com/a/57186022/9445059) (StackOverflow answer)
 
 ## Containers
 
