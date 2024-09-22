@@ -185,16 +185,16 @@ Links to articles and information on the various methods and utilities to read a
 
 | Language    | ORM Name                                             | License | MariaDB Support | Notes |
 | ----------- | ---------------------------------------------------- | ------- | --------------- | -----
-| Python      | [Django-MySQL](https://github.com/adamchainz/django-mysql)  | ? | [YES](https://github.com/adamchainz/django-mysql?tab=readme-ov-file#what-kind-of-features)            |       |
-| Java        | [Hibernate](https://hibernate.org/orm/)              | ?       | [YES](https://github.com/hibernate/hibernate-orm/blob/main/dialects.adoc) |       |
-| Java        | [EclipseLink](https://eclipse.dev/eclipselink/)      | ?       | [YES](https://eclipse.dev/eclipselink/documentation/4.0/concepts/concepts.html#APP_TL_EXT001) |       |
-| Java        | [OpenJPA](https://openjpa.apache.org/)               | ?       | [YES](https://openjpa.apache.org/builds/3.2.2/apache-openjpa/docs/#ref_guide_dbsetup_dbsupport) |       |
-| Java        | [jOOQ](https://www.jooq.org/)                        | ?       | [YES](https://www.jooq.org/javadoc/latest/org.jooq/org/jooq/SQLDialect.html#MARIADB) |       |
-| Java        | [MyBatis](https://mybatis.org/mybatis-3/)            | ?       | [YES](https://github.com/mybatis/generator/issues/450#issuecomment-471790027) |       |
-| Python      | [SQLAlchemy](https://www.sqlalchemy.org/)            | ?       | [YES](https://docs.sqlalchemy.org/en/20/dialects/mysql.html#mariadb-support) |       |
-| Ruby        | [mariadb_temporal_tables](https://rubygems.org/gems/mariadb_temporal_tables) | ?       | YES |       |
-| Ruby on Rails | [Active Record](https://guides.rubyonrails.org/)   | ?       | [YES](https://guides.rubyonrails.org/active_record_querying.html) |       |
-| Rust        | [Diesel](https://github.com/diesel-rs/diesel/)       | ?       | [YES](https://mariadb.org/improving-mariadb-support-in-open-source-projects/) |       |
+| Python      | [Django-MySQL](https://github.com/adamchainz/django-mysql)  | [MIT](https://github.com/adamchainz/django-mysql/blob/main/LICENSE) | [YES](https://github.com/adamchainz/django-mysql?tab=readme-ov-file#what-kind-of-features)            |       |
+| Java        | [Hibernate](https://hibernate.org/orm/)              | [LGPL 2.1 / Apache 2](https://hibernate.org/community/license/) | [YES](https://github.com/hibernate/hibernate-orm/blob/main/dialects.adoc) |       |
+| Java        | [EclipseLink](https://eclipse.dev/eclipselink/)      | [Open Source](https://github.com/eclipse-ee4j/eclipselink/blob/master/LICENSE.md) | [YES](https://eclipse.dev/eclipselink/documentation/4.0/concepts/concepts.html#APP_TL_EXT001) |       |
+| Java        | [OpenJPA](https://openjpa.apache.org/)               | [Apache 2](https://github.com/apache/openjpa/blob/master/LICENSE) | [YES](https://openjpa.apache.org/builds/3.2.2/apache-openjpa/docs/#ref_guide_dbsetup_dbsupport) |       |
+| Java        | [jOOQ](https://www.jooq.org/)                        | [Apache 2 / Proprietary](https://github.com/jOOQ/jOOQ/blob/main/LICENSE) | [YES](https://www.jooq.org/javadoc/latest/org.jooq/org/jooq/SQLDialect.html#MARIADB) |       |
+| Java        | [MyBatis](https://mybatis.org/mybatis-3/)            | [Apache 2](https://github.com/mybatis/mybatis-3/blob/master/LICENSE) | [YES](https://github.com/mybatis/generator/issues/450#issuecomment-471790027) |       |
+| Python      | [SQLAlchemy](https://www.sqlalchemy.org/)            | [MIT](https://github.com/sqlalchemy/sqlalchemy/blob/main/LICENSE) | [YES](https://docs.sqlalchemy.org/en/20/dialects/mysql.html#mariadb-support) |       |
+| Ruby        | [mariadb_temporal_tables](https://rubygems.org/gems/mariadb_temporal_tables) | [MIT](https://github.com/YoussefHenna/mariadb_temporal_tables/blob/master/LICENSE) | YES |       |
+| Ruby on Rails | [Active Record](https://guides.rubyonrails.org/)   | [MIT](https://github.com/rails/rails/blob/main/activerecord/MIT-LICENSE) | [YES](https://guides.rubyonrails.org/active_record_querying.html) |       |
+| Rust        | [Diesel](https://github.com/diesel-rs/diesel/)       | [Apache 2 / MIT](https://github.com/diesel-rs/diesel?tab=readme-ov-file#license) | [YES](https://mariadb.org/improving-mariadb-support-in-open-source-projects/) |       |
 
 **@TODO** Check the ORMs in [this list](https://en.wikipedia.org/wiki/List_of_object%E2%80%93relational_mapping_software).
 
