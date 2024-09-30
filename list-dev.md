@@ -11,6 +11,7 @@ This list is intended for Developers. There are lists intended for other audienc
 - [Articles](#articles)
 - [Connectors (Drivers)](#connectors-drivers)
 - [IDEs](#ides)
+- [Migrations](#migrations)
 - [Misc Libraries](#misc-libraries)
 - [NoSQL and Key Value Storage](#nosql-and-key-value-storage)
 - [ORMs](#orms-and-other-abstraction-layers)
@@ -161,6 +162,10 @@ Guides on how to work with MariaDB using various IDEs.
 | IntelliJ IDEA     | [IntelliJ IDEA - MariaDB](https://docs.telerik.com/data-access/developers-guide/database-specifics/mariadb/database-specifics-mariadb-create-domain-model.html)                                                                 | Text            |                |
 | RubyMine          | [RubyMine MariaDB plugin documentation](https://www.jetbrains.com/help/ruby/mariadb.html)      | Text            |                |
 | Visual Studio     | [How to: Create A Model Based on MariaDB Database](https://docs.telerik.com/data-access/developers-guide/database-specifics/mariadb/database-specifics-mariadb-create-domain-model.html)                                                                 | Text            |                |
+
+## Migrations
+
+- [sqlite-to-mysql](https://github.com/vwbusguy/sqlite-to-mysql)
 
 ## Misc Libraries
 
