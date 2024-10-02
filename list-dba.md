@@ -35,6 +35,9 @@ See the [key](#key) for explanations of the terms used in this list.
 * [MariaDB connection ID](https://www.fromdual.com/mariadb_connection_id)
 * [Database load balancing for MySQL and MariaDB with ProxySQL](https://severalnines.com/resources/whitepapers/database-load-balancing-for-mysql-and-mariadb-with-proxysql/)
 * [Three simple rules to not fail (too much) the foundations of your data design](https://github.com/SylvainA77/articles/blob/main/Three-rules-not-fail-data-design.md)
+* [facts attributes and bullshit](https://github.com/SylvainA77/articles/blob/main/facts-atributes-relations-bullshit.md)
+* [Let the fun begin](https://github.com/SylvainA77/articles/blob/main/now-let-fun-begin.md)
+* [introduction to Galera](https://github.com/SylvainA77/articles/blob/main/galera-overlooked-powerfull.md)
 
 ## Automation
 
