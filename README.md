@@ -5,11 +5,17 @@ A curated list of awesome MariaDB resources, maintained by [Vettabase](https://v
 
 Topics are organised by audience, to save people from navigating through the noise.
 
-Awesome MariaDB sublists:
+**Awesome MariaDB sublists**
+
+Lists for a specific audience:
 
 - **[Awesome MariaDB for Database Administrators](list-dba.md)**
 - **[Awesome MariaDB for Developers](list-dev.md)**
 - **[Awesome MariaDB for Data Engineers](list-den.md)**
+
+Specific topics:
+
+- [Awesome MariaDB Internals and Plugins Development](list-int.md)
 
 ## The Problem we Try to Solve
 

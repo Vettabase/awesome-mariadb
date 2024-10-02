@@ -1,4 +1,4 @@
-# Awesome MariaDB for DBAs
+# Awesome MariaDB for Data Engineers
 
 A curated list of awesome MariaDB resources, maintained by [Vettabase](https://vettabase.com) and sponsored by the [MariaDB Foundation](https://mariadb.org/).
 
@@ -8,8 +8,18 @@ This list is intended for Data Engineers. There are lists intended for other aud
 
 ## Contents
 
-- [Change Data Capture](https://github.com/Vettabase/awesome-mariadb/blob/main/list-den.md#change-data-capture)
-- [Data Integration](https://github.com/Vettabase/awesome-mariadb/blob/main/list-den.md#data-integration)
+- [AI Integrations](#ai-integrations)
+- [Change Data Capture](#change-data-capture)
+- [Data Integration](#data-integration)
+
+See the [key](#key) for explanations of the terms used in this list.
+
+## AI Integrations
+
+| Project                                                          | MariaDB Support   | License / Platform                   |
+|------------------------------------------------------------------|-------------------|--------------------------------------|
+| [MindsDB](https://mindsdb.com/)                                  | [YES](https://docs.mindsdb.com/integrations/data-integrations/mariadb) | [MIT](https://github.com/mindsdb/mindsdb/blob/main/LICENSE), [Cloud](https://cloud.mindsdb.com/) |
+| [TileDB](https://tiledb.com/)                                    | [YES](https://docs.tiledb.com/mariadb) | [MIT](https://github.com/TileDB-Inc/TileDB/blob/dev/LICENSE), [Cloud](https://tiledb.com/pricing/)
 
 ## Change Data Capture
 
@@ -21,10 +31,13 @@ Some of these projects are complete data flow platforms that are able to consume
 
 | Project                                                          | MariaDB Support   | Language / Platform   | License / Platform                   |
 |------------------------------------------------------------------|-------------------|-----------------------|--------------------------------------|
-| [Apache Hop](https://hop.apache.org/)                            | [YES](https://hop.apache.org/manual/latest/database/databases/mariadb.html)                 | Java                  | [Apache2](https://github.com/apache/hop/blob/main/LICENSE) |
-| [Apache NiFi](https://nifi.apache.org/)                          | [MySQL](https://nifi.apache.org/docs/nifi-docs/components/org.apache.nifi/nifi-cdc-mysql-nar/1.24.0/org.apache.nifi.cdc.mysql.processors.CaptureChangeMySQL/index.html)                                                                                                       | Java                  | [Apache2](https://github.com/apache/nifi/blob/main/LICENSE) |
-| [Debezium](https://github.com/madvirus/mariadb-cdc)              | [YES](https://debezium.io/documentation/reference/stable/connectors/mysql.html#mysql-mariadb-support)  | Java       | [Apache2](https://debezium.io/license/) |
-| [mariadb-cdc](https://github.com/madvirus/mariadb-cdc)           | YES               | Java                  | [Proprietary](https://github.com/madvirus/mariadb-cdc/issues/1) |
+| [Apache Hop](https://hop.apache.org/)                            | [YES](https://hop.apache.org/manual/latest/database/databases/mariadb.html)                 | JVM                  | [Apache2](https://github.com/apache/hop/blob/main/LICENSE) |
+| [Apache NiFi](https://nifi.apache.org/)                          | [MySQL](https://nifi.apache.org/docs/nifi-docs/components/org.apache.nifi/nifi-cdc-mysql-nar/1.24.0/org.apache.nifi.cdc.mysql.processors.CaptureChangeMySQL/index.html)                                                                                                       | JVM                  | [Apache2](https://github.com/apache/nifi/blob/main/LICENSE) |
+| [Apache Superset](https://github.com/apache/superset)            | [YES](https://github.com/apache/superset) | TypeScript, Python  | [Apache2](https://github.com/apache/superset/blob/master/LICENSE.txt) |
+| [Debezium](https://github.com/madvirus/mariadb-cdc)              | [YES](https://debezium.io/documentation/reference/stable/connectors/mysql.html#mysql-mariadb-support)  | JVM       | [Apache2](https://debezium.io/license/) |
+| [mariadb-cdc](https://github.com/madvirus/mariadb-cdc)           | YES               | JVM                  | [Proprietary](https://github.com/madvirus/mariadb-cdc/issues/1) |
+| [Metabase](https://www.metabase.com/)                            | [YES](https://www.metabase.com/data_sources/mariadb) | JVM | [AGPL, Proprietary](https://github.com/metabase/metabase/blob/master/LICENSE.txt), [Cloud](https://www.metabase.com/pricing/) |
+| [MySqlCdc](https://github.com/rusuly/MySqlCdc)                   | YES               | .NET                  | [MIT](https://github.com/rusuly/MySqlCdc/blob/main/LICENSE) |
 | [pg_chameleon](https://pgchameleon.org/)                         | MySQL             | Python3               | [BSD](https://github.com/the4thdoctor/pg_chameleon/blob/main/LICENSE.txt) |
 
 **CDC Articles**
@@ -40,6 +53,35 @@ The following resources show how to integrate MariaDB with various other data te
 
 - Twitter
   - Airbyte: [How to load data from Twitter to MariaDB ColumnStore](https://airbyte.com/how-to-sync/twitter-to-mariadb-columnstore)
+  - Python: [Collecting / Storing Tweets with Python and MySQL](https://pythondata.com/collecting-storing-tweets-python-mysql/). Applies to MariaDB with no differences.
+
+
+## Key
+
+Meaning of the terms used in this list.
+
+### MariaDB Support
+
+Some of the sections include resources that were created for MySQL, or for both MariaDB and MySQL. The extent of MariaDB support is not always optimal. For those resources, we indicate the MariaDB support level as follows:
+
+- `YES`: Specific support for MariaDB is indicated, or can be inferred from the documentation or the source code. "Supports MySQL/MariaDB" is not considered specific MariaDB support, because the author might assume that what works on MySQL will work on MariaDB equally well.
+- `MySQL`: Officially supports MySQL, but not MariaDB.
+- `NOT VERIFIED`: Officially supports MySQL and MariaDB but we do not know whether full support for MariaDB is implemented.
+- `PARTIAL`: We are aware of relevant bugs or missing features.
+
+If you disagree about a project's MariaDB Support indication, please report a bug.
+
+### License
+
+The license column might need a better name.
+
+- `Cloud` - Available as a cloud service.
+- `Proprietary` - Source is available, but software is not Open Source.
+- `Open Source` - The license is [approved by OSI](https://opensource.org/licenses).
+- For software that uses a single, open source, well-known license we sometimes indicate the license name.
+
+For non-cloud software, we ancourage you to verify the license where relevant. Indicating a specific license is usually a simplification, because an application could be distributed with multiple licenses, or it might include libraries that use different licenses.
+
 
 ---
 

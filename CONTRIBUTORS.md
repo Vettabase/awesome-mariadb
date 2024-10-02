@@ -8,3 +8,4 @@ If you contribute to Awesome MariaDB, we encourage you to add your name here.
 - Richard Bensley https://vettabase.com
 - Robert Silén https://mariadb.org
 - Sylvain Arbaudie https://arbaudie.com
+- Laurynas Biveinis https://of-code.blogspot.com

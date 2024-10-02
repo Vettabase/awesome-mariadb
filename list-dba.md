@@ -8,33 +8,27 @@ This list is intended for Database Administrators. There are lists intended for 
 
 ## Contents
 
-- [Articles](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#articles)
-- [Backups](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#backups)
-- [Ansible](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#ansible)
-- [Containers](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#containers)
-- [Monitoring](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#monitoring)
-- [Proxies](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#proxies)
-- [Sharding](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#sharding)
-- [Replication Managers](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#replication-managers)
-- [Schema Versioning Tools](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#schema-versioning-tools)
-- [Security](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#security)
-- [Toolkits](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#toolkits)
-- [User Interfaces](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dba.md#user-interfaces)
+- [Articles](#articles)
+- [Ansible](#ansible)
+- [Chef](#chef)
+- [Backups](#backups)
+- [Containers](#containers)
+- [Monitoring](#monitoring)
+- [Proxies](#proxies)
+- [Sharding](#sharding)
+- [Replication Managers](#replication-managers)
+- [Schema Versioning Tools](#schema-versioning-tools)
+- [Security](#security)
+- [Toolkits](#toolkits)
+- [User Interfaces](#user-interfaces)
 
-## MariaDB Support Key
-
-Some of the below sections only include resources that were created for MariaDB.
-
-Other sections include resources that were created for MySQL, or for both, and the extent of MariaDB support is not always optimal. For those resources, we indicate the MariaDB support level. Refer to this key.
-
-- `MySQL`: The resource states that it supports MySQL, but not MariaDB.
-- `YES`: The resource states it supports MariaDB specifically, not something like "MySQL/MariaDB".
-- `NOT VERIFIED`: The resource states that it supports MySQL and MariaDB (or the specified version number) but we do not know whether full support for MariaDB is implemented. It's possible that MariaDB support is assumed as a consequence of MySQL support, but this might be inaccurate. Please report any relevant problems you might find to us (and to the resource itself).
-- `PARTIAL`: We have a clear list of what is or isn't officially supported.
+See the [key](#key) for explanations of the terms used in this list.
 
 ## Articles
 
+* [Arch Linux MariaDB documentation](https://wiki.archlinux.org/title/MariaDB) - Includes post-install tasks and common problems resolution.
 * [Introduction to Data Replication With MariaDB Using Docker Containers](https://dzone.com/articles/introduction-to-data-replication-with-mariadb-usin)
+* [Customizing MariaDB Docker Images](https://hackernoon.com/customizing-mariadb-docker-images)
 * [MariaDB semi-sync replication using containers](https://mariadb.org/mariadb-semi-sync-replication-using-containers/)
 * [Is Galera trx_commit=2 and sync_binlog=0 evil?](https://mysqlquicksand.wordpress.com/2019/09/11/is-galera-trx_commit2-and-sync_binlog0-evil/)
 * [InnoDB Durability](https://lists.mariadb.org/hyperkitty/list/discuss@lists.mariadb.org/thread/SY6YIADSASGFSGHFD2Z35WMU4KOLRAWE/#DVEELBZWT4FCMJBV6SRPVD3EHIE5PCG5) - mailing list discussion
@@ -61,14 +55,23 @@ Articles:
 
 - [Creating dynamic configuration files with Ansible](https://vettabase.com/creating-dynamic-configuration-files-with-ansible/) - This article shows how to use Ansible and a Jinja template to automate the MariaDB configuration files creation.
 
+### Chef
+
+- [MariaDB Cookbook](https://supermarket.chef.io/cookbooks/mariadb) - Maintained by [Sous Chefs](https://www.sous-chefs.org/)
+
+### Puppet
+
+- [puppet-mariadb](https://github.com/NeCTAR-RC/puppet-mariadb) - Fork of PuppetLabs MySQL module, which supports MariaDB and Galera on RedHat and Debian
+- [puppet-galera](https://github.com/markt-de/puppet-galera) - Manage MariaDB Galera Cluster or Percona XtraDB Cluster. Supports Galera Arbitrator. Supports both systemd and xinetd.
+
 ## Backups
 
 **Tools**
 
 | Project                                                               | MariaDB Support                      | License / Platform                        | Description           |
 |-----------------------------------------------------------------------|--------------------------------------|-------------------------------------------|-----------------------|
-| [Backup Manager](https://fromdual.com/fromdual-backup-manager-bman)   | YES                                  |                                           | Supports many types of backups. By FromDual. |
-| [maria-back-me-up](https://github.com/sapcc/maria-back-me-up)         | YES                                  | Apache License 2                          | Incremental dumps on Kubernetes. Supports archival. |
+| [Backup Manager](https://fromdual.com/fromdual-backup-manager-bman)   | YES                                  | Proprietary                              | Supports many types of backups. By FromDual. |
+| [maria-back-me-up](https://github.com/sapcc/maria-back-me-up)         | YES                                  | [Apache License 2](https://github.com/sapcc/maria-back-me-up/blob/master/LICENSE) | Incremental dumps on Kubernetes. Supports archival. |
 | [Mariabackup](https://mariadb.com/kb/en/mariabackup-overview/)        | YES                                  | Distributed with MariaDB                  | Online physical backups. |
 | [mariabackup-script](https://github.com/paskinator/mariabackup-script)  | YES                                | [GPL3](https://github.com/paskinator/mariabackup-script/blob/main/LICENSE)    | Wrapper script for Mariabackup. Handles failed backups. |
 | [mariadb-dump](https://mariadb.com/kb/en/mariadb-dump/)               | YES                                  | Distributed with MariaDB                  | Logical backups of data and/or schema. |
@@ -76,13 +79,16 @@ Articles:
 **Articles**
 
 - [Using MariaDB's binary log to restore a database after overwriting with old backup](https://orville.thebennettproject.com/articles/how-to-use-mariadb-10-binlog-to-restore-database/)
+- [Backing up MariaDB Temporal Database](https://stackoverflow.com/a/57186022/9445059) (StackOverflow answer)
 
 ## Containers
 
 ### Docker
 
 - [mariadb image](https://hub.docker.com/_/mariadb) - Official image, maintained by MariaDB Foundation.
-- [linuxserver/mariadb](https://hub.docker.com/r/linuxserver/mariadb) - Maintained by LinuxServer. Different configuration choices, for example the query cache is enabled on demand, rather than disabled. Supports customization via LinuxServer Docker mods.
+- [yobasystems/alpine-mariadb](https://github.com/yobasystems/alpine-mariadb) - MariaDB image based on Alpine Linux.
+- [linuxserver/mariadb](https://hub.docker.com/r/linuxserver/mariadb) - Maintained by LinuxServer. Different configuration choices compared to the official image, for example the query cache is enabled on demand, rather than disabled. Supports customization via LinuxServer Docker mods.
+- [mariadb-container](https://github.com/sclorg/mariadb-container) - Dockerfiles with a focus on OpenShift usage, but suitable for general use.
 
 ### Kubernetes
 
@@ -93,9 +99,10 @@ Articles:
 | Project                                                             | MariaDB Support                                             | License / Platform                                         | Notes   |
 |---------------------------------------------------------------------|-------------------------------------------------------------|------------------------------------------------------------|---------|
 | [Datadog](https://docs.datadoghq.com)                               | [MYSQL](https://docs.datadoghq.com)                         | Cloud                                                      |         |
+| [Dolphie](https://github.com/charles-001/dolphie)                   | YES                                                         | [GPL3](https://github.com/charles-001/dolphie/blob/main/LICENSE) |   |
 | [PMM](https://docs.percona.com/percona-monitoring-and-management/)  | YES                                                         | [AGPL3](https://github.com/percona/pmm/blob/main/LICENSE) or cloud   | [1]     |
-| [SolarWinds](https://www.solarwinds.com/)                           | YES                                                         | Commercial in-premise or cloud                             |         |
-| [SSM](https://shatteredsilicon.net/mysql-monitoring-ssm/)           | YES                                                         | Open source                                                | [2]     |
+| [SolarWinds](https://www.solarwinds.com/)                           | YES                                                         | Proprietary in-premise or cloud                             |         |
+| [SSM](https://shatteredsilicon.net/mysql-monitoring-ssm/)           | YES                                                         | ?                                                | [2]     |
 | [Zabbix](https://www.zabbix.com/)                                | YES                         | [AGPL3](https://github.com/zabbix/zabbix/blob/master/COPYING)   | [3]
 
 1. See the [online demo](https://pmmdemo.percona.com).
@@ -111,13 +118,17 @@ In the list below, SQL-aware means that a proxy understands SQL statements, and 
 - [HAProxy](https://www.haproxy.org/) - Open source, TCP proxy. Not SQL-aware.
   - [haproxy-galera](https://github.com/matthanley/haproxy-galera) - MariaDB Galera health check script for HAProxy.
 
+**Articles**
+
+- [MariaDB MaxScale 21.06 now released as GPL](https://mariadb.com/resources/blog/mariadb-maxscale-21-06-now-released-as-gpl/)
+
 ## Sharding
 
 The following projects are either sharding components or sub-components that be used to create a sharding solution. There is no "out of the box" solution. Internal or database native options require your application to be aware and even manage the shards. External solutions will require bespoke backup and monitoring tooling for where the database shards are hosted across several servers.
 
 | Project                                                             | MariaDB Support | License / Platform | Notes   |
 |---------------------------------------------------------------------|-----------------|--------------------|---------|
-| [MaxScale](https://mariadb.com/kb/en/mariadb-maxscale-24-schemarouter/) | YES         | Commercial         | A query and connection router that is part of Maxscale. |
+| [MaxScale](https://mariadb.com/kb/en/mariadb-maxscale-24-schemarouter/) | YES         | Proprietary        | A query and connection router that is part of Maxscale. |
 | [ProxySQL](https://proxysql.com/documentation/how-to-setup-proxysql-sharding/) | YES  | GPLv3              | Sharding in ProxySQL by User, Schema or Data. Sharding is based on rules which pattern match on incoming queries. |
 | [Spider](https://mariadb.com/kb/en/spider/)                         | YES             | GPLv2              | A storage engine for table definition shards and connections to split tables among several servers. |
 
@@ -126,17 +137,17 @@ The following projects are either sharding components or sub-components that be 
 
 | Project                                                                | MariaDB Support   | License / Platform |
 |------------------------------------------------------------------------|-------------------|--------------------|
-| [Replication Manager](https://signal18.io/products/srm)                | 10.0+             | GPl / Commercial   |
+| [Replication Manager](https://signal18.io/products/srm)                | 10.0+             | GPL / Proprietary  |
 | [ClusterControl](https://docs.severalnines.com/docs/clustercontrol/)   | Yes               | Open Core          |
 
 ## Schema Versioning Tools
 
-| Project Name                                            | MariaDB Support |
-| ------------------------------------------------------- | --------------- |
-| [ByteBase](https://www.bytebase.com/)                   | [10.7+](https://www.bytebase.com/docs/introduction/supported-databases/)
-| [Flyway](https://flywaydb.org/)                         | [5.1, 10.11](https://documentation.red-gate.com/flyway/flyway-cli-and-api/supported-databases/mariadb)
-| [Liquibase](https://www.liquibase.com/)                 | [PARTIAL](https://www.liquibase.com/databases/mariadb-server)
-| [Skeema.io](https://www.skeema.io/)                     | [10.1](https://www.skeema.io/docs/requirements/)
+| Project Name                                            | MariaDB Support | License / Platform |
+| ------------------------------------------------------- | --------------- | ------------------ |
+| [ByteBase](https://www.bytebase.com/)                   | [10.7+](https://www.bytebase.com/docs/introduction/supported-databases/) | Open source, proprietary, cloud |
+| [Flyway](https://flywaydb.org/)                         | [5.1, 10.11](https://documentation.red-gate.com/flyway/flyway-cli-and-api/supported-databases/mariadb) | [Apache 2](https://github.com/flyway/flyway/blob/main/LICENSE.txt) |
+| [Liquibase](https://www.liquibase.com/)                 | [PARTIAL](https://www.liquibase.com/databases/mariadb-server) | [Proprietary](https://www.liquibase.com/pricing) or [Apache 2](https://github.com/liquibase/liquibase/blob/master/LICENSE.txt) |
+| [Skeema.io](https://www.skeema.io/)                     | [10.1](https://www.skeema.io/docs/requirements/) | [Proprietary](https://www.skeema.io/download/) or [Apache 2](https://github.com/skeema/skeema/blob/main/LICENSE) |
 
 ## Security
 
@@ -161,27 +172,27 @@ The following projects are either sharding components or sub-components that be 
 
 **GUIs**
 
-| Project Name                                                                | MariaDB Support                                 | Platforms             | Free / Commercial  | Notes |
+| Project Name                                                                | MariaDB Support                                 | Platforms             | Licence    | Notes |
 |-----------------------------------------------------------------------------|-------------------------------------------------|-----------------------|--------------------|-------|
 | [Beekeeper Studio](https://www.beekeeperstudio.io/)                         | [NOT VERIFIED](https://docs.beekeeperstudio.io/user_guide/connecting/first-page/)  | Linux, MacOS, Windows | BOTH               |       |
-| [DataGrip](https://www.jetbrains.com/datagrip/)                             | [YES](https://www.jetbrains.com/datagrip/features/) | Linux, MacOS, Windows | Commercial     |       |
+| [DataGrip](https://www.jetbrains.com/datagrip/)                             | [YES](https://www.jetbrains.com/datagrip/features/) | Linux, MacOS, Windows | Proprietary     |       |
 | [DBeaver](https://dbeaver.io/)                                              | [NOT VERIFIED](https://dbeaver.com/databases/)  | Linux, MacOS, Windows | BOTH               |       |
-| [DbVisualizer](https://www.dbvis.com/)                                      | NOT VERIFIED                                    | Native: Linux, Windows; Java: Linux, MacOS, Windows | BOTH               |       |
-| [Harlequin](https://harlequin.sh/)                                          | MySQL                                           | Python                | FREE               |       |
-| [HeidiSQL](https://www.heidisql.com/)                                       | YES                                              | Windows               | FREE               |       |
-| [LibreOffice Base](https://www.libreoffice.org/discover/base/)              | [NOT VERIFIED](https://www.libreoffice.org/discover/base/) | Linux, MacOS, Windows | FREE            | [1]   |
-| [ocelotgui](http://ocelot.ca/)                                              | YES                                             | Linux                 | FREE               |       |
-| [OpenOffice Base](https://www.openoffice.org/product/base.html)             | [MySQL](https://www.openoffice.org/product/base.html) | Linux, MacOS, Windows | FREE                 | [2]   |
-| [Sequel Pro](https://www.sequelpro.com/)                                    | PARTIAL                                         | MacOS                 | FREE                       | [3]   |
-| [Database Workbench](https://www.upscene.com/database_workbench/) | [NOT VERIFIED](https://www.upscene.com/database_workbench/database-development-tool-for-mysql-and-mariadb)  | Windows               | Commercial         |       |
-| [dbForge Studio for MySQL](https://www.devart.com/dbforge/mysql/studio/)    | NOT VERIFIED                                    | Windows               | Commercial         |       |
-| [dbForge Edge](https://www.devart.com/dbforge/edge/features.html)           | NOT VERIFIED                                    | Windows               | Commercial         |       |
-| [Navicat](https://www.navicat.com/)                                         | [YES]([https://www.navicat.com/en/products/navicat-for-mysql-feature-matrix](https://navicat.com/en/products/navicat-for-mariadb)) | YES | Linux, MacOS, Windows | Commercial |       |
-| [SQLPro Studio](https://www.sqlprostudio.com/)                              | NOT VERIFIED                                    | MacOS, Windows, iOS   | Commercial |       |
-| [SQLyog](https://webyog.com/product/sqlyog/)                                | NOT VERIFIED                                    | Windows               | Commercial         |       |
-| [TablePlus](https://tableplus.com/)                                         | [NOT VERIFIED]([https://dbeaver.com/databases/](https://docs.tableplus.com/))  | Linux, MacOS, Windows, iOS | Commercial      |       |
-| [Toad Edge](https://toadworld.com/)                                         | NOT VERIFIED                                    | MacOS, Windows, Jenkins plugin | Commercial |       |
-| [Valentina Studio](https://valentina-db.com/)                               | [NOT VERIFIED](https://valentina-db.com/en/database-management) | Linux, MacOS, Windows      | Commercial  |       |
+| [DbVisualizer](https://www.dbvis.com/)                                      | [YES](https://www.dbvis.com/database/mariadb/)  | Native: Linux, Windows; JVM: Linux, MacOS, Windows | BOTH               |       |
+| [Harlequin](https://harlequin.sh/)                                          | MySQL                                           | Python                | Open Source          |       |
+| [HeidiSQL](https://www.heidisql.com/)                                       | YES                                              | Windows               | Open Source         |       |
+| [LibreOffice Base](https://www.libreoffice.org/discover/base/)              | [NOT VERIFIED](https://www.libreoffice.org/discover/base/) | Linux, MacOS, Windows | Open Source      | [1]   |
+| [ocelotgui](http://ocelot.ca/)                                              | YES                                             | Linux                 | Open Source          |       |
+| [OpenOffice Base](https://www.openoffice.org/product/base.html)             | [MySQL](https://www.openoffice.org/product/base.html) | Linux, MacOS, Windows | Open Source           | [2]   |
+| [Sequel Pro](https://www.sequelpro.com/)                                    | PARTIAL                                         | MacOS                 | Open Source                  | [3]   |
+| [Database Workbench](https://www.upscene.com/database_workbench/) | [NOT VERIFIED](https://www.upscene.com/database_workbench/database-development-tool-for-mysql-and-mariadb)  | Windows               | Proprietary         |       |
+| [dbForge Studio for MySQL](https://www.devart.com/dbforge/mysql/studio/)    | NOT VERIFIED                                    | Windows               | Proprietary         |       |
+| [dbForge Edge](https://www.devart.com/dbforge/edge/features.html)           | NOT VERIFIED                                    | Windows               | Proprietary         |       |
+| [Navicat](https://www.navicat.com/)                                         | [YES]([https://www.navicat.com/en/products/navicat-for-mysql-feature-matrix](https://navicat.com/en/products/navicat-for-mariadb))   | Linux, MacOS, Windows | Proprietary |       |
+| [SQLPro Studio](https://www.sqlprostudio.com/)                              | NOT VERIFIED                                    | MacOS, Windows, iOS   | Proprietary |       |
+| [SQLyog](https://webyog.com/product/sqlyog/)                                | NOT VERIFIED                                    | Windows               | Proprietary         |       |
+| [TablePlus](https://tableplus.com/)                                         | [NOT VERIFIED]([https://dbeaver.com/databases/](https://docs.tableplus.com/))  | Linux, MacOS, Windows, iOS | Proprietary      |       |
+| [Toad Edge](https://toadworld.com/)                                         | NOT VERIFIED                                    | MacOS, Windows, Jenkins plugin | Proprietary |       |
+| [Valentina Studio](https://valentina-db.com/)                               | [NOT VERIFIED](https://valentina-db.com/en/database-management) | Linux, MacOS, Windows      | Proprietary  |       |
 
 Notes
 
@@ -191,16 +202,46 @@ Notes
 
 **Web Interfaces**
 
-| Project Name                                                                | MariaDB Support                                 | Platforms             | Free / Commercial  |
-|-----------------------------------------------------------------------------|-------------------------------------------------|-----------------------|--------------------|
-| [Adminer](https://www.adminer.org/)                                         | NOT VERIFIED                                    | PHP                   | FREE               |
-| [phpMyAdmin](https://www.phpmyadmin.net/)                                   | YES                                             | PHP                   | FREE               |
+| Project Name                                                                | MariaDB Support                                 | Platforms             | License            | Notes |
+|-----------------------------------------------------------------------------|-------------------------------------------------|-----------------------|--------------------|-------|
+| [Adminer](https://www.adminer.org/)                                         | NOT VERIFIED                                    | PHP                   | Apache2 or GPL2    |       |
+| [Express Admin](https://github.com/simov/express-admin/)                                   | YES                                             | NodeJS                | [MIT](https://github.com/simov/express-admin/blob/main/LICENSE)    | [1] |
+| [phpMyAdmin](https://www.phpmyadmin.net/)                                   | YES                                             | PHP                   | [GPL2](https://github.com/phpmyadmin/phpmyadmin/blob/master/LICENSE)                |    |
+
+1. Express Admin is a NodeJS tool for easy creation of administrative interfaces, data entry forms and data visualisation MariaDB and other databases.
 
 **TUIs**
 
-| Project Name                                                                | MariaDB Support                                 | Platforms             | Free / Commercial  |
+| Project Name                                                                | MariaDB Support                                 | Platforms             | License  |
 |-----------------------------------------------------------------------------|-------------------------------------------------|-----------------------|--------------------|
-| [mycli](https://www.mycli.net/)                                             | YES                                             | Python                | FREE               |
+| [mycli](https://www.mycli.net/)                                             | YES                                             | Python                | Open Source        |
+
+## Key
+
+Meaning of the terms used in this list.
+
+### MariaDB Support
+
+Some of the sections include resources that were created for MySQL, or for both MariaDB and MySQL. The extent of MariaDB support is not always optimal. For those resources, we indicate the MariaDB support level as follows:
+
+- `YES`: Specific support for MariaDB is indicated, or can be inferred from the documentation or the source code. "Supports MySQL/MariaDB" is not considered specific MariaDB support, because the author might assume that what works on MySQL will work on MariaDB equally well.
+- `MySQL`: Officially supports MySQL, but not MariaDB.
+- `NOT VERIFIED`: Officially supports MySQL and MariaDB but we do not know whether full support for MariaDB is implemented.
+- `PARTIAL`: We are aware of relevant bugs or missing features.
+
+If you disagree about a project's MariaDB Support indication, please report a bug.
+
+### License
+
+The license column might need a better name.
+
+- `Cloud` - Available as a cloud service.
+- `Proprietary` - Source is available, but software is not Open Source.
+- `Open Source` - The license is [approved by OSI](https://opensource.org/licenses).
+- For software that uses a single, open source, well-known license we sometimes indicate the license name.
+
+For non-cloud software, we ancourage you to verify the license where relevant. Indicating a specific license is usually a simplification, because an application could be distributed with multiple licenses, or it might include libraries that use different licenses.
+
 
 ---
 

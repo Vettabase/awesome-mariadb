@@ -8,24 +8,18 @@ This list is intended for Developers. There are lists intended for other audienc
 
 ## Contents
 
-- [Articles](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dev.md#articles)
-- [Connectors (Drivers)](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dev.md#connectors-drivers)
-- [IDEs](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dev.md#ides)
-- [Misc Libraries](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dev.md#misc-libraries)
-- [ORMs](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dev.md#orms-and-other-abstraction-layers)
-- [Schema Versioning Tools](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dev.md#schema-versioning-tools)
-- [User Interfaces](https://github.com/Vettabase/awesome-mariadb/blob/main/list-dev.md#user-interfaces)
+- [Articles](#articles)
+- [Connectors (Drivers)](#connectors-drivers)
+- [IDEs](#ides)
+- [Migrations](#migrations)
+- [Misc Libraries](#misc-libraries)
+- [NoSQL and Key Value Storage](#nosql-and-key-value-storage)
+- [ORMs](#orms-and-other-abstraction-layers)
+- [Schema Versioning Tools](#schema-versioning-tools)
+- [User-Defined Functions](#user-defined-functions)
+- [User Interfaces](#user-interfaces)
 
-## MariaDB Support Key
-
-Some of the below sections only include resources that were created for MariaDB.
-
-Other sections include resources that were created for MySQL, or for both, and the extent of MariaDB support is not always optimal. For those resources, we indicate the MariaDB support level. Refer to this key.
-
-- `MySQL`: The resource states that it supports MySQL, but not MariaDB.
-- `YES`: The resource states it supports MariaDB specifically, not something like "MySQL/MariaDB".
-- `NOT VERIFIED`: The resource states that it supports MySQL and MariaDB (or the specified version number) but we do not know whether full support for MariaDB is implemented. It's possible that MariaDB support is assumed as a consequence of MySQL support, but this might be inaccurate. Please report any relevant problems you might find to us (and to the resource itself).
-- `PARTIAL`: We have a clear list of what is or isn't officially supported.
+See the [key](#key) for explanations of the terms used in this list.
 
 ## Articles
 
@@ -33,10 +27,13 @@ The following resources are specific to MariaDB.
 
 **Tutorials**
 
+These tutorials show how to connect to MariaDB and perform some basic operations.
+
 Loosely ordered by language, SQL first.
 
-| Project                                                               | Language         | Level            |                | Notes          |
+| Project                                                               | Language         | Level            | Format         | Notes          |
 |-----------------------------------------------------------------------|------------------|------------------|----------------|----------------|
+| **[MariaDB on Rosetta Code](https://rosettacode.org/wiki/Category:MariaDB)**     | Pure SQL         | ALL LEVELS         | Text           |                |
 | [MariaDB Tutorial](https://www.javatpoint.com/mariadb-tutorial)       | Pure SQL         | BEGINNER         | Text           |                |
 | [Using MariaDB With ASP.NET Core Web API](https://code-maze.com/aspnetcore-using-mariadb-with-web-api/)   | ASP.NET          | INTERMEDIATE   | Text           |                |
 | [Query MariaDB Data in ColdFusion](https://www.cdata.com/kb/tech/mariadb-jdbc-coldfusion-query.rst)       | ColdFusion       | BEGINNER       | Text           |                |
@@ -58,28 +55,46 @@ Notes
 
 **Language-specific articles**
 
-Scala
-
-* [Stateful actors with Akka Event Sourcing and MariaDB](https://medium.com/@matteodipirro/stateful-actors-with-akka-event-sourcing-and-maria-db-d4202c6c599a)
+These articles are about language best practices, specific libraries, or non-trivial operations.
 
 Go
 
 * [Integrating MariaDB with GoLang Microservice Restful API](https://medium.com/widle-studio/integrating-mariadb-with-golang-microservice-restful-apis-building-efficient-data-storage-4054e1588ce)
+* [Golang: a RESTful API Using Temporal Table With MariaDB](https://hackernoon.com/golang-a-restful-api-using-temporal-table-with-mariadb)
+* [How to Connect and Operate MariaDB Using GORM in Go](https://medium.com/@blackhorseya/how-to-connect-and-operate-mariadb-using-gorm-in-go-bc55b1984348)
+* [gin-rest-api-sample](https://github.com/velopert/gin-rest-api-sample?tab=readme-ov-file) -  An example project that uses Gin, GORM and MariaDB.
 
 Java
 
 * [Getting Started With JPA/Hibernate](https://dzone.com/articles/getting-started-with-jpahibernate)
+* [How To Connect MariaDB Docker Containers with Java Spring And JDBC](https://hackernoon.com/how-to-connect-mariadb-docker-containers-with-java-spring-and-jdbc-ex243urb)
+* [Reactive Programming with Java Spring, R2DBC and MariaDB](https://hackernoon.com/reactive-programming-with-java-spring-r2dbc-and-mariadb-4vc3uo1)
 
 Node.js
 
+* [Getting Started with MariaDB using Docker and Node.js](https://hackernoon.com/getting-started-with-mariadb-using-docker-and-nodejs-fo433yp2)
 * [MariaDB, MySQL, and Node.js: Why Using the Right Connector Matters](https://dev.to/alejandro_du/mariadb-mysql-and-nodejs-why-using-the-right-connector-matters-38oe)
 
 Perl
 
 * [Migrating from DBD::mysql to DBD::MariaDB](https://blogs.perl.org/users/grinnz/2023/12/migrating-from-dbdmysql-to-dbdmariadb.html)
 
+PHP
+
+* [Why You Should Be Using PHP's PDO for Database Access](https://code.tutsplus.com/why-you-should-be-using-phps-pdo-for-database-access--net-12059t)
+
+Python
+
+* [Getting Started with MariaDB using Docker, Python and Flask](https://hackernoon.com/getting-started-with-mariadb-using-docker-python-and-flask-pa1i3ya3)
+* [Quick Tip: SQLAlchemy for MySQL and Pandas](https://pythondata.com/quick-tip-sqlalchemy-for-mysql-and-pandas/)
+
+Scala
+
+* [Stateful actors with Akka Event Sourcing and MariaDB](https://medium.com/@matteodipirro/stateful-actors-with-akka-event-sourcing-and-maria-db-d4202c6c599a)
+
 **Plain SQL articles**
 
+These articles are about MariaDB SQL dialect, regardless which language you use to develop applications.
 
 * [MariaDB/MySQL: use SQL properly to run less queries](https://vettabase.com/mysql-mariadb-use-sql-properly-to-run-less-queries/)
 * [How to compose strings in MariaDB](https://vettabase.com/how-to-compose-strings-in-mariadb/)
@@ -87,12 +102,16 @@ Perl
 * [MariaDB 10.2 Window Functions](http://ocelot.ca/blog/blog/2016/04/18/mariadb-10-2-window-functions/)
 * [Using Temporary Tables in MariaDB](https://dev.to/alejandro_du/using-temporary-tables-in-mariadb-1nb)
 * [MariaDB: WITH TIES syntax](https://vettabase.com/mariadb-with-ties-syntax/)
+* [Hybrid Data Models: How To Have Your JSON Cake and Eat MariaDB Too](https://hackernoon.com/hybrid-data-models-how-to-have-your-json-cake-and-eat-maria-db-too)
+* [Using JSON in MariaDB](https://dzone.com/articles/using-json-in-mariadb)
 * [The UUID data type in MariaDB](https://vettabase.com/the-uuid-data-type-in-mariadb/)
 * [The simultaneous_assignment mode in MariaDB 10.3.5](http://ocelot.ca/blog/blog/2018/03/21/the-simultaneous_assignment-mode-in-mariadb-10-3-5/)
 * [READ ONLY transactions in MariaDB and MySQL](https://vettabase.com/read-only-transactions-in-mariadb-and-mysql/)
 * [Tags and FullText indexes in MySQL](https://www.percona.com/blog/tags-and-fulltext-indexes-in-mysql/)
 
 ## Connectors (Drivers)
+
+The connectors are grouped by language.
 
 | Platform / Language  | ORM Name                                                                                  | MariaDB Support | Notes               |
 | -------------------- | ----------------------------------------------------------------------------------------- | --------------- | ------------------- |
@@ -118,6 +137,7 @@ Perl
 | PHP                  | [PDO MySQL](https://www.php.net/manual/en/ref.pdo-mysql.php)                              | MySQL           | Multi-database abstraction layer. |
 | Python               | [Connector/Python](https://mariadb.com/kb/en/list-of-mariadb-connector-python-releases/)  | YES             |                     |
 | Python               | [PyMySQL](https://github.com/PyMySQL/PyMySQL)                                             | PARTIAL             | Pure Python driver, MariaDB >= 10.4 |
+| Python               | [mysqlclient](https://github.com/PyMySQL/mysqlclient)                                     | YES             |  |
 | R                    | [RMariaDB](https://cran.r-project.org/web/packages/RMariaDB/index.html)                   | YES             |                     |
 | Raku (Perl 6)        | [DBIish](https://github.com/raku-community-modules/DBIish)                                | [YES](https://github.com/raku-community-modules/DBIish?tab=readme-ov-file#mysql) | |
 | Ruby                 | [mysql Ruby gem](https://rubygems.org/gems/mysql/)                                        | MySQL           | [2]                 |
@@ -125,7 +145,7 @@ Perl
 | Swift                | [Perfect MariaDB Connector](https://github.com/PerfectlySoft/Perfect-MariaDB)             | YES             |                     |
 | Zig                  | [myzql](https://github.com/speed2exe/myzql)                                               | NOT VERIFIED    | [3]                 |
 
-Notes:
+Notes
 
 1. Uses Connector/C via [CTypes](https://github.com/yallop/ocaml-ctypes). From the `README` file: "Only the prepared-statement APIs are exposed by OCaml-MariaDB, as these functions provide typed query parameters and database field access".
 2. `tencentcloud-sdk-mariadb` is actively maintained by Tencent. The `mysql` gem is by far the most used, but it's unmaintained since 2021. `jdbc-mariadb` is also unmaintained since 2019.
@@ -143,6 +163,10 @@ Guides on how to work with MariaDB using various IDEs.
 | RubyMine          | [RubyMine MariaDB plugin documentation](https://www.jetbrains.com/help/ruby/mariadb.html)      | Text            |                |
 | Visual Studio     | [How to: Create A Model Based on MariaDB Database](https://docs.telerik.com/data-access/developers-guide/database-specifics/mariadb/database-specifics-mariadb-create-domain-model.html)                                                                 | Text            |                |
 
+## Migrations
+
+- [sqlite-to-mysql](https://github.com/vwbusguy/sqlite-to-mysql)
+
 ## Misc Libraries
 
 Libraries that can't be classified as connectors or ORMs.
@@ -150,57 +174,111 @@ Libraries that can't be classified as connectors or ORMs.
 - [MariaDB4j](https://github.com/MariaDB4j/MariaDB4j) - a Java launcher to run MariaDB without installation or external dependencies.
 - [SQLGlot](https://github.com/tobymao/sqlglot/) - Libraries to parse SQL in various dialects. Supports MySQL with very minor divergencies from MariaDB.
 
+
+## NoSQL and Key Value Storage
+
+Links to articles and information on the various methods and utilities to read and write unstructure or NoSQL data to MariaDB.
+
+- [Dynamic Columns Tutorial](https://mariadb.com/resources/blog/dynamic-columns-tutorial-part-1-introduction/)
+- [Dynamic columns in MariaDB](http://radar.oreilly.com/2015/04/dynamic-columns-in-mariadb.html)
+- [How to Manage NoSQL Data with MariaDB](https://mariadb.com/resources/blog/how-to-manage-nosql-data-with-mariadb/)
+- [MariaDB for NoSQL users](https://archive.fosdem.org/2021/stands.fosdem.org/stands/mariadb_foundation/mariadb-for-nosql/index.html)
+- [NoSQL Protocol and Caching in MariaDB MaxScale](https://mariadb.com/resources/blog/nosql-protocol-and-caching-in-mariadb-maxscale/)
+- [Using JSON in MariaDB](https://mariadb.com/resources/blog/using-json-in-mariadb/)
+- [Using MariaDB as a MongoDB NoSQL Database](https://hackernoon.com/using-mariadb-as-a-mongodb-nosql-database)
+
+
 ## ORMs and other abstraction layers
 
-| Platform    | ORM Name                                             | MariaDB Support |
-| ----------- | ---------------------------------------------------- | --------------- |
-| Python      | [Django-MySQL](https://github.com/adamchainz/django-mysql)  | YES      |
-| Java        | [Hibernate](https://hibernate.org/orm/)              | [YES](https://github.com/hibernate/hibernate-orm/blob/main/dialects.adoc) |
-| Java        | [EclipseLink](https://eclipse.dev/eclipselink/)      | [YES](https://eclipse.dev/eclipselink/documentation/4.0/concepts/concepts.html#APP_TL_EXT001) |
-| Java        | [OpenJPA](https://openjpa.apache.org/)               | [YES](https://openjpa.apache.org/builds/3.2.2/apache-openjpa/docs/#ref_guide_dbsetup_dbsupport) |
-| Java        | [jOOQ](https://www.jooq.org/)                        | [YES](https://www.jooq.org/javadoc/latest/org.jooq/org/jooq/SQLDialect.html#MARIADB) |
-| Java        | [MyBatis](https://mybatis.org/mybatis-3/)            | [YES](https://github.com/mybatis/generator/issues/450#issuecomment-471790027) |
-| Python      | [SQLAlchemy](https://www.sqlalchemy.org/)            | [YES](https://docs.sqlalchemy.org/en/20/dialects/mysql.html#mariadb-support) |
-| Ruby        | [mariadb_temporal_tables](https://rubygems.org/gems/mariadb_temporal_tables) | YES |
-| Ruby on Rails | [Active Record](https://guides.rubyonrails.org/)   | [YES](https://guides.rubyonrails.org/active_record_querying.html) |
-| Rust        | [Diesel](https://github.com/diesel-rs/diesel/)       | [YES](https://mariadb.org/improving-mariadb-support-in-open-source-projects/) |
+| Language    | ORM Name                                             | License | MariaDB Support | Notes |
+| ----------- | ---------------------------------------------------- | ------- | --------------- | -----
+| Go          | [GORM]([https://github.com/adamchainz/django-mysql](https://gorm.io/))  | [MIT](https://github.com/go-gorm/gorm/blob/master/LICENSE) | [NOT VERIFIED](https://github.com/adamchainz/django-mysql?tab=readme-ov-file#what-kind-of-features)            | [1]   |
+| Python      | [Django-MySQL](https://github.com/adamchainz/django-mysql)  | [MIT](https://github.com/adamchainz/django-mysql/blob/main/LICENSE) | [YES](https://github.com/adamchainz/django-mysql?tab=readme-ov-file#what-kind-of-features)            |       |
+| Java        | [Hibernate](https://hibernate.org/orm/)              | [LGPL 2.1 / Apache 2](https://hibernate.org/community/license/) | [YES](https://github.com/hibernate/hibernate-orm/blob/main/dialects.adoc) |       |
+| Java        | [EclipseLink](https://eclipse.dev/eclipselink/)      | [Open Source](https://github.com/eclipse-ee4j/eclipselink/blob/master/LICENSE.md) | [YES](https://eclipse.dev/eclipselink/documentation/4.0/concepts/concepts.html#APP_TL_EXT001) |       |
+| Java        | [OpenJPA](https://openjpa.apache.org/)               | [Apache 2](https://github.com/apache/openjpa/blob/master/LICENSE) | [YES](https://openjpa.apache.org/builds/3.2.2/apache-openjpa/docs/#ref_guide_dbsetup_dbsupport) |       |
+| Java        | [jOOQ](https://www.jooq.org/)                        | [Apache 2 / Proprietary](https://github.com/jOOQ/jOOQ/blob/main/LICENSE) | [YES](https://www.jooq.org/javadoc/latest/org.jooq/org/jooq/SQLDialect.html#MARIADB) |       |
+| Java        | [MyBatis](https://mybatis.org/mybatis-3/)            | [Apache 2](https://github.com/mybatis/mybatis-3/blob/master/LICENSE) | [YES](https://github.com/mybatis/generator/issues/450#issuecomment-471790027) |       |
+| JavaScript  | [TypeORM](https://github.com/typeorm/typeorm)            | [MIT]([https://github.com/mybatis/mybatis-3/blob/master/LICENSE](https://github.com/typeorm/typeorm/blob/master/LICENSE)) | NOT VERIFIED |       |
+| Python      | [SQLAlchemy](https://www.sqlalchemy.org/)            | [MIT](https://github.com/sqlalchemy/sqlalchemy/blob/main/LICENSE) | [YES](https://docs.sqlalchemy.org/en/20/dialects/mysql.html#mariadb-support) |       |
+| Ruby        | [mariadb_temporal_tables](https://rubygems.org/gems/mariadb_temporal_tables) | [MIT](https://github.com/YoussefHenna/mariadb_temporal_tables/blob/master/LICENSE) | YES |       |
+| Ruby on Rails | [Active Record](https://guides.rubyonrails.org/)   | [MIT](https://github.com/rails/rails/blob/main/activerecord/MIT-LICENSE) | [YES](https://guides.rubyonrails.org/active_record_querying.html) |       |
+| Rust        | [Diesel](https://github.com/diesel-rs/diesel/)       | [Apache 2 / MIT](https://github.com/diesel-rs/diesel?tab=readme-ov-file#license) | [YES](https://mariadb.org/improving-mariadb-support-in-open-source-projects/) |       |
+| SQLx        | [SQLx](https://github.com/launchbadge/sqlx)          | [Apache 2 / MIT](https://github.com/launchbadge/sqlx?tab=readme-ov-file#license) | [YES](https://github.com/launchbadge/sqlx/blob/main/README.md) | [2]      |
 
-**@TODO:** Check the ORMs in [this list](https://en.wikipedia.org/wiki/List_of_object%E2%80%93relational_mapping_software).
+**Notes**
+
+1. Official MariaDB support is not mentioned on the website, but projects and materials, including the documentation, seem to use MariaDB successfully. Feedback would be welcomed on how it behaves where MySQL and MariaDB syntax differ.
+2. SQLx is an SQL toolkit. But if you don't like to build SQL strings, you can take a look at the [ORMs](https://github.com/launchbadge/sqlx/wiki/Ecosystem#orms) and [query builders](https://github.com/launchbadge/sqlx/wiki/Ecosystem#query-builders) it supports.
+
+**@TODO** Check the ORMs in [this list](https://en.wikipedia.org/wiki/List_of_object%E2%80%93relational_mapping_software).
 
 ## Schema Versioning Tools
 
-| Project Name                                            | MariaDB Support |
-| ------------------------------------------------------- | --------------- |
-| [ByteBase](https://www.bytebase.com/)                   | [10.7+](https://www.bytebase.com/docs/introduction/supported-databases/)
-| [Flyway](https://flywaydb.org/)                         | [5.1, 10.11](https://documentation.red-gate.com/flyway/flyway-cli-and-api/supported-databases/mariadb)
-| [Liquibase](https://www.liquibase.com/)                 | [PARTIAL](https://www.liquibase.com/databases/mariadb-server)
-| [Skeema.io](https://www.skeema.io/)                     | [10.1](https://www.skeema.io/docs/requirements/)
+| Project Name                                            | MariaDB Support | License / Platform |
+| ------------------------------------------------------- | --------------- | ------------------ |
+| [ByteBase](https://www.bytebase.com/)                   | [10.7+](https://www.bytebase.com/docs/introduction/supported-databases/) | Open source, proprietary, cloud |
+| [Flyway](https://flywaydb.org/)                         | [5.1, 10.11](https://documentation.red-gate.com/flyway/flyway-cli-and-api/supported-databases/mariadb) | [Apache 2](https://github.com/flyway/flyway/blob/main/LICENSE.txt) |
+| [Liquibase](https://www.liquibase.com/)                 | [PARTIAL](https://www.liquibase.com/databases/mariadb-server) | [Proprietary](https://www.liquibase.com/pricing) or [Apache 2](https://github.com/liquibase/liquibase/blob/master/LICENSE.txt) |
+| [Skeema.io](https://www.skeema.io/)                     | [10.1](https://www.skeema.io/docs/requirements/) | [Proprietary](https://www.skeema.io/download/) or [Apache 2](https://github.com/skeema/skeema/blob/main/LICENSE) |
+
+
+## User-Defined Functions
+
+To our knowledge, all MySQL UDFs should work with MariaDB. For this reason we don't provide information about MariaDB compatibility.
+
+**Articles**
+
+- [Extending MariaDB with user-defined functions](https://www.slideshare.net/slideshow/extending-mariadb-with-userdefined-functions/135046794) (slides)
+- [MySQL: Implementation of User Defined (Loadable) Function and using BLOB to store BigInteger](https://al-amintech.medium.com/mysql-implementation-of-user-defined-loadable-function-and-using-blob-to-store-biginteger-774a1b478a40)
+- [Writing User-Defined Functions in Rust](https://mariadb.org/writing-user-defined-functions-in-rust/)
+
+**Frameworks**
+
+Frameworks and libraries to ease UDFs developing.
+
+| Project                                                        | License | Language | Notes |
+| -------------------------------------------------------------- | ------- | -------- | ----- |
+| [lib_mysqludf_skeleton](https://github.com/mysqludf/lib_mysqludf_skeleton) | C      | [LGPL](https://github.com/mysqludf/lib_mysqludf_skeleton/blob/master/COPYING) | UDF skeleton project |
+| [sql-udf](https://github.com/pluots/sql-udf)                   | [Open Source](https://github.com/pluots/udf-suite?tab=readme-ov-file#license) | Rust | Wrapper for developing UDFs in Rust |
+
+**Libraries**
+
+| Project                                                        | License | Language | Notes |
+| -------------------------------------------------------------- | ------- | -------- | ----- |
+| [Levenshtein-MySQL-UDF](https://github.com/juanmirocks/Levenshtein-MySQL-UDF)  | [LGPL 3](https://github.com/juanmirocks/Levenshtein-MySQL-UDF/blob/master/LICENSE) | C | Levenshtein and related functions. |
+| [libmyemail](https://github.com/codayblue/libmyemail)          | [MIT](https://github.com/codayblue/libmyemail/blob/master/LICENSE.md) | C++ | Function to send emails. |
+| [lib_mysqludf_stomp](https://github.com/mysqludf/lib_mysqludf_stomp) | Apache 2 | C | UDF to send STOMP messages. |
+| [lib_mysqludf_ta](https://github.com/mysqludf/lib_mysqludf_ta) | Open Source | C    | Library for technical analysis. |
+| [lib_mysqludf_xml](https://github.com/mysqludf/lib_mysqludf_xml) | [LGPL 2.1](https://github.com/mysqludf/lib_mysqludf_xml/blob/master/COPYING) | C | [XQL](https://www.ibiblio.org/xql/xql-proposal.html) functions |
+| [mysql_udf_http_golang](https://github.com/2rebi/mysql_udf_http_golang) | [Open Source](https://github.com/2rebi/mysql_udf_http_golang?tab=readme-ov-file#license) | Go | HTTP requests. |
+
 
 ## User Interfaces
 
 **GUIs**
 
-| Project Name                                                                | MariaDB Support                                 | Platforms             | Free / Commercial  | Notes |
+| Project Name                                                                | MariaDB Support                                 | Platforms             | Licence    | Notes |
 |-----------------------------------------------------------------------------|-------------------------------------------------|-----------------------|--------------------|-------|
 | [Beekeeper Studio](https://www.beekeeperstudio.io/)                         | [NOT VERIFIED](https://docs.beekeeperstudio.io/user_guide/connecting/first-page/)  | Linux, MacOS, Windows | BOTH               |       |
-| [DataGrip](https://www.jetbrains.com/datagrip/)                             | [YES](https://www.jetbrains.com/datagrip/features/) | Linux, MacOS, Windows | Commercial     |       |
+| [DataGrip](https://www.jetbrains.com/datagrip/)                             | [YES](https://www.jetbrains.com/datagrip/features/) | Linux, MacOS, Windows | Proprietary     |       |
 | [DBeaver](https://dbeaver.io/)                                              | [NOT VERIFIED](https://dbeaver.com/databases/)  | Linux, MacOS, Windows | BOTH               |       |
-| [DbVisualizer](https://www.dbvis.com/)                                      | NOT VERIFIED                                    | Native: Linux, Windows; Java: Linux, MacOS, Windows | BOTH               |       |
-| [Harlequin](https://harlequin.sh/)                                          | MySQL                                           | Python                | FREE               |       |
-| [HeidiSQL](https://www.heidisql.com/)                                       | YES                                             | Windows               | FREE               |       |
-| [LibreOffice Base](https://www.libreoffice.org/discover/base/)              | [NOT VERIFIED](https://www.libreoffice.org/discover/base/) | Linux, MacOS, Windows | FREE            | [1]   |
-| [ocelotgui](http://ocelot.ca/)                                              | YES                                             | Linux                 | FREE               |       |
-| [OpenOffice Base](https://www.openoffice.org/product/base.html)             | [MySQL](https://www.openoffice.org/product/base.html) | Linux, MacOS, Windows | FREE                 | [2]   |
-| [Sequel Pro](https://www.sequelpro.com/)                                    | PARTIAL                                         | MacOS                 | FREE                       | [3]   |
-| [Database Workbench](https://www.upscene.com/database_workbench/) | [NOT VERIFIED](https://www.upscene.com/database_workbench/database-development-tool-for-mysql-and-mariadb)  | Windows               | Commercial         |       |
-| [dbForge Studio for MySQL](https://www.devart.com/dbforge/mysql/studio/)    | NOT VERIFIED                                    | Windows               | Commercial         |       |
-| [dbForge Edge](https://www.devart.com/dbforge/edge/features.html)           | NOT VERIFIED                                    | Windows               | Commercial         |       |
-| [Navicat](https://www.navicat.com/)                                         | [YES]([https://www.navicat.com/en/products/navicat-for-mysql-feature-matrix](https://navicat.com/en/products/navicat-for-mariadb)) | YES | Linux, MacOS, Windows | Commercial |       |
-| [SQLPro Studio](https://www.sqlprostudio.com/)                              | NOT VERIFIED                                    | MacOS, Windows, iOS   | Commercial |       |
-| [SQLyog](https://webyog.com/product/sqlyog/)                                | NOT VERIFIED                                    | Windows               | Commercial         |       |
-| [TablePlus](https://tableplus.com/)                                         | [NOT VERIFIED]([https://dbeaver.com/databases/](https://docs.tableplus.com/))  | Linux, MacOS, Windows, iOS | Commercial      |       |
-| [Toad Edge](https://toadworld.com/)                                         | NOT VERIFIED                                    | MacOS, Windows, Jenkins plugin | Commercial |       |
-| [Valentina Studio](https://valentina-db.com/)                               | [NOT VERIFIED](https://valentina-db.com/en/database-management) | Linux, MacOS, Windows      | Commercial  |       |
+| [DbVisualizer](https://www.dbvis.com/)                                      | [YES](https://www.dbvis.com/database/mariadb/)  | Native: Linux, Windows; JVM: Linux, MacOS, Windows | BOTH               |       |
+| [Harlequin](https://harlequin.sh/)                                          | MySQL                                           | Python                | Open Source          |       |
+| [HeidiSQL](https://www.heidisql.com/)                                       | YES                                              | Windows               | Open Source         |       |
+| [LibreOffice Base](https://www.libreoffice.org/discover/base/)              | [NOT VERIFIED](https://www.libreoffice.org/discover/base/) | Linux, MacOS, Windows | Open Source      | [1]   |
+| [ocelotgui](http://ocelot.ca/)                                              | YES                                             | Linux                 | Open Source          |       |
+| [OpenOffice Base](https://www.openoffice.org/product/base.html)             | [MySQL](https://www.openoffice.org/product/base.html) | Linux, MacOS, Windows | Open Source           | [2]   |
+| [Sequel Pro](https://www.sequelpro.com/)                                    | PARTIAL                                         | MacOS                 | Open Source                  | [3]   |
+| [Database Workbench](https://www.upscene.com/database_workbench/) | [NOT VERIFIED](https://www.upscene.com/database_workbench/database-development-tool-for-mysql-and-mariadb)  | Windows               | Proprietary         |       |
+| [dbForge Studio for MySQL](https://www.devart.com/dbforge/mysql/studio/)    | NOT VERIFIED                                    | Windows               | Proprietary         |       |
+| [dbForge Edge](https://www.devart.com/dbforge/edge/features.html)           | NOT VERIFIED                                    | Windows               | Proprietary         |       |
+| [Navicat](https://www.navicat.com/)                                         | [YES]([https://www.navicat.com/en/products/navicat-for-mysql-feature-matrix](https://navicat.com/en/products/navicat-for-mariadb))   | Linux, MacOS, Windows | Proprietary |       |
+| [SQLPro Studio](https://www.sqlprostudio.com/)                              | NOT VERIFIED                                    | MacOS, Windows, iOS   | Proprietary |       |
+| [SQLyog](https://webyog.com/product/sqlyog/)                                | NOT VERIFIED                                    | Windows               | Proprietary         |       |
+| [TablePlus](https://tableplus.com/)                                         | [NOT VERIFIED]([https://dbeaver.com/databases/](https://docs.tableplus.com/))  | Linux, MacOS, Windows, iOS | Proprietary      |       |
+| [Toad Edge](https://toadworld.com/)                                         | NOT VERIFIED                                    | MacOS, Windows, Jenkins plugin | Proprietary |       |
+| [Valentina Studio](https://valentina-db.com/)                               | [NOT VERIFIED](https://valentina-db.com/en/database-management) | Linux, MacOS, Windows      | Proprietary  |       |
 
 Notes
 
@@ -210,16 +288,47 @@ Notes
 
 **Web Interfaces**
 
-| Project Name                                                                | MariaDB Support                                 | Platforms             | Free / Commercial  |
-|-----------------------------------------------------------------------------|-------------------------------------------------|-----------------------|--------------------|
-| [Adminer](https://www.adminer.org/)                                         | NOT VERIFIED                                    | PHP                   | FREE               |
-| [phpMyAdmin](https://www.phpmyadmin.net/)                                   | YES                                             | PHP                   | FREE               |
+| Project Name                                                                | MariaDB Support                                 | Platforms             | License            | Notes |
+|-----------------------------------------------------------------------------|-------------------------------------------------|-----------------------|--------------------|-------|
+| [Adminer](https://www.adminer.org/)                                         | NOT VERIFIED                                    | PHP                   | Apache2 or GPL2    |       |
+| [Express Admin](https://github.com/simov/express-admin/)                                   | YES                                             | NodeJS                | [MIT](https://github.com/simov/express-admin/blob/main/LICENSE)    | [1] |
+| [phpMyAdmin](https://www.phpmyadmin.net/)                                   | YES                                             | PHP                   | [GPL2](https://github.com/phpmyadmin/phpmyadmin/blob/master/LICENSE)                |    |
+
+1. Express Admin is a NodeJS tool for easy creation of administrative interfaces, data entry forms and data visualisation MariaDB and other databases.
 
 **TUIs**
 
-| Project Name                                                                | MariaDB Support                                 | Platforms             | Free / Commercial  |
+| Project Name                                                                | MariaDB Support                                 | Platforms             | License  |
 |-----------------------------------------------------------------------------|-------------------------------------------------|-----------------------|--------------------|
-| [mycli](https://www.mycli.net/)                                             | YES                                             | Python                | FREE               |
+| [mycli](https://www.mycli.net/)                                             | YES                                             | Python                | Open Source        |
+
+
+## Key
+
+Meaning of the terms used in this list.
+
+### MariaDB Support
+
+Some of the sections include resources that were created for MySQL, or for both MariaDB and MySQL. The extent of MariaDB support is not always optimal. For those resources, we indicate the MariaDB support level as follows:
+
+- `YES`: Specific support for MariaDB is indicated, or can be inferred from the documentation or the source code. "Supports MySQL/MariaDB" is not considered specific MariaDB support, because the author might assume that what works on MySQL will work on MariaDB equally well.
+- `MySQL`: Officially supports MySQL, but not MariaDB.
+- `NOT VERIFIED`: Officially supports MySQL and MariaDB but we do not know whether full support for MariaDB is implemented.
+- `PARTIAL`: We are aware of relevant bugs or missing features.
+
+If you disagree about a project's MariaDB Support indication, please report a bug.
+
+### License
+
+The license column might need a better name.
+
+- `Cloud` - Available as a cloud service.
+- `Proprietary` - Source is available, but software is not Open Source.
+- `Open Source` - The license is [approved by OSI](https://opensource.org/licenses).
+- For software that uses a single, open source, well-known license we sometimes indicate the license name.
+
+For non-cloud software, we ancourage you to verify the license where relevant. Indicating a specific license is usually a simplification, because an application could be distributed with multiple licenses, or it might include libraries that use different licenses.
+
 
 ---
 
