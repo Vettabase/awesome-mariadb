@@ -17,6 +17,7 @@ See the [key](#key) for explanations of the terms used in this list.
 
 * **[Quick builds and rebuilds of MariaDB using Docker](https://optimizedbyotto.com/post/quick-builds-and-rebuilds-of-mariadb-with-docker/)** - Constains practical hints, useful even if you don't plan to use Docker.
 * [Building MariaDB Server from the sources](https://fromdual.com/building-mariadb-server-from-the-sources)
+* [Install MariaDB on Windows from Source Code](https://dev.to/arun3sh/install-mariadb-from-source-code-c6b)
 * [The Zoo of MySQL Storage Engine
   Flags](https://of-code.blogspot.com/2022/12/the-zoo-of-mysql-storage-engine-flags.html)
 * [On Writing to the MySQL Error
