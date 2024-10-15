@@ -113,30 +113,30 @@ These articles are about MariaDB SQL dialect, regardless which language you use 
 
 The connectors are grouped by language.
 
-| Platform / Language  | Connector Driver Name                                                                     | MariaDB Support | Notes               |
-| -------------------- | ----------------------------------------------------------------------------------------- | --------------- | ------------------- |
-| C                    | [Connector/C ](https://mariadb.com/kb/en/about-mariadb-connector-c/)                      | YES             |                     |
+| Platform / Language  | Connector Driver Name                                                                     | MariaDB Support | Extensions | Notes               |
+| -------------------- | ----------------------------------------------------------------------------------------- | --------------- | ---------- | ------------------- |
+| C                    | [Connector/C ](https://mariadb.com/kb/en/about-mariadb-connector-c/)                      | YES             | <ul><li>PSskipMD([3.1.10](https://mariadb.com/kb/en/mysql_real_connect/) - [default](https://github.com/mariadb-corporation/mariadb-connector-c/commit/6a763b90006c5591bfef766ba0a9f414a02a69ae#diff-e45114083905fb36ada93fa0ab74fc9b84def45219693b574bfb0429b548db8cR183))</li><li>EXTcolInfo([3.1.10](https://github.com/mariadb-corporation/mariadb-connector-c/wiki/mariadb_field_attr))</li><li>AUTHparsec([3.4.1](https://github.com/mariadb-corporation/mariadb-connector-c/blob/v3.4.1/plugins/auth/parsec.c) - default)</ul>               |
 | C                    | [mariadb++](https://github.com/viaduck/mariadbpp)                                         | YES             |                     |
 | C++                  | [MariaDB Connector/C++](https://github.com/mariadb-corporation/mariadb-connector-cpp/) | YES     |                     |
 | C++, Delphi          | [Universal Data Access](https://www.devart.com/unidac/)                                   | [YES](https://www.devart.com/unidac/compatibility.html)  |  |
 | Erlang               | [MySQL/OTP](https://github.com/mysql-otp/mysql-otp)                                       | MySQL           |                     |
 | Fortran              | [MariaDB Connector Fortran](https://github.com/v-h-giang/Mariadb_connector_fortran)       | YES             |                     |
 | Go                   | [Go-MySQL-Driver](https://github.com/go-sql-driver/mysql)                                 | [YES](https://github.com/go-sql-driver/mysql?tab=readme-ov-file#requirements) |  |
-| Java                 | [Connector/J](https://mariadb.com/kb/en/about-mariadb-connector-j/)                       | YES             | Type 4 JDBC driver  |
-| Java                 | [Connector/R2DBC](https://mariadb.com/docs/server/connect/programming-languages/java-r2dbc/) | YES          | Non-blocking API    |
-| JRuby                | [jdbc-mariadb](https://rubygems.org/gems/jdbc-mariadb)                                    | YES             | JDBC driver for JRuby. |
-| Julia                | [MySQL.jl](https://juliahub.com/ui/Packages/General/MySQL)                                | YES             | Built on MariaDB C/Connector |
+| Java                 | [Connector/J](https://mariadb.com/kb/en/about-mariadb-connector-j/)                       | YES             | | Type 4 JDBC driver  |
+| Java                 | [Connector/R2DBC](https://mariadb.com/docs/server/connect/programming-languages/java-r2dbc/) | YES          | | Non-blocking API    |
+| JRuby                | [jdbc-mariadb](https://rubygems.org/gems/jdbc-mariadb)                                    | YES             | | JDBC driver for JRuby. |
+| Julia                | [MySQL.jl](https://juliahub.com/ui/Packages/General/MySQL)                                | YES             | | Built on MariaDB C/Connector |
 | Lisp                 | [Allegro MySQL Direct Connect Library](https://franz.com/support/documentation/10.1/doc/mysql.htm) | [NOT VERIFIED](https://franz.com/support/documentation/10.1/doc/mysql.htm#mariadb-1) | |
 | .NET                 | [Connector/NET](https://dev.mysql.com/downloads/connector/net/)                           | MySQL           |                     |
 | .NET                 | [dotConnect for MySQL](https://www.devart.com/dotconnect/mysql/)                          | MySQL           |                     |
 | Node.js              | [Connector/Node.js](https://mariadb.com/kb/en/about-mariadb-connector-nodejs/)            | YES             |                     |
-| OCaml                | [OCaml-MariaDB](https://github.com/andrenth/ocaml-mariadb)                                | YES             | [1] |
+| OCaml                | [OCaml-MariaDB](https://github.com/andrenth/ocaml-mariadb)                                | YES             | | [1] |
 | ODBC                 | [Connector/ODBC](https://mariadb.com/kb/en/about-mariadb-connector-odbc/)                 | YES             |                     |
 | Perl                 | [DBD::MariaDB](https://metacpan.org/dist/DBD-MariaDB)                                     | YES             |                     |
-| PHP                  | [MySQLi](https://www.php.net/manual/en/book.mysqli.php)                                   | MySQL           | Both procedural and OO API. |
-| PHP                  | [PDO MySQL](https://www.php.net/manual/en/ref.pdo-mysql.php)                              | MySQL           | Multi-database abstraction layer. |
+| PHP                  | [MySQLi](https://www.php.net/manual/en/book.mysqli.php)                                   | MySQL           | | Both procedural and OO API. |
+| PHP                  | [PDO MySQL](https://www.php.net/manual/en/ref.pdo-mysql.php)                              | MySQL           | | Multi-database abstraction layer. |
 | Python               | [Connector/Python](https://mariadb.com/kb/en/list-of-mariadb-connector-python-releases/)  | YES             |                     |
-| Python               | [PyMySQL](https://github.com/PyMySQL/PyMySQL)                                             | PARTIAL             | Pure Python driver, MariaDB >= 10.4 |
+| Python               | [PyMySQL](https://github.com/PyMySQL/PyMySQL)                                             | PARTIAL             | | Pure Python driver, MariaDB >= 10.4 |
 | Python               | [mysqlclient](https://github.com/PyMySQL/mysqlclient)                                     | YES             |  |
 | R                    | [RMariaDB](https://cran.r-project.org/web/packages/RMariaDB/index.html)                   | YES             |                     |
 | Raku (Perl 6)        | [DBIish](https://github.com/raku-community-modules/DBIish)                                | [YES](https://github.com/raku-community-modules/DBIish?tab=readme-ov-file#mysql) | |
@@ -150,15 +150,27 @@ MariaDB Protocol Extensions:
 MariaDB extends the original MySQL protocol via capability flags. This table serves to show which Connector Drivers have these features.
 
 | Abbreviation | Meaning                               | Reference |
+| -------------| --------------------------------------| ----------|
 | PSskipMD     | Prepare Statement Skip Metadata       | [MariaDB KB - Prepare Statement Skipping Metadata](https://mariadb.com/kb/en/mariadb-protocol-differences-with-mysql/#prepare-statement-skipping-metadata) |
-| EXTcolInfo   | Extended Column Information           | [MariaDB KB - Extended Column Information](https://mariadb.com/kb/en/mariadb-protocol-differences-with-mysql/#prepare-statement-skipping-metadata) |
+| EXTcolInfo   | Extended Column Information           | [MariaDB KB - Extended Column Information](https://mariadb.com/kb/en/mariadb-protocol-differences-with-mysql/#extended-column-information) |
 | BULK         | Bulk  - Batch processing              | [MariaDB KB - Bulk](https://mariadb.com/kb/en/mariadb-protocol-differences-with-mysql/#bulk) |
 | AUTHed25519  | Authentication - ed25519              | [MariaDB KB - ED25519 Plugin](https://mariadb.com/kb/en/connection/#client_ed25519-plugin) |
 | AUTHparsec   | Authentication - PARSEC               | [MariaDB KB - PARSEC Plugin](https://mariadb.com/kb/en/connection/#parsec-plugin) |
 | AUTHgssapi   | Authentication - GSSAPI               | [MariaDB KB - GSSAPI Plugin](https://mariadb.com/kb/en/connection/#auth_gssapi_client-plugin) |
-| REDIR        | Redirection                           | [MariaDB KB - Connection Redirection Mechanism in the MariaDB Client/Server Protocol](https://mariadb.com/kb/en/connection-redirection-mechanism-in-the-mariadb-clientserver-protocol/) ]
+| REDIR        | Redirection                           | [MariaDB KB - Connection Redirection Mechanism in the MariaDB Client/Server Protocol](https://mariadb.com/kb/en/connection-redirection-mechanism-in-the-mariadb-clientserver-protocol/) |
 | NOconfigSSL  | No Configuration SSL                  | [MariaDB KB - No Configuration SSL](https://mariadb.com/kb/en/mariadb-protocol-differences-with-mysql/#no-configuration-ssl) / [MariaDB Foundation Blog](https://mariadb.org/mission-impossible-zero-configuration-ssl/) |
 | INITsesTrack | Initial Session Tracking              | [MariaDB KB - Initial Session Tracking](https://mariadb.com/kb/en/mariadb-protocol-differences-with-mysql/#initial-session-tracking) |
+
+Note: Reading the protocol extensions; the lack of an entry indicates that it has not been determined if this feature exists in this connector.
+
+Notations associated with protocol extensions:
+
+* version of connector including the feature (if known), and/or a link to documentation/interface.
+* a `Requested` linking to a feature request if one has been made.
+* a `N/A` (not applicable) if the extension is somehow unsuitable for the connector.
+* a `No` if the feature request has been rejected by the upstream.
+* a `Not present` if investigated and found to be missing.
+
 
 Notes
 
