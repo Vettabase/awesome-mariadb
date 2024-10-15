@@ -113,7 +113,7 @@ These articles are about MariaDB SQL dialect, regardless which language you use 
 
 The connectors are grouped by language.
 
-| Platform / Language  | ORM Name                                                                                  | MariaDB Support | Notes               |
+| Platform / Language  | Connector Driver Name                                                                     | MariaDB Support | Notes               |
 | -------------------- | ----------------------------------------------------------------------------------------- | --------------- | ------------------- |
 | C                    | [Connector/C ](https://mariadb.com/kb/en/about-mariadb-connector-c/)                      | YES             |                     |
 | C                    | [mariadb++](https://github.com/viaduck/mariadbpp)                                         | YES             |                     |
