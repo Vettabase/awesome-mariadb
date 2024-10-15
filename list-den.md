@@ -55,6 +55,9 @@ The following resources show how to integrate MariaDB with various other data te
   - Airbyte: [How to load data from Twitter to MariaDB ColumnStore](https://airbyte.com/how-to-sync/twitter-to-mariadb-columnstore)
   - Python: [Collecting / Storing Tweets with Python and MySQL](https://pythondata.com/collecting-storing-tweets-python-mysql/). Applies to MariaDB with no differences.
 
+**Other Databases**
+
+- [Accessing Oracle tables via MariaDB CONNECT engine and ODBC](https://mysqlentomologist.blogspot.com/2017/04/accessing-oracle-tables-via-mariadb.html)
 
 ## Key
 
