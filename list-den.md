@@ -65,6 +65,7 @@ The following resources show how to integrate MariaDB with various other data te
 
 **RESTful APIs**
 
+- [How to query a REST API with MariaDB CONNECT engine](https://vettabase.com/how-to-query-a-rest-api-with-mariadb-connect-engine/)
 - [MariaDB Connect Storage Engine & new JSON support](https://av.tib.eu/media/30968) (FOSDEM 2016 talk)
 
 ## Key
