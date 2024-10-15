@@ -195,7 +195,7 @@ Links to articles and information on the various methods and utilities to read a
 | Go          | [GORM]([https://github.com/adamchainz/django-mysql](https://gorm.io/))  | [MIT](https://github.com/go-gorm/gorm/blob/master/LICENSE) | [NOT VERIFIED](https://github.com/adamchainz/django-mysql?tab=readme-ov-file#what-kind-of-features)            | [1]   |
 | Python      | [Django-MySQL](https://github.com/adamchainz/django-mysql)  | [MIT](https://github.com/adamchainz/django-mysql/blob/main/LICENSE) | [YES](https://github.com/adamchainz/django-mysql?tab=readme-ov-file#what-kind-of-features)            |       |
 | Java        | [Hibernate](https://hibernate.org/orm/)              | [LGPL 2.1 / Apache 2](https://hibernate.org/community/license/) | [YES](https://github.com/hibernate/hibernate-orm/blob/main/dialects.adoc) |       |
-| Java        | [EclipseLink](https://eclipse.dev/eclipselink/)      | [Open Source](https://github.com/eclipse-ee4j/eclipselink/blob/master/LICENSE.md) | [YES](https://eclipse.dev/eclipselink/documentation/4.0/concepts/concepts.html#APP_TL_EXT001) |       |
+| Java        | [EclipseLink](https://eclipse.dev/eclipselink/)      | [Open Source](https://github.com/eclipse-ee4j/eclipselink/blob/master/LICENSE.md) | [YES](https://eclipse.dev/eclipselink/documentation/4.0/concepts/concepts.html#APP_TL_EXT001) | [2]   |
 | Java        | [OpenJPA](https://openjpa.apache.org/)               | [Apache 2](https://github.com/apache/openjpa/blob/master/LICENSE) | [YES](https://openjpa.apache.org/builds/3.2.2/apache-openjpa/docs/#ref_guide_dbsetup_dbsupport) |       |
 | Java        | [jOOQ](https://www.jooq.org/)                        | [Apache 2 / Proprietary](https://github.com/jOOQ/jOOQ/blob/main/LICENSE) | [YES](https://www.jooq.org/javadoc/latest/org.jooq/org/jooq/SQLDialect.html#MARIADB) |       |
 | Java        | [MyBatis](https://mybatis.org/mybatis-3/)            | [Apache 2](https://github.com/mybatis/mybatis-3/blob/master/LICENSE) | [YES](https://github.com/mybatis/generator/issues/450#issuecomment-471790027) |       |
@@ -204,12 +204,13 @@ Links to articles and information on the various methods and utilities to read a
 | Ruby        | [mariadb_temporal_tables](https://rubygems.org/gems/mariadb_temporal_tables) | [MIT](https://github.com/YoussefHenna/mariadb_temporal_tables/blob/master/LICENSE) | YES |       |
 | Ruby on Rails | [Active Record](https://guides.rubyonrails.org/)   | [MIT](https://github.com/rails/rails/blob/main/activerecord/MIT-LICENSE) | [YES](https://guides.rubyonrails.org/active_record_querying.html) |       |
 | Rust        | [Diesel](https://github.com/diesel-rs/diesel/)       | [Apache 2 / MIT](https://github.com/diesel-rs/diesel?tab=readme-ov-file#license) | [YES](https://mariadb.org/improving-mariadb-support-in-open-source-projects/) |       |
-| SQLx        | [SQLx](https://github.com/launchbadge/sqlx)          | [Apache 2 / MIT](https://github.com/launchbadge/sqlx?tab=readme-ov-file#license) | [YES](https://github.com/launchbadge/sqlx/blob/main/README.md) | [2]      |
+| SQLx        | [SQLx](https://github.com/launchbadge/sqlx)          | [Apache 2 / MIT](https://github.com/launchbadge/sqlx?tab=readme-ov-file#license) | [YES](https://github.com/launchbadge/sqlx/blob/main/README.md) | [3]      |
 
 **Notes**
 
 1. Official MariaDB support is not mentioned on the website, but projects and materials, including the documentation, seem to use MariaDB successfully. Feedback would be welcomed on how it behaves where MySQL and MariaDB syntax differ.
-2. SQLx is an SQL toolkit. But if you don't like to build SQL strings, you can take a look at the [ORMs](https://github.com/launchbadge/sqlx/wiki/Ecosystem#orms) and [query builders](https://github.com/launchbadge/sqlx/wiki/Ecosystem#query-builders) it supports.
+2. No easy way to insert the `IGNORE`, `USE` or `FORCE INDEX` syntax into a query.
+3. SQLx is an SQL toolkit. But if you don't like to build SQL strings, you can take a look at the [ORMs](https://github.com/launchbadge/sqlx/wiki/Ecosystem#orms) and [query builders](https://github.com/launchbadge/sqlx/wiki/Ecosystem#query-builders) it supports.
 
 **@TODO** Check the ORMs in [this list](https://en.wikipedia.org/wiki/List_of_object%E2%80%93relational_mapping_software).
 
