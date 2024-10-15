@@ -113,12 +113,12 @@ These articles are about MariaDB SQL dialect, regardless which language you use 
 
 The connectors are grouped by language.
 
-| Platform / Language  | ORM Name                                                                                  | MariaDB Support | Notes               |
+| Platform / Language  | Connector Driver Name                                                                     | MariaDB Support | Notes               |
 | -------------------- | ----------------------------------------------------------------------------------------- | --------------- | ------------------- |
 | C                    | [Connector/C ](https://mariadb.com/kb/en/about-mariadb-connector-c/)                      | YES             |                     |
 | C                    | [mariadb++](https://github.com/viaduck/mariadbpp)                                         | YES             |                     |
 | C++                  | [MariaDB Connector/C++](https://github.com/mariadb-corporation/mariadb-connector-cpp/) | YES     |                     |
-  | C++, Delphi        | [Universal Data Access](https://www.devart.com/unidac/)                                   | [YES](https://www.devart.com/unidac/compatibility.html)  |  |
+| C++, Delphi          | [Universal Data Access](https://www.devart.com/unidac/)                                   | [YES](https://www.devart.com/unidac/compatibility.html)  |  |
 | Erlang               | [MySQL/OTP](https://github.com/mysql-otp/mysql-otp)                                       | MySQL           |                     |
 | Fortran              | [MariaDB Connector Fortran](https://github.com/v-h-giang/Mariadb_connector_fortran)       | YES             |                     |
 | Go                   | [Go-MySQL-Driver](https://github.com/go-sql-driver/mysql)                                 | [YES](https://github.com/go-sql-driver/mysql?tab=readme-ov-file#requirements) |  |
