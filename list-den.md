@@ -63,6 +63,10 @@ The following resources show how to integrate MariaDB with various other data te
 - [MariaDB and external data](https://www.easysoft.com/blog/mariadb.html)
 - [MariaDB CONNECT Storage Engine and non MySQL syntax selects](https://serge.frezefond.com/2013/12/mariadb-connect-storage-engine-and-non-mysql-syntax-selects/)
 
+**RESTful APIs**
+
+- [MariaDB Connect Storage Engine & new JSON support](https://av.tib.eu/media/30968) (FOSDEM 2016 talk)
+
 ## Key
 
 Meaning of the terms used in this list.
