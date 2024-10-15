@@ -145,6 +145,21 @@ The connectors are grouped by language.
 | Swift                | [Perfect MariaDB Connector](https://github.com/PerfectlySoft/Perfect-MariaDB)             | YES             |                     |
 | Zig                  | [myzql](https://github.com/speed2exe/myzql)                                               | NOT VERIFIED    | [3]                 |
 
+MariaDB Protocol Extensions:
+
+MariaDB extends the original MySQL protocol via capability flags. This table serves to show which Connector Drivers have these features.
+
+| Abbreviation | Meaning                               | Reference |
+| PSskipMD     | Prepare Statement Skip Metadata       | [MariaDB KB - Prepare Statement Skipping Metadata](https://mariadb.com/kb/en/mariadb-protocol-differences-with-mysql/#prepare-statement-skipping-metadata) |
+| EXTcolInfo   | Extended Column Information           | [MariaDB KB - Extended Column Information](https://mariadb.com/kb/en/mariadb-protocol-differences-with-mysql/#prepare-statement-skipping-metadata) |
+| BULK         | Bulk  - Batch processing              | [MariaDB KB - Bulk](https://mariadb.com/kb/en/mariadb-protocol-differences-with-mysql/#bulk) |
+| AUTHed25519  | Authentication - ed25519              | [MariaDB KB - ED25519 Plugin](https://mariadb.com/kb/en/connection/#client_ed25519-plugin) |
+| AUTHparsec   | Authentication - PARSEC               | [MariaDB KB - PARSEC Plugin](https://mariadb.com/kb/en/connection/#parsec-plugin) |
+| AUTHgssapi   | Authentication - GSSAPI               | [MariaDB KB - GSSAPI Plugin](https://mariadb.com/kb/en/connection/#auth_gssapi_client-plugin) |
+| REDIR        | Redirection                           | [MariaDB KB - Connection Redirection Mechanism in the MariaDB Client/Server Protocol](https://mariadb.com/kb/en/connection-redirection-mechanism-in-the-mariadb-clientserver-protocol/) ]
+| NOconfigSSL  | No Configuration SSL                  | [MariaDB KB - No Configuration SSL](https://mariadb.com/kb/en/mariadb-protocol-differences-with-mysql/#no-configuration-ssl) / [MariaDB Foundation Blog](https://mariadb.org/mission-impossible-zero-configuration-ssl/) |
+| INITsesTrack | Initial Session Tracking              | [MariaDB KB - Initial Session Tracking](https://mariadb.com/kb/en/mariadb-protocol-differences-with-mysql/#initial-session-tracking) |
+
 Notes
 
 1. Uses Connector/C via [CTypes](https://github.com/yallop/ocaml-ctypes). From the `README` file: "Only the prepared-statement APIs are exposed by OCaml-MariaDB, as these functions provide typed query parameters and database field access".
