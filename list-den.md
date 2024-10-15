@@ -59,6 +59,7 @@ The following resources show how to integrate MariaDB with various other data te
 
 - [Accessing Oracle tables via MariaDB CONNECT engine and ODBC](https://mysqlentomologist.blogspot.com/2017/04/accessing-oracle-tables-via-mariadb.html)
 - [MariaDB CONNECT Storage Engine access to Oracle 11GR2](https://serge.frezefond.com/2013/12/mariadb-connect-storage-engine-access-to-oracle-11gr2/)
+- [MariaDB and external data](https://www.easysoft.com/blog/mariadb.html)
 
 ## Key
 
