@@ -201,8 +201,10 @@ Links to articles and information on the various methods and utilities to read a
 | Java        | [MyBatis](https://mybatis.org/mybatis-3/)            | [Apache 2](https://github.com/mybatis/mybatis-3/blob/master/LICENSE) | [YES](https://github.com/mybatis/generator/issues/450#issuecomment-471790027) |       |
 | JavaScript  | [TypeORM](https://github.com/typeorm/typeorm)            | [MIT]([https://github.com/mybatis/mybatis-3/blob/master/LICENSE](https://github.com/typeorm/typeorm/blob/master/LICENSE)) | NOT VERIFIED | [2]   |
 | Python      | [SQLAlchemy](https://www.sqlalchemy.org/)            | [MIT](https://github.com/sqlalchemy/sqlalchemy/blob/main/LICENSE) | [YES](https://docs.sqlalchemy.org/en/20/dialects/mysql.html#mariadb-support) |       |
+| Python      | [Shiny for Python](https://shiny.posit.co/py/)          | [MIT](https://github.com/posit-dev/py-shiny/blob/main/LICENSE) | [YES](https://shiny.posit.co/r/articles/build/overview/) | [4]   |
 | Ruby        | [mariadb_temporal_tables](https://rubygems.org/gems/mariadb_temporal_tables) | [MIT](https://github.com/YoussefHenna/mariadb_temporal_tables/blob/master/LICENSE) | YES |       |
 | Ruby on Rails | [Active Record](https://guides.rubyonrails.org/)   | [MIT](https://github.com/rails/rails/blob/main/activerecord/MIT-LICENSE) | [YES](https://guides.rubyonrails.org/active_record_querying.html) |       |
+| R           | [Shiny for R](https://shiny.posit.co/r/)             | [GPL 3](https://github.com/rstudio/shiny/blob/main/LICENSE) | [YES](https://shiny.posit.co/r/articles/build/overview/) | [4]   |
 | Rust        | [Diesel](https://github.com/diesel-rs/diesel/)       | [Apache 2 / MIT](https://github.com/diesel-rs/diesel?tab=readme-ov-file#license) | [YES](https://mariadb.org/improving-mariadb-support-in-open-source-projects/) |       |
 | SQLx        | [SQLx](https://github.com/launchbadge/sqlx)          | [Apache 2 / MIT](https://github.com/launchbadge/sqlx?tab=readme-ov-file#license) | [YES](https://github.com/launchbadge/sqlx/blob/main/README.md) | [3]      |
 
@@ -211,6 +213,7 @@ Links to articles and information on the various methods and utilities to read a
 1. Official MariaDB support is not mentioned on the website, but projects and materials, including the documentation, seem to use MariaDB successfully. Feedback would be welcomed on how it behaves where MySQL and MariaDB syntax differ.
 2. No easy way to insert the `IGNORE`, `USE` or `FORCE INDEX` syntax into a query.
 3. SQLx is an SQL toolkit. But if you don't like to build SQL strings, you can take a look at the [ORMs](https://github.com/launchbadge/sqlx/wiki/Ecosystem#orms) and [query builders](https://github.com/launchbadge/sqlx/wiki/Ecosystem#query-builders) it supports.
+4. Shiny is a framework for data science application developing in Pyhton and R. It includes support for databases, including MariaDB.
 
 **@TODO** Check the ORMs in [this list](https://en.wikipedia.org/wiki/List_of_object%E2%80%93relational_mapping_software).
 
