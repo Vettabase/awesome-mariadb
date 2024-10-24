@@ -140,10 +140,10 @@ The connectors are grouped by language.
 | Python               | [mysqlclient](https://github.com/PyMySQL/mysqlclient)                                     | YES             |  |
 | R                    | [RMariaDB](https://cran.r-project.org/web/packages/RMariaDB/index.html)                   | YES             |                     |
 | Raku (Perl 6)        | [DBIish](https://github.com/raku-community-modules/DBIish)                                | [YES](https://github.com/raku-community-modules/DBIish?tab=readme-ov-file#mysql) | |
-| Ruby                 | [mysql Ruby gem](https://rubygems.org/gems/mysql/)                                        | MySQL           | [2]                 |
-| Ruby                 | [tencentcloud-sdk-mariadb](https://rubygems.org/gems/tencentcloud-sdk-mariadb)            | YES             | [2]                 |
+| Ruby                 | [mysql Ruby gem](https://rubygems.org/gems/mysql/)                                        | MySQL           | | [2]                 |
+| Ruby                 | [tencentcloud-sdk-mariadb](https://rubygems.org/gems/tencentcloud-sdk-mariadb)            | YES             | | [2]                 |
 | Swift                | [Perfect MariaDB Connector](https://github.com/PerfectlySoft/Perfect-MariaDB)             | YES             |                     |
-| Zig                  | [myzql](https://github.com/speed2exe/myzql)                                               | NOT VERIFIED    | [3]                 |
+| Zig                  | [myzql](https://github.com/speed2exe/myzql)                                               | NOT VERIFIED    | | [3]                 |
 
 MariaDB Protocol Extensions:
 
