@@ -37,7 +37,6 @@ Some of these projects are complete data flow platforms that are able to consume
 | [Dolt]([https://github.com/madvirus/mariadb-cdc](https://dolthub.com/)) | [YES](https://docs.dolthub.com/guides/binlog-replication)  | JVM       | [Apache2](https://github.com/dolthub/dolt/blob/main/LICENSE) |
 | [Debezium](https://github.com/madvirus/mariadb-cdc)              | [YES](https://debezium.io/documentation/reference/stable/connectors/mysql.html#mysql-mariadb-support)  | JVM       | [Apache2](https://debezium.io/license/) |
 | [mariadb-cdc](https://github.com/madvirus/mariadb-cdc)           | YES               | JVM                  | [Proprietary](https://github.com/madvirus/mariadb-cdc/issues/1) |
-| [Metabase](https://www.metabase.com/)                            | [YES](https://www.metabase.com/data_sources/mariadb) | JVM | [AGPL, Proprietary](https://github.com/metabase/metabase/blob/master/LICENSE.txt), [Cloud](https://www.metabase.com/pricing/) |
 | [MySqlCdc](https://github.com/rusuly/MySqlCdc)                   | YES               | .NET                  | [MIT](https://github.com/rusuly/MySqlCdc/blob/main/LICENSE) |
 | [pg_chameleon](https://pgchameleon.org/)                         | MySQL             | Python3               | [BSD](https://github.com/the4thdoctor/pg_chameleon/blob/main/LICENSE.txt) |
 
@@ -45,6 +44,12 @@ Some of these projects are complete data flow platforms that are able to consume
 
 - [Deploying Flink CDC Jobs with Docker compose](https://gordonmurray.com/data/2023/11/02/deploying-flink-cdc-jobs-with-docker-compose.html)
 - [MariaDB pipeline in Logstash](https://www.suncrescent.net/2020/06/mariadb-pipeline-in-logstash/)
+
+## Data Visualisation
+
+| Project                                                          | MariaDB Support   | Language / Platform   | License / Platform                   |
+|------------------------------------------------------------------|-------------------|-----------------------|--------------------------------------|
+| [Metabase](https://www.metabase.com/)                            | [YES](https://www.metabase.com/data_sources/mariadb) | JVM | [AGPL, Proprietary](https://github.com/metabase/metabase/blob/master/LICENSE.txt), [Cloud](https://www.metabase.com/pricing/) |
 
 ## Data Integration
 
