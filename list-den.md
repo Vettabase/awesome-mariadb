@@ -12,6 +12,7 @@ This list is intended for Data Engineers. There are lists intended for other aud
 - [Change Data Capture](#change-data-capture)
 - [Data Integration](#data-integration)
 - [Data Visualisation](#data-visualisation)
+- [Stored Procedures](#stored-procedures)
 
 See the [key](#key) for explanations of the terms used in this list.
 
@@ -74,6 +75,12 @@ The following resources show how to integrate MariaDB with various other data te
 | Project                                                          | MariaDB Support   | Language / Platform   | License / Platform                   |
 |------------------------------------------------------------------|-------------------|-----------------------|--------------------------------------|
 | [Metabase](https://www.metabase.com/)                            | [YES](https://www.metabase.com/data_sources/mariadb) | JVM | [AGPL, Proprietary](https://github.com/metabase/metabase/blob/master/LICENSE.txt), [Cloud](https://www.metabase.com/pricing/) |
+
+## Stored Procedures
+
+**Stored Procedures Articles**
+
+- [PL/SQL in MariaDB](https://ocelot.ca/blog/blog/2017/01/15/plsql-in-mariadb/)
 
 ## Key
 
