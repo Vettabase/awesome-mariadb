@@ -11,6 +11,7 @@ This list is intended for Data Engineers. There are lists intended for other aud
 - [AI Integrations](#ai-integrations)
 - [Change Data Capture](#change-data-capture)
 - [Data Integration](#data-integration)
+- [Data Visualisation](#data-visualisation)
 
 See the [key](#key) for explanations of the terms used in this list.
 
@@ -45,12 +46,6 @@ Some of these projects are complete data flow platforms that are able to consume
 - [Deploying Flink CDC Jobs with Docker compose](https://gordonmurray.com/data/2023/11/02/deploying-flink-cdc-jobs-with-docker-compose.html)
 - [MariaDB pipeline in Logstash](https://www.suncrescent.net/2020/06/mariadb-pipeline-in-logstash/)
 
-## Data Visualisation
-
-| Project                                                          | MariaDB Support   | Language / Platform   | License / Platform                   |
-|------------------------------------------------------------------|-------------------|-----------------------|--------------------------------------|
-| [Metabase](https://www.metabase.com/)                            | [YES](https://www.metabase.com/data_sources/mariadb) | JVM | [AGPL, Proprietary](https://github.com/metabase/metabase/blob/master/LICENSE.txt), [Cloud](https://www.metabase.com/pricing/) |
-
 ## Data Integration
 
 The following resources show how to integrate MariaDB with various other data technologies. Resources are grouped by technology type (eg: social networks) and ordered by technology (eg: Facebook, Twitter...). Resources might refer to a particular third party tool, in which case the tool name is indicated before the resource title.
@@ -73,6 +68,12 @@ The following resources show how to integrate MariaDB with various other data te
 
 - [How to query a REST API with MariaDB CONNECT engine](https://vettabase.com/how-to-query-a-rest-api-with-mariadb-connect-engine/)
 - [MariaDB Connect Storage Engine & new JSON support](https://av.tib.eu/media/30968) (FOSDEM 2016 talk)
+
+## Data Visualisation
+
+| Project                                                          | MariaDB Support   | Language / Platform   | License / Platform                   |
+|------------------------------------------------------------------|-------------------|-----------------------|--------------------------------------|
+| [Metabase](https://www.metabase.com/)                            | [YES](https://www.metabase.com/data_sources/mariadb) | JVM | [AGPL, Proprietary](https://github.com/metabase/metabase/blob/master/LICENSE.txt), [Cloud](https://www.metabase.com/pricing/) |
 
 ## Key
 
