@@ -16,6 +16,7 @@ This list is intended for Developers. There are lists intended for other audienc
 - [NoSQL and Key Value Storage](#nosql-and-key-value-storage)
 - [ORMs](#orms-and-other-abstraction-layers)
 - [Schema Versioning Tools](#schema-versioning-tools)
+- [Stored Routines](#stored-routines)
 - [User-Defined Functions](#user-defined-functions)
 - [User Interfaces](#user-interfaces)
 
@@ -252,6 +253,13 @@ Links to articles and information on the various methods and utilities to read a
 | [Flyway](https://flywaydb.org/)                         | [5.1, 10.11](https://documentation.red-gate.com/flyway/flyway-cli-and-api/supported-databases/mariadb) | [Apache 2](https://github.com/flyway/flyway/blob/main/LICENSE.txt) |
 | [Liquibase](https://www.liquibase.com/)                 | [PARTIAL](https://www.liquibase.com/databases/mariadb-server) | [Proprietary](https://www.liquibase.com/pricing) or [Apache 2](https://github.com/liquibase/liquibase/blob/master/LICENSE.txt) |
 | [Skeema.io](https://www.skeema.io/)                     | [10.1](https://www.skeema.io/docs/requirements/) | [Proprietary](https://www.skeema.io/download/) or [Apache 2](https://github.com/skeema/skeema/blob/main/LICENSE) |
+
+
+## Stored Routines
+
+The term *stored routine* indicates a stored procedure or function. This is a list of stored routines that can be useful for application developers.
+
+* [mariadb_uuidv7.sql](https://gist.github.com/juanparati/0ded9c04d4cd43e5aae8f5a438a8b18b) - A stored function to generate a UUIDv7. This is useful on MariaDB versions older than 10.7.
 
 
 ## User-Defined Functions
