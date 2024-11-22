@@ -15,6 +15,8 @@ This list is intended for Developers. There are lists intended for other audienc
 - [Misc Libraries](#misc-libraries)
 - [NoSQL and Key Value Storage](#nosql-and-key-value-storage)
 - [ORMs](#orms-and-other-abstraction-layers)
+- [Protocol](#protocol)
+- [Replication](#replication)
 - [Schema Versioning Tools](#schema-versioning-tools)
 - [Stored Routines](#stored-routines)
 - [User-Defined Functions](#user-defined-functions)
@@ -244,6 +246,18 @@ Links to articles and information on the various methods and utilities to read a
 4. Shiny is a framework for data science application developing in Pyhton and R. It includes support for databases, including MariaDB.
 
 **@TODO** Check the ORMs in [this list](https://en.wikipedia.org/wiki/List_of_object%E2%80%93relational_mapping_software).
+
+## Protocol
+
+| Project Name                                            | MariaDB Support | License / Platform |
+| ------------------------------------------------------- | --------------- | ------------------ |
+| [Wireshark](https://gitlab.com/wireshark/wireshark/) MySQL Protocol Dissector | Yes | GPLv2 |
+
+## Replication
+
+| Project Name                                            | MariaDB Support | License / Platform |
+| ------------------------------------------------------- | --------------- | ------------------ |
+| [go-mysql](https://github.com/go-mysql-org/go-mysql) | Yes | MIT |
 
 ## Schema Versioning Tools
 
