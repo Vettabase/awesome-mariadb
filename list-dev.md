@@ -251,7 +251,7 @@ Links to articles and information on the various methods and utilities to read a
 
 | Project Name                                            | MariaDB Support | License / Platform |
 | ------------------------------------------------------- | --------------- | ------------------ |
-| [Wireshark](https://gitlab.com/wireshark/wireshark/) MySQL Protocol Dissector | Yes | GPLv2 |
+| [Wireshark](https://gitlab.com/wireshark/wireshark/) MySQL Protocol Dissector | YES | [GPL2](https://gitlab.com/wireshark/wireshark/-/blob/master/COPYING) |
 
 ## Replication
 
