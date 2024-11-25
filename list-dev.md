@@ -147,7 +147,7 @@ The connectors are grouped by language.
 | Swift                | [Perfect MariaDB Connector](https://github.com/PerfectlySoft/Perfect-MariaDB)             | YES             |                     |
 | Zig                  | [myzql](https://github.com/speed2exe/myzql)                                               | NOT VERIFIED    | | [3]                 |
 
-MariaDB Protocol Extensions:
+**MariaDB Protocol Extensions**
 
 MariaDB extends the original MySQL protocol via capability flags. This table serves to show which Connector Drivers have these features.
 
