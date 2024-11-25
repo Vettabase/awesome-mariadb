@@ -38,6 +38,7 @@ Some of these projects are complete data flow platforms that are able to consume
 | [Apache Superset](https://github.com/apache/superset)            | [YES](https://github.com/apache/superset) | TypeScript, Python  | [Apache2](https://github.com/apache/superset/blob/master/LICENSE.txt) |
 | [Dolt]([https://github.com/madvirus/mariadb-cdc](https://dolthub.com/)) | [YES](https://docs.dolthub.com/guides/binlog-replication)  | Go        | [Apache2](https://github.com/dolthub/dolt/blob/main/LICENSE) |
 | [Debezium](https://github.com/madvirus/mariadb-cdc)              | [YES](https://debezium.io/documentation/reference/stable/connectors/mysql.html#mysql-mariadb-support)  | JVM       | [Apache2](https://debezium.io/license/) |
+| [go-mysql](https://github.com/go-mysql-org/go-mysql)    | [YES](https://github.com/go-mysql-org/go-mysql/blob/master/mysql/const.go) | Go | [MIT](https://github.com/go-mysql-org/go-mysql/blob/master/LICENSE) |
 | [mariadb-cdc](https://github.com/madvirus/mariadb-cdc)           | YES               | JVM                  | [Proprietary](https://github.com/madvirus/mariadb-cdc/issues/1) |
 | [MySqlCdc](https://github.com/rusuly/MySqlCdc)                   | YES               | .NET                  | [MIT](https://github.com/rusuly/MySqlCdc/blob/main/LICENSE) |
 | [pg_chameleon](https://pgchameleon.org/)                         | MySQL             | Python3               | [BSD](https://github.com/the4thdoctor/pg_chameleon/blob/main/LICENSE.txt) |

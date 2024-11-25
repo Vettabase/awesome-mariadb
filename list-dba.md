@@ -16,7 +16,7 @@ This list is intended for Database Administrators. There are lists intended for 
 - [Monitoring](#monitoring)
 - [Proxies](#proxies)
 - [Sharding](#sharding)
-- [Replication Managers](#replication-managers)
+- [Replication](#replication)
 - [Schema Versioning Tools](#schema-versioning-tools)
 - [Security](#security)
 - [Toolkits](#toolkits)
@@ -132,12 +132,13 @@ The following projects are either sharding components or sub-components that be 
 | [Spider](https://mariadb.com/kb/en/spider/)                         | YES             | GPLv2              | A storage engine for table definition shards and connections to split tables among several servers. |
 
 
-## Replication Managers
+## Replication
 
 | Project                                                                | MariaDB Support   | License / Platform |
 |------------------------------------------------------------------------|-------------------|--------------------|
-| [Replication Manager](https://signal18.io/products/srm)                | 10.0+             | GPL / Proprietary  |
 | [ClusterControl](https://docs.severalnines.com/docs/clustercontrol/)   | Yes               | Open Core          |
+| [go-mysql](https://github.com/go-mysql-org/go-mysql)    | [YES](https://github.com/go-mysql-org/go-mysql/blob/master/mysql/const.go) | [MIT](https://github.com/go-mysql-org/go-mysql/blob/master/LICENSE) |
+| [Replication Manager](https://signal18.io/products/srm)                | 10.0+             | GPL / Proprietary  |
 
 ## Schema Versioning Tools
 
