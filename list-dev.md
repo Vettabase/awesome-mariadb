@@ -151,17 +151,17 @@ MariaDB Protocol Extensions:
 
 MariaDB extends the original MySQL protocol via capability flags. This table serves to show which Connector Drivers have these features.
 
-| Abbreviation | Meaning                               | Reference |
-| -------------| --------------------------------------| ----------|
-| PSskipMD     | Prepare Statement Skip Metadata       | [MariaDB KB - Prepare Statement Skipping Metadata](https://mariadb.com/kb/en/mariadb-protocol-differences-with-mysql/#prepare-statement-skipping-metadata) |
-| EXTcolInfo   | Extended Column Information           | [MariaDB KB - Extended Column Information](https://mariadb.com/kb/en/mariadb-protocol-differences-with-mysql/#extended-column-information) |
-| BULK         | Bulk  - Batch processing              | [MariaDB KB - Bulk](https://mariadb.com/kb/en/mariadb-protocol-differences-with-mysql/#bulk) |
-| AUTHed25519  | Authentication - ed25519              | [MariaDB KB - ED25519 Plugin](https://mariadb.com/kb/en/connection/#client_ed25519-plugin) |
-| AUTHparsec   | Authentication - PARSEC               | [MariaDB KB - PARSEC Plugin](https://mariadb.com/kb/en/connection/#parsec-plugin) |
-| AUTHgssapi   | Authentication - GSSAPI               | [MariaDB KB - GSSAPI Plugin](https://mariadb.com/kb/en/connection/#auth_gssapi_client-plugin) |
-| REDIR        | Redirection                           | [MariaDB KB - Connection Redirection Mechanism in the MariaDB Client/Server Protocol](https://mariadb.com/kb/en/connection-redirection-mechanism-in-the-mariadb-clientserver-protocol/) |
-| NOconfigSSL  | No Configuration SSL                  | [MariaDB KB - No Configuration SSL](https://mariadb.com/kb/en/mariadb-protocol-differences-with-mysql/#no-configuration-ssl) / [MariaDB Foundation Blog](https://mariadb.org/mission-impossible-zero-configuration-ssl/) |
-| INITsesTrack | Initial Session Tracking              | [MariaDB KB - Initial Session Tracking](https://mariadb.com/kb/en/mariadb-protocol-differences-with-mysql/#initial-session-tracking) |
+| Abbreviation | Meaning                               | MariaDB Version | Reference |
+| -------------| --------------------------------------| --------------- | ----------|
+| PSskipMD     | Prepare Statement Skip Metadata       | 10.6.0+         | [MariaDB KB - Prepare Statement Skipping Metadata](https://mariadb.com/kb/en/mariadb-protocol-differences-with-mysql/#prepare-statement-skipping-metadata) |
+| EXTcolInfo   | Extended Column Information           | 10.5.2+         | [MariaDB KB - Extended Column Information](https://mariadb.com/kb/en/mariadb-protocol-differences-with-mysql/#extended-column-information) |
+| BULK         | Bulk  - Batch processing              | 11.5.1+         | [MariaDB KB - Bulk](https://mariadb.com/kb/en/mariadb-protocol-differences-with-mysql/#bulk) |
+| AUTHed25519  | Authentication - ed25519              | 10.1.22+        | [MariaDB KB - ED25519 Plugin](https://mariadb.com/kb/en/connection/#client_ed25519-plugin) |
+| AUTHparsec   | Authentication - PARSEC               | 11.6+           | [MariaDB KB - PARSEC Plugin](https://mariadb.com/kb/en/connection/#parsec-plugin) |
+| AUTHgssapi   | Authentication - GSSAPI               | 10.11+          | [MariaDB KB - GSSAPI Plugin](https://mariadb.com/kb/en/connection/#auth_gssapi_client-plugin) |
+| REDIR        | Redirection                           | 11.3.0+         | [MariaDB KB - Connection Redirection Mechanism in the MariaDB Client/Server Protocol](https://mariadb.com/kb/en/connection-redirection-mechanism-in-the-mariadb-clientserver-protocol/) |
+| NOconfigSSL  | No Configuration SSL                  | 11.4.1+         | [MariaDB KB - No Configuration SSL](https://mariadb.com/kb/en/mariadb-protocol-differences-with-mysql/#no-configuration-ssl) / [MariaDB Foundation Blog](https://mariadb.org/mission-impossible-zero-configuration-ssl/) |
+| INITsesTrack | Initial Session Tracking              | 10.2.2+         | [MariaDB KB - Initial Session Tracking](https://mariadb.com/kb/en/mariadb-protocol-differences-with-mysql/#initial-session-tracking) |
 
 Note: Reading the protocol extensions; the lack of an entry indicates that it has not been determined if this feature exists in this connector.
 
