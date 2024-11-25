@@ -10,3 +10,4 @@ If you contribute to Awesome MariaDB, we encourage you to add your name here.
 - Sylvain Arbaudie https://arbaudie.com
 - Laurynas Biveinis https://of-code.blogspot.com
 - Daniel Black https://mariadb.org
+- Daniël van Eeden https://databaseblog.myname.nl
