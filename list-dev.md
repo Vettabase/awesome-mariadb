@@ -257,7 +257,7 @@ Links to articles and information on the various methods and utilities to read a
 
 | Project Name                                            | MariaDB Support | License / Platform |
 | ------------------------------------------------------- | --------------- | ------------------ |
-| [go-mysql](https://github.com/go-mysql-org/go-mysql) | Yes | MIT |
+| [go-mysql](https://github.com/go-mysql-org/go-mysql)    | [YES](https://github.com/go-mysql-org/go-mysql/blob/master/mysql/const.go) | [MIT](https://github.com/go-mysql-org/go-mysql/blob/master/LICENSE) |
 
 ## Schema Versioning Tools
 
