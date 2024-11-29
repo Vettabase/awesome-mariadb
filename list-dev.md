@@ -276,6 +276,7 @@ To our knowledge, all MySQL UDFs should work with MariaDB. For this reason we do
 **Articles**
 
 - [Extending MariaDB with user-defined functions](https://www.slideshare.net/slideshow/extending-mariadb-with-userdefined-functions/135046794) (slides)
+- [Enhancing MariaDB’s Capabilities: Exploring Extensibility Options](https://medium.com/@arbaudie.it/mariadb-extensibility-dce50baece54)
 - [MySQL: Implementation of User Defined (Loadable) Function and using BLOB to store BigInteger](https://al-amintech.medium.com/mysql-implementation-of-user-defined-loadable-function-and-using-blob-to-store-biginteger-774a1b478a40)
 - [Writing User-Defined Functions in Rust](https://mariadb.org/writing-user-defined-functions-in-rust/)
 
