@@ -293,6 +293,7 @@ Frameworks and libraries to ease UDFs developing.
 
 | Project                                                        | License | Language | Notes |
 | -------------------------------------------------------------- | ------- | -------- | ----- |
+| [JSON2SQL-plugin](https://github.com/SylvainA77/JSON2SQL-plugin)  | [AGPL 3](https://github.com/SylvainA77/JSON2SQL-plugin/blob/main/LICENSE) | C | Interact with data through a REST API. |
 | [Levenshtein-MySQL-UDF](https://github.com/juanmirocks/Levenshtein-MySQL-UDF)  | [LGPL 3](https://github.com/juanmirocks/Levenshtein-MySQL-UDF/blob/master/LICENSE) | C | Levenshtein and related functions. |
 | [libmyemail](https://github.com/codayblue/libmyemail)          | [MIT](https://github.com/codayblue/libmyemail/blob/master/LICENSE.md) | C++ | Function to send emails. |
 | [lib_mysqludf_stomp](https://github.com/mysqludf/lib_mysqludf_stomp) | Apache 2 | C | UDF to send STOMP messages. |
