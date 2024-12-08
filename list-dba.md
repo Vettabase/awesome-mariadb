@@ -97,9 +97,9 @@ Articles:
 
 | Project                                                             | MariaDB Support                                             | License / Platform                                         | Notes   |
 |---------------------------------------------------------------------|-------------------------------------------------------------|------------------------------------------------------------|---------|
-| [golang-mariadbconsole](https://github.com/luiscontrerasdo/golang-mariadbconsole)  | YES                                          | [Proprietary](https://github.com/luiscontrerasdo/golang-mariadbconsole/issues/1)   |         |
 | [Datadog](https://docs.datadoghq.com)                               | [MYSQL](https://docs.datadoghq.com)                         | Cloud                                                      |         |
 | [Dolphie](https://github.com/charles-001/dolphie)                   | YES                                                         | [GPL3](https://github.com/charles-001/dolphie/blob/main/LICENSE) |   |
+| [golang-mariadbconsole](https://github.com/luiscontrerasdo/golang-mariadbconsole)  | YES                                          | [Proprietary](https://github.com/luiscontrerasdo/golang-mariadbconsole/issues/1)   |         |
 | [PMM](https://docs.percona.com/percona-monitoring-and-management/)  | YES                                                         | [AGPL3](https://github.com/percona/pmm/blob/main/LICENSE) or cloud   | [1]     |
 | [SolarWinds](https://www.solarwinds.com/)                           | YES                                                         | Proprietary in-premise or cloud                             |         |
 | [SSM](https://shatteredsilicon.net/mysql-monitoring-ssm/)           | YES                                                         | ?                                                | [2]     |
