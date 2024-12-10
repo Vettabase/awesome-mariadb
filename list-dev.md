@@ -231,6 +231,7 @@ Links to articles and information on the various methods and utilities to read a
 | JavaScript  | [TypeORM](https://github.com/typeorm/typeorm)            | [MIT]([https://github.com/mybatis/mybatis-3/blob/master/LICENSE](https://github.com/typeorm/typeorm/blob/master/LICENSE)) | NOT VERIFIED | [2]   |
 | Python      | [SQLAlchemy](https://www.sqlalchemy.org/)            | [MIT](https://github.com/sqlalchemy/sqlalchemy/blob/main/LICENSE) | [YES](https://docs.sqlalchemy.org/en/20/dialects/mysql.html#mariadb-support) |       |
 | Python      | [Shiny for Python](https://shiny.posit.co/py/)          | [MIT](https://github.com/posit-dev/py-shiny/blob/main/LICENSE) | [YES](https://shiny.posit.co/r/articles/build/overview/) | [4]   |
+| Python      | [MariaDB SQL Builder](https://pypi.org/project/MariaDB-SQLBuilder/)          | [LGPL 2.1](https://github.com/princessmiku/MariaDB-SQLBuilder/blob/master/LICENSE) | YES |       |
 | Ruby        | [mariadb_temporal_tables](https://rubygems.org/gems/mariadb_temporal_tables) | [MIT](https://github.com/YoussefHenna/mariadb_temporal_tables/blob/master/LICENSE) | YES |       |
 | Ruby on Rails | [Active Record](https://guides.rubyonrails.org/)   | [MIT](https://github.com/rails/rails/blob/main/activerecord/MIT-LICENSE) | [YES](https://guides.rubyonrails.org/active_record_querying.html) |       |
 | R           | [Shiny for R](https://shiny.posit.co/r/)             | [GPL 3](https://github.com/rstudio/shiny/blob/main/LICENSE) | [YES](https://shiny.posit.co/r/articles/build/overview/) | [4]   |
