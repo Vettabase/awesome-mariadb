@@ -52,6 +52,7 @@ Roles:
 
 Articles:
 
+- [Automating MariaDB server Deployment and Database configuration with Ansible](https://meheraskri.medium.com/automating-mariadb-server-deployment-and-database-configuration-with-ansible-b5ebcc339ec3)
 - [Creating dynamic configuration files with Ansible](https://vettabase.com/creating-dynamic-configuration-files-with-ansible/) - This article shows how to use Ansible and a Jinja template to automate the MariaDB configuration files creation.
 
 ### Chef
