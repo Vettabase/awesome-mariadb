@@ -9,12 +9,19 @@ This list is intended for Data Engineers. There are lists intended for other aud
 ## Contents
 
 - [AI Integrations](#ai-integrations)
+- [AI: Vectors](#ai-vectors)
 - [Change Data Capture](#change-data-capture)
 - [Data Integration](#data-integration)
 - [Data Visualisation](#data-visualisation)
 - [Stored Procedures](#stored-procedures)
 
 See the [key](#key) for explanations of the terms used in this list.
+
+## AI: Vectors
+
+| Project                                                          | MariaDB Support   | License / Platform                   |
+|------------------------------------------------------------------|-------------------|--------------------------------------|
+| [llama-index-vector-stores-mariadb](https://pypi.org/project/llama-index-vector-stores-mariadb/)  | YES | MIT               |
 
 ## AI Integrations
 
