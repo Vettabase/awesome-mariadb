@@ -230,6 +230,7 @@ Links to articles and information on the various methods and utilities to read a
 | Java        | [MyBatis](https://mybatis.org/mybatis-3/)            | [Apache 2](https://github.com/mybatis/mybatis-3/blob/master/LICENSE) | [YES](https://github.com/mybatis/generator/issues/450#issuecomment-471790027) |       |
 | JavaScript  | [TypeORM](https://github.com/typeorm/typeorm)            | [MIT]([https://github.com/mybatis/mybatis-3/blob/master/LICENSE](https://github.com/typeorm/typeorm/blob/master/LICENSE)) | NOT VERIFIED | [2]   |
 | Python      | [SQLAlchemy](https://www.sqlalchemy.org/)            | [MIT](https://github.com/sqlalchemy/sqlalchemy/blob/main/LICENSE) | [YES](https://docs.sqlalchemy.org/en/20/dialects/mysql.html#mariadb-support) |       |
+| Python      | [mariadb_composition](https://pypi.org/project/mariadb-composition/)   | MIT | YES |   |
 | Python      | [MariaDB-Context-Manager](https://pypi.org/project/MariaDB-Context-Manager/)   | MIT | YES | [5]   |
 | Python      | [MariaDB SQL Builder](https://pypi.org/project/MariaDB-SQLBuilder/)          | [LGPL 2.1](https://github.com/princessmiku/MariaDB-SQLBuilder/blob/master/LICENSE) | YES |       |
 | Python      | [MariaDB SQL Builder](https://pypi.org/project/MariaDB-SQLBuilder/)          | [LGPL 2.1](https://github.com/princessmiku/MariaDB-SQLBuilder/blob/master/LICENSE) | YES |       |
