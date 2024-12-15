@@ -139,13 +139,16 @@ The connectors are grouped by language.
 | PHP                  | [PDO MySQL](https://www.php.net/manual/en/ref.pdo-mysql.php)                              | MySQL           | | Multi-database abstraction layer. |
 | Python               | [Connector/Python](https://mariadb.com/kb/en/list-of-mariadb-connector-python-releases/)  | YES             |                     |
 | Python               | [mysqlclient](https://github.com/PyMySQL/mysqlclient)                                     | YES             |  |
+| Python               | [TonyDBC](https://pypi.org/project/tonydbc/)                                              | YES             |  | [2] |
+
+
 | Python               | [PyMySQL](https://github.com/PyMySQL/PyMySQL)                                             | PARTIAL             | | Pure Python driver, MariaDB >= 10.4 |
 | R                    | [RMariaDB](https://cran.r-project.org/web/packages/RMariaDB/index.html)                   | YES             |                     |
 | Raku (Perl 6)        | [DBIish](https://github.com/raku-community-modules/DBIish)                                | [YES](https://github.com/raku-community-modules/DBIish?tab=readme-ov-file#mysql) | |
-| Ruby                 | [mysql Ruby gem](https://rubygems.org/gems/mysql/)                                        | MySQL           | | [2]                 |
-| Ruby                 | [tencentcloud-sdk-mariadb](https://rubygems.org/gems/tencentcloud-sdk-mariadb)            | YES             | | [2]                 |
+| Ruby                 | [mysql Ruby gem](https://rubygems.org/gems/mysql/)                                        | MySQL           | | [3]                 |
+| Ruby                 | [tencentcloud-sdk-mariadb](https://rubygems.org/gems/tencentcloud-sdk-mariadb)            | YES             | | [3]                 |
 | Swift                | [Perfect MariaDB Connector](https://github.com/PerfectlySoft/Perfect-MariaDB)             | YES             |                     |
-| Zig                  | [myzql](https://github.com/speed2exe/myzql)                                               | NOT VERIFIED    | | [3]                 |
+| Zig                  | [myzql](https://github.com/speed2exe/myzql)                                               | NOT VERIFIED    | | [4]                 |
 
 **MariaDB Protocol Extensions**
 
@@ -177,8 +180,9 @@ Notations associated with protocol extensions:
 Notes
 
 1. Uses Connector/C via [CTypes](https://github.com/yallop/ocaml-ctypes). From the `README` file: "Only the prepared-statement APIs are exposed by OCaml-MariaDB, as these functions provide typed query parameters and database field access". A non-blocking API was implemented in Ocaml.
-2. `tencentcloud-sdk-mariadb` is actively maintained by Tencent. The `mysql` gem is by far the most used, but it's unmaintained since 2021. `jdbc-mariadb` is also unmaintained since 2019.
-3. Pre-production maturity level.
+2. TonyDBC is descreibed as a _high level connector_, based on MariaDB/Connector. The features it adds are typical of a connector and should improve performance. It also includes type mapping to the [Pandas](https://pandas.pydata.org/) framework.
+3. `tencentcloud-sdk-mariadb` is actively maintained by Tencent. The `mysql` gem is by far the most used, but it's unmaintained since 2021. `jdbc-mariadb` is also unmaintained since 2019.
+4. Pre-production maturity level.
 
 ## IDEs
 
