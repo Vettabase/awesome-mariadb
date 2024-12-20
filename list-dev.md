@@ -140,8 +140,6 @@ The connectors are grouped by language.
 | Python               | [Connector/Python](https://mariadb.com/kb/en/list-of-mariadb-connector-python-releases/)  | YES             |                     |
 | Python               | [mysqlclient](https://github.com/PyMySQL/mysqlclient)                                     | YES             |  |
 | Python               | [TonyDBC](https://pypi.org/project/tonydbc/)                                              | YES             |  | [2] |
-
-
 | Python               | [PyMySQL](https://github.com/PyMySQL/PyMySQL)                                             | PARTIAL             | | Pure Python driver, MariaDB >= 10.4 |
 | R                    | [RMariaDB](https://cran.r-project.org/web/packages/RMariaDB/index.html)                   | YES             |                     |
 | Raku (Perl 6)        | [DBIish](https://github.com/raku-community-modules/DBIish)                                | [YES](https://github.com/raku-community-modules/DBIish?tab=readme-ov-file#mysql) | |
