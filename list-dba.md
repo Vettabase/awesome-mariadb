@@ -155,8 +155,10 @@ The following projects are either sharding components or sub-components that be 
 
 **Tools**
 
-- [Acra](https://github.com/cossacklabs/acra) - Database protection suite with field level encryption and intrusion detection
-- [SecuRich](http://www.securich.com/) - Stored procedures library with user management and role implementation. Unmaintained, but useful with old MariaDB versions.
+| Project Name                                            | MariaDB Support | License |                                                           |   |
+| ------------------------------------------------------- | --------------- | ------- |-----------------------------------------------------------|---|
+| [Acra](https://github.com/cossacklabs/acra)             | 10.3+           | [Apache2](https://github.com/cossacklabs/acra/blob/master/LICENSE)  | Database protection suite with field level encryption and intrusion detection. |
+| [SecuRich](http://www.securich.com/)                    | YES             | [GPL2](https://github.com/darrencassar/securich/blob/master/COPYING.txt)  | Stored procedures library with user management and role implementation. Unmaintained, but useful with old MariaDB versions. |
 
 **Articles**
 
