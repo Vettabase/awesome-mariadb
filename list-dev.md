@@ -196,7 +196,9 @@ Guides on how to work with MariaDB using various IDEs.
 
 ## Migrations
 
-- [sqlite-to-mysql](https://github.com/vwbusguy/sqlite-to-mysql)
+| Peoject Name                                                      | License | MariaDB Support | Notes |
+| ----------------------------------------------------------------- | ------- | --------------- | ----- |
+| [sqlite-to-mysql](https://github.com/vwbusguy/sqlite-to-mysql)    | [MIT](https://github.com/vwbusguy/sqlite-to-mysql/blob/master/LICENSE) | YES |  |
 
 ## Misc Libraries
 
