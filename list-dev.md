@@ -196,9 +196,10 @@ Guides on how to work with MariaDB using various IDEs.
 
 ## Migrations
 
-| Peoject Name                                                      | License | MariaDB Support | Notes |
-| ----------------------------------------------------------------- | ------- | --------------- | ----- |
+| Peoject Name                                                      | License   | MariaDB Support | Notes |
+| ----------------------------------------------------------------- | --------- | --------------- | ----- |
 | [sqlite-to-mysql](https://github.com/vwbusguy/sqlite-to-mysql)    | [MIT](https://github.com/vwbusguy/sqlite-to-mysql/blob/master/LICENSE) | YES |  |
+| [psql2mysql](https://pypi.org/project/psql2mysql/)                | Apache 2  | YES             |       |
 
 ## Misc Libraries
 
