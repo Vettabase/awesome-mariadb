@@ -166,6 +166,7 @@ The following projects are either sharding components or sub-components that be 
 - [Monitoring MariaDB Security with Wazuh](https://www.linkedin.com/pulse/monitoring-mariadb-security-wazuh-luis-contreras/)
 - [Enforcing strong passwords for MariaDB users](https://vettabase.com/enforcing-strong-passwords-for-mariadb-users/)
 - [Enabling Kerberos (MIT and AD) authentication for MariaDB Database Server](https://docs.cloudera.com/cdp-private-cloud-base/latest/installation/topics/cdpdc-enable-kerberos-mariadb.html)
+- [MariaDB with Active Directory authentication via PAM module](https://techblog.jeppson.org/2017/12/mariadb-active-directory-authentication-via-pam-module/)
 
 ## Toolkits
 
