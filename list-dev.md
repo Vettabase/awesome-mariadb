@@ -222,7 +222,7 @@ Links to articles and information on the various methods and utilities to read a
 ## ORMs and other abstraction layers
 
 | Language    | ORM Name                                             | License | MariaDB Support | Notes |
-| ----------- | ---------------------------------------------------- | ------- | --------------- | -----
+| ----------- | ---------------------------------------------------- | ------- | --------------- | ----- |
 | Go          | [GORM]([https://github.com/adamchainz/django-mysql](https://gorm.io/))  | [MIT](https://github.com/go-gorm/gorm/blob/master/LICENSE) | [NOT VERIFIED](https://github.com/adamchainz/django-mysql?tab=readme-ov-file#what-kind-of-features)            | [1]   |
 | Python      | [Django-MySQL](https://github.com/adamchainz/django-mysql)  | [MIT](https://github.com/adamchainz/django-mysql/blob/main/LICENSE) | [YES](https://github.com/adamchainz/django-mysql?tab=readme-ov-file#what-kind-of-features)            |       |
 | Java        | [Hibernate](https://hibernate.org/orm/)              | [LGPL 2.1 / Apache 2](https://hibernate.org/community/license/) | [YES](https://github.com/hibernate/hibernate-orm/blob/main/dialects.adoc) | [2]   |
