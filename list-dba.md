@@ -17,7 +17,7 @@ This list is intended for Database Administrators. There are lists intended for 
 - [Proxies](#proxies)
 - [Sharding](#sharding)
 - [Replication](#replication)
-- [Schema Versioning Tools](#schema-versioning-tools)
+- [Schema Versioning](#schema-versioning)
 - [Security](#security)
 - [Toolkits](#toolkits)
 - [User Interfaces](#user-interfaces)
@@ -142,7 +142,7 @@ The following projects are either sharding components or sub-components that be 
 | [go-mysql](https://github.com/go-mysql-org/go-mysql)    | [YES](https://github.com/go-mysql-org/go-mysql/blob/master/mysql/const.go) | [MIT](https://github.com/go-mysql-org/go-mysql/blob/master/LICENSE) |
 | [Replication Manager](https://signal18.io/products/srm)                | 10.0+             | GPL / Proprietary  |
 
-## Schema Versioning Tools
+## Schema Versioning
 
 | Project Name                                            | MariaDB Support | License / Platform |
 | ------------------------------------------------------- | --------------- | ------------------ |
