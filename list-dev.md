@@ -16,7 +16,7 @@ This list is intended for Developers. There are lists intended for other audienc
 - [NoSQL and Key Value Storage](#nosql-and-key-value-storage)
 - [ORMs](#orms-and-other-abstraction-layers)
 - [Protocol](#protocol)
-- [Schema Versioning Tools](#schema-versioning-tools)
+- [Schema Versioning](#schema-versioning)
 - [Stored Routines](#stored-routines)
 - [User-Defined Functions](#user-defined-functions)
 - [User Interfaces](#user-interfaces)
@@ -260,7 +260,7 @@ Links to articles and information on the various methods and utilities to read a
 | ------------------------------------------------------- | --------------- | ------------------ |
 | [Wireshark](https://gitlab.com/wireshark/wireshark/) MySQL Protocol Dissector | YES | [GPL2](https://gitlab.com/wireshark/wireshark/-/blob/master/COPYING) |
 
-## Schema Versioning Tools
+## Schema Versioning
 
 | Project Name                                            | MariaDB Support | License / Platform |
 | ------------------------------------------------------- | --------------- | ------------------ |
