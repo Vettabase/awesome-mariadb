@@ -135,6 +135,7 @@ The connectors are grouped by language.
 | OCaml                | [OCaml-MariaDB](https://github.com/andrenth/ocaml-mariadb)                                | YES             | | [1] |
 | ODBC                 | [Connector/ODBC](https://mariadb.com/kb/en/about-mariadb-connector-odbc/)                 | YES             |                     |
 | Perl                 | [DBD::MariaDB](https://metacpan.org/dist/DBD-MariaDB)                                     | YES             |                     |
+| Perl                 | [MariaDB::NonBlocking](https://metacpan.org/pod/MariaDB::NonBlocking)                     | YES             |                     |
 | PHP                  | [MySQLi](https://www.php.net/manual/en/book.mysqli.php)                                   | MySQL           | | Both procedural and OO API. |
 | PHP                  | [PDO MySQL](https://www.php.net/manual/en/ref.pdo-mysql.php)                              | MySQL           | | Multi-database abstraction layer. |
 | Python               | [Connector/Python](https://mariadb.com/kb/en/list-of-mariadb-connector-python-releases/)  | YES             |                     |
