@@ -228,6 +228,7 @@ Links to articles and information on the various methods and utilities to read a
 
 | Language    | ORM Name                                             | License | MariaDB Support | Notes |
 | ----------- | ---------------------------------------------------- | ------- | --------------- | ----- |
+| Ada         | [Ada Database Objects](https://github.com/stcarrez/ada-ado)  | [Apache2](https://github.com/stcarrez/ada-ado/blob/master/LICENSE.txt) | YES |  |
 | Go          | [GORM]([https://github.com/adamchainz/django-mysql](https://gorm.io/))  | [MIT](https://github.com/go-gorm/gorm/blob/master/LICENSE) | [NOT VERIFIED](https://github.com/adamchainz/django-mysql?tab=readme-ov-file#what-kind-of-features)            | [1]   |
 | Java        | [Hibernate](https://hibernate.org/orm/)              | [LGPL 2.1 / Apache 2](https://hibernate.org/community/license/) | [YES](https://github.com/hibernate/hibernate-orm/blob/main/dialects.adoc) | [2]   |
 | Java        | [EclipseLink](https://eclipse.dev/eclipselink/)      | [Open Source](https://github.com/eclipse-ee4j/eclipselink/blob/master/LICENSE.md) | [YES](https://eclipse.dev/eclipselink/documentation/4.0/concepts/concepts.html#APP_TL_EXT001) | [2]   |
