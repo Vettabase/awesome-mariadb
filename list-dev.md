@@ -229,13 +229,13 @@ Links to articles and information on the various methods and utilities to read a
 | Language    | ORM Name                                             | License | MariaDB Support | Notes |
 | ----------- | ---------------------------------------------------- | ------- | --------------- | ----- |
 | Go          | [GORM]([https://github.com/adamchainz/django-mysql](https://gorm.io/))  | [MIT](https://github.com/go-gorm/gorm/blob/master/LICENSE) | [NOT VERIFIED](https://github.com/adamchainz/django-mysql?tab=readme-ov-file#what-kind-of-features)            | [1]   |
-| Python      | [Django-MySQL](https://github.com/adamchainz/django-mysql)  | [MIT](https://github.com/adamchainz/django-mysql/blob/main/LICENSE) | [YES](https://github.com/adamchainz/django-mysql?tab=readme-ov-file#what-kind-of-features)            |       |
 | Java        | [Hibernate](https://hibernate.org/orm/)              | [LGPL 2.1 / Apache 2](https://hibernate.org/community/license/) | [YES](https://github.com/hibernate/hibernate-orm/blob/main/dialects.adoc) | [2]   |
 | Java        | [EclipseLink](https://eclipse.dev/eclipselink/)      | [Open Source](https://github.com/eclipse-ee4j/eclipselink/blob/master/LICENSE.md) | [YES](https://eclipse.dev/eclipselink/documentation/4.0/concepts/concepts.html#APP_TL_EXT001) | [2]   |
 | Java        | [OpenJPA](https://openjpa.apache.org/)               | [Apache 2](https://github.com/apache/openjpa/blob/master/LICENSE) | [YES](https://openjpa.apache.org/builds/3.2.2/apache-openjpa/docs/#ref_guide_dbsetup_dbsupport) | [2]   |
 | Java        | [jOOQ](https://www.jooq.org/)                        | [Apache 2 / Proprietary](https://github.com/jOOQ/jOOQ/blob/main/LICENSE) | [YES](https://www.jooq.org/javadoc/latest/org.jooq/org/jooq/SQLDialect.html#MARIADB) |       |
 | Java        | [MyBatis](https://mybatis.org/mybatis-3/)            | [Apache 2](https://github.com/mybatis/mybatis-3/blob/master/LICENSE) | [YES](https://github.com/mybatis/generator/issues/450#issuecomment-471790027) |       |
 | JavaScript  | [TypeORM](https://github.com/typeorm/typeorm)            | [MIT]([https://github.com/mybatis/mybatis-3/blob/master/LICENSE](https://github.com/typeorm/typeorm/blob/master/LICENSE)) | NOT VERIFIED | [2]   |
+| Python      | [Django-MySQL](https://github.com/adamchainz/django-mysql)  | [MIT](https://github.com/adamchainz/django-mysql/blob/main/LICENSE) | [YES](https://github.com/adamchainz/django-mysql?tab=readme-ov-file#what-kind-of-features)            |       |
 | Python      | [SQLAlchemy](https://www.sqlalchemy.org/)            | [MIT](https://github.com/sqlalchemy/sqlalchemy/blob/main/LICENSE) | [YES](https://docs.sqlalchemy.org/en/20/dialects/mysql.html#mariadb-support) |       |
 | Python      | [mariadb_composition](https://pypi.org/project/mariadb-composition/)   | MIT | YES |   |
 | Python      | [MariaDB-Context-Manager](https://pypi.org/project/MariaDB-Context-Manager/)   | MIT | YES | [5]   |
@@ -244,7 +244,7 @@ Links to articles and information on the various methods and utilities to read a
 | Ruby on Rails | [Active Record](https://guides.rubyonrails.org/)   | [MIT](https://github.com/rails/rails/blob/main/activerecord/MIT-LICENSE) | [YES](https://guides.rubyonrails.org/active_record_querying.html) |       |
 | R           | [Shiny for R](https://shiny.posit.co/r/)             | [GPL 3](https://github.com/rstudio/shiny/blob/main/LICENSE) | [YES](https://shiny.posit.co/r/articles/build/overview/) | [4]   |
 | Rust        | [Diesel](https://github.com/diesel-rs/diesel/)       | [Apache 2 / MIT](https://github.com/diesel-rs/diesel?tab=readme-ov-file#license) | [YES](https://mariadb.org/improving-mariadb-support-in-open-source-projects/) |       |
-| SQLx        | [SQLx](https://github.com/launchbadge/sqlx)          | [Apache 2 / MIT](https://github.com/launchbadge/sqlx?tab=readme-ov-file#license) | [YES](https://github.com/launchbadge/sqlx/blob/main/README.md) | [3]      |
+| Rust        | [SQLx](https://github.com/launchbadge/sqlx)          | [Apache 2 / MIT](https://github.com/launchbadge/sqlx?tab=readme-ov-file#license) | [YES](https://github.com/launchbadge/sqlx/blob/main/README.md) | [3]      |
 
 **Notes**
 
