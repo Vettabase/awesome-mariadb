@@ -11,3 +11,4 @@ If you contribute to Awesome MariaDB, we encourage you to add your name here.
 - Laurynas Biveinis https://of-code.blogspot.com
 - Daniel Black https://mariadb.org
 - Daniël van Eeden https://databaseblog.myname.nl
+- Evan Elias https://www.skeema.io
