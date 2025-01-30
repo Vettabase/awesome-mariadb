@@ -115,7 +115,7 @@ These articles are about MariaDB SQL dialect, regardless which language you use 
 
 The connectors are grouped by language.
 
-| Platform / Language  | Connector Driver Name                                                                     | MariaDB Support | Extensions | Notes               |
+| Platform / Language  | Connector Driver Name                                                                     | MariaDB Support | Features | Notes               |
 | -------------------- | ----------------------------------------------------------------------------------------- | --------------- | ---------- | ------------------- |
 | C                    | [Connector/C ](https://mariadb.com/kb/en/about-mariadb-connector-c/)                      | YES             | <ul><li>PSskipMD([3.1.10](https://mariadb.com/kb/en/mysql_real_connect/) - [default](https://github.com/mariadb-corporation/mariadb-connector-c/commit/6a763b90006c5591bfef766ba0a9f414a02a69ae#diff-e45114083905fb36ada93fa0ab74fc9b84def45219693b574bfb0429b548db8cR183))</li><li>EXTcolInfo([3.1.10](https://github.com/mariadb-corporation/mariadb-connector-c/wiki/mariadb_field_attr))</li><li>AUTHparsec([3.4.1](https://github.com/mariadb-corporation/mariadb-connector-c/blob/v3.4.1/plugins/auth/parsec.c) - default)</ul>               |
 | C                    | [mariadb++](https://github.com/viaduck/mariadbpp)                                         | YES             |                     |
@@ -149,21 +149,26 @@ The connectors are grouped by language.
 | Swift                | [Perfect MariaDB Connector](https://github.com/PerfectlySoft/Perfect-MariaDB)             | YES             |                     |
 | Zig                  | [myzql](https://github.com/speed2exe/myzql)                                               | NOT VERIFIED    | | [4]                 |
 
-**MariaDB Protocol Extensions**
+**Protocol Features**
 
 MariaDB extends the original MySQL protocol via capability flags. This table serves to show which Connector Drivers have these features.
 
-| Abbreviation | Meaning                               | MariaDB Version | Reference |
-| -------------| --------------------------------------| --------------- | ----------|
-| PSskipMD     | Prepare Statement Skip Metadata       | 10.6.0+         | [MariaDB KB - Prepare Statement Skipping Metadata](https://mariadb.com/kb/en/mariadb-protocol-differences-with-mysql/#prepare-statement-skipping-metadata) |
-| EXTcolInfo   | Extended Column Information           | 10.5.2+         | [MariaDB KB - Extended Column Information](https://mariadb.com/kb/en/mariadb-protocol-differences-with-mysql/#extended-column-information) |
-| BULK         | Bulk  - Batch processing              | 11.5.1+         | [MariaDB KB - Bulk](https://mariadb.com/kb/en/mariadb-protocol-differences-with-mysql/#bulk) |
-| AUTHed25519  | Authentication - ed25519              | 10.1.22+        | [MariaDB KB - ED25519 Plugin](https://mariadb.com/kb/en/connection/#client_ed25519-plugin) |
-| AUTHparsec   | Authentication - PARSEC               | 11.6+           | [MariaDB KB - PARSEC Plugin](https://mariadb.com/kb/en/connection/#parsec-plugin) |
-| AUTHgssapi   | Authentication - GSSAPI               | 10.11+          | [MariaDB KB - GSSAPI Plugin](https://mariadb.com/kb/en/connection/#auth_gssapi_client-plugin) |
-| REDIR        | Redirection                           | 11.3.0+         | [MariaDB KB - Connection Redirection Mechanism in the MariaDB Client/Server Protocol](https://mariadb.com/kb/en/connection-redirection-mechanism-in-the-mariadb-clientserver-protocol/) |
-| NOconfigSSL  | No Configuration SSL                  | 11.4.1+         | [MariaDB KB - No Configuration SSL](https://mariadb.com/kb/en/mariadb-protocol-differences-with-mysql/#no-configuration-ssl) / [MariaDB Foundation Blog](https://mariadb.org/mission-impossible-zero-configuration-ssl/) |
-| INITsesTrack | Initial Session Tracking              | 10.2.2+         | [MariaDB KB - Initial Session Tracking](https://mariadb.com/kb/en/mariadb-protocol-differences-with-mysql/#initial-session-tracking) |
+| Abbreviation | Meaning                                              | MariaDB Version | Reference |
+| -------------| -----------------------------------------------------| --------------- | ----------|
+| PSskipMD     | Prepare Statement Skip Metadata (MariaDB-only)       | 10.6.0+         | [MariaDB KB - Prepare Statement Skipping Metadata](https://mariadb.com/kb/en/mariadb-protocol-differences-with-mysql/#prepare-statement-skipping-metadata) |
+| EXTcolInfo   | Extended Column Information (MariaDB-only)           | 10.5.2+         | [MariaDB KB - Extended Column Information](https://mariadb.com/kb/en/mariadb-protocol-differences-with-mysql/#extended-column-information) |
+| BULK         | Bulk  - Batch processing (MariaDB-only)              | 11.5.1+         | [MariaDB KB - Bulk](https://mariadb.com/kb/en/mariadb-protocol-differences-with-mysql/#bulk), [MariaDB KB - Pipeline Prepare Execute](https://mariadb.com/kb/en/mariadb-protocol-differences-with-mysql/#pipelining-prepare-execute) |
+| AUTHed25519  | Authentication - ed25519 (MariaDB-only)              | 10.1.22+        | [MariaDB KB - ED25519 Plugin](https://mariadb.com/kb/en/connection/#client_ed25519-plugin) |
+| AUTHparsec   | Authentication - PARSEC (MariaDB-only)               | 11.6+           | [MariaDB KB - PARSEC Plugin](https://mariadb.com/kb/en/connection/#parsec-plugin) |
+| AUTHgssapi   | Authentication - GSSAPI (MariaDB-only)               | 10.11+          | [MariaDB KB - GSSAPI Plugin](https://mariadb.com/kb/en/connection/#auth_gssapi_client-plugin) |
+| REDIR        | Redirection (MariaDB-only)                           | 11.3.0+         | [MariaDB KB - Connection Redirection Mechanism in the MariaDB Client/Server Protocol](https://mariadb.com/kb/en/connection-redirection-mechanism-in-the-mariadb-clientserver-protocol/) |
+| NOconfigSSL  | No Configuration SSL (MariaDB-only)                  | 11.4.1+         | [MariaDB KB - No Configuration SSL](https://mariadb.com/kb/en/mariadb-protocol-differences-with-mysql/#no-configuration-ssl) / [MariaDB Foundation Blog](https://mariadb.org/mission-impossible-zero-configuration-ssl/) |
+| INITsesTrack | Initial Session Tracking (MariaDB-only)              | 10.2.2+         | [MariaDB KB - Initial Session Tracking](https://mariadb.com/kb/en/mariadb-protocol-differences-with-mysql/#initial-session-tracking) |
+| AUTHdialog   | Authentication - Dialog                              | 5.5 | [MariaDB KB - Dialog](https://mariadb.com/kb/en/pluggable-authentication-overview/#dialog-client-authentication-plugin-client-library-extension) |
+| AUTHclearpwd | Authentication - Clear Password                      | 5.5 | [MariaDB KB - mysql_clear_password](https://mariadb.com/kb/en/authentication-plugin-pam/#mysql_clear_password) |
+| LoadData     | Load Data Infile - protocol stream of CSV            | 5.5 | [MariaDB KB - LOAD DATA LOCAL INFILE](https://mariadb.com/kb/en/load-data-infile/#load-data-local-infile), [MariaDB KB - Capabilities - LOCAL FILES](https://mariadb.com/kb/en/connection/#capabilities) ] |
+| OKStatus     | Exposes Server status flags from OK packet           | 5.5 | [MariaDB KB - Server status flag](https://mariadb.com/kb/en/ok_packet/#server-status-flag) |
+| OKinfo       | Exposes the info string from the OK packet           | 5.5 | [MariaDB KB - OK_Packet](https://mariadb.com/kb/en/ok_packet) |
 
 Note: Reading the protocol extensions; the lack of an entry indicates that it has not been determined if this feature exists in this connector.
 
