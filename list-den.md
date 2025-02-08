@@ -38,6 +38,10 @@ See the [key](#key) for explanations of the terms used in this list.
 - [Try RAG with MariaDB Vector on your own MariaDB data!](https://mariadb.org/rag-with-mariadb-vector/)
 - [Playing with MariaDB Vector for initial AI tests](https://fromdual.com/playing-with-mariadb-vector-for-initial-ai-tests)
 
+**Benchmarks**
+
+- [Evaluating vector indexes in MariaDB and pgvector: part 1](https://smalldatum.blogspot.com/2025/01/evaluating-vector-indexes-in-mariadb.html)
+
 ## Change Data Capture
 
 Change Data Capture consists in reading the binary log.
