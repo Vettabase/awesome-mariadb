@@ -344,6 +344,7 @@ Frameworks and libraries to ease UDFs developing.
 | [SQLyog](https://webyog.com/product/sqlyog/)                                | NOT VERIFIED                                    | Windows               | Proprietary         |       |
 | [TablePlus](https://tableplus.com/)                                         | [NOT VERIFIED]([https://dbeaver.com/databases/](https://docs.tableplus.com/))  | Linux, MacOS, Windows, iOS | Proprietary      |       |
 | [Toad Edge](https://toadworld.com/)                                         | NOT VERIFIED                                    | MacOS, Windows, Jenkins plugin | Proprietary |       |
+| [usql](https://github.com/xo/usql)                                          | [YES](https://github.com/xo/usql?tab=readme-ov-file#supported-database-schemes-and-aliases)                                    | Linux, MacOS, Windows | [MIT](https://github.com/xo/usql/blob/master/LICENSE) |       |
 | [Valentina Studio](https://valentina-db.com/)                               | [NOT VERIFIED](https://valentina-db.com/en/database-management) | Linux, MacOS, Windows      | Proprietary  |       |
 
 Notes
