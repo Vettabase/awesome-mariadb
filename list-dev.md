@@ -242,6 +242,7 @@ Links to articles and information on the various methods and utilities to read a
 | Java        | [MyBatis](https://mybatis.org/mybatis-3/)            | [Apache 2](https://github.com/mybatis/mybatis-3/blob/master/LICENSE) | [YES](https://github.com/mybatis/generator/issues/450#issuecomment-471790027) |       |
 | JavaScript  | [TypeORM](https://github.com/typeorm/typeorm)            | [MIT]([https://github.com/mybatis/mybatis-3/blob/master/LICENSE](https://github.com/typeorm/typeorm/blob/master/LICENSE)) | NOT VERIFIED | [2]   |
 | Kotlin      | [Kotlin Dataframe](https://github.com/Kotlin/dataframe)  | [Apache 2](https://github.com/Kotlin/dataframe/blob/master/LICENSE) | [YES](https://kotlin.github.io/dataframe/readsqldatabases.html)               |       |
+| Node.js, TypeScript | [Prisma](https://github.com/prisma/prisma)       | [Apache 2](https://github.com/prisma/prisma/blob/main/LICENSE) | YES                | [6] |
 | Perl        | [Rose::DB](https://metacpan.org/pod/Rose::DB)            | [GPL1+ or Artistic License](https://metacpan.org/pod/Rose::DB#LICENSE) | [YES](https://metacpan.org/pod/Rose::DB::MariaDB)            |       |
 | Python      | [Django-MySQL](https://github.com/adamchainz/django-mysql)  | [MIT](https://github.com/adamchainz/django-mysql/blob/main/LICENSE) | [YES](https://github.com/adamchainz/django-mysql?tab=readme-ov-file#what-kind-of-features)            |       |
 | Python      | [SQLAlchemy](https://www.sqlalchemy.org/)            | [MIT](https://github.com/sqlalchemy/sqlalchemy/blob/main/LICENSE) | [YES](https://docs.sqlalchemy.org/en/20/dialects/mysql.html#mariadb-support) |       |
@@ -261,6 +262,7 @@ Links to articles and information on the various methods and utilities to read a
 3. SQLx is an SQL toolkit. But if you don't like to build SQL strings, you can take a look at the [ORMs](https://github.com/launchbadge/sqlx/wiki/Ecosystem#orms) and [query builders](https://github.com/launchbadge/sqlx/wiki/Ecosystem#query-builders) it supports.
 4. Shiny is a framework for data science application developing in Pyhton and R. It includes support for databases, including MariaDB.
 5. A context manager allows developers, for example, to run a query in a `with` statement. Resources will be deallocated automatically when the execution leaves the current context.
+6. Auto-generated, type-safe query builder for TypeScript and Node.js.
 
 **@TODO** Check the ORMs in [this list](https://en.wikipedia.org/wiki/List_of_object%E2%80%93relational_mapping_software).
 
