@@ -34,6 +34,7 @@ See the [key](#key) for explanations of the terms used in this list.
 * [InnoDB Durability](https://lists.mariadb.org/hyperkitty/list/discuss@lists.mariadb.org/thread/SY6YIADSASGFSGHFD2Z35WMU4KOLRAWE/#DVEELBZWT4FCMJBV6SRPVD3EHIE5PCG5) - mailing list discussion
 * [MariaDB connection ID](https://www.fromdual.com/mariadb_connection_id)
 * [Database load balancing for MySQL and MariaDB with ProxySQL](https://severalnines.com/resources/whitepapers/database-load-balancing-for-mysql-and-mariadb-with-proxysql/)
+* [InnoDB deep dive: commit phase](https://medium.com/@arbaudie.it/innodb-deep-dive-commit-phase-20e9022e98d5)
 
 ## Automation
 
