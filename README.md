@@ -31,7 +31,7 @@ MariaDB, you should ask yourself some questions:
 
 **Does the Resource Use Some MySQL Unique Features?**
 
-In the woest case, a tool won't work at all, but this is not common. It is more common that some features of a tools can't
+In the worst case, a tool won't work at all, but this is not common. It is more common that some features of a tool can't
 be used on MariaDB. For example, using certain features of the community.mysql Ansible module will generate queries that
 fail on MariaDB.
 
@@ -45,7 +45,7 @@ MySQL normally won't show MariaDB specific metrics.
 **Is the Resource Adequately Tested with MariaDB?**
 
 This might not matter much for a blog post. But software projects should be well tested with MariaDB. It's easy to overlook
-this necessaty, because one might think that if the code doesn't return strange errors it works. But when a query fails, the
+this necessity, because one might think that if the code doesn't return strange errors it works. But when a query fails, the
 application might not expose errors. After some time you might find out that some data are missing or inconsistent.
 
 **Is the Resource Really "for MySQL and MariaDB"?**
@@ -71,9 +71,9 @@ Ideally, we aim to test all the listed resources with MariaDB. We temporarily li
 in that case we at least checked the documentation and the website for MariaDB support. When unsure, we also take a look
 at the source code.
 
-Whenever relevant, we indicate if a project is FLOSS software, proprietary doanloadble software, or a cloud service. When
-appropriate, we also indicate the supported platforms or programming language. These aspects are often very important when
-you're looking for software that solves a problem.
+Whenever relevant, we indicate if a project is FLOSS software (Free/Libre Open Source Software), proprietary downloadable
+software, or a cloud service. When appropriate, we also indicate the supported platforms or programming language. These
+aspects are often very important when you're looking for software that solves a problem.
 
 **Provide a List of Open Source Resources that Have Problems with MariaDB**
 
@@ -83,7 +83,7 @@ project, to the purpose of improving MariaDB support by applications.
 
 There are various ways you can contribute improving MariaDB support:
 
-* Report bugs describing them clearly, to help software maintainers to repoduce them.
+* Report bugs describing them clearly, to help software maintainers to reproduce them.
 * Contribute bugfixes.
 * Report mistakes in documentation, technical articles, and even printed books.
 * Write a guide on how to make an application work smoothly with MariaDB, for example in the form of a blog post.
@@ -98,7 +98,7 @@ Hopefully, you will later use this information in your daily job, to produce bet
 
 All the activity listed in the previous point are normal and spontaneously happen in a community.
 
-Let's grow MariaDB community to see an increase in this kind of activities, and let's show support towards resources
+Let's grow the MariaDB community to see an increase in this kind of activities, and let's show support towards resources
 that aim to work well with MariaDB.
 
 [Make it so!](https://memory-alpha.fandom.com/wiki/Make_It_So)
@@ -140,7 +140,7 @@ The result will look like the following:
 
 ## Related Awesome Lists
 
-- [Awesome MySQL](https://github.com/shlomi-noach/awesome-mysql) - Resources or MySQL and its variants. Only includes resources that are open source and available without registration. Their quality requirements are stricter than ours.
+- [Awesome MySQL](https://github.com/shlomi-noach/awesome-mysql) - Resources for MySQL and its variants. Only includes resources that are open source and available without registration. Their quality requirements are stricter than ours.
 - [Awesome MySQL Performance](https://github.com/Releem/awesome-mysql-performance) - A curated list of awesome links related to MySQL / MariaDB / Percona Server configuration tuning for improved performance.
 - [Awesome Database](https://github.com/agarcialeon/awesome-database) - A categorized community-driven collection of amazingly awesome database resources.
 
