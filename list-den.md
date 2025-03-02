@@ -40,7 +40,8 @@ See the [key](#key) for explanations of the terms used in this list.
 
 **Benchmarks**
 
-- [Evaluating vector indexes in MariaDB and pgvector: part 1](https://smalldatum.blogspot.com/2025/01/evaluating-vector-indexes-in-mariadb.html)
+- Evaluating vector indexes in MariaDB and pgvector: [part 1](https://smalldatum.blogspot.com/2025/01/evaluating-vector-indexes-in-mariadb.html), [part 2](https://smalldatum.blogspot.com/2025/01/evaluating-vector-indexes-in-mariadb_13.html)
+- Evaluating vector indexes in MariaDB and pgvector: [part 1](https://smalldatum.blogspot.com/2025/01/vector-indexes-mariadb-pgvector-large_28.html), [part 2](https://smalldatum.blogspot.com/2025/01/vector-indexes-mariadb-pgvector-large_26.html)
 
 ## Change Data Capture
 
