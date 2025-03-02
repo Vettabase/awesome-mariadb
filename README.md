@@ -22,7 +22,7 @@ Specific topics:
 Why are we maintaining a list that is specifically for MariaDB, and not for MySQL and its forks?
 
 It's easy to find software, cloud services or educative resources for MySQL. Finding MariaDB related resources is a bit
-more difficult. The reason is simple: many authors of MySQL resources tend to think that, if something works with MySQL,
+more difficult. The reason is simple: many authors of MySQL resources assume that, if something works with MySQL,
 it will work with MariaDB as well. And it is certainly true that MariaDB and MySQL are very similar. MariaDB was initially
 created by forking MySQL 5.1, and some effort to guarantee compatibility was made over the years.
 
@@ -32,15 +32,15 @@ MariaDB, you should ask yourself some questions:
 **Does the Resource Use Some MySQL Unique Features?**
 
 In the worst case, a tool won't work at all, but this is not common. It is more common that some features of a tool can't
-be used on MariaDB. For example, using certain features of the community.mysql Ansible module will generate queries that
-fail on MariaDB.
+be used with MariaDB. For example, using certain features of the community.mysql Ansible module will generate queries that
+fail with MariaDB.
 
 **Does the Resource take Advantage of MariaDB Unique Features?**
 
 Sometimes a resource works on MySQL, but it does things that could be done better by taking advantage of MariaDB features.
-For example, a GUI might not allow to create a `UUID` or `INET6` columns because these types are not supported by MySQL.
+For example, a GUI might not allow you to create a `UUID` or `INET6` columns because these types are not supported by MySQL.
 An ORM for MySQL might not allow you to produce a `DELETE ... RETURNING` for the same reason. A monitoring system for
-MySQL normally won't show MariaDB specific metrics.
+MySQL normally won't show MariaDB-specific metrics.
 
 **Is the Resource Adequately Tested with MariaDB?**
 
@@ -51,7 +51,7 @@ application might not expose errors. After some time you might find out that som
 **Is the Resource Really "for MySQL and MariaDB"?**
 
 As you can guess, sometimes resources "for MySQL and MariaDB" are mostly for MySQL, meaning that they are not thoroughly
-tested and optimised for MariaDB. All the problems listed above might apply in such cases.
+tested and optimised for MariaDB. Any of the problems listed above might apply in such cases.
 
 If you spot these problems in an open source application that officially supports MariaDB, please report a bug or contribute
 a bugfix.
@@ -64,7 +64,7 @@ tackle the above problem. But how exactly?
 **Provide a List of Real MariaDB Resources**
 
 In this list, whenever possible, you will only find resources that properly support MariaDB. It doesn't matter to us if it
-also support MySQL or not, and whether the project's priority is MariaDB or not. We simply want to list "stuff that works
+also supports MySQL or not, and whether the project's priority is MariaDB or not. We simply want to list "stuff that works
 well".
 
 Ideally, we aim to test all the listed resources with MariaDB. We temporarily list resources that we didn't test yet, but
@@ -75,11 +75,11 @@ Whenever relevant, we indicate if a project is FLOSS software (Free/Libre Open S
 software, or a cloud service. When appropriate, we also indicate the supported platforms or programming language. These
 aspects are often very important when you're looking for software that solves a problem.
 
-**Provide a List of Open Source Resources that Have Problems with MariaDB**
+**Provide a List of Open Source Resources That Have Problems with MariaDB**
 
 If a listed resource has problems with MariaDB, we aim to indicate this. We try to list such resources only if they are
-open source or free software. In this case, if you decide to use the resource, we warmly encourage you to contribute the
-project, to the purpose of improving MariaDB support by applications.
+open source or free software. In this case, if you decide to use the resource, we warmly encourage you to contribute to
+the project, with the aim of improving MariaDB support by applications.
 
 There are various ways you can contribute improving MariaDB support:
 
@@ -92,13 +92,13 @@ There are various ways you can contribute improving MariaDB support:
 
 Suppose you consult Awesome MariaDB, and you learn that a certain software doesn't work well with MariaDB because it
 doesn't use a certain SQL syntax. If you're a developer, you'll find out that this syntax exists, and what it is for.
-Hopefully, you will later use this information in your daily job, to produce better code.
+Hopefully, you will later use this information in your daily job to produce better code.
 
 **Grow a Sense of Community**
 
 All the activity listed in the previous point are normal and spontaneously happen in a community.
 
-Let's grow the MariaDB community to see an increase in this kind of activities, and let's show support towards resources
+Let's grow the MariaDB community to see an increase in these kinds of activities, and let's show support towards resources
 that aim to work well with MariaDB.
 
 [Make it so!](https://memory-alpha.fandom.com/wiki/Make_It_So)
