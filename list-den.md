@@ -32,6 +32,7 @@ See the [key](#key) for explanations of the terms used in this list.
 |---------------------|------------------------------------------------|-----------------------------------------------------------------------------------------|--------------------------------------|
 | Java                | [Spring](https://spring.io)                    | [YES](https://docs.spring.io/spring-ai/reference/api/vectordbs/mariadb.html)            | [Apache 2](https://www.apache.org/licenses/LICENSE-2.0) |
 | PHP                 | [LLPhant](https://github.com/LLPhant/LLPhant)  | [YES](https://github.com/LLPhant/LLPhant/blob/main/devx/docker-compose-mariadb.yml)     | [MIT](https://github.com/LLPhant/LLPhant/blob/main/LICENSE.md) |
+| Python              | [LangChain](https://www.langchain.com/)        | [YES](https://github.com/mariadb-corporation/langchain-mariadb)                         | [MIT](https://github.com/langchain-ai/langchain/blob/master/LICENSE) |
 | Python              | [LLamaIndex](https://llamaindex.ai)            | [YES](https://docs.llamaindex.ai/en/stable/api_reference/storage/vector_store/mariadb/) | [MIT](https://github.com/run-llama/llama_index/blob/main/LICENSE) |
 
 **Articles**
