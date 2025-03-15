@@ -18,14 +18,6 @@ This list is intended for Data Engineers. There are lists intended for other aud
 
 See the [key](#key) for explanations of the terms used in this list.
 
-## AI Frameworks
-
-| Language / Platform | Project                                        | MariaDB Support                                                                         | License / Platform                   |
-|---------------------|------------------------------------------------|-----------------------------------------------------------------------------------------|--------------------------------------|
-| Java                | [Spring](https://spring.io)                    | [YES](https://docs.spring.io/spring-ai/reference/api/vectordbs/mariadb.html)            | [Apache 2](https://www.apache.org/licenses/LICENSE-2.0) |
-| Python              | [LLamaIndex](https://llamaindex.ai)            | [YES](https://docs.llamaindex.ai/en/stable/api_reference/storage/vector_store/mariadb/) | [MIT](https://github.com/run-llama/llama_index/blob/main/LICENSE) |
-| PHP                 | [LLPhant](https://github.com/LLPhant/LLPhant)  | [YES](https://github.com/LLPhant/LLPhant/blob/main/devx/docker-compose-mariadb.yml)     | [MIT](https://github.com/LLPhant/LLPhant/blob/main/LICENSE.md) |
-
 ## AI Integrations
 
 | Project                                                          | MariaDB Support   | License / Platform                   |
@@ -35,11 +27,13 @@ See the [key](#key) for explanations of the terms used in this list.
 
 ## AI: Vectors
 
-**Tools**
+**Frameworks**
 
-| Project                                                          | MariaDB Support   | License / Platform                   |
-|------------------------------------------------------------------|-------------------|--------------------------------------|
-| [llama-index-vector-stores-mariadb](https://pypi.org/project/llama-index-vector-stores-mariadb/)  | YES | MIT               |
+| Language / Platform | Project                                        | MariaDB Support                                                                         | License / Platform                   |
+|---------------------|------------------------------------------------|-----------------------------------------------------------------------------------------|--------------------------------------|
+| Java                | [Spring](https://spring.io)                    | [YES](https://docs.spring.io/spring-ai/reference/api/vectordbs/mariadb.html)            | [Apache 2](https://www.apache.org/licenses/LICENSE-2.0) |
+| PHP                 | [LLPhant](https://github.com/LLPhant/LLPhant)  | [YES](https://github.com/LLPhant/LLPhant/blob/main/devx/docker-compose-mariadb.yml)     | [MIT](https://github.com/LLPhant/LLPhant/blob/main/LICENSE.md) |
+| Python              | [LLamaIndex](https://llamaindex.ai)            | [YES](https://docs.llamaindex.ai/en/stable/api_reference/storage/vector_store/mariadb/) | [MIT](https://github.com/run-llama/llama_index/blob/main/LICENSE) |
 
 **Articles**
 
