@@ -8,7 +8,6 @@ This list is intended for Data Engineers. There are lists intended for other aud
 
 ## Contents
 
-- [AI: Frameworks](#ai-frameworks)
 - [AI Integrations](#ai-integrations)
 - [AI: Vectors](#ai-vectors)
 - [Change Data Capture](#change-data-capture)
