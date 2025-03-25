@@ -96,11 +96,17 @@ The following resources show how to integrate MariaDB with various other data te
 
 ## Data Visualisation
 
+| Project                                                          | MariaDB Support   | Platforms   | License / Platform                   |
+|------------------------------------------------------------------|-------------------|-------------|--------------------------------------|
+| [Debugger for MySQL](http://mydebugger.com/)                     | YES               | Windows     | Proprietary                          |
+
+## Stored Procedures
+
+**Debuggers**
+
 | Project                                                          | MariaDB Support   | Language / Platform   | License / Platform                   |
 |------------------------------------------------------------------|-------------------|-----------------------|--------------------------------------|
 | [Metabase](https://www.metabase.com/)                            | [YES](https://www.metabase.com/data_sources/mariadb) | JVM | [AGPL, Proprietary](https://github.com/metabase/metabase/blob/master/LICENSE.txt), [Cloud](https://www.metabase.com/pricing/) |
-
-## Stored Procedures
 
 **Stored Procedures Articles**
 
