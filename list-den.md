@@ -105,6 +105,7 @@ The following resources show how to integrate MariaDB with various other data te
 **Stored Procedures Articles**
 
 - [PL/SQL in MariaDB](https://ocelot.ca/blog/blog/2017/01/15/plsql-in-mariadb/)
+- [Stored Procedures in MariaDB: Smarter, Easier and More Powerful](https://vettabase.com/stored-procedures-in-mariadb-smarter-easier-and-more-powerful/)
 
 ## Key
 
