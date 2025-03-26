@@ -98,6 +98,7 @@ Scala
 
 These articles are about MariaDB SQL dialect, regardless which language you use to develop applications.
 
+* [MariaDB and the GROUP BY error](https://vettabase.com/mariadb-and-the-group-by-error/)
 * [MariaDB/MySQL: use SQL properly to run less queries](https://vettabase.com/mysql-mariadb-use-sql-properly-to-run-less-queries/)
 * [How to compose strings in MariaDB](https://vettabase.com/how-to-compose-strings-in-mariadb/)
 * [Leveraging "INSERT INTO ... RETURNING": Practical Scenarios](https://dzone.com/articles/leveraging-insert-into-returning-practical-scenari)
