@@ -144,6 +144,7 @@ The connectors are grouped by language.
 | Python               | [TonyDBC](https://pypi.org/project/tonydbc/)                                              | YES             |  | [2] |
 | Python               | [PyMySQL](https://github.com/PyMySQL/PyMySQL)                                             | PARTIAL             | | Pure Python driver, MariaDB >= 10.4 |
 | R                    | [RMariaDB](https://cran.r-project.org/web/packages/RMariaDB/index.html)                   | YES             |                     |
+| R                    | [rocker](https://cran.r-project.org/web/packages/rocker/)                                 | [YES](https://cran.r-project.org/web/packages/rocker/vignettes/Packages_and_databases.html)                                                               |                     |
 | Raku (Perl 6)        | [DBIish](https://github.com/raku-community-modules/DBIish)                                | [YES](https://github.com/raku-community-modules/DBIish?tab=readme-ov-file#mysql) | |
 | Ruby                 | [mysql Ruby gem](https://rubygems.org/gems/mysql/)                                        | MySQL           | | [3]                 |
 | Ruby                 | [tencentcloud-sdk-mariadb](https://rubygems.org/gems/tencentcloud-sdk-mariadb)            | YES             | | [3]                 |
