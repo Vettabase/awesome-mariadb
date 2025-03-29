@@ -49,9 +49,16 @@ See the [key](#key) for explanations of the terms used in this list.
 
 ## Change Data Capture
 
-Change Data Capture consists in reading the binary log.
+Change Data Capture consists in reading the binary log, continuously or periodically. The purpose is keeping track of data changes, to generate events or to keep a copy of the data up to date (as it happens with replication). A program that reads the binary log is called a consumer.
 
 Some of these projects are complete data flow platforms that are able to consume the MariaDB binary log. Others are just log consumers that support the MariaDB binary log.
+
+Most MySQL binary log consumers tend to work with MariaDB, but they might encounter several differences that will prevent them from parsing the logs correctly:
+
+ - MariaDB GTID and MySQL GTID have different formats;
+ - MariaDB has additional data types;
+ - Both MariaDB and MySQL have unique features, like MariaDB invisible columns;
+ - MariaDB has options that cause the binary log to include additional information, making it different from MySQL binary log.
 
 **CDC Tools**
 
