@@ -60,7 +60,7 @@ Most MySQL binary log consumers tend to work with MariaDB, but they might encoun
  - Both MariaDB and MySQL have unique features, like MariaDB invisible columns;
  - MariaDB has options that cause the binary log to include additional information, making it different from MySQL binary log.
 
-**CDC Tools**
+**Consumers**
 
 | Project                                                          | MariaDB Support   | Language / Platform   | License / Platform                   | Notes |
 |------------------------------------------------------------------|-------------------|-----------------------|--------------------------------------|-------|
