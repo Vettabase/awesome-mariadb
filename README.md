@@ -15,6 +15,7 @@ Lists for a specific audience:
 
 Specific topics:
 
+- [Hilarious 🤣 MariaDB List](humour.md)
 - [Awesome MariaDB Internals and Plugins Development](list-int.md)
 
 ## The Problem we Try to Solve
