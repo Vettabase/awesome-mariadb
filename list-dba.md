@@ -259,6 +259,6 @@ For non-cloud software, we ancourage you to verify the license where relevant. I
 
 ---
 
-Copyright 2024 Vettabase Ltd and contributors.
+Copyright 2024 2025 Vettabase Ltd and contributors.
 
 Awesome MariaDB list is licensed under [CC BY-SA 4.0 license](https://creativecommons.org/licenses/by-sa/4.0/).
