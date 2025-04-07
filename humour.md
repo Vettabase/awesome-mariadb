@@ -8,3 +8,11 @@ A curated list of awesome MariaDB resources, maintained by [Vettabase](https://v
 
 🤣 [I turned my Lamp into a Kubernetes cluster](https://www.youtube.com/watch?v=CE6MTBxDSpE&t=17s&ab_channel=JeffGeerling)<br>
 🤣 [“Amen” statement for committing transactions](https://mariadb.org/amen-statement-for-committing-transactions/) (April Fools') <br>
+
+
+
+---
+
+Copyright 2025 Vettabase Ltd and contributors.
+
+Awesome MariaDB list is licensed under [CC BY-SA 4.0 license](https://creativecommons.org/licenses/by-sa/4.0/).
