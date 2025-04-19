@@ -65,6 +65,10 @@ ASP.Net
 * [Building a web application with ASP.NET Core MVC, Entity Framework Core, MariaDB & Bootstrap](https://medium.com/@BMatt92656920/building-a-web-application-with-asp-net-core-mvc-entity-framework-core-mariadb-bootstrap-a2bf0927d20e)
 * [Using MariaDB With ASP.NET Core Web API](https://code-maze.com/aspnetcore-using-mariadb-with-web-api/)
 
+COBOL
+
+* [cobol-examples](https://github.com/writ3it/cobol-examples/tree/master/examples/gnucobol/database/mariadb) - Various examples show how to use GNU Cobol to work with MariaDB.
+
 Go
 
 * [Integrating MariaDB with GoLang Microservice Restful API](https://medium.com/widle-studio/integrating-mariadb-with-golang-microservice-restful-apis-building-efficient-data-storage-4054e1588ce)
