@@ -94,6 +94,10 @@ Scala
 
 * [Stateful actors with Akka Event Sourcing and MariaDB](https://medium.com/@matteodipirro/stateful-actors-with-akka-event-sourcing-and-maria-db-d4202c6c599a)
 
+Visual Basic
+
+* [VB.net connect MySQL/MariaDB database sample](https://www.youtube.com/watch?v=YJyznsABov4&ab_channel=AC719Chan) (video)
+
 **Plain SQL articles**
 
 These articles are about MariaDB SQL dialect, regardless which language you use to develop applications.
