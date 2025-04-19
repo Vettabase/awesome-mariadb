@@ -69,6 +69,10 @@ COBOL
 
 * [cobol-examples](https://github.com/writ3it/cobol-examples/tree/master/examples/gnucobol/database/mariadb) - Various examples show how to use GNU Cobol to work with MariaDB.
 
+Delphi
+
+* FireDAC + MariaDB CRUD Example: [part 1](https://www.youtube.com/watch?v=0HV06tOtZOo&ab_channel=%ED%88%B4%EB%9E%A9ToolLab), [part 2](https://www.youtube.com/watch?v=QWiT1a-k8Sc&ab_channel=%ED%88%B4%EB%9E%A9ToolLab)
+
 Go
 
 * [Integrating MariaDB with GoLang Microservice Restful API](https://medium.com/widle-studio/integrating-mariadb-with-golang-microservice-restful-apis-building-efficient-data-storage-4054e1588ce)
