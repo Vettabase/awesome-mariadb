@@ -60,6 +60,12 @@ Articles:
 
 - [MariaDB Cookbook](https://supermarket.chef.io/cookbooks/mariadb) - Maintained by [Sous Chefs](https://www.sous-chefs.org/)
 
+### Nomad
+
+Articles:
+
+- [MariaDB Galera Cluster with Hashicorp Nomad and Consul Connect](https://medium.com/@ituoga/mariadb-galera-cluster-with-hashicorp-nomad-and-consul-connect-5028af8364c0)
+
 ### Puppet
 
 - [puppet-mariadb](https://github.com/NeCTAR-RC/puppet-mariadb) - Fork of PuppetLabs MySQL module, which supports MariaDB and Galera on RedHat and Debian
