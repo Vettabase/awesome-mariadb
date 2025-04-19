@@ -59,6 +59,12 @@ Notes
 
 These articles are about language best practices, specific libraries, or non-trivial operations.
 
+ASP.Net
+
+* [Using MariaDB in an ASP.NET Core API with Entity Framework Core](https://blog.georgekosmidis.net/using-mariadb-in-an-aspnet-core-api-with-entity-framework-core.html)
+* [Building a web application with ASP.NET Core MVC, Entity Framework Core, MariaDB & Bootstrap](https://medium.com/@BMatt92656920/building-a-web-application-with-asp-net-core-mvc-entity-framework-core-mariadb-bootstrap-a2bf0927d20e)
+* [Using MariaDB With ASP.NET Core Web API](https://code-maze.com/aspnetcore-using-mariadb-with-web-api/)
+
 Go
 
 * [Integrating MariaDB with GoLang Microservice Restful API](https://medium.com/widle-studio/integrating-mariadb-with-golang-microservice-restful-apis-building-efficient-data-storage-4054e1588ce)
