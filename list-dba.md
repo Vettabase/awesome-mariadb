@@ -29,6 +29,7 @@ See the [key](#key) for explanations of the terms used in this list.
 * [Arch Linux MariaDB documentation](https://wiki.archlinux.org/title/MariaDB) - Includes post-install tasks and common problems resolution.
 * [Introduction to Data Replication With MariaDB Using Docker Containers](https://dzone.com/articles/introduction-to-data-replication-with-mariadb-usin)
 * [Customizing MariaDB Docker Images](https://hackernoon.com/customizing-mariadb-docker-images)
+* [Everything You Need to Know About Replication Filters in MySQL and MariaDB](https://genexdbs.com/everything-you-need-to-know-about-replication-filters-in-mysql-and-mariadb/)
 * [MariaDB semi-sync replication using containers](https://mariadb.org/mariadb-semi-sync-replication-using-containers/)
 * [Is Galera trx_commit=2 and sync_binlog=0 evil?](https://mysqlquicksand.wordpress.com/2019/09/11/is-galera-trx_commit2-and-sync_binlog0-evil/)
 * [InnoDB Durability](https://lists.mariadb.org/hyperkitty/list/discuss@lists.mariadb.org/thread/SY6YIADSASGFSGHFD2Z35WMU4KOLRAWE/#DVEELBZWT4FCMJBV6SRPVD3EHIE5PCG5) - mailing list discussion
