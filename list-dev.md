@@ -373,6 +373,7 @@ Frameworks and libraries to ease UDFs developing.
 | [TablePlus](https://tableplus.com/)                                         | [NOT VERIFIED]([https://dbeaver.com/databases/](https://docs.tableplus.com/))  | Linux, MacOS, Windows, iOS | Proprietary      |       |
 | [Toad Edge](https://toadworld.com/)                                         | NOT VERIFIED                                    | MacOS, Windows, Jenkins plugin | Proprietary |       |
 | [Valentina Studio](https://valentina-db.com/)                               | [NOT VERIFIED](https://valentina-db.com/en/database-management) | Linux, MacOS, Windows      | Proprietary  |       |
+| [whodb](https://github.com/clidey/whodb)       | YES | Go                         | [Apache 2](https://github.com/clidey/whodb/blob/main/LICENSE) |  |
 
 Notes
 
