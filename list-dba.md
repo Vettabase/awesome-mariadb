@@ -204,6 +204,7 @@ The following projects are either sharding components or sub-components that be 
 | [HeidiSQL](https://www.heidisql.com/)                                       | YES                                              | Windows               | Open Source         |       |
 | [LibreOffice Base](https://www.libreoffice.org/discover/base/)              | [NOT VERIFIED](https://www.libreoffice.org/discover/base/) | Linux, MacOS, Windows | Open Source      | [1]   |
 | [Navicat](https://www.navicat.com/)                                         | [YES]([https://www.navicat.com/en/products/navicat-for-mysql-feature-matrix](https://navicat.com/en/products/navicat-for-mariadb))   | Linux, MacOS, Windows | Proprietary |       |
+| [Nessie](https://github.com/halvardssm/deno-nessie)                         | YES                                             | Deno                  | [MIT](https://github.com/halvardssm/deno-nessie/blob/main/LICENSE) |       |
 | [ocelotgui](http://ocelot.ca/)                                              | YES                                             | Linux                 | Open Source          |       |
 | [OpenOffice Base](https://www.openoffice.org/product/base.html)             | [MySQL](https://www.openoffice.org/product/base.html) | Linux, MacOS, Windows | Open Source           | [2]   |
 | [Sequel Pro](https://www.sequelpro.com/)                                    | PARTIAL                                         | MacOS                 | Open Source                  | [3]   |
