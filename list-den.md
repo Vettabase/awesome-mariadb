@@ -68,15 +68,16 @@ Most MySQL binary log consumers tend to work with MariaDB, but they might encoun
 | [Apache NiFi](https://nifi.apache.org/)                          | [MySQL](https://nifi.apache.org/docs/nifi-docs/components/org.apache.nifi/nifi-cdc-mysql-nar/1.24.0/org.apache.nifi.cdc.mysql.processors.CaptureChangeMySQL/index.html)                                                                                                       | JVM                  | [Apache2](https://github.com/apache/nifi/blob/main/LICENSE) |  |
 | [Apache Superset](https://github.com/apache/superset)            | [YES](https://github.com/apache/superset) | TypeScript, Python  | [Apache2](https://github.com/apache/superset/blob/master/LICENSE.txt) |  |
 | [Dolt](https://dolthub.com/)                                     | [YES](https://docs.dolthub.com/guides/binlog-replication)  | Go        | [Apache2](https://github.com/dolthub/dolt/blob/main/LICENSE) |  |
-| [Debezium](https://github.com/madvirus/mariadb-cdc)              | [YES](https://debezium.io/documentation/reference/stable/connectors/mysql.html#mysql-mariadb-support)  | JVM       | [Apache2](https://debezium.io/license/) |  |
+| [Debezium](https://github.com/madvirus/mariadb-cdc)              | [YES](https://debezium.io/documentation/reference/stable/connectors/mysql.html#mysql-mariadb-support)  | JVM       | [Apache2](https://debezium.io/license/) | [1] |
 | [go-mysql](https://github.com/go-mysql-org/go-mysql)    | [YES](https://github.com/go-mysql-org/go-mysql/blob/master/mysql/const.go) | Go | [MIT](https://github.com/go-mysql-org/go-mysql/blob/master/LICENSE) |  |
 | [mariadb-cdc](https://github.com/madvirus/mariadb-cdc)           | YES               | JVM                  | [Proprietary](https://github.com/madvirus/mariadb-cdc/issues/1) |  |
-| [MySqlCdc](https://github.com/rusuly/MySqlCdc)                   | YES               | .NET                  | [MIT](https://github.com/rusuly/MySqlCdc/blob/main/LICENSE) | [1] |
+| [MySqlCdc](https://github.com/rusuly/MySqlCdc)                   | YES               | .NET                  | [MIT](https://github.com/rusuly/MySqlCdc/blob/main/LICENSE) | [2] |
 | [pg_chameleon](https://pgchameleon.org/)                         | MySQL             | Python3               | [BSD](https://github.com/the4thdoctor/pg_chameleon/blob/main/LICENSE.txt) |  |
 
 Notes
 
-1. Unmantained. Does not support GTID.
+1. See the [Debezium connector for MariaDB](https://debezium.io/documentation/reference/stable/connectors/mariadb.html).
+2. Unmantained. Does not support GTID.
 
 **CDC Articles**
 
