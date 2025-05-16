@@ -143,6 +143,7 @@ The connectors are grouped by language.
 | Erlang               | [MySQL/OTP](https://github.com/mysql-otp/mysql-otp)                                       | MySQL           |                     |
 | Fortran              | [MariaDB Connector Fortran](https://github.com/v-h-giang/Mariadb_connector_fortran)       | YES             |                     |
 | Go                   | [Go-MySQL-Driver](https://github.com/go-sql-driver/mysql)                                 | [YES](https://github.com/go-sql-driver/mysql?tab=readme-ov-file#requirements) |  |
+| Haskell              | [mysql-haskell](https://hackage.haskell.org/package/mysql-haskell)                        | MYSQL | BSD 3 | [5] |
 | Java                 | [Connector/J](https://mariadb.com/kb/en/about-mariadb-connector-j/)                       | YES             | <ul><li>AUTHparsec([3.5.0](https://github.com/mariadb-corporation/mariadb-,connector-j/blob/master/CHANGELOG.md#350-oct-2024))</li><li>REDIR([3.4.0](https://github.com/mariadb-corporation/mariadb-connector-j/blob/master/CHANGELOG.md#340-apr-2024))</li></ul>*The list might be incomplete.* | Type 4 JDBC driver  |
 | Java                 | [Connector/R2DBC](https://mariadb.com/docs/server/connect/programming-languages/java-r2dbc/) | YES          | <ul><li>AUTHparsec([1.3.0](https://github.com/mariadb-corporation/mariadb-connector-r2dbc/blob/master/CHANGELOG.md#130-oct-2024))</li><li>REDIR([1.2.0](https://github.com/mariadb-corporation/mariadb-connector-r2dbc/blob/master/CHANGELOG.md#120-08-feb-2024))</li></ul>*The list might be incomplete.* | Non-blocking API    |
 | JRuby                | [jdbc-mariadb](https://rubygems.org/gems/jdbc-mariadb)                                    | YES             | | JDBC driver for JRuby. |
@@ -207,6 +208,7 @@ Notes
 2. TonyDBC is descreibed as a _high level connector_, based on MariaDB/Connector. The features it adds are typical of a connector and should improve performance. It also includes type mapping to the [Pandas](https://pandas.pydata.org/) framework.
 3. `tencentcloud-sdk-mariadb` is actively maintained by Tencent. The `mysql` gem is by far the most used, but it's unmaintained since 2021. `jdbc-mariadb` is also unmaintained since 2019.
 4. Pre-production maturity level.
+5. Unmaintained, but apparently the alternatives have been abandoned for a longer time.
 
 ## IDEs
 
