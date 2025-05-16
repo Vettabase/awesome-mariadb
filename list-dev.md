@@ -255,6 +255,7 @@ Links to articles and information on the various methods and utilities to read a
 | ----------- | ---------------------------------------------------- | ------- | --------------- | ----- |
 | Ada         | [Ada Database Objects](https://github.com/stcarrez/ada-ado)  | [Apache2](https://github.com/stcarrez/ada-ado/blob/master/LICENSE.txt) | YES |  |
 | Deno (Javascript) | [Nessie](https://github.com/halvardssm/deno-nessie)  | [MIT](https://github.com/halvardssm/deno-nessie/blob/main/LICENSE) | YES  |  |
+| Emacs Lisp  | [EmacSQL](https://github.com/magit/emacsql)          | [Unlicense](https://github.com/magit/emacsql/blob/main/UNLICENSE) | MYSQL          | [7] |
 | Go          | [godb](https://github.com/samonzeweb/godb)           | [MIT](https://github.com/samonzeweb/godb/blob/master/LICENSE.txt) | YES            |  |
 | Go          | [GORM](https://gorm.io/)                             | [MIT](https://github.com/go-gorm/gorm/blob/master/LICENSE) | [NOT VERIFIED](https://github.com/adamchainz/django-mysql?tab=readme-ov-file#what-kind-of-features)            | [1]   |
 | Java        | [Hibernate](https://hibernate.org/orm/)              | [LGPL 2.1 / Apache 2](https://hibernate.org/community/license/) | [YES](https://github.com/hibernate/hibernate-orm/blob/main/dialects.adoc) | [2]   |
@@ -286,6 +287,7 @@ Links to articles and information on the various methods and utilities to read a
 4. Shiny is a framework for data science application developing in Pyhton and R. It includes support for databases, including MariaDB.
 5. A context manager allows developers, for example, to run a query in a `with` statement. Resources will be deallocated automatically when the execution leaves the current context.
 6. Auto-generated, type-safe query builder for TypeScript and Node.js.
+7. EmacSQL is written for SQLite, it supports MySQL and MariaDB is not mentioned in the documentation or in the code. However, according to several online discussions, this library seems to work with MariaDB better than the alternatives.
 
 **@TODO** Check the ORMs in [this list](https://en.wikipedia.org/wiki/List_of_object%E2%80%93relational_mapping_software).
 
