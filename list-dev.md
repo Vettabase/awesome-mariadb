@@ -270,6 +270,7 @@ Links to articles and information on the various methods and utilities to read a
 | Node.js, TypeScript | [Prisma](https://github.com/prisma/prisma)       | [Apache 2](https://github.com/prisma/prisma/blob/main/LICENSE) | YES                | [6] |
 | Node.js, TypeScript | [Sequelize](https://github.com/sequelize/sequelize)  | [MIT](https://github.com/sequelize/sequelize/blob/main/LICENSE)             | YES                |  |
 | Perl        | [Rose::DB](https://metacpan.org/pod/Rose::DB)            | [GPL1+ or Artistic License](https://metacpan.org/pod/Rose::DB#LICENSE) | [YES](https://metacpan.org/pod/Rose::DB::MariaDB)            |       |
+| PHP         | [CakePHP](https://cakephp.org/)                          | [MIT](https://github.com/cakephp/cakephp/blob/5.x/LICENSE) | MYSQL            |       |
 | Python      | [Django-MySQL](https://github.com/adamchainz/django-mysql)  | [MIT](https://github.com/adamchainz/django-mysql/blob/main/LICENSE) | [YES](https://github.com/adamchainz/django-mysql?tab=readme-ov-file#what-kind-of-features)            |       |
 | Python      | [SQLAlchemy](https://www.sqlalchemy.org/)            | [MIT](https://github.com/sqlalchemy/sqlalchemy/blob/main/LICENSE) | [YES](https://docs.sqlalchemy.org/en/20/dialects/mysql.html#mariadb-support) |       |
 | Python      | [mariadb_composition](https://pypi.org/project/mariadb-composition/)   | MIT | YES |   |
