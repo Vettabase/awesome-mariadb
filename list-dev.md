@@ -273,6 +273,7 @@ Links to articles and information on the various methods and utilities to read a
 | PHP         | [CakePHP](https://cakephp.org/)                          | [MIT](https://github.com/cakephp/cakephp/blob/5.x/LICENSE) | MYSQL            |       |
 | PHP         | [Doctrine ORM](https://www.doctrine-project.org/projects/doctrine-orm/en/stable/index.html) | [MIT](https://github.com/doctrine/orm/blob/3.3.x/LICENSE) | [YES](https://www.doctrine-project.org/projects/doctrine-dbal/en/4.2/reference/platforms.html) |  |
 | PHP         | [Medoo](https://medoo.in/)                               | [MIT](https://github.com/catfan/Medoo/blob/master/LICENSE.md) | YES |       |
+| PHP         | [Illuminate Database](https://laravel.com/docs/12.x/eloquent) | [MIT](https://github.com/illuminate/database/blob/master/LICENSE.md) | YES | [8] |
 | Python      | [Django-MySQL](https://github.com/adamchainz/django-mysql)  | [MIT](https://github.com/adamchainz/django-mysql/blob/main/LICENSE) | [YES](https://github.com/adamchainz/django-mysql?tab=readme-ov-file#what-kind-of-features)            |       |
 | Python      | [SQLAlchemy](https://www.sqlalchemy.org/)            | [MIT](https://github.com/sqlalchemy/sqlalchemy/blob/main/LICENSE) | [YES](https://docs.sqlalchemy.org/en/20/dialects/mysql.html#mariadb-support) |       |
 | Python      | [mariadb_composition](https://pypi.org/project/mariadb-composition/)   | MIT | YES |   |
@@ -293,6 +294,7 @@ Links to articles and information on the various methods and utilities to read a
 5. A context manager allows developers, for example, to run a query in a `with` statement. Resources will be deallocated automatically when the execution leaves the current context.
 6. Auto-generated, type-safe query builder for TypeScript and Node.js.
 7. EmacSQL is written for SQLite, it supports MySQL and MariaDB is not mentioned in the documentation or in the code. However, according to several online discussions, this library seems to work with MariaDB better than the alternatives.
+8. Illuminate Database is part of the Laraval framework. It is a database toolkit that includes the Eloquent ORM. The source code includes full MariaDB support, implemented separately from MySQL.
 
 **@TODO** Check the ORMs in [this list](https://en.wikipedia.org/wiki/List_of_object%E2%80%93relational_mapping_software).
 
