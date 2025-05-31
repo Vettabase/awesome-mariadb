@@ -204,7 +204,7 @@ Notations associated with protocol extensions:
 
 Notes
 
-1. Uses Connector/C via [CTypes](https://github.com/yallop/ocaml-ctypes). From the `README` file: "Only the prepared-statement APIs are exposed by OCaml-MariaDB, as these functions provide typed query parameters and database field access". A non-blocking API was implemented in Ocaml.
+1. Uses Connector/C via [CTypes](https://github.com/yallop/ocaml-ctypes). From the `README` file: "Only the prepared-statement APIs are exposed by OCaml-MariaDB, as these functions provide typed query parameters and database field access". A non-blocking API was implemented in Ocaml. OCaml-MariaDB can be based on C/Connector (preferred) or the MariaDB Client Library. One of them must be installed separately for OCaml-MariaDB to work.
 2. TonyDBC is descreibed as a _high level connector_, based on MariaDB/Connector. The features it adds are typical of a connector and should improve performance. It also includes type mapping to the [Pandas](https://pandas.pydata.org/) framework.
 3. `tencentcloud-sdk-mariadb` is actively maintained by Tencent. The `mysql` gem is by far the most used, but it's unmaintained since 2021. `jdbc-mariadb` is also unmaintained since 2019.
 4. Pre-production maturity level.
