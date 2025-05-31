@@ -269,7 +269,8 @@ Links to articles and information on the various methods and utilities to read a
 | Kotlin      | [Kotlin Dataframe](https://github.com/Kotlin/dataframe)  | [Apache 2](https://github.com/Kotlin/dataframe/blob/master/LICENSE) | [YES](https://kotlin.github.io/dataframe/readsqldatabases.html)               |       |
 | Node.js, TypeScript | [MikroORM](https://mikro-orm.io/)                | [MIT](https://github.com/mikro-orm/mikro-orm/blob/HEAD/LICENSE) | YES                |  |
 | Node.js, TypeScript | [Prisma](https://github.com/prisma/prisma)       | [Apache 2](https://github.com/prisma/prisma/blob/main/LICENSE) | YES                | [6] |
-| Node.js, TypeScript | [Sequelize](https://github.com/sequelize/sequelize)  | [MIT](https://github.com/sequelize/sequelize/blob/main/LICENSE)             | YES                |  |
+| Node.js, TypeScript | [Sequelize](https://github.com/sequelize/sequelize)  | [MIT](https://github.com/sequelize/sequelize/blob/main/LICENSE) | YES                |  |
+| OCaml       | [Caqti](https://opam.ocaml.org/packages/caqti-driver-mariadb/)  | See note | [YES](https://ocaml.org/p/caqti-driver-mariadb/latest) | [9] |
 | Perl        | [Rose::DB](https://metacpan.org/pod/Rose::DB)            | [GPL1+ or Artistic License](https://metacpan.org/pod/Rose::DB#LICENSE) | [YES](https://metacpan.org/pod/Rose::DB::MariaDB)            |       |
 | PHP         | [CakePHP](https://cakephp.org/)                          | [MIT](https://github.com/cakephp/cakephp/blob/5.x/LICENSE) | MYSQL            |       |
 | PHP         | [Doctrine ORM](https://www.doctrine-project.org/projects/doctrine-orm/en/stable/index.html) | [MIT](https://github.com/doctrine/orm/blob/3.3.x/LICENSE) | [YES](https://www.doctrine-project.org/projects/doctrine-dbal/en/4.2/reference/platforms.html) |  |
@@ -297,6 +298,7 @@ Links to articles and information on the various methods and utilities to read a
 6. Auto-generated, type-safe query builder for TypeScript and Node.js.
 7. EmacSQL is written for SQLite, it supports MySQL and MariaDB is not mentioned in the documentation or in the code. However, according to several online discussions, this library seems to work with MariaDB better than the alternatives.
 8. Illuminate Database is part of the Laraval framework. It is a database toolkit that includes the Eloquent ORM. The source code includes full MariaDB support, implemented separately from MySQL.
+9. The purpose is to provide a multi-database library that exposes the same signatures for all databases. MariaDB support is provided via the [caqti-driver-mariadb](https://ocaml.org/p/caqti-driver-mariadb/latest). Caqti is multithreaded, thanks to the use of monads. Other packages, like TSL, are provided by dedicated packages, included by default in a standard Caqti installation. The license is not clear: there is no copyright note, and the source code includes [GPL 3](https://github.com/paurkedal/ocaml-caqti/blob/master/COPYING), [LGPL 3](https://github.com/paurkedal/ocaml-caqti/blob/master/COPYING.LESSER), and an an [LGPL 3 linking exception](https://github.com/paurkedal/ocaml-caqti/blob/master/COPYING.LINKING). The same unclear licensing is used for the MariaDB driver.
 
 **@TODO** Check the ORMs in [this list](https://en.wikipedia.org/wiki/List_of_object%E2%80%93relational_mapping_software).
 
