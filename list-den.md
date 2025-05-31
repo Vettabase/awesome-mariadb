@@ -13,7 +13,7 @@ This list is intended for Data Engineers. There are lists intended for other aud
 - [Change Data Capture](#change-data-capture)
 - [Data Integration](#data-integration)
 - [Data Visualisation](#data-visualisation)
-- [MCP](#mcp)
+- [MCP](#mcp-servers)
 - [Stored Procedures](#stored-procedures)
 
 See the [key](#key) for explanations of the terms used in this list.
