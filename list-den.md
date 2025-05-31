@@ -13,6 +13,7 @@ This list is intended for Data Engineers. There are lists intended for other aud
 - [Change Data Capture](#change-data-capture)
 - [Data Integration](#data-integration)
 - [Data Visualisation](#data-visualisation)
+- [MCP](#mcp)
 - [Stored Procedures](#stored-procedures)
 
 See the [key](#key) for explanations of the terms used in this list.
@@ -115,6 +116,14 @@ The following resources show how to integrate MariaDB with various other data te
 | [Geckoboard](https://www.geckoboard.com/)                        | [YES](https://www.geckoboard.com/product/data-sources/mariadb/) | Cloud | Cloud |
 | [Metabase](https://www.metabase.com/)                            | [YES](https://www.metabase.com/data_sources/mariadb) | JVM | [AGPL, Proprietary](https://github.com/metabase/metabase/blob/master/LICENSE.txt), [Cloud](https://www.metabase.com/pricing/) |
 | [Mode](https://mode.com/)                                        | [YES](https://mode.com/integrations/mariadb) | Cloud | Cloud |
+
+## MCP Servers
+
+[MCP (Model Context Protocol)](https://en.wikipedia.org/wiki/Model_Context_Protocol) is an open protocol created by Anthropic that standardises the way LLMs communicate with agents and data sources like MariaDB.
+
+| Project                                                          | MariaDB Support   | Language / Platform   | License / Platform                   |
+|------------------------------------------------------------------|-------------------|-----------------------|--------------------------------------|
+| [MariaDB Vector MCP server](https://github.com/mariadb/mcp)      | YES               | Python, Docker        | [MIT](https://github.com/MariaDB/mcp/blob/main/LICENSE) |
 
 ## Stored Procedures
 
