@@ -267,6 +267,7 @@ Links to articles and information on the various methods and utilities to read a
 | Java        | [MyBatis](https://mybatis.org/mybatis-3/)            | [Apache 2](https://github.com/mybatis/mybatis-3/blob/master/LICENSE) | [YES](https://github.com/mybatis/generator/issues/450#issuecomment-471790027) |       |
 | JavaScript  | [TypeORM](https://github.com/typeorm/typeorm)            | [MIT]([https://github.com/mybatis/mybatis-3/blob/master/LICENSE](https://github.com/typeorm/typeorm/blob/master/LICENSE)) | NOT VERIFIED | [2]   |
 | Kotlin      | [Kotlin Dataframe](https://github.com/Kotlin/dataframe)  | [Apache 2](https://github.com/Kotlin/dataframe/blob/master/LICENSE) | [YES](https://kotlin.github.io/dataframe/readsqldatabases.html)               |       |
+| .Net        | [Entity Framework](https://learn.microsoft.com/en-us/ef/core/)   | [Proprietary](https://learn.microsoft.com/en-us/ef/ef6/resources/licenses/ef6/enu) | [YES](https://www.nuget.org/packages/Pomelo.EntityFrameworkCore.MySql) |  |
 | Node.js, TypeScript | [MikroORM](https://mikro-orm.io/)                | [MIT](https://github.com/mikro-orm/mikro-orm/blob/HEAD/LICENSE) | YES                |  |
 | Node.js, TypeScript | [Prisma](https://github.com/prisma/prisma)       | [Apache 2](https://github.com/prisma/prisma/blob/main/LICENSE) | YES                | [6] |
 | Node.js, TypeScript | [Sequelize](https://github.com/sequelize/sequelize)  | [MIT](https://github.com/sequelize/sequelize/blob/main/LICENSE) | YES                |  |
