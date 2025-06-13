@@ -279,7 +279,7 @@ Links to articles and information on the various methods and utilities to read a
 | PHP         | [Medoo](https://medoo.in/)                               | [MIT](https://github.com/catfan/Medoo/blob/master/LICENSE.md) | YES |       |
 | PHP         | [Illuminate Database](https://laravel.com/docs/12.x/eloquent) | [MIT](https://github.com/illuminate/database/blob/master/LICENSE.md) | YES | [8] |
 | PHP         | [RedBeanPHP](https://www.redbeanphp.com/) | [New BSD/GPL 2](https://www.redbeanphp.com/index.php?p=/license) | NOT VERIFIED |  |
-| PHP         | [TDBM](https://github.com/thecodingmachine/tdbm) (The DataBase Machine)  | [No license](https://github.com/thecodingmachine/tdbm/issues/293) | YES |  |
+| PHP         | [TDBM](https://github.com/thecodingmachine/tdbm) (The DataBase Machine)  | [No license](https://github.com/thecodingmachine/tdbm/issues/293) | YES | [10] |
 | Python      | [Django-MySQL](https://github.com/adamchainz/django-mysql)  | [MIT](https://github.com/adamchainz/django-mysql/blob/main/LICENSE) | [YES](https://github.com/adamchainz/django-mysql?tab=readme-ov-file#what-kind-of-features)            |       |
 | Python      | [SQLAlchemy](https://www.sqlalchemy.org/)            | [MIT](https://github.com/sqlalchemy/sqlalchemy/blob/main/LICENSE) | [YES](https://docs.sqlalchemy.org/en/20/dialects/mysql.html#mariadb-support) |       |
 | Python      | [mariadb_composition](https://pypi.org/project/mariadb-composition/)   | MIT | YES |   |
@@ -302,6 +302,7 @@ Links to articles and information on the various methods and utilities to read a
 7. EmacSQL is written for SQLite, it supports MySQL and MariaDB is not mentioned in the documentation or in the code. However, according to several online discussions, this library seems to work with MariaDB better than the alternatives.
 8. Illuminate Database is part of the Laraval framework. It is a database toolkit that includes the Eloquent ORM. The source code includes full MariaDB support, implemented separately from MySQL.
 9. The purpose is to provide a multi-database library that exposes the same signatures for all databases. MariaDB support is provided via the [caqti-driver-mariadb](https://ocaml.org/p/caqti-driver-mariadb/latest). Caqti is multithreaded, thanks to the use of monads. Other packages, like TSL, are provided by dedicated packages, included by default in a standard Caqti installation. The license is not clear: there is no copyright note, and the source code includes [GPL 3](https://github.com/paurkedal/ocaml-caqti/blob/master/COPYING), [LGPL 3](https://github.com/paurkedal/ocaml-caqti/blob/master/COPYING.LESSER), and an an [LGPL 3 linking exception](https://github.com/paurkedal/ocaml-caqti/blob/master/COPYING.LINKING). The same unclear licensing is used for the MariaDB driver.
+10. Currently, TBDM seems to be [still tested](https://github.com/thecodingmachine/tdbm/blob/5eee478c646c171b4dae34d892b1fc336ce07f8f/tests/phpunit-mariadb.sh) against MariaDB 10.3.
 
 **@TODO** Check the ORMs in [this list](https://en.wikipedia.org/wiki/List_of_object%E2%80%93relational_mapping_software).
 
