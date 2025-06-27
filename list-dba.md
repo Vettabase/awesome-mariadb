@@ -80,9 +80,9 @@ Articles:
 |-----------------------------------------------------------------------|--------------------------------------|-------------------------------------------|-----------------------|
 | [Backup Manager](https://fromdual.com/fromdual-backup-manager-bman)   | YES                                  | Proprietary                              | Supports many types of backups. By FromDual. |
 | [maria-back-me-up](https://github.com/sapcc/maria-back-me-up)         | YES                                  | [Apache License 2](https://github.com/sapcc/maria-back-me-up/blob/master/LICENSE) | Incremental dumps on Kubernetes. Supports archival. |
-| [Mariabackup](https://mariadb.com/kb/en/mariabackup-overview/)        | YES                                  | Distributed with MariaDB                  | Online physical backups. |
+| [mariadb-backup](https://mariadb.com/docs/server/server-usage/backup-and-restore/mariadb-backup/mariadb-backup-overview)        | YES                                  | Distributed with MariaDB                  | Online physical backups. |
 | [mariabackup-script](https://github.com/paskinator/mariabackup-script)  | YES                                | [GPL3](https://github.com/paskinator/mariabackup-script/blob/main/LICENSE)    | Wrapper script for Mariabackup. Handles failed backups. |
-| [mariadb-dump](https://mariadb.com/kb/en/mariadb-dump/)               | YES                                  | Distributed with MariaDB                  | Logical backups of data and/or schema. |
+| [mariadb-dump](https://mariadb.com/docs/server/clients-and-utilities/backup-restore-and-import-clients/mariadb-dump)               | YES                                  | Distributed with MariaDB                  | Logical backups of data and/or schema. |
 
 **Articles**
 
@@ -123,7 +123,7 @@ Articles:
 In the list below, SQL-aware means that a proxy understands SQL statements, and is able to perform tasks like read-write splitting.
 
 - [ProxySQL](https://proxysql.com/) - Open source, widely used proxy with full support for MariaDB. SQL-aware.
-- [MariaDB MaxScale](https://mariadb.com/kb/en/maxscale/) - Source available proxy maintained by MariaDB plc. SQL-aware.
+- [MariaDB MaxScale](https://mariadb.com/docs/maxscale) - Source available proxy maintained by MariaDB plc. SQL-aware.
 - [HAProxy](https://www.haproxy.org/) - Open source, TCP proxy. Not SQL-aware.
   - [haproxy-galera](https://github.com/matthanley/haproxy-galera) - MariaDB Galera health check script for HAProxy.
 
@@ -137,9 +137,9 @@ The following projects are either sharding components or sub-components that be 
 
 | Project                                                             | MariaDB Support | License / Platform | Notes   |
 |---------------------------------------------------------------------|-----------------|--------------------|---------|
-| [MaxScale](https://mariadb.com/kb/en/mariadb-maxscale-24-schemarouter/) | YES         | Proprietary        | A query and connection router that is part of Maxscale. |
+| [MaxScale](https://mariadb.com/docs/maxscale/maxscale-archive/archive-of-2x.xx-versions/mariadb-maxscale-25-01/mariadb-maxscale-25-01-routers/mariadb-maxscale-2501-maxscale-2501-schemarouter) | YES         | Proprietary        | A query and connection router that is part of Maxscale. |
 | [ProxySQL](https://proxysql.com/documentation/how-to-setup-proxysql-sharding/) | YES  | GPLv3              | Sharding in ProxySQL by User, Schema or Data. Sharding is based on rules which pattern match on incoming queries. |
-| [Spider](https://mariadb.com/kb/en/spider/)                         | YES             | GPLv2              | A storage engine for table definition shards and connections to split tables among several servers. |
+| [Spider](https://mariadb.com/docs/server/server-usage/storage-engines/spider)                         | YES             | GPLv2              | A storage engine for table definition shards and connections to split tables among several servers. |
 
 
 ## Replication
@@ -216,7 +216,7 @@ The following projects are either sharding components or sub-components that be 
 
 Notes
 
-1. LibreOffice Base is a generic data visualization frontend. To learn how to use it with MariaDB, see the [MariaDB KB](https://mariadb.com/kb/en/libreoffice-base/).
+1. LibreOffice Base is a generic data visualization frontend. To learn how to use it with MariaDB, see the [MariaDB KB](https://mariadb.com/docs/server/clients-and-utilities/graphical-and-enhanced-clients/libreoffice-base).
 2. Apache OpenOffice is the project from which LibreOffice was originally forked. LibreOffice became more popular over time, so consider LibreOffice Base as well. OpenOffice Base does not support MariaDB. However it supports MySQL and ODBC drivers, so in practice it should work with MariaDB for standard use cases.
 3. At the time of writing, MariaDB support is only mentioned in the `README.md` file. A quick [search on GitHub](https://github.com/search?q=repo%3Asequelpro%2Fsequelpro%20mariadb&type=code) shows that this support is currently limited to version identification, some permissions and a TODO note.
 
