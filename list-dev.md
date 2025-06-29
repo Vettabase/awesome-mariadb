@@ -18,6 +18,7 @@ This list is intended for Developers. There are lists intended for other audienc
 - [Protocol](#protocol)
 - [Schema Versioning](#schema-versioning)
 - [Stored Routines](#stored-routines)
+- [Synthetic Data Generators](#synthetic-data-generators)
 - [User-Defined Functions](#user-defined-functions)
 - [User Interfaces](#user-interfaces)
 
@@ -330,6 +331,14 @@ Links to articles and information on the various methods and utilities to read a
 The term *stored routine* indicates a stored procedure or function. This is a list of stored routines that can be useful for application developers.
 
 * [mariadb_uuidv7.sql](https://gist.github.com/juanparati/0ded9c04d4cd43e5aae8f5a438a8b18b) - A stored function to generate a UUIDv7. This is useful on MariaDB versions older than 10.7.
+
+
+## Synthetic Data Generators
+
+| Project Name                                                           | MariaDB Support | License / Platform |
+| ---------------------------------------------------------------------- | --------------- | ------------------ |
+| [Data Generator for MySQL](https://www.devart.com/dbforge/mysql/data-generator/) | MYSQL | Proprietary |
+| [random_data_loader](https://github.com/cfsalguero/random_data_loader) | MYSQL           | [MIT](https://github.com/cfsalguero/random_data_loader?tab=readme-ov-file#license) |
 
 
 ## User-Defined Functions
