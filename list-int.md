@@ -15,6 +15,7 @@ See the [key](#key) for explanations of the terms used in this list.
 
 ## Articles
 
+* **Video: [MariaDB’s Query Optimizer: A Multi-tool That Does Some Things Differently](https://www.youtube.com/watch?v=0pveVPP4gY4)** - An interview to Monty Widenius by Andy Pavlo and the Carnegie Mellon University's Database Group.
 * **[Quick builds and rebuilds of MariaDB using Docker](https://optimizedbyotto.com/post/quick-builds-and-rebuilds-of-mariadb-with-docker/)** - Contains practical hints, useful even if you don't plan to use Docker.
 * [Building MariaDB Server from the sources](https://fromdual.com/building-mariadb-server-from-the-sources)
 * [Install MariaDB on Windows from Source Code](https://dev.to/arun3sh/install-mariadb-from-source-code-c6b)
