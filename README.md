@@ -145,7 +145,7 @@ The result will look like the following:
 - [Awesome MySQL Performance](https://github.com/Releem/awesome-mysql-performance) - A curated list of awesome links related to MySQL / MariaDB / Percona Server configuration tuning for improved performance.
 - [Awesome Database](https://github.com/agarcialeon/awesome-database) - A categorized community-driven collection of amazingly awesome database resources.
 
-See also [Applications Supporting MariaDB](https://mariadb.com/kb/en/applications-supporting-mariadb/), in the MariaDB KnowledgeBase.
+See also [Applications Supporting MariaDB](https://mariadb.com/docs/server/clients-and-utilities/server-client-software/applications-supporting-mariadb), in the MariaDB Documentation.
 
 ---
 
