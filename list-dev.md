@@ -335,6 +335,8 @@ The term *stored routine* indicates a stored procedure or function. This is a li
 
 ## Synthetic Data Generators
 
+Generate synthetic data: random but realistic data generated based on the schema.
+
 | Project Name                                                           | MariaDB Support | License / Platform |
 | ---------------------------------------------------------------------- | --------------- | ------------------ |
 | [Data Generator for MySQL](https://www.devart.com/dbforge/mysql/data-generator/) | MYSQL | Proprietary |
