@@ -342,6 +342,10 @@ Generate synthetic data: random but realistic data generated based on the schema
 | [Data Generator for MySQL](https://www.devart.com/dbforge/mysql/data-generator/) | MYSQL | Proprietary |
 | [random_data_loader](https://github.com/cfsalguero/random_data_loader) | MYSQL           | [MIT](https://github.com/cfsalguero/random_data_loader?tab=readme-ov-file#license) |
 
+Articles:
+
+* [MariaDB SEQUENCE: a Simple Approach to Synthetic Data](https://vettabase.com/mariadb-sequence-a-simple-approach-to-synthetic-data/)
+
 
 ## User-Defined Functions
 
