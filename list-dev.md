@@ -258,6 +258,7 @@ Links to articles and information on the various methods and utilities to read a
 | Language    | ORM Name                                             | License | MariaDB Support | Notes |
 | ----------- | ---------------------------------------------------- | ------- | --------------- | ----- |
 | Ada         | [Ada Database Objects](https://github.com/stcarrez/ada-ado)  | [Apache2](https://github.com/stcarrez/ada-ado/blob/master/LICENSE.txt) | YES |  |
+| C++         | [SQL++](https://www.sqlapi.com/ApiDoc/mariadb/)      | [Proprietary](https://www.sqlapi.com/Order/license/) | [YES](https://www.sqlapi.com/ApiDoc/mariadb/) |  |
 | Deno (Javascript) | [Nessie](https://github.com/halvardssm/deno-nessie)  | [MIT](https://github.com/halvardssm/deno-nessie/blob/main/LICENSE) | YES  |  |
 | Emacs Lisp  | [EmacSQL](https://github.com/magit/emacsql)          | [Unlicense](https://github.com/magit/emacsql/blob/main/UNLICENSE) | MYSQL          | [7] |
 | Go          | [godb](https://github.com/samonzeweb/godb)           | [MIT](https://github.com/samonzeweb/godb/blob/master/LICENSE.txt) | YES            |  |
