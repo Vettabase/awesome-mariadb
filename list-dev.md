@@ -212,6 +212,10 @@ Notes
 4. Pre-production maturity level.
 5. Unmaintained, but apparently the alternatives have been abandoned for a longer time.
 
+**Articles**
+
+* [Options for MySQL or MariaDB Connector C libraries](https://ocelot.ca/blog/blog/2025/07/16/options-for-mysql-or-mariadb-connector-c-libraries/)
+
 ## IDEs
 
 Guides on how to work with MariaDB using various IDEs.
