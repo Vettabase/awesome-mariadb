@@ -160,6 +160,7 @@ The connectors are grouped by language.
 | Perl                 | [MariaDB::NonBlocking](https://metacpan.org/pod/MariaDB::NonBlocking)                     | YES             |                     |
 | PHP                  | [MySQLi](https://www.php.net/manual/en/book.mysqli.php)                                   | MySQL           | | Both procedural and OO API. |
 | PHP                  | [PDO MySQL](https://www.php.net/manual/en/ref.pdo-mysql.php)                              | MySQL           | | Multi-database abstraction layer. |
+| PHP (React)          | [Async MySQL database client for ReactPHP](https://github.com/friends-of-reactphp/mysql)  | YES             | | Async MySQL database client for ReactPHP/ |
 | Python               | [Connector/Python](https://mariadb.com/docs/connectors/mariadb-connector-python/list-of-mariadb-connector-python-releases)  | YES             |                     |
 | Python               | [mysqlclient](https://github.com/PyMySQL/mysqlclient)                                     | YES             |  |
 | Python               | [TonyDBC](https://pypi.org/project/tonydbc/)                                              | YES             |  | [2] |
