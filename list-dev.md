@@ -355,7 +355,6 @@ Articles:
 
 * [MariaDB SEQUENCE: a Simple Approach to Synthetic Data](https://vettabase.com/mariadb-sequence-a-simple-approach-to-synthetic-data/)
 
-
 ## Test Frameworks
 
 Test Frameworks support databases to:
