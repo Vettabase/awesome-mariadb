@@ -365,6 +365,11 @@ Test Frameworks support databases to:
 
 Support for specific databases is generally implemented in plugins.
 
+
+**Python Test Frameworks: pytest**
+
+`pytest` has the following plugins supporting MariaDB:
+
 ## User-Defined Functions
 
 To our knowledge, all MySQL UDFs should work with MariaDB. For this reason we don't provide information about MariaDB compatibility.
