@@ -372,6 +372,7 @@ Support for specific databases is generally implemented in plugins.
 | Project                                                        | License | MariaDB Support | Notes |
 | -------------------------------------------------------------- | ------- | --------------- | ----- |
 | [pytest-mysql](https://pypi.org/project/pytest-mysql/)         | LGPL 3+ | YES             | Adds fixtures. |
+| [pytest-pymysql-autorecording](https://pypi.org/project/pytest-pymysql-autorecord/) | MIT | MySQL | Stores test data and query results. |
 
 ## User-Defined Functions
 
