@@ -364,6 +364,13 @@ Test Frameworks support databases to:
 
 Support for specific databases is generally implemented in plugins.
 
+**Go Test Frameworks**
+
+Go has libraries that mock various databases.
+
+| Project                                                        | License | MariaDB Support | Notes |
+| -------------------------------------------------------------- | ------- | --------------- | ----- |
+| [sqlmock](https://github.com/DATA-DOG/go-sqlmock)              | BSD     | MySQL           | Implements sql/driver. |
 
 **Python Test Frameworks: pytest**
 
