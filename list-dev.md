@@ -369,6 +369,10 @@ Support for specific databases is generally implemented in plugins.
 
 `pytest` has the following plugins supporting MariaDB:
 
+| Project                                                        | License | MariaDB Support | Notes |
+| -------------------------------------------------------------- | ------- | --------------- | ----- |
+| [pytest-mysql](https://pypi.org/project/pytest-mysql/)         | LGPL 3+ | YES             | Adds fixtures. |
+
 ## User-Defined Functions
 
 To our knowledge, all MySQL UDFs should work with MariaDB. For this reason we don't provide information about MariaDB compatibility.
