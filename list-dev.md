@@ -19,6 +19,7 @@ This list is intended for Developers. There are lists intended for other audienc
 - [Schema Versioning](#schema-versioning)
 - [Stored Routines](#stored-routines)
 - [Synthetic Data Generators](#synthetic-data-generators)
+- [Test Frameworks](#test-frameworks)
 - [User-Defined Functions](#user-defined-functions)
 - [User Interfaces](#user-interfaces)
 
@@ -354,6 +355,15 @@ Articles:
 
 * [MariaDB SEQUENCE: a Simple Approach to Synthetic Data](https://vettabase.com/mariadb-sequence-a-simple-approach-to-synthetic-data/)
 
+
+## Test Frameworks
+
+Test Frameworks support databases to:
+
+- Mock database interaction;
+- Record test results in a database.
+
+Support for specific databases is generally implemented in plugins.
 
 ## User-Defined Functions
 
