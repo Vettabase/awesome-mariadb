@@ -364,6 +364,14 @@ Test Frameworks support databases to:
 
 Support for specific databases is generally implemented in plugins.
 
+**NOTE:** Support for MariaDB (or, more generally, any DBMS you're using)
+can be useful in some situations, but lack of support
+is not necessarily a problem. SQL queries can be run against a test database,
+or it's possible to build an object that mocks the queries.
+Writing the test results into a database is often unnecessary, too.
+Depending on your specific needs, you might find this section useful or
+decide to ignore it.
+
 **Go Test Frameworks**
 
 Go has libraries that mock various databases.
