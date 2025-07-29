@@ -44,6 +44,7 @@ See the [key](#key) for explanations of the terms used in this list.
 * [Emacs Projectile Tweaks for MySQL Development](https://of-code.blogspot.com/2024/10/emacs-projectile-tweaks-for-mysql.html)
 * [MariaDB Replication and its Internals](https://aminst.github.io/2024-01-10-mariadb-replication/)
 * [Adding a new System Variable](https://ankithooda.com/2024/01/10/mysql-mariadb-hack-week/)
+* [Writing a minimal in-memory storage engine for MySQL/MariaDB](https://notes.eatonphil.com/2024-01-09-minimal-in-memory-storage-engine-for-mysql.html)
 
 ## Tools
 
