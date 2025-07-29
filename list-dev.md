@@ -31,7 +31,7 @@ The following resources are specific to MariaDB.
 
 **Tutorials**
 
-These tutorials show how to connect to MariaDB and perform some basic operations.
+These tutorials show how to install or connect to MariaDB and perform some basic operations.
 
 Loosely ordered by language, SQL first.
 
@@ -50,6 +50,7 @@ Loosely ordered by language, SQL first.
 | [How To Store and Retrieve Data in MariaDB Using Python](https://www.digitalocean.com/community/tutorials/how-to-store-and-retrieve-data-in-mariadb-using-python-on-ubuntu-18-04) | Python | BEGINNER / INTERMEDIATE | Text |
 | [Connect to MariaDB Data in Ruby](https://www.cdata.com/kb/tech/mariadb-odbc-ruby.rst)   | Ruby             | BEGINNER         | Text           |                |
 | [Three simple rules to not fail (too much) your data design](https://github.com/SylvainA77/articles/blob/main/Three-rules-not-fail-data-design.md) | N/A | BEGINNER / INTERMEDIATE | Text | [3]
+| [Installing both MariaDB and MySQL clients on the same Unix host](https://dbdemon.com/installing_mariadb_and_mysql_clients_on_same_unix_host/) | N/A | BEGINNER | Text |
 
 Notes
 
