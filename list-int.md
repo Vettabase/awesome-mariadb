@@ -43,6 +43,7 @@ See the [key](#key) for explanations of the terms used in this list.
   macOS](https://of-code.blogspot.com/2024/09/running-perl-using-mtr-tests-for-fb.html)
 * [Emacs Projectile Tweaks for MySQL Development](https://of-code.blogspot.com/2024/10/emacs-projectile-tweaks-for-mysql.html)
 * [MariaDB Replication and its Internals](https://aminst.github.io/2024-01-10-mariadb-replication/)
+* [Adding a new System Variable](https://ankithooda.com/2024/01/10/mysql-mariadb-hack-week/)
 
 ## Tools
 
