@@ -42,6 +42,7 @@ See the [key](#key) for explanations of the terms used in this list.
 - [Try RAG with MariaDB Vector on your own MariaDB data!](https://mariadb.org/rag-with-mariadb-vector/)
 - [Playing with MariaDB Vector for initial AI tests](https://fromdual.com/playing-with-mariadb-vector-for-initial-ai-tests)
 - Video: [MARIADB Just Got a Game Changing Vector Data Type!](https://www.youtube.com/watch?v=MQT23wf_Vmo)
+- Video: [Introduction to Vector Embeddings and Vector Search](https://www.youtube.com/watch?v=XkB2DLK60JU)
 
 **Benchmarks**
 
