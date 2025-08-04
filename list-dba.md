@@ -72,6 +72,11 @@ Articles:
 - [puppet-mariadb](https://github.com/NeCTAR-RC/puppet-mariadb) - Fork of PuppetLabs MySQL module, which supports MariaDB and Galera on RedHat and Debian
 - [puppet-galera](https://github.com/markt-de/puppet-galera) - Manage MariaDB Galera Cluster or Percona XtraDB Cluster. Supports Galera Arbitrator. Supports both systemd and xinetd.
 
+### Misc Automation Articles
+
+- Video: [MariaDB features that all devops should know](https://www.youtube.com/watch?v=8lH7cDX0_a8&ab_channel=MariaDBFoundation)
+- [How to Schedule Queries in MariaDB](https://www.getgalaxy.io/learn/glossary/how-to-schedule-queries-in-mariadb)
+
 ## Backups
 
 **Tools**
