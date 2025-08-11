@@ -120,6 +120,7 @@ Articles:
 | [SolarWinds](https://www.solarwinds.com/)                           | YES                                                         | Proprietary in-premise or cloud                             |         |
 | [Splunk](https://www.splunk.com/)                                   | YES                                                         | Proprietary in-premise or cloud                             |         |
 | [SSM](https://shatteredsilicon.net/mysql-monitoring-ssm/)           | YES                                                         | ?                                                | [3]     |
+| [StatsD](https://github.com/statsd/statsd)                          | YES                                                         | [MIT](https://github.com/statsd/statsd/blob/master/LICENSE)   | [5]
 | [Zabbix](https://www.zabbix.com/)                                | YES                         | [AGPL3](https://github.com/zabbix/zabbix/blob/master/COPYING)   | [4]
 
 **Notes**
@@ -128,6 +129,9 @@ Articles:
 2. See the [online demo](https://pmmdemo.percona.com).
 3. PMM v1 fork.
 4. See [agent gathering MariaDB metrics](https://www.zabbix.com/integrations/mysql)
+5. Integrations between StatsD and MariaDB:
+   - [Via Telegraf](https://www.influxdata.com/integrations/statsd-mariadb/);
+   - [mysql-statsd](https://github.com/db-art/mysql-statsd)
 
 **Articles**
 
