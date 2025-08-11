@@ -117,6 +117,7 @@ Articles:
 | [Monyog](https://webyog.com/product/monyog/)                        | YES                         | Proprietary   | [1] |
 | [New Relic](https://newrelic.com)                                   | [YES](https://newrelic.com/instant-observability/mariadb)   | [Cloud](https://newrelic.com/pricing) |  |
 | [PMM](https://docs.percona.com/percona-monitoring-and-management/)  | YES                                                         | [AGPL3](https://github.com/percona/pmm/blob/main/LICENSE) or cloud   | [2]     |
+| [MySQL Server Exporter](https://github.com/prometheus/mysqld_exporter)  | YES                           | [Apache 2](https://github.com/prometheus/mysqld_exporter/blob/main/LICENSE)   | 
 | [SolarWinds](https://www.solarwinds.com/)                           | YES                                                         | Proprietary in-premise or cloud                             |         |
 | [Splunk](https://www.splunk.com/)                                   | YES                                                         | Proprietary in-premise or cloud                             |         |
 | [SSM](https://shatteredsilicon.net/mysql-monitoring-ssm/)           | YES                                                         | ?                                                | [3]     |
