@@ -122,6 +122,8 @@ Articles:
 | [SSM](https://shatteredsilicon.net/mysql-monitoring-ssm/)           | YES                                                         | ?                                                | [3]     |
 | [Zabbix](https://www.zabbix.com/)                                | YES                         | [AGPL3](https://github.com/zabbix/zabbix/blob/master/COPYING)   | [4]
 
+**Notes**
+
 1. See their article: [MariaDB Monitoring](https://webyog.com/monitoring-mysql-and-mariadb-servers/).
 2. See the [online demo](https://pmmdemo.percona.com).
 3. PMM v1 fork.
