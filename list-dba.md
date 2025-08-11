@@ -125,6 +125,10 @@ Articles:
 3. PMM v1 fork.
 4. See [agent gathering MariaDB metrics](https://www.zabbix.com/integrations/mysql)
 
+**Articles**
+
+[Monitoring MySQL, Percona Server, and MariaDB with the Elastic Stack](https://www.elastic.co/blog/monitoring-mysql-percona-server-and-mariadb-with-the-elastic-stack)
+
 ## Proxies
 
 In the list below, SQL-aware means that a proxy understands SQL statements, and is able to perform tasks like read-write splitting.
