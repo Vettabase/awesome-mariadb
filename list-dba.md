@@ -111,7 +111,7 @@ Articles:
 
 | Project                                                             | MariaDB Support                                             | License / Platform                                         | Notes   |
 |---------------------------------------------------------------------|-------------------------------------------------------------|------------------------------------------------------------|---------|
-| [Datadog](https://docs.datadoghq.com)                               | [MYSQL](https://docs.datadoghq.com)                         | Cloud                                                      |         |
+| [Datadog](https://docs.datadoghq.com)                               | YES but see [known limitations](https://docs.datadoghq.com) | Proprietary in-premiseor cloud                                                      |         |
 | [Dolphie](https://github.com/charles-001/dolphie)                   | YES                                                         | [GPL3](https://github.com/charles-001/dolphie/blob/main/LICENSE) |   |
 | [golang-mariadbconsole](https://github.com/luiscontrerasdo/golang-mariadbconsole)  | YES                                          | [GPL3](https://github.com/luiscontrerasdo/golang-mariadbconsole/blob/main/LICENSE)   |         |
 | [Monyog](https://webyog.com/product/monyog/)                        | YES                         | Proprietary   | [1] |
