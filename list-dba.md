@@ -114,14 +114,16 @@ Articles:
 | [Datadog](https://docs.datadoghq.com)                               | [MYSQL](https://docs.datadoghq.com)                         | Cloud                                                      |         |
 | [Dolphie](https://github.com/charles-001/dolphie)                   | YES                                                         | [GPL3](https://github.com/charles-001/dolphie/blob/main/LICENSE) |   |
 | [golang-mariadbconsole](https://github.com/luiscontrerasdo/golang-mariadbconsole)  | YES                                          | [GPL3](https://github.com/luiscontrerasdo/golang-mariadbconsole/blob/main/LICENSE)   |         |
-| [PMM](https://docs.percona.com/percona-monitoring-and-management/)  | YES                                                         | [AGPL3](https://github.com/percona/pmm/blob/main/LICENSE) or cloud   | [1]     |
+| [Monyog](https://webyog.com/product/monyog/)                        | YES                         | Proprietary   | [1]
+| [PMM](https://docs.percona.com/percona-monitoring-and-management/)  | YES                                                         | [AGPL3](https://github.com/percona/pmm/blob/main/LICENSE) or cloud   | [2]     |
 | [SolarWinds](https://www.solarwinds.com/)                           | YES                                                         | Proprietary in-premise or cloud                             |         |
-| [SSM](https://shatteredsilicon.net/mysql-monitoring-ssm/)           | YES                                                         | ?                                                | [2]     |
-| [Zabbix](https://www.zabbix.com/)                                | YES                         | [AGPL3](https://github.com/zabbix/zabbix/blob/master/COPYING)   | [3]
+| [SSM](https://shatteredsilicon.net/mysql-monitoring-ssm/)           | YES                                                         | ?                                                | [3]     |
+| [Zabbix](https://www.zabbix.com/)                                | YES                         | [AGPL3](https://github.com/zabbix/zabbix/blob/master/COPYING)   | [4]
 
-1. See the [online demo](https://pmmdemo.percona.com).
-2. PMM v1 fork.
-3. See [agent gathering MariaDB metrics](https://www.zabbix.com/integrations/mysql)
+1. See their article: [MariaDB Monitoring](https://webyog.com/monitoring-mysql-and-mariadb-servers/).
+2. See the [online demo](https://pmmdemo.percona.com).
+3. PMM v1 fork.
+4. See [agent gathering MariaDB metrics](https://www.zabbix.com/integrations/mysql)
 
 ## Proxies
 
