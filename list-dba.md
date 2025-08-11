@@ -114,9 +114,8 @@ Articles:
 | [Datadog](https://docs.datadoghq.com)                               | [MYSQL](https://docs.datadoghq.com)                         | Cloud                                                      |         |
 | [Dolphie](https://github.com/charles-001/dolphie)                   | YES                                                         | [GPL3](https://github.com/charles-001/dolphie/blob/main/LICENSE) |   |
 | [golang-mariadbconsole](https://github.com/luiscontrerasdo/golang-mariadbconsole)  | YES                                          | [GPL3](https://github.com/luiscontrerasdo/golang-mariadbconsole/blob/main/LICENSE)   |         |
-| [Monyog](https://webyog.com/product/monyog/)                        | YES                         | Proprietary   | [1]
-| [New Relic](https://newrelic.com)                                   | [YES](https://newrelic.com/instant-observability/mariadb)   | [Cloud](https://newrelic.com/pricing)             
-          |         |
+| [Monyog](https://webyog.com/product/monyog/)                        | YES                         | Proprietary   | [1] |
+| [New Relic](https://newrelic.com)                                   | [YES](https://newrelic.com/instant-observability/mariadb)   | [Cloud](https://newrelic.com/pricing) |  |
 | [PMM](https://docs.percona.com/percona-monitoring-and-management/)  | YES                                                         | [AGPL3](https://github.com/percona/pmm/blob/main/LICENSE) or cloud   | [2]     |
 | [SolarWinds](https://www.solarwinds.com/)                           | YES                                                         | Proprietary in-premise or cloud                             |         |
 | [Splunk](https://www.splunk.com/)                                   | YES                                                         | Proprietary in-premise or cloud                             |         |
