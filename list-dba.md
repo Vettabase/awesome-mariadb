@@ -207,6 +207,7 @@ The following projects are either sharding components or sub-components that be 
 | [common_schema](https://github.com/shlomi-noach/common_schema)                       | YES                            | [GPL2](https://github.com/shlomi-noach/common_schema/blob/master/LICENSE)                                                                                                                                                     | Stored Procedures          | A library of stored procedures for DBAs. Includes a parser for its own language, QueryScript, and a debugger. |
 | [Percona Toolkit](https://www.percona.com/software/database-tools/percona-toolkit)   | YES                            | [GPL2](https://github.com/percona/percona-toolkit/blob/3.x/COPYING)                                                                                                                                                           | Perl                       | A set of Perl scripts for MariaDB and MySQL administration.
 | [SQLAxe](https://github.com/djberube/sqlaxe/) | MySQL | [MIT](https://github.com/djberube/sqlaxe/blob/main/LICENSE) | Python | Tool to manipulate SQL files. Based on SQLGlot, that currently doesn't support any MariaDB specific syntax. |
+| [VIDEX](https://github.com/bytedance/videx) | [MariaDB](https://github.com/bytedance/videx/issues/1#event-19390857570) | [GPL2, MIT](https://github.com/bytedance/videx/blob/main/LICENSES.md) | MariaDB plugin + Python | The Disaggregated, Extensible [VI]rtual in[DEX] Engine for What-If Analysis. |
 
 ## User Interfaces
 
