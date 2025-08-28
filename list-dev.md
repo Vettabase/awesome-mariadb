@@ -289,7 +289,7 @@ Links to articles and information on the various methods and utilities to read a
 | PHP         | [Medoo](https://medoo.in/)                               | [MIT](https://github.com/catfan/Medoo/blob/master/LICENSE.md) | YES |       |
 | PHP         | [Illuminate Database](https://laravel.com/docs/12.x/eloquent) | [MIT](https://github.com/illuminate/database/blob/master/LICENSE.md) | YES | [8] |
 | PHP         | [RedBeanPHP](https://www.redbeanphp.com/) | [New BSD/GPL 2](https://www.redbeanphp.com/index.php?p=/license) | NOT VERIFIED |  |
-| PHP         | [TDBM](https://github.com/thecodingmachine/tdbm) (The DataBase Machine)  | [No license](https://github.com/thecodingmachine/tdbm/issues/293) | YES | [10] |
+| PHP         | [TDBM](https://github.com/thecodingmachine/tdbm) (The DataBase Machine)  | [MIT](https://github.com/thecodingmachine/tdbm/blob/master/LICENSE) | YES | [10] |
 | Python      | [Django-MySQL](https://github.com/adamchainz/django-mysql)  | [MIT](https://github.com/adamchainz/django-mysql/blob/main/LICENSE) | [YES](https://github.com/adamchainz/django-mysql?tab=readme-ov-file#what-kind-of-features)            |       |
 | Python      | [SQLAlchemy](https://www.sqlalchemy.org/)            | [MIT](https://github.com/sqlalchemy/sqlalchemy/blob/main/LICENSE) | [YES](https://docs.sqlalchemy.org/en/20/dialects/mysql.html#mariadb-support) |       |
 | Python      | [mariadb_composition](https://pypi.org/project/mariadb-composition/)   | MIT | YES |   |
