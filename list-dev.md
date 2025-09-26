@@ -76,6 +76,14 @@ Delphi
 
 * FireDAC + MariaDB CRUD Example: [part 1](https://www.youtube.com/watch?v=0HV06tOtZOo&ab_channel=%ED%88%B4%EB%9E%A9ToolLab), [part 2](https://www.youtube.com/watch?v=QWiT1a-k8Sc&ab_channel=%ED%88%B4%EB%9E%A9ToolLab)
 
+FrankenPHP
+
+The following resources show how to setup a FrankenPHP + MariaDB project.
+
+* [Laravel 11 + FrankenPHP Development Environment](https://github.com/sneycampos/laravel-frankenphp)
+* [Drupal on FrankenPHP](https://github.com/dunglas/frankenphp-drupal)
+* [How to Set Up a WordPress Site with Caddy and FrankenPHP](https://www.freshtechtips.com/2025/04/wordpress-caddy-frankenphp-setup.html)
+
 Go
 
 * [Integrating MariaDB with GoLang Microservice Restful API](https://medium.com/widle-studio/integrating-mariadb-with-golang-microservice-restful-apis-building-efficient-data-storage-4054e1588ce)
