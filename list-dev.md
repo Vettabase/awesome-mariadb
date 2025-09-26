@@ -179,6 +179,7 @@ The connectors are grouped by language.
 | Raku (Perl 6)        | [DBIish](https://github.com/raku-community-modules/DBIish)                                | [YES](https://github.com/raku-community-modules/DBIish?tab=readme-ov-file#mysql) | |
 | Ruby                 | [mysql Ruby gem](https://rubygems.org/gems/mysql/)                                        | MySQL           | | [3]                 |
 | Ruby                 | [tencentcloud-sdk-mariadb](https://rubygems.org/gems/tencentcloud-sdk-mariadb)            | YES             | | [3]                 |
+| Scala                | [mariadb-jdbc](https://index.scala-lang.org/rocketfuel/sdbc/artifacts/mariadb-jdbc/4.0.0) | YES             |                       |
 | Swift                | [Perfect MariaDB Connector](https://github.com/PerfectlySoft/Perfect-MariaDB)             | YES             |                     |
 | Zig                  | [myzql](https://github.com/speed2exe/myzql)                                               | NOT VERIFIED    | | [4]                 |
 
