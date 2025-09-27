@@ -68,6 +68,12 @@ Articles:
 
 - [MariaDB Galera Cluster with Hashicorp Nomad and Consul Connect](https://medium.com/@ituoga/mariadb-galera-cluster-with-hashicorp-nomad-and-consul-connect-5028af8364c0)
 
+### Kubernetes
+
+Articles:
+
+- [MariaDB database clusters on Kubernetes - Pengfei Ma - MariaDB Server Fest 2020](https://techdocs.broadcom.com/us/en/vmware-tanzu/bitnami-secure-images/bitnami-secure-images/services/bsi-doc/apps-tutorials-backup-restore-data-mariadb-galera-kubernetes-index.html) (video)
+
 ### Puppet
 
 - [puppet-mariadb](https://github.com/NeCTAR-RC/puppet-mariadb) - Fork of PuppetLabs MySQL module, which supports MariaDB and Galera on RedHat and Debian
