@@ -21,6 +21,7 @@ This list is intended for Developers. There are lists intended for other audienc
 - [Synthetic Data Generators](#synthetic-data-generators)
 - [Test Frameworks](#test-frameworks)
 - [User-Defined Functions](#user-defined-functions)
+- [An Introduction to Full Text Search in MariaDB](https://severalnines.com/blog/introduction-full-text-search-mariadb/)
 - [User Interfaces](#user-interfaces)
 
 See the [key](#key) for explanations of the terms used in this list.
