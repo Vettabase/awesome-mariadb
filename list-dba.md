@@ -112,6 +112,7 @@ Articles:
 Articles:
 
 - [MariaDB database clusters on Kubernetes - Pengfei Ma - MariaDB Server Fest 2020](https://techdocs.broadcom.com/us/en/vmware-tanzu/bitnami-secure-images/bitnami-secure-images/services/bsi-doc/apps-tutorials-backup-restore-data-mariadb-galera-kubernetes-index.html) (video)
+- [Bitnami package for MariaDB Galera](https://techdocs.broadcom.com/us/en/vmware-tanzu/bitnami-secure-images/bitnami-secure-images/services/bsi-app-doc/apps-charts-mariadb-galera-index.html)
 
 ## Monitoring
 
