@@ -36,6 +36,7 @@ See the [key](#key) for explanations of the terms used in this list.
 * [MariaDB connection ID](https://www.fromdual.com/mariadb_connection_id)
 * [Database load balancing for MySQL and MariaDB with ProxySQL](https://severalnines.com/resources/whitepapers/database-load-balancing-for-mysql-and-mariadb-with-proxysql/)
 * [InnoDB deep dive: commit phase](https://medium.com/@arbaudie.it/innodb-deep-dive-commit-phase-20e9022e98d5)
+* [Setup A HA Galera Cluster On Debian / Ubuntu In 9 Easy Steps](https://www.techaddressed.com/tutorials/setup-ha-galera-cluster/)
 
 ## Automation
 
