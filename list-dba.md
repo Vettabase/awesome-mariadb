@@ -107,6 +107,7 @@ Articles:
 ### Kubernetes
 
 - [mariadb-operator](https://github.com/mariadb-operator) - Maintained by MariaDB plc.
+- [Bitnami Galera Helm chart](https://artifacthub.io/packages/helm/bitnami/mariadb)
 
 Articles:
 
