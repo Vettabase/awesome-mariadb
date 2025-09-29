@@ -50,6 +50,7 @@ Loosely ordered by language, SQL first.
 | [MariaDB Tutorial](https://www.tutorialspoint.com/mariadb/)           | SQL, PHP         | BEGINNER         | Text           | [2]            |
 | [How To Store and Retrieve Data in MariaDB Using Python](https://www.digitalocean.com/community/tutorials/how-to-store-and-retrieve-data-in-mariadb-using-python-on-ubuntu-18-04) | Python | BEGINNER / INTERMEDIATE | Text |
 | [Connect to MariaDB Data in Ruby](https://www.cdata.com/kb/tech/mariadb-odbc-ruby.rst)   | Ruby             | BEGINNER         | Text           |                |
+| [A Beginner's Guide to Using MariaDB in a Ruby on Rails Application](https://www.sqliz.com/posts/ruby-basic-mariadb/) | Ruby on Rails | INTERMEDIATE | Text |
 | [Three simple rules to not fail (too much) your data design](https://github.com/SylvainA77/articles/blob/main/Three-rules-not-fail-data-design.md) | N/A | BEGINNER / INTERMEDIATE | Text | [3]
 | [Installing both MariaDB and MySQL clients on the same Unix host](https://dbdemon.com/installing_mariadb_and_mysql_clients_on_same_unix_host/) | N/A | BEGINNER | Text |
 
