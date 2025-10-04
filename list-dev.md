@@ -118,6 +118,10 @@ Python
 * [Django Web Application sample using MariaDB](https://absolutecodeworks.com/django-web-application-crud-sample-using-mariadb)
 * [Quick Tip: SQLAlchemy for MySQL and Pandas](https://pythondata.com/quick-tip-sqlalchemy-for-mysql-and-pandas/)
 
+R
+
+* [Using RStudio to explore data in MariaDB](https://sebastianrothbucher.github.io/sql/databases/r/rstudio/edi/analysis/explore/mariadb/2020/02/08/rstudio-sql-eda.html)
+
 Scala
 
 * [Stateful actors with Akka Event Sourcing and MariaDB](https://medium.com/@matteodipirro/stateful-actors-with-akka-event-sourcing-and-maria-db-d4202c6c599a)
