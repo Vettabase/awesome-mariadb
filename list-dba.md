@@ -145,6 +145,7 @@ Articles:
 
 - [Monitoring MySQL, Percona Server, and MariaDB with the Elastic Stack](https://www.elastic.co/blog/monitoring-mysql-percona-server-and-mariadb-with-the-elastic-stack)
 - Splunk: [Monitoring MariaDB and MySQL](https://community.splunk.com/t5/Community-Blog/Monitoring-MariaDB-and-MySQL/ba-p/703731)
+- [Running Zabbix with MariaDB and Galera Active/Active Clustering](https://blog.zabbix.com/running-zabbix-with-mariadb-and-galera-active-active-clustering/31104/)
 
 ## Proxies
 
