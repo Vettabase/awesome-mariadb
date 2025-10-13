@@ -24,7 +24,7 @@ This list is intended for Database Administrators. There are lists intended for 
 
 See the [key](#key) for explanations of the terms used in this list.
 
-## Articles
+## Articles and Videos
 
 * [Arch Linux MariaDB documentation](https://wiki.archlinux.org/title/MariaDB) - Includes post-install tasks and common problems resolution.
 * [Introduction to Data Replication With MariaDB Using Docker Containers](https://dzone.com/articles/introduction-to-data-replication-with-mariadb-usin)
