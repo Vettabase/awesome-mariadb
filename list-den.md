@@ -104,6 +104,7 @@ The following resources show how to integrate MariaDB with various other data te
 - [MariaDB CONNECT Storage Engine access to Oracle 11GR2](https://serge.frezefond.com/2013/12/mariadb-connect-storage-engine-access-to-oracle-11gr2/)
 - [MariaDB and external data](https://www.easysoft.com/blog/mariadb.html)
 - [MariaDB CONNECT Storage Engine and non MySQL syntax selects](https://serge.frezefond.com/2013/12/mariadb-connect-storage-engine-and-non-mysql-syntax-selects/)
+- [Trino MariaDB connector](https://trino.io/docs/current/connector/mariadb.html)
 
 **RESTful APIs**
 
