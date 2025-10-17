@@ -119,13 +119,14 @@ Articles:
 
 | Project                                                             | MariaDB Support                                             | License / Platform                                         | Notes   |
 |---------------------------------------------------------------------|-------------------------------------------------------------|------------------------------------------------------------|---------|
-| [Datadog](https://docs.datadoghq.com)                               | YES but see [known limitations](https://docs.datadoghq.com) | Proprietary in-premiseor cloud                                                      |         |
+| [Datadog](https://docs.datadoghq.com)                               | YES but see [known limitations](https://docs.datadoghq.com) | Proprietary in-premise or cloud                                                      |         |
 | [Dolphie](https://github.com/charles-001/dolphie)                   | YES                                                         | [GPL3](https://github.com/charles-001/dolphie/blob/main/LICENSE) |   |
 | [golang-mariadbconsole](https://github.com/luiscontrerasdo/golang-mariadbconsole)  | YES                                          | [GPL3](https://github.com/luiscontrerasdo/golang-mariadbconsole/blob/main/LICENSE)   |         |
 | [Monyog](https://webyog.com/product/monyog/)                        | YES                         | Proprietary   | [1] |
 | [New Relic](https://newrelic.com)                                   | [YES](https://newrelic.com/instant-observability/mariadb)   | [Cloud](https://newrelic.com/pricing) |  |
 | [PMM](https://docs.percona.com/percona-monitoring-and-management/)  | YES                                                         | [AGPL3](https://github.com/percona/pmm/blob/main/LICENSE) or cloud   | [2]     |
 | [Prometheus MySQL Exporter](https://github.com/prometheus/mysqld_exporter)  | YES                           | [Apache 2](https://github.com/prometheus/mysqld_exporter/blob/main/LICENSE)   | 
+| [Releem](https://releem.com/)                                       | YES                                                         | Proprietary in-premise or cloud                                                      |         |
 | [SolarWinds](https://www.solarwinds.com/)                           | YES                                                         | Proprietary in-premise or cloud                             |         |
 | [Splunk](https://www.splunk.com/)                                   | YES                                                         | Proprietary in-premise or cloud                             |         |
 | [SSM](https://shatteredsilicon.net/mysql-monitoring-ssm/)           | YES                                                         | ?                                                | [3]     |
