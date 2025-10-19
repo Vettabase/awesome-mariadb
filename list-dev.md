@@ -301,6 +301,7 @@ Links to articles and information on the various methods and utilities to read a
 | Node.js, TypeScript | [Sequelize](https://github.com/sequelize/sequelize)  | [MIT](https://github.com/sequelize/sequelize/blob/main/LICENSE) | YES                |  |
 | OCaml       | [Caqti](https://opam.ocaml.org/packages/caqti-driver-mariadb/)  | See note | [YES](https://ocaml.org/p/caqti-driver-mariadb/latest) | [9] |
 | Perl        | [Rose::DB](https://metacpan.org/pod/Rose::DB)            | [GPL1+ or Artistic License](https://metacpan.org/pod/Rose::DB#LICENSE) | [YES](https://metacpan.org/pod/Rose::DB::MariaDB)            |       |
+| PHP         | [ADOdb](https://adodb.org/)                              | [BSD or LGPL](https://adodb.org/dokuwiki/doku.php?id=index#copyright) | YES |  |
 | PHP         | [CakePHP](https://cakephp.org/)                          | [MIT](https://github.com/cakephp/cakephp/blob/5.x/LICENSE) | MYSQL            |       |
 | PHP         | [Doctrine ORM](https://www.doctrine-project.org/projects/doctrine-orm/en/stable/index.html) | [MIT](https://github.com/doctrine/orm/blob/3.3.x/LICENSE) | [YES](https://www.doctrine-project.org/projects/doctrine-dbal/en/4.2/reference/platforms.html) |  |
 | PHP         | [Medoo](https://medoo.in/)                               | [MIT](https://github.com/catfan/Medoo/blob/master/LICENSE.md) | YES |       |
