@@ -36,6 +36,12 @@ See the [key](#key) for explanations of the terms used in this list.
 | Python              | [LangChain](https://www.langchain.com/)        | [YES](https://github.com/mariadb-corporation/langchain-mariadb)                         | [MIT](https://github.com/langchain-ai/langchain/blob/master/LICENSE) |
 | Python              | [LLamaIndex](https://llamaindex.ai)            | [YES](https://docs.llamaindex.ai/en/stable/api_reference/storage/vector_store/mariadb/) | [MIT](https://github.com/run-llama/llama_index/blob/main/LICENSE) |
 
+**Applications**
+
+| Language / Platform | Project                                        | MariaDB Support                                               | License / Platform                   |
+|---------------------|------------------------------------------------|---------------------------------------------------------------|--------------------------------------|
+| Node.js             | [mariadb-nodejs-rag-demo](https://github.com/Vettabase/awesome-mariadb/edit/main/list-den.md) | YES            | [None](https://github.com/rozhnev/mariadb-nodejs-rag-demo/issues/6) |
+
 **Articles**
 
 - [Vector Storage, Indexing, and Search With MariaDB: What to Know About These New Features](https://hackernoon.com/vector-storage-indexing-and-search-with-mariadb-what-to-know-about-these-new-features)
