@@ -94,6 +94,7 @@ Go
 * [Golang: a RESTful API Using Temporal Table With MariaDB](https://hackernoon.com/golang-a-restful-api-using-temporal-table-with-mariadb)
 * [How to Connect and Operate MariaDB Using GORM in Go](https://medium.com/@blackhorseya/how-to-connect-and-operate-mariadb-using-gorm-in-go-bc55b1984348)
 * [gin-rest-api-sample](https://github.com/velopert/gin-rest-api-sample?tab=readme-ov-file) -  An example project that uses Gin, GORM and MariaDB.
+* [(GORM) Connecting to a Database](https://gorm.io/docs/connecting_to_the_database.html) - From GORM documentation. Refer to the MySQL section, includes notes on MariaDB.
 
 Java
 
