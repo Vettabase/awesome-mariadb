@@ -411,6 +411,14 @@ Go has libraries that mock various databases.
 | [pytest-mysql](https://pypi.org/project/pytest-mysql/)         | LGPL 3+ | YES             | Adds fixtures. |
 | [pytest-pymysql-autorecording](https://pypi.org/project/pytest-pymysql-autorecord/) | MIT | MySQL | Stores test data and query results. |
 
+**Multi-language**
+
+The following frameworks have implementations in different languages.
+
+| Project                                                        | Languages                      | License | MariaDB Support | Notes |
+| -------------------------------------------------------------- | ------------------------------ | ------- | --------------- | ----- |
+| [Testcontainers](https://testcontainers.com/)                  | Java, Go, .NET, Node.js, Rust  | MIT     | [YES](https://testcontainers.com/modules/mariadb/) |  |
+
 ## User-Defined Functions
 
 To our knowledge, all MySQL UDFs should work with MariaDB. For this reason we don't provide information about MariaDB compatibility.
