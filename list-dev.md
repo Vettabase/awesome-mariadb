@@ -88,7 +88,7 @@ The following resources show how to setup a FrankenPHP + MariaDB project.
 
 Go
 
-* [mysql_crud.go](https://gist.github.com/Triple-Z/be819f04eba669f96d927641d150425f) - A GitHub Gist
+* [mysql_crud.go](https://gist.github.com/Triple-Z/be819f04eba669f96d927641d150425f) - A GitHub Gist, also valid for MariaDB
 * [Integrating MariaDB with GoLang Microservice Restful API](https://medium.com/widle-studio/integrating-mariadb-with-golang-microservice-restful-apis-building-efficient-data-storage-4054e1588ce)
 * [Golang: a RESTful API Using Temporal Table With MariaDB](https://hackernoon.com/golang-a-restful-api-using-temporal-table-with-mariadb)
 * [How to Connect and Operate MariaDB Using GORM in Go](https://medium.com/@blackhorseya/how-to-connect-and-operate-mariadb-using-gorm-in-go-bc55b1984348)
