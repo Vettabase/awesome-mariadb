@@ -252,10 +252,23 @@ Guides on how to work with MariaDB using various IDEs.
 
 ## Migrations
 
+**Tools**
+
 | Peoject Name                                                      | License   | MariaDB Support | Notes |
 | ----------------------------------------------------------------- | --------- | --------------- | ----- |
 | [sqlite-to-mysql](https://github.com/vwbusguy/sqlite-to-mysql)    | [MIT](https://github.com/vwbusguy/sqlite-to-mysql/blob/master/LICENSE) | YES |  |
 | [psql2mysql](https://pypi.org/project/psql2mysql/)                | Apache 2  | YES             |       |
+
+**Articles**
+
+* [IBM DB2 to MariaDB Migration](https://sqlines.com/db2-to-mariadb)
+* [Informix to MariaDB Migration](https://sqlines.com/informix-to-mariadb)
+* [MySQL to MariaDB Migration](https://sqlines.com/mysql-to-mariadb)
+* [Oracle to MySQL Migration](https://sqlines.com/oracle-to-mysql)
+* [PostgreSQL to MariaDB Migration](https://sqlines.com/postgresql-to-mariadb)
+* [Microsoft SQL Server (MS SQL) to MariaDB Migration](https://sqlines.com/sql-server-to-mariadb)
+* [Sybase ASE to MariaDB Migration](https://sqlines.com/sybase-to-mariadb)
+* [Sybase SQL Anywhere to MariaDB Migration](https://sqlines.com/sybase-asa-to-mariadb)
 
 ## Misc Libraries
 
