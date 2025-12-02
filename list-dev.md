@@ -155,7 +155,7 @@ These articles are about MariaDB SQL dialect, regardless which language you use 
 
 The connectors are grouped by language.
 
-| Platform / Language  | Connector Driver Name                                                                     | MariaDB Support | Features | Notes               |
+| Platform / Language  | Connector Driver Name                                                                     | MariaDB Support | Features   | Notes               |
 | -------------------- | ----------------------------------------------------------------------------------------- | --------------- | ---------- | ------------------- |
 | C                    | [Connector/C ](https://mariadb.com/docs/connectors/mariadb-connector-c/mariadb-connector-c-guide)                      | YES             | <ul><li>PSskipMD([3.1.10](https://mariadb.com/docs/connectors/mariadb-connector-c/api-functions/mysql_real_connect) - [default](https://github.com/mariadb-corporation/mariadb-connector-c/commit/6a763b90006c5591bfef766ba0a9f414a02a69ae#diff-e45114083905fb36ada93fa0ab74fc9b84def45219693b574bfb0429b548db8cR183))</li><li>EXTcolInfo([3.1.10](https://github.com/mariadb-corporation/mariadb-connector-c/wiki/mariadb_field_attr))</li><li>AUTHparsec([3.4.1](https://github.com/mariadb-corporation/mariadb-connector-c/blob/v3.4.1/plugins/auth/parsec.c) - default)</ul>               |
 | C                    | [mariadb++](https://github.com/viaduck/mariadbpp)                                         | YES             |                     |
