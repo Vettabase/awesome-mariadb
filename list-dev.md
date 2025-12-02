@@ -245,8 +245,9 @@ HandlerSocket is a MariaDB plugin, so all listed connectors primarily support Ma
 
 The connectors are grouped by language.
 
-| Platform / Language  | Connector Name                                                                            | Notes               |
-| -------------------- | ----------------------------------------------------------------------------------------- | ------------------- |
+| Platform / Language  | Connector Name                                                                            | License | Notes               |
+| -------------------- | ----------------------------------------------------------------------------------------- | ------- | ------------------- |
+| NodeJS               | [node-handlersocket](https://www.npmjs.com/package/node-handlersocket)                    | MIT     | Pure JavaScript     |
 
 
 **Articles**
