@@ -252,6 +252,7 @@ The connectors are grouped by language.
 | Perl                 | perl-Net-HandlerSocket                                                                    | [Custom](https://github.com/DeNA/HandlerSocket-Plugin-for-MySQL/blob/master/COPYING)     | Included with the HandlerSocket plugin source |
 | PHP                  | [Net_HandlerSocket](https://github.com/openpear/Net_HandlerSocket)                        | BSD     | Pure PHP            |
 | PHP                  | [HSPHP](https://github.com/tz-lom/HSPHP)                                                  | MIT     | Pure PHP            |
+| PHP                  | [php-ext-handlersocketi](https://github.com/kjdev/php-ext-handlersocketi)                 | PHP License |                 |
 
 
 **Articles**
