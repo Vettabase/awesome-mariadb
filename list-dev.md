@@ -247,6 +247,7 @@ The connectors are grouped by language.
 
 | Platform / Language  | Connector Name                                                                            | License | Notes               |
 | -------------------- | ----------------------------------------------------------------------------------------- | ------- | ------------------- |
+| C++                  | libhsclient                                                                               | [Custom](https://github.com/DeNA/HandlerSocket-Plugin-for-MySQL/blob/master/COPYING)     | ncluded with the HandlerSocket plugin source |
 | NodeJS               | [node-handlersocket](https://www.npmjs.com/package/node-handlersocket)                    | MIT     | Pure JavaScript     |
 
 
