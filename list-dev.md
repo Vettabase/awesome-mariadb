@@ -237,6 +237,20 @@ Notes
 
 * [Options for MySQL or MariaDB Connector C libraries](https://ocelot.ca/blog/blog/2025/07/16/options-for-mysql-or-mariadb-connector-c-libraries/)
 
+
+## HandlerSocket Connectors
+
+HandlerSocket is a plugin that provides MariaDB with a NoSQL interface. To connect to MariaDB via HandlerSocket, you'll need HandlerSocket connectors.
+
+The connectors are grouped by language.
+
+| Platform / Language  | Connector Driver Name                                                                     | MariaDB Support | Features   | Notes               |
+| -------------------- | ----------------------------------------------------------------------------------------- | --------------- | ---------- | ------------------- |
+
+
+**Articles**
+
+
 ## IDEs
 
 Guides on how to work with MariaDB using various IDEs.
