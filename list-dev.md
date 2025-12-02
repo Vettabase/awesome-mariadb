@@ -241,11 +241,12 @@ Notes
 ## HandlerSocket Connectors
 
 HandlerSocket is a plugin that provides MariaDB with a NoSQL interface. To connect to MariaDB via HandlerSocket, you'll need HandlerSocket connectors.
+HandlerSocket is a MariaDB plugin, so all listed connectors primarily support MariaDB.
 
 The connectors are grouped by language.
 
-| Platform / Language  | Connector Driver Name                                                                     | MariaDB Support | Features   | Notes               |
-| -------------------- | ----------------------------------------------------------------------------------------- | --------------- | ---------- | ------------------- |
+| Platform / Language  | Connector Name                                                                            | Notes               |
+| -------------------- | ----------------------------------------------------------------------------------------- | ------------------- |
 
 
 **Articles**
