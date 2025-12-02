@@ -250,8 +250,8 @@ The connectors are grouped by language.
 | C++                  | libhsclient                                                                               | [Custom](https://github.com/DeNA/HandlerSocket-Plugin-for-MySQL/blob/master/COPYING)     | Included with the HandlerSocket plugin source |
 | NodeJS               | [node-handlersocket](https://www.npmjs.com/package/node-handlersocket)                    | MIT     | Pure JavaScript     |
 | Perl                 | perl-Net-HandlerSocket                                                                    | [Custom](https://github.com/DeNA/HandlerSocket-Plugin-for-MySQL/blob/master/COPYING)     | Included with the HandlerSocket plugin source |
-| PHP                  | [Net_HandlerSocket](https://github.com/openpear/Net_HandlerSocket)                        | BSD     |                     |
-| PHP                  | [HSPHP](https://github.com/tz-lom/HSPHP)                                                  | MIT     |                     |
+| PHP                  | [Net_HandlerSocket](https://github.com/openpear/Net_HandlerSocket)                        | BSD     | Pure PHP            |
+| PHP                  | [HSPHP](https://github.com/tz-lom/HSPHP)                                                  | MIT     | Pure PHP            |
 
 
 **Articles**
