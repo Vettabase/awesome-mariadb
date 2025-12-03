@@ -262,6 +262,9 @@ The connectors are grouped by language.
 
 **Articles**
 
+* [HandlerSocket plugin – NoSQL/SQL interactions](https://www.mysqlfanboy.com/?p=483)
+* [What is HandlerSocket? And why would you use it? Part 1](https://karlssonondatabases.blogspot.com/2014/08/what-is-handlersocket-and-why-would-you.html)
+
 
 ## IDEs
 
