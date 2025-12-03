@@ -254,6 +254,7 @@ The connectors are grouped by language.
 | PHP                  | [Net_HandlerSocket](https://github.com/openpear/Net_HandlerSocket)                        | BSD     | Pure PHP            |
 | PHP                  | [HSPHP](https://github.com/tz-lom/HSPHP)                                                  | MIT     | Pure PHP            |
 | PHP                  | [php-ext-handlersocketi](https://github.com/kjdev/php-ext-handlersocketi)                 | PHP License |                 |
+| Ruby                 | [handlersocket](https://github.com/miyucy/handlersocket)                                  | [MIT](https://github.com/miyucy/handlersocket/blob/master/LICENSE)   |  |
 | Ruby                 | [ruby-handlersocket](https://github.com/winebarrel/ruby-handlersocket)                    | [None](https://github.com/winebarrel/ruby-handlersocket/issues/1)    |  |
 
 
