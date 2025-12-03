@@ -256,6 +256,7 @@ The connectors are grouped by language.
 | PHP                  | [php-ext-handlersocketi](https://github.com/kjdev/php-ext-handlersocketi)                 | PHP License |                 |
 | Ruby                 | [handlersocket](https://github.com/miyucy/handlersocket)                                  | [MIT](https://github.com/miyucy/handlersocket/blob/master/LICENSE)   |  |
 | Ruby                 | [ruby-handlersocket](https://github.com/winebarrel/ruby-handlersocket)                    | [None](https://github.com/winebarrel/ruby-handlersocket/issues/1)    |  |
+| Scala                | [Hs2client](https://github.com/fujohnwang/hs2client)                                      | [None](https://github.com/fujohnwang/hs2client/issues/2)             |  |
 
 
 **Articles**
