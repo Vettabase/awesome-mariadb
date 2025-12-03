@@ -249,7 +249,7 @@ The connectors are grouped by language.
 | -------------------- | ----------------------------------------------------------------------------------------- | ------- | ------------------- |
 | C++                  | libhsclient                                                                               | [Custom](https://github.com/DeNA/HandlerSocket-Plugin-for-MySQL/blob/master/COPYING)     | Included with the HandlerSocket plugin source |
 | Haskell              | [HandlerSocketClient](https://hackage.haskell.org/package/HandlerSocketClient)            | BSD-3   |                     |
-| Java                 | [hs4j](https://github.com/killme2008/hs4j)                                                | [Apache 2](https://github.com/killme2008/hs4j/blob/master/LICENSE.txt) |  |
+| Java                 | [hs4j](https://github.com/killme2008/hs4j)                                                | [Apache 2](https://github.com/killme2008/hs4j/blob/master/LICENSE.txt) | Pure Java |
 | NodeJS               | [node-handlersocket](https://www.npmjs.com/package/node-handlersocket)                    | MIT     | Pure JavaScript     |
 | Perl                 | perl-Net-HandlerSocket                                                                    | [Custom](https://github.com/DeNA/HandlerSocket-Plugin-for-MySQL/blob/master/COPYING)     | Included with the HandlerSocket plugin source |
 | PHP                  | [Net_HandlerSocket](https://github.com/openpear/Net_HandlerSocket)                        | BSD     | Pure PHP            |
