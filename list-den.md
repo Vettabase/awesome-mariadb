@@ -97,6 +97,18 @@ Notes
 
 The following resources show how to integrate MariaDB with various other data technologies. Resources are grouped by technology type (eg: social networks) and ordered by technology (eg: Facebook, Twitter...). Resources might refer to a particular third party tool, in which case the tool name is indicated before the resource title.
 
+**Data Orchestration Frameworks**
+
+| Platform                                       | Project                                        | MariaDB Support | License / Platform                   | Notes |
+|------------------------------------------------|------------------------------------------------|-----------------|--------------------------------------|-------|
+| [Apache Airflow](https://airflow.apache.org/)  | [Airflow MariaDB Connector](https://github.com/Pratush12/mariadb-airflow-hackathon) | YES | None        | [1]   |
+| [Dagster](https://dagster.io/)                 | MariaDB integration, not yet merged            | YES             | [Apache 2](https://github.com/dagster-io/dagster/blob/master/LICENSE) | [2] |
+
+
+1. Initially developed as part of a MariaDB Hackathon. Airflow MariaDB Connector was the winner. See [this post](https://mariadb.org/apache-airflow-integration-for-mariadb-winner-of-mariadb-bangpypers-hackathon-2025/) and [this interview[(https://www.youtube.com/watch?v=NX29FVTL0Eo).
+2. The project has been proposed for integration into the Dagster code itself. It was developed as part of a MariaDB Hackathon. It conquered the 2nd place. See [this post](https://mariadb.org/dagster-integration-for-mariadb-2nd-place-in-mariadb-bangpypers-hackathon-2025/) and [this interview](https://www.youtube.com/watch?v=wLjYSxFrl_g).
+
+
 **From Social Networks**
 
 - Twitter
