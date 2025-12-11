@@ -124,6 +124,12 @@ Resources about MariaDB replication and Galera cluster, as well as proxies and o
 | [go-mysql](https://github.com/go-mysql-org/go-mysql)    | [YES](https://github.com/go-mysql-org/go-mysql/blob/master/mysql/const.go) | [MIT](https://github.com/go-mysql-org/go-mysql/blob/master/LICENSE) |
 | [Replication Manager](https://signal18.io/products/srm)                | 10.0+             | GPL / Proprietary  |
 
+**High-Availability Articles**
+
+- MariaDB Galera:
+  - [Pt 1: Installing a MariaDB Galera Cluster on Ubuntu 24.04](https://vettabase.com/installing-a-3-node-mariadb-galera-cluster-on-ubuntu-24-04-mariadb-galera-pt-1/)
+  - [Pt 2: Deploying garbd (Galera Arbitrator Daemon)](https://vettabase.com/deploying-garbd-galera-arbitrator-daemon-mariadb-galera-pt-2/)
+
 ### Proxies
 
 In the list below, SQL-aware means that a proxy understands SQL statements, and is able to perform tasks like read-write splitting.
