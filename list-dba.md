@@ -13,10 +13,9 @@ This list is intended for Database Administrators. There are lists intended for 
 - [Chef](#chef)
 - [Backups](#backups)
 - [Containers](#containers)
+- [High Availability](#high-availability)
 - [Monitoring](#monitoring)
-- [Proxies](#proxies)
 - [Sharding](#sharding)
-- [Replication](#replication)
 - [Schema Versioning](#schema-versioning)
 - [Security](#security)
 - [Toolkits](#toolkits)
@@ -115,6 +114,39 @@ Articles:
 - [MariaDB database clusters on Kubernetes - Pengfei Ma - MariaDB Server Fest 2020](https://techdocs.broadcom.com/us/en/vmware-tanzu/bitnami-secure-images/bitnami-secure-images/services/bsi-doc/apps-tutorials-backup-restore-data-mariadb-galera-kubernetes-index.html) (video)
 - [Bitnami package for MariaDB Galera](https://techdocs.broadcom.com/us/en/vmware-tanzu/bitnami-secure-images/bitnami-secure-images/services/bsi-app-doc/apps-charts-mariadb-galera-index.html)
 
+## High-Availability
+
+Resources about MariaDB replication and Galera cluster, as well as proxies and other tools that are useful in the high-availability environment.
+
+| Project                                                                | MariaDB Support   | License / Platform |
+|------------------------------------------------------------------------|-------------------|--------------------|
+| [ClusterControl](https://docs.severalnines.com/docs/clustercontrol/)   | Yes               | Open Core          |
+| [go-mysql](https://github.com/go-mysql-org/go-mysql)    | [YES](https://github.com/go-mysql-org/go-mysql/blob/master/mysql/const.go) | [MIT](https://github.com/go-mysql-org/go-mysql/blob/master/LICENSE) |
+| [Replication Manager](https://signal18.io/products/srm)                | 10.0+             | GPL / Proprietary  |
+
+### Proxies
+
+In the list below, SQL-aware means that a proxy understands SQL statements, and is able to perform tasks like read-write splitting.
+
+- [ProxySQL](https://proxysql.com/) - Open source, widely used proxy with full support for MariaDB. SQL-aware.
+- [MariaDB MaxScale](https://mariadb.com/docs/maxscale) - Source available proxy maintained by MariaDB plc. SQL-aware.
+- [HAProxy](https://www.haproxy.org/) - Open source, TCP proxy. Not SQL-aware.
+  - [haproxy-galera](https://github.com/matthanley/haproxy-galera) - MariaDB Galera health check script for HAProxy.
+
+**Proxy Articles**
+
+- [MariaDB MaxScale 21.06 now released as GPL](https://mariadb.com/resources/blog/mariadb-maxscale-21-06-now-released-as-gpl/)
+
+## Sharding
+
+The following projects are either sharding components or sub-components that be used to create a sharding solution. There is no "out of the box" solution. Internal or database native options require your application to be aware and even manage the shards. External solutions will require bespoke backup and monitoring tooling for where the database shards are hosted across several servers.
+
+| Project                                                             | MariaDB Support | License / Platform | Notes   |
+|---------------------------------------------------------------------|-----------------|--------------------|---------|
+| [MaxScale](https://mariadb.com/docs/maxscale/maxscale-archive/archive-of-2x.xx-versions/mariadb-maxscale-25-01/mariadb-maxscale-25-01-routers/mariadb-maxscale-2501-maxscale-2501-schemarouter) | YES         | Proprietary        | A query and connection router that is part of Maxscale. |
+| [ProxySQL](https://proxysql.com/documentation/how-to-setup-proxysql-sharding/) | YES  | GPLv3              | Sharding in ProxySQL by User, Schema or Data. Sharding is based on rules which pattern match on incoming queries. |
+| [Spider](https://mariadb.com/docs/server/server-usage/storage-engines/spider)                         | YES             | GPLv2              | A storage engine for table definition shards and connections to split tables among several servers. |
+
 ## Monitoring
 
 | Project                                                             | MariaDB Support                                             | License / Platform                                         | Notes   |
@@ -148,38 +180,6 @@ Articles:
 - [Monitoring MySQL, Percona Server, and MariaDB with the Elastic Stack](https://www.elastic.co/blog/monitoring-mysql-percona-server-and-mariadb-with-the-elastic-stack)
 - Splunk: [Monitoring MariaDB and MySQL](https://community.splunk.com/t5/Community-Blog/Monitoring-MariaDB-and-MySQL/ba-p/703731)
 - [Running Zabbix with MariaDB and Galera Active/Active Clustering](https://blog.zabbix.com/running-zabbix-with-mariadb-and-galera-active-active-clustering/31104/)
-
-## Proxies
-
-In the list below, SQL-aware means that a proxy understands SQL statements, and is able to perform tasks like read-write splitting.
-
-- [ProxySQL](https://proxysql.com/) - Open source, widely used proxy with full support for MariaDB. SQL-aware.
-- [MariaDB MaxScale](https://mariadb.com/docs/maxscale) - Source available proxy maintained by MariaDB plc. SQL-aware.
-- [HAProxy](https://www.haproxy.org/) - Open source, TCP proxy. Not SQL-aware.
-  - [haproxy-galera](https://github.com/matthanley/haproxy-galera) - MariaDB Galera health check script for HAProxy.
-
-**Articles**
-
-- [MariaDB MaxScale 21.06 now released as GPL](https://mariadb.com/resources/blog/mariadb-maxscale-21-06-now-released-as-gpl/)
-
-## Sharding
-
-The following projects are either sharding components or sub-components that be used to create a sharding solution. There is no "out of the box" solution. Internal or database native options require your application to be aware and even manage the shards. External solutions will require bespoke backup and monitoring tooling for where the database shards are hosted across several servers.
-
-| Project                                                             | MariaDB Support | License / Platform | Notes   |
-|---------------------------------------------------------------------|-----------------|--------------------|---------|
-| [MaxScale](https://mariadb.com/docs/maxscale/maxscale-archive/archive-of-2x.xx-versions/mariadb-maxscale-25-01/mariadb-maxscale-25-01-routers/mariadb-maxscale-2501-maxscale-2501-schemarouter) | YES         | Proprietary        | A query and connection router that is part of Maxscale. |
-| [ProxySQL](https://proxysql.com/documentation/how-to-setup-proxysql-sharding/) | YES  | GPLv3              | Sharding in ProxySQL by User, Schema or Data. Sharding is based on rules which pattern match on incoming queries. |
-| [Spider](https://mariadb.com/docs/server/server-usage/storage-engines/spider)                         | YES             | GPLv2              | A storage engine for table definition shards and connections to split tables among several servers. |
-
-
-## Replication
-
-| Project                                                                | MariaDB Support   | License / Platform |
-|------------------------------------------------------------------------|-------------------|--------------------|
-| [ClusterControl](https://docs.severalnines.com/docs/clustercontrol/)   | Yes               | Open Core          |
-| [go-mysql](https://github.com/go-mysql-org/go-mysql)    | [YES](https://github.com/go-mysql-org/go-mysql/blob/master/mysql/const.go) | [MIT](https://github.com/go-mysql-org/go-mysql/blob/master/LICENSE) |
-| [Replication Manager](https://signal18.io/products/srm)                | 10.0+             | GPL / Proprietary  |
 
 ## Schema Versioning
 
