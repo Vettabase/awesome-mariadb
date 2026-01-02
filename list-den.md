@@ -44,6 +44,7 @@ See the [key](#key) for explanations of the terms used in this list.
 
 **Articles**
 
+- [Introduction to MariaDB Vector Search](https://severalnines.com/blog/introduction-to-mariadb-vector-search/)
 - [Vector Storage, Indexing, and Search With MariaDB: What to Know About These New Features](https://hackernoon.com/vector-storage-indexing-and-search-with-mariadb-what-to-know-about-these-new-features)
 - [Try RAG with MariaDB Vector on your own MariaDB data!](https://mariadb.org/rag-with-mariadb-vector/)
 - [Playing with MariaDB Vector for initial AI tests](https://fromdual.com/playing-with-mariadb-vector-for-initial-ai-tests)
