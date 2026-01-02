@@ -86,7 +86,7 @@ Most MySQL binary log consumers tend to work with MariaDB, but they might encoun
 Notes
 
 1. See the [Debezium connector for MariaDB](https://debezium.io/documentation/reference/stable/connectors/mariadb.html).
-2. Unmantained. Does not support GTID.
+2. Latest supported MariaDB version is 10.6. Does not support GTID.
 
 **CDC Articles**
 
