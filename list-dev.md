@@ -150,6 +150,7 @@ These articles are about MariaDB SQL dialect, regardless which language you use 
 * [The simultaneous_assignment mode in MariaDB 10.3.5](http://ocelot.ca/blog/blog/2018/03/21/the-simultaneous_assignment-mode-in-mariadb-10-3-5/)
 * [READ ONLY transactions in MariaDB and MySQL](https://vettabase.com/read-only-transactions-in-mariadb-and-mysql/)
 * [Tags and FullText indexes in MySQL](https://www.percona.com/blog/tags-and-fulltext-indexes-in-mysql/)
+* [MariaDB Underrated Features: Zero Dates and Partial Dates](https://vettabase.com/mariadb-underrated-features-zero-dates-and-partial-dates/)
 
 ## Connectors (Drivers)
 
