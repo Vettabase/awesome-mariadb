@@ -13,6 +13,6 @@ A curated list of awesome MariaDB resources, maintained by [Vettabase](https://v
 
 ---
 
-Copyright 2025 Vettabase Ltd and contributors.
+Copyright 2025 2026 Vettabase Ltd and contributors.
 
 Awesome MariaDB list is licensed under [CC BY-SA 4.0 license](https://creativecommons.org/licenses/by-sa/4.0/).
