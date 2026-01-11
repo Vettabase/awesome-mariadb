@@ -29,6 +29,7 @@ See the [key](#key) for explanations of the terms used in this list.
 * [Introduction to Data Replication With MariaDB Using Docker Containers](https://dzone.com/articles/introduction-to-data-replication-with-mariadb-usin)
 * [Customizing MariaDB Docker Images](https://hackernoon.com/customizing-mariadb-docker-images)
 * [How to run Mariadb in Docker and Connect Remotely](https://www.youtube.com/watch?v=OabTOPOU2RU) (video)
+* [How to Install & Use MariaDB with PHP](https://www.seidengroup.com/php-documentation/using-mariadb-with-php/) on IBM i
 * [Everything You Need to Know About Replication Filters in MySQL and MariaDB](https://genexdbs.com/everything-you-need-to-know-about-replication-filters-in-mysql-and-mariadb/)
 * [MariaDB semi-sync replication using containers](https://mariadb.org/mariadb-semi-sync-replication-using-containers/)
 * [Is Galera trx_commit=2 and sync_binlog=0 evil?](https://mysqlquicksand.wordpress.com/2019/09/11/is-galera-trx_commit2-and-sync_binlog0-evil/)
