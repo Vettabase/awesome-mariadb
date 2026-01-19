@@ -39,6 +39,7 @@ See the [key](#key) for explanations of the terms used in this list.
 * [Database load balancing for MySQL and MariaDB with ProxySQL](https://severalnines.com/resources/whitepapers/database-load-balancing-for-mysql-and-mariadb-with-proxysql/)
 * [Load-balancing MariaDB with ProxySQL](https://tnorbert.com/posts/load-balancing-mariadb-with-proxysql)
 * [InnoDB deep dive: commit phase](https://medium.com/@arbaudie.it/innodb-deep-dive-commit-phase-20e9022e98d5)
+* [Distributed, Multi-Database Transactions Involving MariaDB and PostgreSQL](https://vettabase.com/distributed-multi-database-transactions-involving-mariadb-and-postgresql/)
 * [Setup A HA Galera Cluster On Debian / Ubuntu In 9 Easy Steps](https://www.techaddressed.com/tutorials/setup-ha-galera-cluster/)
 
 ## Automation
