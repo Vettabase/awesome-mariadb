@@ -151,6 +151,7 @@ These articles are about MariaDB SQL dialect, regardless which language you use 
 * [READ ONLY transactions in MariaDB and MySQL](https://vettabase.com/read-only-transactions-in-mariadb-and-mysql/)
 * [Tags and FullText indexes in MySQL](https://www.percona.com/blog/tags-and-fulltext-indexes-in-mysql/)
 * [MariaDB Underrated Features: Zero Dates and Partial Dates](https://vettabase.com/mariadb-underrated-features-zero-dates-and-partial-dates/)
+* [Distributed, Multi-Database Transactions Involving MariaDB and PostgreSQL](https://vettabase.com/distributed-multi-database-transactions-involving-mariadb-and-postgresql/)
 
 ## Connectors (Drivers)
 
