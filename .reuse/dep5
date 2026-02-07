@@ -1,0 +1,10 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Awesome MariaDB
+Upstream-Contact: info@vettabase.com
+Source: https://github.com/Vettabase/awesome-mariadb
+
+Files: *
+Copyright: 2024 2025 2026 Vettabase Ltd <info@vettabase.com>
+License: CC-BY-SA-4.0
+Disclaimer: This project is provided "as is" without warranty of any kind.
+  
