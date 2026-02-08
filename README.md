@@ -147,7 +147,7 @@ The result will look like the following:
 - **[YesSQL](https://github.com/Vettabase/yessql)** - A curated list of creative, amazing ways to use SQL.
 - **[Awesome Innovative Databases](https://github.com/Vettabase/awesome-innovative-databases)** - A curated list of potentially game-changing database systems.
 
-See also [Applications Supporting MariaDB](https://mariadb.com/docs/server/clients-and-utilities/server-client-software/applications-supporting-mariadb), in the MariaDB Documentation.
+See also [Applications Supporting MariaDB](https://mariadb.com/docs/server/clients-and-utilities/server-client-software/applications-supporting-mariadb) in the MariaDB Documentation.
 
 ---
 
