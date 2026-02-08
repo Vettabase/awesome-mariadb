@@ -141,11 +141,11 @@ The result will look like the following:
 
 ## Related Awesome Lists
 
-- [Awesome MySQL](https://github.com/shlomi-noach/awesome-mysql) - Resources for MySQL and its variants. Only includes resources that are open source and available without registration. Their quality requirements are stricter than ours.
-- [Awesome MySQL Performance](https://github.com/Releem/awesome-mysql-performance) - A curated list of awesome links related to MySQL / MariaDB / Percona Server configuration tuning for improved performance.
-- [Awesome Database](https://github.com/agarcialeon/awesome-database) - A categorized community-driven collection of amazingly awesome database resources.
-- [YesSQL](https://github.com/Vettabase/yessql) - A curated list of creative, amazing ways to use SQL.
-- [Awesome Innovative Databases](https://github.com/Vettabase/awesome-innovative-databases) - A curated list of potentially game-changing database systems.
+- **[Awesome MySQL](https://github.com/shlomi-noach/awesome-mysql)** - Resources for MySQL and its variants. Only includes resources that are open source and available without registration. Their quality requirements are stricter than ours.
+- **[Awesome MySQL Performance](https://github.com/Releem/awesome-mysql-performance)** - A curated list of awesome links related to MySQL / MariaDB / Percona Server configuration tuning for improved performance.
+- **[Awesome Database](https://github.com/agarcialeon/awesome-database)** - A categorized community-driven collection of amazingly awesome database resources.
+- **[YesSQL](https://github.com/Vettabase/yessql)** - A curated list of creative, amazing ways to use SQL.
+- **[Awesome Innovative Databases](https://github.com/Vettabase/awesome-innovative-databases)** - A curated list of potentially game-changing database systems.
 
 See also [Applications Supporting MariaDB](https://mariadb.com/docs/server/clients-and-utilities/server-client-software/applications-supporting-mariadb), in the MariaDB Documentation.
 
