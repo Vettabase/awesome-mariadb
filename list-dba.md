@@ -211,6 +211,7 @@ The following projects are either sharding components or sub-components that be 
 | ------------------------------------------------------- | --------------- | ------- |-----------------------------------------------------------|-------|
 | [Acra](https://github.com/cossacklabs/acra)             | 10.3+           | [Apache2](https://github.com/cossacklabs/acra/blob/master/LICENSE)  | Database protection suite with field level encryption and intrusion detection. |
 | [myldapsync](https://pypi.org/project/myldapsync/)      | YES             | GPL     | Synchronise MariaDB users with users in an LDAP directory. |
+| [myanon](https://github.com/ppomes/myanon)              | YES             | [BSD-3-Clause](https://github.com/ppomes/myanon/blob/main/LICENSE.md) | Streaming anonymizer for MySQL/MariaDB dump files. Reads mysqldump from stdin, writes anonymized version to stdout. |
 | [SecuRich](http://www.securich.com/)                    | YES             | [GPL2](https://github.com/darrencassar/securich/blob/master/COPYING.txt)  | Stored procedures library with user management and role implementation. Unmaintained, but useful with old MariaDB versions. |
 
 **Articles**
