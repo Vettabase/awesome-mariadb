@@ -14,3 +14,4 @@ If you contribute to Awesome MariaDB, we encourage you to add your name here.
 - Evan Elias https://www.skeema.io
 - Karl Levik https://dbdemon.com
 - Roman Agabekov https://releem.com
+- Pierre Pomes https://myanon.io
