@@ -124,51 +124,6 @@ a [pull request](https://github.com/Vettabase/awesome-mariadb/pulls).
 
 If you contribute to Awesome MariaDB, we encourage you to add your name to the `CONTRIBUTORS.md` file.
 
-### File Inclusion System
-
-Some sections (such as **User Interfaces**) appear in multiple list files. To avoid duplicating maintenance effort, we
-use a home-made file inclusion system.
-
-Shared section content lives in the `inc/` directory (e.g. `inc/guis.md`). Each list file contains INCLUDE markers
-that look like ordinary HTML comments, so GitHub renders the list normally:
-
-```
-<!-- INCLUDE guis.md -->
-... content from inc/guis.md (rendered by GitHub) ...
-<!-- END INCLUDE -->
-```
-
-The `include.py` script reads every `inc/*.md` file and replaces whatever is between matching INCLUDE/END INCLUDE
-markers in the `list-*.md` files. The replacement is deterministic and idempotent, so running the script twice
-produces the same result.
-
-**Updating an included section**
-
-1. Edit the source file in `inc/` (e.g. `inc/guis.md`).
-2. Run the script to propagate the change to all list files:
-
-   ```
-   ./include.py
-   ```
-
-3. Commit both the `inc/` file and the updated list files.
-
-You can limit the update to specific sections:
-
-```
-./include.py --section guis
-./include.py --section guis web-interfaces
-```
-
-**Checking that files are up-to-date**
-
-```
-./include.py --check
-```
-
-This exits with code 1 if any list file would change, without modifying any file. The CI pipeline runs this check
-automatically on every push and pull request.
-
 ## How to Thank Us
 
 If you're the maintainer of a resource we linked, we encourage you to show in your resource an

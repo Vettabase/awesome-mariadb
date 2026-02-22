@@ -500,7 +500,6 @@ Frameworks and libraries to ease UDFs developing.
 
 **GUIs**
 
-<!-- INCLUDE guis.md -->
 | Project Name                                                                | MariaDB Support                                 | Platforms             | Licence    | Notes |
 |-----------------------------------------------------------------------------|-------------------------------------------------|-----------------------|--------------------|-------|
 | [Beekeeper Studio](https://www.beekeeperstudio.io/)                         | [NOT VERIFIED](https://docs.beekeeperstudio.io/user_guide/connecting/first-page/)  | Linux, MacOS, Windows | BOTH               |       |
@@ -530,11 +529,8 @@ Notes
 2. Apache OpenOffice is the project from which LibreOffice was originally forked. LibreOffice became more popular over time, so consider LibreOffice Base as well. OpenOffice Base does not support MariaDB. However it supports MySQL and ODBC drivers, so in practice it should work with MariaDB for standard use cases.
 3. At the time of writing, MariaDB support is only mentioned in the `README.md` file. A quick [search on GitHub](https://github.com/search?q=repo%3Asequelpro%2Fsequelpro%20mariadb&type=code) shows that this support is currently limited to version identification, some permissions and a TODO note.
 
-<!-- END INCLUDE -->
-
 **Web Interfaces**
 
-<!-- INCLUDE web-interfaces.md -->
 | Project Name                                                                | MariaDB Support                                 | Platforms             | License            | Notes |
 |-----------------------------------------------------------------------------|-------------------------------------------------|-----------------------|--------------------|-------|
 | [Adminer](https://www.adminer.org/)                                         | NOT VERIFIED                                    | PHP                   | Apache2 or GPL2    |       |
@@ -544,11 +540,8 @@ Notes
 
 1. Express Admin is a NodeJS tool for easy creation of administrative interfaces, data entry forms and data visualisation MariaDB and other databases.
 
-<!-- END INCLUDE -->
-
 **TUIs**
 
-<!-- INCLUDE tuis.md -->
 | Project Name                                                                | MariaDB Support                                 | Platforms             | License  |
 |-----------------------------------------------------------------------------|-------------------------------------------------|-----------------------|--------------------|
 | [DBCrust](https://github.com/clement-tourriere/dbcrust)                     | YES                                             | Rust                  | [MIT](https://github.com/clement-tourriere/dbcrust/blob/main/LICENSE) |
@@ -562,8 +555,6 @@ The mentioned TUIs can use any pager to visualise the results of long queries. B
 | Project Name                                                                | MariaDB Support                                 | Platforms             | License  |
 |-----------------------------------------------------------------------------|-------------------------------------------------|-----------------------|--------------------|
 | [mypager](https://github.com/romuald/mypager)                               | YES                                             | Perl                  | [Apache 2](https://github.com/romuald/mypager/blob/master/LICENSE) |
-
-<!-- END INCLUDE -->
 
 ## Key
 
