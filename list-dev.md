@@ -565,7 +565,7 @@ Meaning of the terms used in this list.
 
 Some of the sections include resources that were created for MySQL, or for both MariaDB and MySQL. The extent of MariaDB support is not always optimal. For those resources, we indicate the MariaDB support level as follows:
 
-- `YES`: Specific support for MariaDB is indicated, or can be inferred from the documentation or the source code. "Supports MySQL/MariaDB" is not considered specific MariaDB support, because the author might assume that what works on MySQL will work on MariaDB equally well.
+- `YES`: The documentation states that the resource fully supports MariaDB, or full support was verified. A statement like "Supports MySQL/MariaDB" is not considered a proof of full MariaDB support, because the author might assume that what works on MySQL will work on MariaDB equally well.
 - `MySQL`: Officially supports MySQL, but not MariaDB.
 - `NOT VERIFIED`: Officially supports MySQL and MariaDB but we do not know whether full support for MariaDB is implemented.
 - `PARTIAL`: We are aware of relevant bugs or missing features.
