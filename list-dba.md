@@ -232,6 +232,7 @@ The following projects are either sharding components or sub-components that be 
 
 ## User Interfaces
 
+<!-- INCLUDE user-interfaces -->
 **GUIs**
 
 | Project Name                                                                | MariaDB Support                                 | Platforms             | Licence    | Notes |
@@ -289,6 +290,7 @@ The mentioned TUIs can use any pager to visualise the results of long queries. B
 | Project Name                                                                | MariaDB Support                                 | Platforms             | License  |
 |-----------------------------------------------------------------------------|-------------------------------------------------|-----------------------|--------------------|
 | [mypager](https://github.com/romuald/mypager)                               | YES                                             | Perl                  | [Apache 2](https://github.com/romuald/mypager/blob/master/LICENSE) |
+<!-- END INCLUDE -->
 
 ## Key
 
