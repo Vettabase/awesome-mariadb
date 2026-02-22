@@ -166,7 +166,7 @@ The following resources show how to integrate MariaDB with various other data te
 
 ## Key
 
-<!-- INCLUDE license -->
+<!-- INCLUDE key -->
 Meaning of the terms used in this list.
 
 ### MariaDB Support

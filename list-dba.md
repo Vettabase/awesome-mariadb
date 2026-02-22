@@ -292,7 +292,7 @@ The mentioned TUIs can use any pager to visualise the results of long queries. B
 
 ## Key
 
-<!-- INCLUDE license -->
+<!-- INCLUDE key -->
 Meaning of the terms used in this list.
 
 ### MariaDB Support

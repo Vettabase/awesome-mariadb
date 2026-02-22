@@ -58,7 +58,7 @@ Notes:
 
 ## Key
 
-<!-- INCLUDE license -->
+<!-- INCLUDE key -->
 Meaning of the terms used in this list.
 
 ### MariaDB Support
