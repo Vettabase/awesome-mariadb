@@ -58,6 +58,7 @@ Notes:
 
 ## Key
 
+<!-- INCLUDE license -->
 Meaning of the terms used in this list.
 
 ### MariaDB Support
@@ -81,6 +82,8 @@ The license column might need a better name.
 - For software that uses a single, open source, well-known license we sometimes indicate the license name.
 
 For non-cloud software, we ancourage you to verify the license where relevant. Indicating a specific license is usually a simplification, because an application could be distributed with multiple licenses, or it might include libraries that use different licenses.
+<!-- END INCLUDE -->
+
 
 ---
 
