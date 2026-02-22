@@ -15,6 +15,7 @@ This list is intended for Data Engineers. There are lists intended for other aud
 - [Data Visualisation](#data-visualisation)
 - [MCP](#mcp-servers)
 - [Stored Procedures](#stored-procedures)
+- [User Interfaces](#user-interfaces)
 
 See the [key](#key) for explanations of the terms used in this list.
 
@@ -164,32 +165,66 @@ The following resources show how to integrate MariaDB with various other data te
 - [MySQL: stored procedures and SQL/PSM](https://www.abis.be/html/en2012-10_MySQL_procedures.html)
 - [Stored Procedures in MariaDB: Smarter, Easier and More Powerful](https://vettabase.com/stored-procedures-in-mariadb-smarter-easier-and-more-powerful/)
 
-## Key
+## User Interfaces
 
-<!-- INCLUDE key -->
-Meaning of the terms used in this list.
+<!-- INCLUDE user-interfaces -->
+**GUIs**
 
-### MariaDB Support
+| Project Name                                                                | MariaDB Support                                 | Platforms             | Licence    | Notes |
+|-----------------------------------------------------------------------------|-------------------------------------------------|-----------------------|--------------------|-------|
+| [Beekeeper Studio](https://www.beekeeperstudio.io/)                         | [NOT VERIFIED](https://docs.beekeeperstudio.io/user_guide/connecting/first-page/)  | Linux, MacOS, Windows | BOTH               |       |
+| [Database Workbench](https://www.upscene.com/database_workbench/) | [NOT VERIFIED](https://www.upscene.com/database_workbench/database-development-tool-for-mysql-and-mariadb)  | Windows               | Proprietary         |       |
+| [DataGrip](https://www.jetbrains.com/datagrip/)                             | [YES](https://www.jetbrains.com/datagrip/features/) | Linux, MacOS, Windows | Proprietary     |       |
+| [DBeaver](https://dbeaver.io/)                                              | [NOT VERIFIED](https://dbeaver.com/databases/)  | Linux, MacOS, Windows | BOTH               |       |
+| [dbForge Studio for MySQL](https://www.devart.com/dbforge/mysql/studio/)    | YES                                             | Windows               | Proprietary         |       |
+| [dbForge Edge](https://www.devart.com/dbforge/edge/features.html)           | YES                                             | Windows               | Proprietary         |       |
+| [DbVisualizer](https://www.dbvis.com/)                                      | [YES](https://www.dbvis.com/database/mariadb/)  | Native: Linux, Windows; JVM: Linux, MacOS, Windows | BOTH               |       |
+| [Harlequin](https://harlequin.sh/)                                          | MySQL                                           | Python                | Open Source          |       |
+| [HeidiSQL](https://www.heidisql.com/)                                       | YES                                              | Windows               | Open Source         |       |
+| [LibreOffice Base](https://www.libreoffice.org/discover/base/)              | [NOT VERIFIED](https://www.libreoffice.org/discover/base/) | Linux, MacOS, Windows | Open Source      | [1]   |
+| [Navicat](https://www.navicat.com/)                                         | [YES]([https://www.navicat.com/en/products/navicat-for-mysql-feature-matrix](https://navicat.com/en/products/navicat-for-mariadb))   | Linux, MacOS, Windows | Proprietary |       |
+| [ocelotgui](http://ocelot.ca/)                                              | YES                                             | Linux                 | Open Source          |       |
+| [OpenOffice Base](https://www.openoffice.org/product/base.html)             | [MySQL](https://www.openoffice.org/product/base.html) | Linux, MacOS, Windows | Open Source           | [2]   |
+| [Sequelpro](https://www.sequelpro.com/)                                    | PARTIAL                                         | MacOS                 | Open Source                  | [3]   |
+| [SQLPro Studio](https://www.sqlprostudio.com/)                              | NOT VERIFIED                                    | MacOS, Windows, iOS   | Proprietary |       |
+| [SQLyog](https://webyog.com/product/sqlyog/)                                | NOT VERIFIED                                    | Windows               | Proprietary         |       |
+| [TablePlus](https://tableplus.com/)                                         | [NOT VERIFIED]([https://dbeaver.com/databases/](https://docs.tableplus.com/))  | Linux, MacOS, Windows, iOS | Proprietary      |       |
+| [Toad Edge](https://toadworld.com/)                                         | NOT VERIFIED                                    | MacOS, Windows, Jenkins plugin | Proprietary |       |
+| [Valentina Studio](https://valentina-db.com/)                               | [NOT VERIFIED](https://valentina-db.com/en/database-management) | Linux, MacOS, Windows      | Proprietary  |       |
+| [whodb](https://github.com/clidey/whodb)       | YES | Go                         | [Apache 2](https://github.com/clidey/whodb/blob/main/LICENSE) |  |
 
-Some of the sections include resources that were created for MySQL, or for both MariaDB and MySQL. The extent of MariaDB support is not always optimal. For those resources, we indicate the MariaDB support level as follows:
+Notes
 
-- `YES`: The documentation states that the resource fully supports MariaDB, or full support was verified. A statement like "Supports MySQL/MariaDB" is not considered a proof of full MariaDB support, because the author might assume that what works on MySQL will work on MariaDB equally well.
-- `MySQL`: Officially supports MySQL, but not MariaDB.
-- `NOT VERIFIED`: Officially supports MySQL and MariaDB but we do not know whether full support for MariaDB is implemented.
-- `PARTIAL`: We are aware of relevant bugs or missing features.
+1. LibreOffice Base is a generic data visualization frontend. To learn how to use it with MariaDB, see the [MariaDB KB](https://mariadb.com/docs/server/clients-and-utilities/graphical-and-enhanced-clients/libreoffice-base).
+2. Apache OpenOffice is the project from which LibreOffice was originally forked. LibreOffice became more popular over time, so consider LibreOffice Base as well. OpenOffice Base does not support MariaDB. However it supports MySQL and ODBC drivers, so in practice it should work with MariaDB for standard use cases.
+3. At the time of writing, MariaDB support is only mentioned in the `README.md` file. A quick [search on GitHub](https://github.com/search?q=repo%3Asequelpro%2Fsequelpro%20mariadb&type=code) shows that this support is currently limited to version identification, some permissions and a TODO note.
 
-If you disagree about a project's MariaDB Support indication, please report a bug.
+**Web Interfaces**
 
-### License
+| Project Name                                                                | MariaDB Support                                 | Platforms             | License            | Notes |
+|-----------------------------------------------------------------------------|-------------------------------------------------|-----------------------|--------------------|-------|
+| [Adminer](https://www.adminer.org/)                                         | NOT VERIFIED                                    | PHP                   | Apache2 or GPL2    |       |
+| [Express Admin](https://github.com/simov/express-admin/)                                   | YES                                             | NodeJS                | [MIT](https://github.com/simov/express-admin/blob/main/LICENSE)    | [1] |
+| [phpMyAdmin](https://www.phpmyadmin.net/)                                   | YES                                             | PHP                   | [GPL2](https://github.com/phpmyadmin/phpmyadmin/blob/master/LICENSE)                |    |
+| [Prisma Studio](https://www.prisma.io/studio)                               | YES                                           | Node.js               | [Apache 2](https://github.com/prisma/prisma/blob/main/LICENSE)           |  |
 
-The license column might need a better name.
+1. Express Admin is a NodeJS tool for easy creation of administrative interfaces, data entry forms and data visualisation MariaDB and other databases.
 
-- `Cloud` - Available as a cloud service.
-- `Proprietary` - Source is available, but software is not Open Source.
-- `Open Source` - The license is [approved by OSI](https://opensource.org/licenses).
-- For software that uses a single, open source, well-known license we sometimes indicate the license name.
+**TUIs**
 
-For non-cloud software, we ancourage you to verify the license where relevant. Indicating a specific license is usually a simplification, because an application could be distributed with multiple licenses, or it might include libraries that use different licenses.
+| Project Name                                                                | MariaDB Support                                 | Platforms             | License  |
+|-----------------------------------------------------------------------------|-------------------------------------------------|-----------------------|--------------------|
+| [DBCrust](https://github.com/clement-tourriere/dbcrust)                     | YES                                             | Rust                  | [MIT](https://github.com/clement-tourriere/dbcrust/blob/main/LICENSE) |
+| [mycli](https://www.mycli.net/)                                             | YES                                             | Python                | Open Source        |
+| [usql](https://github.com/xo/usql)                                          | [YES](https://github.com/xo/usql?tab=readme-ov-file#supported-database-schemes-and-aliases)                                    | Linux, MacOS, Windows | [MIT](https://github.com/xo/usql/blob/master/LICENSE) |       |
+
+**Pagers**
+
+The mentioned TUIs can use any pager to visualise the results of long queries. But it's worth mentioning that at least one specific page for MariaDB and MySQL exists.
+
+| Project Name                                                                | MariaDB Support                                 | Platforms             | License  |
+|-----------------------------------------------------------------------------|-------------------------------------------------|-----------------------|--------------------|
+| [mypager](https://github.com/romuald/mypager)                               | YES                                             | Perl                  | [Apache 2](https://github.com/romuald/mypager/blob/master/LICENSE) |
 <!-- END INCLUDE -->
 
 
