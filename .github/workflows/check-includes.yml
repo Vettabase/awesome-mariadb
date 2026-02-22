@@ -1,0 +1,24 @@
+name: Check includes
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  check-includes:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Run include tests
+        run: python3 -m unittest test_include -v
+
+      - name: Check that Markdown files are up-to-date with includes
+        run: python3 include.py --check
