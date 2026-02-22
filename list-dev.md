@@ -401,6 +401,30 @@ Links to articles and information on the various methods and utilities to read a
 | [Skeema](https://www.skeema.io/)                     | [10.1+](https://www.skeema.io/docs/requirements/) | [Proprietary](https://www.skeema.io/download/) or [Apache 2](https://github.com/skeema/skeema/blob/main/LICENSE) |
 
 
+## Storage Engines
+
+<!-- INCLUDE storage-engines -->
+Legacy engines are not included in this list.
+
+| Storage Engine    | Description                                                           | Notes
+| ----------------- | --------------------------------------------------------------------- | -----
+| [InnoDB](https://mariadb.com/docs/server/server-usage/storage-engines/innodb)    | Transactional engine, supports all MariaDB features.                  | Default.
+| [MyRocks](https://mariadb.com/docs/server/server-usage/storage-engines/myrocks)  | Use RocksDB inside MariaDB. Transactional.  |
+| [TideSQL](https://tidesdb.com/reference/tidesql/)                                | Use TidesDB inside MariaDB. Transactional.                            | 3rd party, not included.
+| [VIDEX ](https://mariadb.com/docs/server/server-usage/storage-engines/videx-storage-engine) | What-if query optimisation analyses.                                  |
+| [ARCHIVE](https://mariadb.com/docs/server/server-usage/storage-engines/archive)  | High compression rate, high insertion speed, append-only, no indexes. |
+| [Aria](https://mariadb.com/docs/server/server-usage/storage-engines/aria)        | Crash-safe but not transactional.                                     |
+| [BLACKHOLE](https://mariadb.com/docs/server/server-usage/storage-engines/blackhole)  | Similar to `/dev/null`, all inserted data disappear. |
+| [CONNECT](https://mariadb.com/docs/server/server-usage/storage-engines/connect)  | Read and write data to heterogeneous external data sources.           |
+| [MEMORY](https://mariadb.com/docs/server/server-usage/storage-engines/memory-storage-engine)  | Keeps data in-memory only.                                            |
+| [OQGRAPH](https://mariadb.com/docs/server/server-usage/storage-engines/oqgraph-storage-engine) | Works with graph data.                                                |
+| [SEQUENCE](https://mariadb.com/docs/server/server-usage/storage-engines/sequence-storage-engine) | Virtual tables that return a sequence of numbers.                     |
+| [S3](https://mariadb.com/docs/server/server-usage/storage-engines/s3-storage-engine)  | Archive data to S3. Tables can still be queries.                      |
+| [SphinxSE](https://mariadb.com/docs/server/server-usage/storage-engines/sphinx-storage-engine) | A bridge to the Sphinx database.
+| [SPIDER](https://mariadb.com/docs/server/server-usage/storage-engines/spider)    | Shard data across MariaDB instances.    |
+<!-- END INCLUDE -->
+
+
 ## Stored Routines
 
 The term *stored routine* indicates a stored procedure or function. This is a list of stored routines that can be useful for application developers.
