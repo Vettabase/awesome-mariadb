@@ -15,3 +15,4 @@ If you contribute to Awesome MariaDB, we encourage you to add your name here.
 - Karl Levik https://dbdemon.com
 - Roman Agabekov https://releem.com
 - Pierre Pomes https://myanon.io
+- David Courtey https://crty.dev
