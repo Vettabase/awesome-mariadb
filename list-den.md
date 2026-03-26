@@ -54,6 +54,7 @@ See the [key](#key) for explanations of the terms used in this list.
 
 **Benchmarks**
 
+- [MariaDB innovation: binlog_storage_engine, small server, Insert Benchmark](https://smalldatum.blogspot.com/2026/02/mariadb-innovation-binlogstorageengine_17.html)
 - Evaluating vector indexes in MariaDB and pgvector: [part 1](https://smalldatum.blogspot.com/2025/01/evaluating-vector-indexes-in-mariadb.html), [part 2](https://smalldatum.blogspot.com/2025/01/evaluating-vector-indexes-in-mariadb_13.html)
 - Vector indexes, MariaDB & pgvector, large server, large dataset: [part 1](https://smalldatum.blogspot.com/2025/01/vector-indexes-mariadb-pgvector-large_28.html), [part 2](https://smalldatum.blogspot.com/2025/01/vector-indexes-mariadb-pgvector-large_26.html)
 
