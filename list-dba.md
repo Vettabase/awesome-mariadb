@@ -134,6 +134,7 @@ Resources about MariaDB replication and Galera cluster, as well as proxies and o
 - MariaDB Galera:
   - [Pt 1: Installing a MariaDB Galera Cluster on Ubuntu 24.04](https://vettabase.com/installing-a-3-node-mariadb-galera-cluster-on-ubuntu-24-04-mariadb-galera-pt-1/)
   - [Pt 2: Deploying garbd (Galera Arbitrator Daemon)](https://vettabase.com/deploying-garbd-galera-arbitrator-daemon-mariadb-galera-pt-2/)
+- [MariaDB Innovation: InnoDB-Based Binary Log](https://mariadb.org/mariadb-innovation-innodb-based-binary-log/)
 
 ### Proxies
 
