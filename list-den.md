@@ -41,7 +41,7 @@ See the [key](#key) for explanations of the terms used in this list.
 
 | Language / Platform | Project                                        | MariaDB Support                                               | License / Platform                   |
 |---------------------|------------------------------------------------|---------------------------------------------------------------|--------------------------------------|
-| Node.js             | [mariadb-nodejs-rag-demo](https://github.com/Vettabase/awesome-mariadb/edit/main/list-den.md) | YES            | [None](https://github.com/rozhnev/mariadb-nodejs-rag-demo/issues/6) |
+| Node.js             | [mariadb-nodejs-rag-demo](https://github.com/rozhnev/mariadb-nodejs-rag-demo) | YES                            | [MIT](https://github.com/rozhnev/mariadb-nodejs-rag-demo?tab=readme-ov-file#license) |
 
 **Articles**
 
