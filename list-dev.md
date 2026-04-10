@@ -351,6 +351,7 @@ Links to articles and information on the various methods and utilities to read a
 | PHP         | [ADOdb](https://adodb.org/)                              | [BSD or LGPL](https://adodb.org/dokuwiki/doku.php?id=index#copyright) | YES |  |
 | PHP         | [CakePHP](https://cakephp.org/)                          | [MIT](https://github.com/cakephp/cakephp/blob/5.x/LICENSE) | MYSQL            |       |
 | PHP         | [Doctrine ORM](https://www.doctrine-project.org/projects/doctrine-orm/en/stable/index.html) | [MIT](https://github.com/doctrine/orm/blob/3.3.x/LICENSE) | [YES](https://www.doctrine-project.org/projects/doctrine-dbal/en/4.2/reference/platforms.html) |  |
+| PHP         | [marko-database-mysql](https://marko.build/) | [MIT](https://github.com/marko-php/marko/blob/59a8672865eba4edfe08960de043ef956ae5388c/packages/database-mysql/LICENSE) | 10.6+ |  |
 | PHP         | [Medoo](https://medoo.in/)                               | [MIT](https://github.com/catfan/Medoo/blob/master/LICENSE.md) | YES |       |
 | PHP         | [Illuminate Database](https://laravel.com/docs/12.x/eloquent) | [MIT](https://github.com/illuminate/database/blob/master/LICENSE.md) | YES | [8] |
 | PHP         | [RedBeanPHP](https://www.redbeanphp.com/) | [New BSD/GPL 2](https://www.redbeanphp.com/index.php?p=/license) | NOT VERIFIED |  |
