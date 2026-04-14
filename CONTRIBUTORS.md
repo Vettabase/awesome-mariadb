@@ -16,4 +16,5 @@ If you contribute to Awesome MariaDB, we encourage you to add your name here.
 - Roman Agabekov https://releem.com
 - Pierre Pomes https://myanon.io
 - David Courtey https://crty.dev
+- Mughees Ahmed https://reliadb.com
 - Vinicius Grippa https://github.com/vgrippa
