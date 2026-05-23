@@ -10,6 +10,7 @@ This list is intended for Database Administrators. There are lists intended for 
 
 - [Articles and Videos](#articles-and-videos)
 - [Ansible](#ansible)
+- [Benchmarks](#benchmarks)
 - [Chef](#chef)
 - [Backups](#backups)
 - [Containers](#containers)
@@ -99,6 +100,32 @@ Articles:
 
 - [Using MariaDB's binary log to restore a database after overwriting with old backup](https://orville.thebennettproject.com/articles/how-to-use-mariadb-10-binlog-to-restore-database/)
 - [Backing up MariaDB Temporal Database](https://stackoverflow.com/a/57186022/9445059) (StackOverflow answer)
+
+## Benchmarks
+
+In this sections you'll find benchmarking tools to run some benchmarks by yourself, and links to authorative benchmarks made by others.
+
+### Benchmarking Tools
+
+We only include benchmarking tools with explicit support to MariaDB, because benchmarking requires a deep understanding of the tested technology.
+
+| Project                                        | License / Platform                                                           | Notes     |
+| ---------------------------------------------- | ---------------------------------------------------------------------------- | --------- |
+| [HammerDB](https://www.hammerdb.com/)          | [GPL 3](https://github.com/TPC-Council/HammerDB/blob/master/LICENSE)         |           |
+| [TAF-Perl](https://github.com/MariaDB/TAF)     | [GPL 2+](https://github.com/MariaDB/TAF/blob/main/LICENSE)                   |           |
+
+**Videos and Articles on Benchmarking Tools**
+
+- [Best practice benchmarking: Evaluating MariaDB performance - Steve Shaw - MariaDB Server Fest 2021](https://www.youtube.com/watch?v=cdNNKOrnd8I)
+- [TAF: Deep Dive — A Deterministic Framework for Database Benchmarking](https://www.youtube.com/watch?v=DwCCNQ8w0R4)
+- [A coffee with… Jonathan Miller, creator of TAF-Perl](https://www.youtube.com/watch?v=3_ZgUtCjSgc)
+
+### Benchmarks
+
+- [Sysbench on a medium server: MariaDB is faster than MySQL](https://smalldatum.blogspot.com/2024/07/sysbench-on-medium-server-mariadb-is.html), by Mark Callaghan
+- [The Insert Benchmark: MariaDB, MySQL, small server, cached workload, some concurrency](https://smalldatum.blogspot.com/2024/04/the-insert-benchmark-mariadb-mysql_21.html)
+- [MariaDB Performance : Openssl and wolfssl](https://kumar-mysql.blogspot.com/2026/05/mariadb-performance-openssl-and-wolfssl.html), by Amrendra Kumar
+- [Consumer TPC-C Analysis on TideSQL v4.5.0, MyRocks and InnoDB in MariaDB v11.8.6 using HammerDB](https://tidesdb.com/articles/consumer-tpc-c-analysis-tidesql-v4-5-0-myrocks-mariadb-v11-8-6/), from TidesDB website
 
 ## Containers
 
