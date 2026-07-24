@@ -400,6 +400,7 @@ Links to articles and information on the various methods and utilities to read a
 | [Liquibase](https://www.liquibase.com/)                 | [PARTIAL](https://www.liquibase.com/databases/mariadb-server) | [Proprietary](https://www.liquibase.com/pricing) or [Apache 2](https://github.com/liquibase/liquibase/blob/master/LICENSE.txt) |
 | [migrate](https://github.com/golang-migrate/migrate)    | YES             | [MIT](https://github.com/golang-migrate/migrate/blob/master/LICENSE) |
 | [Prisma Migrate](https://github.com/prisma/prisma)      | YES             | [Apache 2](https://github.com/prisma/prisma/blob/main/LICENSE) |
+| [SchemaSmith](https://github.com/Schema-Smith/SchemaSmith) | 10.6+ | Source available ([SSCL v2.0](https://github.com/Schema-Smith/SchemaSmith/blob/main/LICENSE)) |
 | [Skeema](https://www.skeema.io/)                     | [10.1+](https://www.skeema.io/docs/requirements/) | [Proprietary](https://www.skeema.io/download/) or [Apache 2](https://github.com/skeema/skeema/blob/main/LICENSE) |
 
 
