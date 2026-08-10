@@ -145,6 +145,10 @@ The following resources show how to integrate MariaDB with various other data te
 | [Metabase](https://www.metabase.com/)                            | [YES](https://www.metabase.com/data_sources/mariadb) | JVM | [AGPL, Proprietary](https://github.com/metabase/metabase/blob/master/LICENSE.txt), [Cloud](https://www.metabase.com/pricing/) |
 | [Mode](https://mode.com/)                                        | [YES](https://mode.com/integrations/mariadb) | Cloud | Cloud |
 
+**Articles and Videos**
+
+* [How to Connect MySQL to Metabase, 2026 Full Guide](https://www.youtube.com/watch?v=my2FAXIX_2M)
+
 ## MCP Servers
 
 [MCP (Model Context Protocol)](https://en.wikipedia.org/wiki/Model_Context_Protocol) is an open protocol created by Anthropic that standardises the way LLMs communicate with agents and data sources like MariaDB.
