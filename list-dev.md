@@ -279,7 +279,7 @@ Guides on how to work with MariaDB using various IDEs.
 | IntelliJ IDEA     | [IntelliJ IDEA - MariaDB](https://www.jetbrains.com/help/idea/mariadb.html)                    | Text            |                |
 | RubyMine          | [RubyMine MariaDB plugin documentation](https://www.jetbrains.com/help/ruby/mariadb.html)      | Text            |                |
 | RustRover         | [MariaDB plugin](https://www.jetbrains.com/help/rust/mariadb.html)                             | Text            |                |
-| Visual Studio     | [How to: Create A Model Based on MariaDB Database](https://docs.telerik.com/data-access/developers-guide/database-specifics/mariadb/database-specifics-mariadb-create-domain-model.html)                                                                 | Text            |                |
+                                                             | Text            |                |
 
 ## Migrations
 
