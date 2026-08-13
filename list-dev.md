@@ -540,6 +540,7 @@ Frameworks and libraries to ease UDFs developing.
 | [Harlequin](https://harlequin.sh/)                                          | MySQL                                           | Python                | Open Source          |       |
 | [HeidiSQL](https://www.heidisql.com/)                                       | YES                                              | Windows               | Open Source         |       |
 | [LibreOffice Base](https://www.libreoffice.org/discover/base/)              | [NOT VERIFIED](https://www.libreoffice.org/discover/base/) | Linux, MacOS, Windows | Open Source      | [1]   |
+| [Mongrel](https://www.visorcraft.com/)                                       | [NOT VERIFIED](https://www.visorcraft.com/mysql) | Linux, MacOS, Windows | Proprietary     |       |
 | [Navicat](https://www.navicat.com/)                                         | [YES]([https://www.navicat.com/en/products/navicat-for-mysql-feature-matrix](https://navicat.com/en/products/navicat-for-mariadb))   | Linux, MacOS, Windows | Proprietary |       |
 | [ocelotgui](http://ocelot.ca/)                                              | YES                                             | Linux                 | Open Source          |       |
 | [OpenOffice Base](https://www.openoffice.org/product/base.html)             | [MySQL](https://www.openoffice.org/product/base.html) | Linux, MacOS, Windows | Open Source           | [2]   |
