@@ -191,7 +191,7 @@ The following projects are either sharding components or sub-components that be 
 | Project                                                             | MariaDB Support                                             | License / Platform                                         | Notes   |
 |---------------------------------------------------------------------|-------------------------------------------------------------|------------------------------------------------------------|---------|
 | [Datadog](https://docs.datadoghq.com)                               | YES but see [known limitations](https://docs.datadoghq.com) | Proprietary in-premise or cloud                                                      |         |
-| [Dolphie](https://github.com/charles-001/dolphie)                   | YES                                                         | [GPL3](https://github.com/charles-001/dolphie/blob/main/LICENSE) |   |
+| [Dolphie](https://github.com/charles-001/dolphie)                   | YES                                                         | [GPL3](https://github.com/charles-001/dolphie/blob/main/LICENSE) | [6]  |
 | [golang-mariadbconsole](https://github.com/luiscontrerasdo/golang-mariadbconsole)  | YES                                          | [GPL3](https://github.com/luiscontrerasdo/golang-mariadbconsole/blob/main/LICENSE)   |         |
 | [Monyog](https://webyog.com/product/monyog/)                        | YES                         | Proprietary   | [1] |
 | [New Relic](https://newrelic.com)                                   | [YES](https://newrelic.com/instant-observability/mariadb)   | [Cloud](https://newrelic.com/pricing) |  |
@@ -213,6 +213,7 @@ The following projects are either sharding components or sub-components that be 
 5. Integrations between StatsD and MariaDB:
    - [Via Telegraf](https://www.influxdata.com/integrations/statsd-mariadb/);
    - [mysql-statsd](https://github.com/db-art/mysql-statsd)
+6. Dolphie is a TUI that, by default, only connects metrics when a user is connected. Each user has her own shell, and every shell has independent recordings.
 
 **Articles**
 
