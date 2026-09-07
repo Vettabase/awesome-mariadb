@@ -306,6 +306,7 @@ Guides on how to work with MariaDB using various IDEs.
 Libraries that can't be classified as [connectors](#connectors-drivers) or [ORMs](#orms-and-other-abstraction-layers).
 
 - [embedded-mariadb-clj](https://github.com/ruroru/embedded-mariadb-clj) - A Clojure library that allows you to run an embedded MariaDB database within your application process.
+- [lite4mariadb](https://github.com/shyim/lite4mariadb) - MariaDB Server (with InnoDB) compiled to WebAssembly, with a PGlite-style JavaScript API. Runs a full embedded MariaDB in the browser or in Node.js, without a server process.
 - [MariaDB4j](https://github.com/MariaDB4j/MariaDB4j) - A Java launcher to run MariaDB without installation or external dependencies.
 - [MySQL::Hi](https://metacpan.org/pod/MySQL::Hi) - Credentials for MySQL/MariaDB from config files.
 - [SQLGlot](https://github.com/tobymao/sqlglot/) - Libraries to parse SQL in various dialects. Supports MySQL with very minor divergencies from MariaDB.
