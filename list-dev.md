@@ -159,6 +159,7 @@ The connectors are grouped by language.
 
 | Platform / Language  | Connector Driver Name                                                                     | MariaDB Support | Features   | Notes               |
 | -------------------- | ----------------------------------------------------------------------------------------- | --------------- | ---------- | ------------------- |
+| Arduino              | [MySQL Connector/Arduino](https://github.com/ChuckBell/MySQL_Connector_Arduino)           | MySQL           |            | [7]                 |
 | C                    | [Connector/C ](https://mariadb.com/docs/connectors/mariadb-connector-c/mariadb-connector-c-guide)                      | YES             | <ul><li>PSskipMD([3.1.10](https://mariadb.com/docs/connectors/mariadb-connector-c/api-functions/mysql_real_connect) - [default](https://github.com/mariadb-corporation/mariadb-connector-c/commit/6a763b90006c5591bfef766ba0a9f414a02a69ae#diff-e45114083905fb36ada93fa0ab74fc9b84def45219693b574bfb0429b548db8cR183))</li><li>EXTcolInfo([3.1.10](https://github.com/mariadb-corporation/mariadb-connector-c/wiki/mariadb_field_attr))</li><li>AUTHparsec([3.4.1](https://github.com/mariadb-corporation/mariadb-connector-c/blob/v3.4.1/plugins/auth/parsec.c) - default)</ul>               |
 | C                    | [mariadb++](https://github.com/viaduck/mariadbpp)                                         | YES             |                     |
 | C++                  | [MariaDB Connector/C++](https://github.com/mariadb-corporation/mariadb-connector-cpp/) | YES     |                     |
@@ -236,6 +237,7 @@ Notes
 4. Pre-production maturity level. Doesn't state which MariaDB versions are supported, but the tests instructions suggest that it's tested with the latest stable versions in Docker.
 5. Unmaintained, but apparently the alternatives have been abandoned for a longer time.
 6. Applies to Arduino as well.
+7. Last commit is from 2020 but, to our knowledge, it's the most recently mantained connector for Arduino.
 
 **Articles**
 
