@@ -180,6 +180,7 @@ The connectors are grouped by language.
 | ODBC                 | [Connector/ODBC](https://mariadb.com/docs/connectors/mariadb-connector-odbc/mariadb-connector-odbc-guide)                 | YES             |                     |
 | Perl                 | [DBD::MariaDB](https://metacpan.org/dist/DBD-MariaDB)                                     | YES             |                     |
 | Perl                 | [MariaDB::NonBlocking](https://metacpan.org/pod/MariaDB::NonBlocking)                     | YES             |                     |
+| Plc languages        | [Interface_MySQL_with_PLC](https://github.com/Code-and-Compile/Interface_MySQL_with_PLC)  | MySQL           | | |
 | PHP                  | [MySQLi](https://www.php.net/manual/en/book.mysqli.php)                                   | MySQL           | | Both procedural and OO API. |
 | PHP                  | [PDO MySQL](https://www.php.net/manual/en/ref.pdo-mysql.php)                              | MySQL           | | Multi-database abstraction layer. |
 | Python               | [Connector/Python](https://mariadb.com/docs/connectors/mariadb-connector-python/list-of-mariadb-connector-python-releases)  | YES             |                     |
