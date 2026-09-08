@@ -64,6 +64,10 @@ Notes
 
 These articles are about language best practices, specific libraries, or non-trivial operations.
 
+Arduino hardware
+
+* [Interface Arduino to MySQL Using Python](https://www.instructables.com/Interface-Arduino-to-MySQL-using-Python/)
+
 ASP.Net
 
 * [Using MariaDB in an ASP.NET Core API with Entity Framework Core](https://blog.georgekosmidis.net/using-mariadb-in-an-aspnet-core-api-with-entity-framework-core.html)
