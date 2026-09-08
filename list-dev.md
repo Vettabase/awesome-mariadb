@@ -67,6 +67,7 @@ These articles are about language best practices, specific libraries, or non-tri
 Arduino hardware
 
 * [Interface Arduino to MySQL Using Python](https://www.instructables.com/Interface-Arduino-to-MySQL-using-Python/)
+* [Have Arduino write data to a MySQL database?](https://arduino.stackexchange.com/questions/4960/have-arduino-write-data-to-a-mysql-database) - Arduino Stack Exchange question
 
 ASP.Net
 
