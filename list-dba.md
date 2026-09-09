@@ -43,6 +43,10 @@ See the [key](#key) for explanations of the terms used in this list.
 * [Distributed, Multi-Database Transactions Involving MariaDB and PostgreSQL](https://vettabase.com/distributed-multi-database-transactions-involving-mariadb-and-postgresql/)
 * [Setup A HA Galera Cluster On Debian / Ubuntu In 9 Easy Steps](https://www.techaddressed.com/tutorials/setup-ha-galera-cluster/)
 
+**OS-Specific Articles**
+
+* [How to install MariaDB on NetBSD?](https://www.librebyte.net/en/data-base/how-to-install-mariadb-on-netbsd/)
+
 ## Automation
 
 Platforms and tools to automate MariaDB deployments.
