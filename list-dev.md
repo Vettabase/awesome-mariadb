@@ -573,10 +573,12 @@ Notes
 |-----------------------------------------------------------------------------|-------------------------------------------------|-----------------------|--------------------|-------|
 | [Adminer](https://www.adminer.org/)                                         | NOT VERIFIED                                    | PHP                   | Apache2 or GPL2    |       |
 | [Express Admin](https://github.com/simov/express-admin/)                                   | YES                                             | NodeJS                | [MIT](https://github.com/simov/express-admin/blob/main/LICENSE)    | [1] |
+| [LibreDB Studio](https://github.com/libredb/libredb-studio)                 | [YES](https://github.com/libredb/libredb-studio/blob/main/docs/providers/mysql.md#11-mariadb-and-the-other-mysql-protocol-engines) | Node.js               | [MIT](https://github.com/libredb/libredb-studio/blob/main/LICENSE) | [2] |
 | [phpMyAdmin](https://www.phpmyadmin.net/)                                   | YES                                             | PHP                   | [GPL2](https://github.com/phpmyadmin/phpmyadmin/blob/master/LICENSE)                |    |
 | [Prisma Studio](https://www.prisma.io/studio)                               | YES                                           | Node.js               | [Apache 2](https://github.com/prisma/prisma/blob/main/LICENSE)           |  |
 
 1. Express Admin is a NodeJS tool for easy creation of administrative interfaces, data entry forms and data visualisation MariaDB and other databases.
+2. LibreDB Studio is a self-hosted SQL IDE that runs in the browser. It was tested against MariaDB 12.3, including the `PACKAGE` and `SEQUENCE` object types that MySQL does not have. Its server metrics come from `performance_schema`, which MariaDB ships disabled, so those figures stay empty until it is enabled.
 
 **TUIs**
 
