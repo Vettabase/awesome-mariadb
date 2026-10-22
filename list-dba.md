@@ -130,6 +130,7 @@ We only include benchmarking tools with explicit support to MariaDB, because ben
 - [The Insert Benchmark: MariaDB, MySQL, small server, cached workload, some concurrency](https://smalldatum.blogspot.com/2024/04/the-insert-benchmark-mariadb-mysql_21.html)
 - [MariaDB Performance : Openssl and wolfssl](https://kumar-mysql.blogspot.com/2026/05/mariadb-performance-openssl-and-wolfssl.html), by Amrendra Kumar
 - [Consumer TPC-C Analysis on TideSQL v4.5.0, MyRocks and InnoDB in MariaDB v11.8.6 using HammerDB](https://tidesdb.com/articles/consumer-tpc-c-analysis-tidesql-v4-5-0-myrocks-mariadb-v11-8-6/), from TidesDB website
+- [db-pairs-benchmark: PostgreSQL, MariaDB, ClickHouse, DuckDB and SQLite alone and in pairs, under equal CPU and memory budgets](https://github.com/GoldenEmperor1177/db-pairs-benchmark), by Rion Bora
 
 ## Containers
 
