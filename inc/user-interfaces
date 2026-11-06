@@ -15,6 +15,7 @@
 | [Navicat](https://www.navicat.com/)                                         | [YES]([https://www.navicat.com/en/products/navicat-for-mysql-feature-matrix](https://navicat.com/en/products/navicat-for-mariadb))   | Linux, MacOS, Windows | Proprietary |       |
 | [ocelotgui](http://ocelot.ca/)                                              | YES                                             | Linux                 | Open Source          |       |
 | [OpenOffice Base](https://www.openoffice.org/product/base.html)             | [MySQL](https://www.openoffice.org/product/base.html) | Linux, MacOS, Windows | Open Source           | [2]   |
+| [Seqora](https://seqora.dev/)                                               | [YES](https://seqora.dev/guide/other-engines/)  | MacOS, Windows        | Proprietary         | [4]   |
 | [Sequelpro](https://www.sequelpro.com/)                                    | PARTIAL                                         | MacOS                 | Open Source                  | [3]   |
 | [SQLPro Studio](https://www.sqlprostudio.com/)                              | NOT VERIFIED                                    | MacOS, Windows, iOS   | Proprietary |       |
 | [SQLyog](https://webyog.com/product/sqlyog/)                                | NOT VERIFIED                                    | Windows               | Proprietary         |       |
@@ -28,6 +29,7 @@ Notes
 1. LibreOffice Base is a generic data visualization frontend. To learn how to use it with MariaDB, see the [MariaDB KB](https://mariadb.com/docs/server/clients-and-utilities/graphical-and-enhanced-clients/libreoffice-base).
 2. Apache OpenOffice is the project from which LibreOffice was originally forked. LibreOffice became more popular over time, so consider LibreOffice Base as well. OpenOffice Base does not support MariaDB. However it supports MySQL and ODBC drivers, so in practice it should work with MariaDB for standard use cases.
 3. At the time of writing, MariaDB support is only mentioned in the `README.md` file. A quick [search on GitHub](https://github.com/search?q=repo%3Asequelpro%2Fsequelpro%20mariadb&type=code) shows that this support is currently limited to version identification, some permissions and a TODO note.
+4. Seqora has a free edition and a paid Pro edition. It is tested against MariaDB 11.4. MariaDB's `SEQUENCE` objects get their own folder and page, separate from `AUTO_INCREMENT` counters, and query plans are read from `ANALYZE FORMAT=JSON`. It does not read MariaDB's column histograms yet, so the inspector shows no column statistics on MariaDB.
 
 **Web Interfaces**
 

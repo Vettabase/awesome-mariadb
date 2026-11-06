@@ -19,3 +19,4 @@ If you contribute to Awesome MariaDB, we encourage you to add your name here.
 - Mughees Ahmed https://reliadb.com
 - Vinicius Grippa https://github.com/vgrippa
 - Cevheri Bozoglan https://github.com/cevheri
+- Ayushman Gupta https://seqora.dev
