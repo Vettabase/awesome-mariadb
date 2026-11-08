@@ -198,6 +198,7 @@ The following resources show how to integrate MariaDB with various other data te
 | [TablePlus](https://tableplus.com/)                                         | [NOT VERIFIED]([https://dbeaver.com/databases/](https://docs.tableplus.com/))  | Linux, MacOS, Windows, iOS | Proprietary      |       |
 | [Toad Edge](https://toadworld.com/)                                         | NOT VERIFIED                                    | MacOS, Windows, Jenkins plugin | Proprietary |       |
 | [Valentina Studio](https://valentina-db.com/)                               | [NOT VERIFIED](https://valentina-db.com/en/database-management) | Linux, MacOS, Windows      | Proprietary  |       |
+| [VisuaLeaf](https://visualeaf.com/database/mariadb/)                        | [YES](https://mariadb.com/docs/server/clients-and-utilities/graphical-and-enhanced-clients/visualeaf) | Linux, MacOS, Windows | Proprietary |       |
 | [whodb](https://github.com/clidey/whodb)       | YES | Go                         | [Apache 2](https://github.com/clidey/whodb/blob/main/LICENSE) |  |
 
 Notes
