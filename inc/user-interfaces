@@ -2,7 +2,7 @@
 
 | Project Name                                                                | MariaDB Support                                 | Platforms             | Licence    | Notes |
 |-----------------------------------------------------------------------------|-------------------------------------------------|-----------------------|--------------------|-------|
-| [Beekeeper Studio](https://www.beekeeperstudio.io/)                         | [NOT VERIFIED](https://docs.beekeeperstudio.io/user_guide/connecting/first-page/)  | Linux, MacOS, Windows | BOTH               |       |
+| [Beekeeper Studio](https://www.beekeeperstudio.io/)                         | [YES](https://beekeeperstudio.io/db/mariadb-client)  | Linux, MacOS, Windows | BOTH               | [4]   |
 | [Database Workbench](https://www.upscene.com/database_workbench/) | [NOT VERIFIED](https://www.upscene.com/database_workbench/database-development-tool-for-mysql-and-mariadb)  | Windows               | Proprietary         |       |
 | [DataGrip](https://www.jetbrains.com/datagrip/)                             | [YES](https://www.jetbrains.com/datagrip/features/) | Linux, MacOS, Windows | Proprietary     |       |
 | [DBeaver](https://dbeaver.io/)                                              | [NOT VERIFIED](https://dbeaver.com/databases/)  | Linux, MacOS, Windows | BOTH               |       |
@@ -16,12 +16,15 @@
 | [ocelotgui](http://ocelot.ca/)                                              | YES                                             | Linux                 | Open Source          |       |
 | [OpenOffice Base](https://www.openoffice.org/product/base.html)             | [MySQL](https://www.openoffice.org/product/base.html) | Linux, MacOS, Windows | Open Source           | [2]   |
 | [Seqora](https://seqora.dev/)                                               | [YES](https://seqora.dev/guide/other-engines/)  | MacOS, Windows        | Proprietary         | [4]   |
+| [OrcaQ](https://github.com/cin12211/orca-q)                                 | [YES](https://github.com/cin12211/orca-q)                   | Linux, MacOS, Web     | [MIT](https://github.com/cin12211/orca-q/blob/main/LICENSE) |       |
 | [Sequelpro](https://www.sequelpro.com/)                                    | PARTIAL                                         | MacOS                 | Open Source                  | [3]   |
+| [SQLly](https://sqlly.app/)                                                | YES                                             | Linux, MacOS, Windows | Proprietary         |       |
 | [SQLPro Studio](https://www.sqlprostudio.com/)                              | NOT VERIFIED                                    | MacOS, Windows, iOS   | Proprietary |       |
 | [SQLyog](https://webyog.com/product/sqlyog/)                                | NOT VERIFIED                                    | Windows               | Proprietary         |       |
 | [TablePlus](https://tableplus.com/)                                         | [NOT VERIFIED]([https://dbeaver.com/databases/](https://docs.tableplus.com/))  | Linux, MacOS, Windows, iOS | Proprietary      |       |
 | [Toad Edge](https://toadworld.com/)                                         | NOT VERIFIED                                    | MacOS, Windows, Jenkins plugin | Proprietary |       |
 | [Valentina Studio](https://valentina-db.com/)                               | [NOT VERIFIED](https://valentina-db.com/en/database-management) | Linux, MacOS, Windows      | Proprietary  |       |
+| [VisuaLeaf](https://visualeaf.com/database/mariadb/)                        | [YES](https://mariadb.com/docs/server/clients-and-utilities/graphical-and-enhanced-clients/visualeaf) | Linux, MacOS, Windows | Proprietary |       |
 | [whodb](https://github.com/clidey/whodb)       | YES | Go                         | [Apache 2](https://github.com/clidey/whodb/blob/main/LICENSE) |  |
 
 Notes
@@ -30,6 +33,7 @@ Notes
 2. Apache OpenOffice is the project from which LibreOffice was originally forked. LibreOffice became more popular over time, so consider LibreOffice Base as well. OpenOffice Base does not support MariaDB. However it supports MySQL and ODBC drivers, so in practice it should work with MariaDB for standard use cases.
 3. At the time of writing, MariaDB support is only mentioned in the `README.md` file. A quick [search on GitHub](https://github.com/search?q=repo%3Asequelpro%2Fsequelpro%20mariadb&type=code) shows that this support is currently limited to version identification, some permissions and a TODO note.
 4. Seqora has a free edition and a paid Pro edition. It is tested against MariaDB 11.4. MariaDB's `SEQUENCE` objects get their own folder and page, separate from `AUTO_INCREMENT` counters, and query plans are read from `ANALYZE FORMAT=JSON`. It does not read MariaDB's column histograms yet, so the inspector shows no column statistics on MariaDB.
+4. Beekeeper Studio displays MariaDB-specific column types such as UUID and INET6, and these columns can be created by typing the type name. The type dropdown currently suggests MySQL types only.
 
 **Web Interfaces**
 

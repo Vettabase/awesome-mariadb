@@ -130,6 +130,7 @@ We only include benchmarking tools with explicit support to MariaDB, because ben
 - [The Insert Benchmark: MariaDB, MySQL, small server, cached workload, some concurrency](https://smalldatum.blogspot.com/2024/04/the-insert-benchmark-mariadb-mysql_21.html)
 - [MariaDB Performance : Openssl and wolfssl](https://kumar-mysql.blogspot.com/2026/05/mariadb-performance-openssl-and-wolfssl.html), by Amrendra Kumar
 - [Consumer TPC-C Analysis on TideSQL v4.5.0, MyRocks and InnoDB in MariaDB v11.8.6 using HammerDB](https://tidesdb.com/articles/consumer-tpc-c-analysis-tidesql-v4-5-0-myrocks-mariadb-v11-8-6/), from TidesDB website
+- [db-pairs-benchmark: PostgreSQL, MariaDB, ClickHouse, DuckDB and SQLite alone and in pairs, under equal CPU and memory budgets](https://github.com/GoldenEmperor1177/db-pairs-benchmark), by Rion Bora
 
 ## Containers
 
@@ -288,6 +289,7 @@ Legacy engines are not included in this list.
 | [Percona Toolkit](https://www.percona.com/software/database-tools/percona-toolkit)   | YES                            | [GPL2](https://github.com/percona/percona-toolkit/blob/3.x/COPYING)                                                                                                                                                           | Perl                       | A set of Perl scripts for MariaDB and MySQL administration.
 | [SQLAxe](https://github.com/djberube/sqlaxe/) | MySQL | [MIT](https://github.com/djberube/sqlaxe/blob/main/LICENSE) | Python | Tool to manipulate SQL files. Based on SQLGlot, that currently doesn't support any MariaDB specific syntax. |
 | [ReliaDB EXPLAIN Analyzer](https://github.com/Mughees52/mysql-explain-analyzer) | YES | [MIT](https://github.com/Mughees52/mysql-explain-analyzer/blob/main/LICENSE) | TypeScript (Vue 3) | Browser-based MariaDB and MySQL EXPLAIN visualizer with issue detection, index recommendations, and query rewrites. Supports MariaDB ANALYZE table and JSON formats. 100% client-side. |
+| [RowSafe](https://github.com/rowsafe/rowsafe) | NOT VERIFIED | [Apache 2](https://github.com/rowsafe/rowsafe/blob/main/LICENSE) | Go | CLI for MariaDB health checks, session and index diagnostics, and configuration recommendations. |
 | [VIDEX](https://github.com/bytedance/videx) | [MariaDB](https://github.com/bytedance/videx/issues/1#event-19390857570) | [GPL2, MIT](https://github.com/bytedance/videx/blob/main/LICENSES.md) | MariaDB plugin + Python | The Disaggregated, Extensible [VI]rtual in[DEX] Engine for What-If Analysis. |
 
 ## User Interfaces
@@ -297,7 +299,7 @@ Legacy engines are not included in this list.
 
 | Project Name                                                                | MariaDB Support                                 | Platforms             | Licence    | Notes |
 |-----------------------------------------------------------------------------|-------------------------------------------------|-----------------------|--------------------|-------|
-| [Beekeeper Studio](https://www.beekeeperstudio.io/)                         | [NOT VERIFIED](https://docs.beekeeperstudio.io/user_guide/connecting/first-page/)  | Linux, MacOS, Windows | BOTH               |       |
+| [Beekeeper Studio](https://www.beekeeperstudio.io/)                         | [YES](https://beekeeperstudio.io/db/mariadb-client)  | Linux, MacOS, Windows | BOTH               | [4]   |
 | [Database Workbench](https://www.upscene.com/database_workbench/) | [NOT VERIFIED](https://www.upscene.com/database_workbench/database-development-tool-for-mysql-and-mariadb)  | Windows               | Proprietary         |       |
 | [DataGrip](https://www.jetbrains.com/datagrip/)                             | [YES](https://www.jetbrains.com/datagrip/features/) | Linux, MacOS, Windows | Proprietary     |       |
 | [DBeaver](https://dbeaver.io/)                                              | [NOT VERIFIED](https://dbeaver.com/databases/)  | Linux, MacOS, Windows | BOTH               |       |
@@ -311,12 +313,14 @@ Legacy engines are not included in this list.
 | [ocelotgui](http://ocelot.ca/)                                              | YES                                             | Linux                 | Open Source          |       |
 | [OpenOffice Base](https://www.openoffice.org/product/base.html)             | [MySQL](https://www.openoffice.org/product/base.html) | Linux, MacOS, Windows | Open Source           | [2]   |
 | [Seqora](https://seqora.dev/)                                               | [YES](https://seqora.dev/guide/other-engines/)  | MacOS, Windows        | Proprietary         | [4]   |
+| [OrcaQ](https://github.com/cin12211/orca-q)                                 | [YES](https://github.com/cin12211/orca-q)                   | Linux, MacOS, Web     | [MIT](https://github.com/cin12211/orca-q/blob/main/LICENSE) |       |
 | [Sequelpro](https://www.sequelpro.com/)                                    | PARTIAL                                         | MacOS                 | Open Source                  | [3]   |
 | [SQLPro Studio](https://www.sqlprostudio.com/)                              | NOT VERIFIED                                    | MacOS, Windows, iOS   | Proprietary |       |
 | [SQLyog](https://webyog.com/product/sqlyog/)                                | NOT VERIFIED                                    | Windows               | Proprietary         |       |
 | [TablePlus](https://tableplus.com/)                                         | [NOT VERIFIED]([https://dbeaver.com/databases/](https://docs.tableplus.com/))  | Linux, MacOS, Windows, iOS | Proprietary      |       |
 | [Toad Edge](https://toadworld.com/)                                         | NOT VERIFIED                                    | MacOS, Windows, Jenkins plugin | Proprietary |       |
 | [Valentina Studio](https://valentina-db.com/)                               | [NOT VERIFIED](https://valentina-db.com/en/database-management) | Linux, MacOS, Windows      | Proprietary  |       |
+| [VisuaLeaf](https://visualeaf.com/database/mariadb/)                        | [YES](https://mariadb.com/docs/server/clients-and-utilities/graphical-and-enhanced-clients/visualeaf) | Linux, MacOS, Windows | Proprietary |       |
 | [whodb](https://github.com/clidey/whodb)       | YES | Go                         | [Apache 2](https://github.com/clidey/whodb/blob/main/LICENSE) |  |
 
 Notes
@@ -325,6 +329,7 @@ Notes
 2. Apache OpenOffice is the project from which LibreOffice was originally forked. LibreOffice became more popular over time, so consider LibreOffice Base as well. OpenOffice Base does not support MariaDB. However it supports MySQL and ODBC drivers, so in practice it should work with MariaDB for standard use cases.
 3. At the time of writing, MariaDB support is only mentioned in the `README.md` file. A quick [search on GitHub](https://github.com/search?q=repo%3Asequelpro%2Fsequelpro%20mariadb&type=code) shows that this support is currently limited to version identification, some permissions and a TODO note.
 4. Seqora has a free edition and a paid Pro edition. It is tested against MariaDB 11.4. MariaDB's `SEQUENCE` objects get their own folder and page, separate from `AUTO_INCREMENT` counters, and query plans are read from `ANALYZE FORMAT=JSON`. It does not read MariaDB's column histograms yet, so the inspector shows no column statistics on MariaDB.
+4. Beekeeper Studio displays MariaDB-specific column types such as UUID and INET6, and these columns can be created by typing the type name. The type dropdown currently suggests MySQL types only.
 
 **Web Interfaces**
 
