@@ -219,7 +219,7 @@ The following projects are either sharding components or sub-components that be 
    - [Via Telegraf](https://www.influxdata.com/integrations/statsd-mariadb/);
    - [mysql-statsd](https://github.com/db-art/mysql-statsd)
 6. Dolphie is a TUI that, by default, only connects metrics when a user is connected. Each user has her own shell, and every shell has independent recordings.
-7. Availability monitoring only, not server metrics. The MySQL/MariaDB check opens a connection, pings the server, then runs a query you configure (default `SELECT 1`, but any read query works) and records the connect and query latency. Alerts fire on failure, on a result that does not match, or on latency; it can run from several regions and from private networks through agents.
+7. Availability monitoring only, not server metrics. The MySQL/MariaDB check opens a connection, pings the server, then runs a query you configure (default `SELECT 1`, but any read query works) and records the connect and query latency. It alerts when the connection or the query fails; it can run from several regions and from private networks through agents.
 
 **Articles**
 
