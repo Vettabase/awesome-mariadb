@@ -141,6 +141,7 @@ The following resources show how to integrate MariaDB with various other data te
 
 | Project                                                          | MariaDB Support   | Language / Platform   | License / Platform                   |
 |------------------------------------------------------------------|-------------------|-----------------------|--------------------------------------|
+| [arcodash](https://github.com/arcodash/arcodash)                 | [YES](https://www.arcodash.com/connectors/mariadb/) | Rust / Docker, Linux | [AGPL-3.0](https://github.com/arcodash/arcodash/blob/main/LICENSE.md), [Cloud](https://www.arcodash.com/pricing/) |
 | [Geckoboard](https://www.geckoboard.com/)                        | [YES](https://www.geckoboard.com/product/data-sources/mariadb/) | Cloud | Cloud |
 | [MAD Designer](https://github.com/mthomason/MAD)                 | [YES](https://github.com/mthomason/MAD#readme) | Objective-C / macOS, iOS, Linux | [MIT](https://github.com/mthomason/MAD/blob/master/LICENSE) |
 | [Metabase](https://www.metabase.com/)                            | [YES](https://www.metabase.com/data_sources/mariadb) | JVM | [AGPL, Proprietary](https://github.com/metabase/metabase/blob/master/LICENSE.txt), [Cloud](https://www.metabase.com/pricing/) |
